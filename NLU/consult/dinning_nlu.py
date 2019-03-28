@@ -1,20 +1,50 @@
 # -*- coding: utf-8 -*-
 
+import re
+import copy
+
 import nltk
 
 from slots.consult_slot import dinning_slot
-from config.config import positive_confirm, negative_confirm, positive_confirm_phrase
+from NLU.consult.dinning_rule import rule_1a, rule_2, key_word_3, key_word_4b
+from NLU.consult.dinning_rule import positive_confirm_phrase, positive_confirm, negative_confirm
 
 
 def dinning_nlu_rule(customer_utterance):
+    ie_values_dict = copy.deepcopy(dinning_slot)
+    match_obj = re.search(rule_1a, customer_utterance)
+    return_key = False
+    if match_obj.group(1):
+        return_key = True
+        ie_values_dict["restaurant"] = match_obj.group(1)
+
+    match_obj = re.search(rule_2, customer_utterance)
+    if match_obj.group(1):
+        return_key = True
+        ie_values_dict["food_drink"] = match_obj.group(1)
+
+    for word_3 in key_word_3:
+        if word_3 in customer_utterance:
+            return_key = True
+            ie_values_dict["area"] = word_3
+            break
+
+    for word_4b in key_word_4b:
+        if word_4b in customer_utterance:
+            return_key = True
+            ie_values_dict["price"] = word_4b
+            break
+    if return_key is True:
+        return ie_values_dict
+    
     for phrase in positive_confirm_phrase:
         if phrase in customer_utterance:
-            return dinning_slot, "yes"    # TODO: temp
+            return ie_values_dict, "yes"    # TODO: temp
     utterance_list = nltk.word_tokenize(customer_utterance.lower())
     for confirm_p, confirm_n in zip(positive_confirm, negative_confirm):
         for word in utterance_list:
             if confirm_p == word:
-                return dinning_slot, "yes"   # TODO: temp
+                return ie_values_dict, "yes"   # TODO: temp
             if confirm_n == word:
-                return dinning_slot, "no"   # TODO: temp
+                return ie_values_dict, "no"   # TODO: temp
 

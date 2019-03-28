@@ -12,7 +12,3 @@ slot_config = {
     '1b': dinning_slot
 }
 
-positive_confirm = ["yes", "sure", "ok"]
-positive_confirm_phrase = ["no problem", "of course"]
-
-negative_confirm = ["no", "not"]

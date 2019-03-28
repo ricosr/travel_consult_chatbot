@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+import copy
+
 from intent import judge_intent
 from config.config import intent_config, slot_config
 
@@ -21,6 +23,7 @@ def control():
     current_intent = ''
     just_sentence = False
     current_intent_slot_dict = {}
+    if_case_no = None
     while True:
         customer_utterance = input(">>>")    # TODO: temp
         intent = judge_intent.judge_intent(customer_utterance)
@@ -35,11 +38,11 @@ def control():
         if intent in current_intent_slot_dict:
             current_slot = current_intent_slot_dict[intent]
         else:
-            current_intent_slot_dict[current_intent] = slot_config[current_intent]
+            current_intent_slot_dict[current_intent] = copy.deepcopy(slot_config[current_intent])
             current_slot = current_intent_slot_dict[current_intent]
 
         handle_function = intent_config[current_intent]
-        out_content, current_slot = handle_function(current_slot, customer_utterance, just_sentence)
+        out_content, current_slot, if_case_no = handle_function(current_slot, customer_utterance, just_sentence, if_case_no)
         current_intent_slot_dict[current_intent] = current_slot
         print(out_content)    # TODO: temp
 
