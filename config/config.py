@@ -11,3 +11,7 @@ intent_config = {
 slot_config = {
     '1b': dinning_slot
 }
+
+positive_confirm = ["yes", "sure", "OK", "of course"]
+
+negative_confirm = ["no", "not"]
