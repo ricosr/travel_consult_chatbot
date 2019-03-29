@@ -14,12 +14,13 @@ def dinning_nlu_rule(customer_utterance):
     ie_values_dict = copy.deepcopy(dinning_slot)
     match_obj = re.search(rule_1a, customer_utterance)
     return_key = False
-    if match_obj.group(1):
+    if match_obj:
         return_key = True
         ie_values_dict["restaurant"] = match_obj.group(1)
+    print(ie_values_dict, "111111111")
 
     match_obj = re.search(rule_2, customer_utterance)
-    if match_obj.group(1):
+    if match_obj:
         return_key = True
         ie_values_dict["food_drink"] = match_obj.group(1)
 
@@ -35,7 +36,7 @@ def dinning_nlu_rule(customer_utterance):
             ie_values_dict["price"] = word_4b
             break
     if return_key is True:
-        return ie_values_dict
+        return ie_values_dict, None
     
     for phrase in positive_confirm_phrase:
         if phrase in customer_utterance:
@@ -47,4 +48,5 @@ def dinning_nlu_rule(customer_utterance):
                 return ie_values_dict, "yes"   # TODO: temp
             if confirm_n == word:
                 return ie_values_dict, "no"   # TODO: temp
+    return ie_values_dict, None
 

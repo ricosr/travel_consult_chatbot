@@ -27,8 +27,8 @@ def control():
     while True:
         customer_utterance = input(">>>")    # TODO: temp
         intent = judge_intent.judge_intent(customer_utterance)
-        if intent and intent not in current_intent_slot_dict:
-            current_intent_slot_dict[intent] = ''
+        # if intent and intent not in current_intent_slot_dict:
+        #     current_intent_slot_dict[intent] = ''
 
         if intent:
             current_intent = intent
@@ -40,7 +40,6 @@ def control():
         else:
             current_intent_slot_dict[current_intent] = copy.deepcopy(slot_config[current_intent])
             current_slot = current_intent_slot_dict[current_intent]
-
         handle_function = intent_config[current_intent]
         out_content, current_slot, if_case_no = handle_function(current_slot, customer_utterance, just_sentence, if_case_no)
         current_intent_slot_dict[current_intent] = current_slot
