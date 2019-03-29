@@ -3,7 +3,7 @@
 import re
 
 rule_1a = re.compile(r'([a-zA-Z0-9]*)(\srestaurant)', re.I)
-rule_2 = re.compile(r'([a-zA-Z0-9]*)(\sfood)', re.I)
+rule_2 = re.compile(r'(eat\s)([a-zA-Z0-9]*)', re.I)
 key_word_3 = ["nearby", "near", "far", "across", "adjacent", "around", "back", "beside", "inside", "in front of", "through"]
 key_word_4b = ["expensive", "cheap", "cheap", "cheapest"]
 

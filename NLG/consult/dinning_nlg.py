@@ -2,16 +2,24 @@
 
 
 def nlg_confirm_conditions(current_slot):
-    response_sentence_ls = ["Do you want ", "a restaurant {}, ", "eat {}, ", "in {} place, ", "{} price"]
-    if current_slot["restaurant"]:
+    response_sentence_ls = ["Do you want ", "a restaurant {}, ", "to eat {}, ", "in {} place, ", "{} price"]
+    if current_slot["restaurant"] and current_slot["restaurant"] != "no":
         response_sentence_ls[1] = response_sentence_ls[1].format(current_slot["restaurant"])
-    if current_slot["food_drink"]:
+    else:
+        response_sentence_ls[1] = ''
+    if current_slot["food_drink"] != 0 and current_slot["food_drink"] != "no":
         response_sentence_ls[2] = response_sentence_ls[2].format(current_slot["food_drink"])
-    if current_slot["area"]:
+    else:
+        response_sentence_ls[2] = ''
+    if current_slot["area"] != 0 and current_slot["area"] != "no":
         response_sentence_ls[3] = response_sentence_ls[3].format(current_slot["area"])
-    if current_slot["price"]:
+    else:
+        response_sentence_ls[3] = ''
+    if current_slot["price"] != 0 and current_slot["price"] != "no":
         response_sentence_ls[4] = response_sentence_ls[4].format(current_slot["price"])
-    return ''.join(response_sentence_ls).rstrip(',') + '?'
+    else:
+        response_sentence_ls[4] = ''
+    return ''.join(response_sentence_ls).strip().rstrip(',') + '?'
 
 
 def nlg_chose_restaurant(restaurant_ls, if_case_no):

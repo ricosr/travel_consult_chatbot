@@ -51,6 +51,8 @@ def dinning_handle(current_slot, customer_utterance, just_sentence, if_case_no):
         if not ie_values_dict:
             response_utterance, if_case_no = dinning_flow(current_slot, customer_utterance, just_sentence, if_case_no, yes_no)
             return response_utterance, current_slot, if_case_no
+        else:
+            return "Do you have any other requirements?", current_slot, if_case_no
 
     for k, v in ie_values_dict.items():
         if v and v != 0:    # TODO: state tracker
