@@ -14,8 +14,10 @@ def nlg_confirm_conditions(current_slot):
     return ''.join(response_sentence_ls).rstrip(',') + '?'
 
 
-def nlg_chose_restaurant(restaurant_ls):
+def nlg_chose_restaurant(restaurant_ls, if_case_no):
     response_sentence = "I find these restaurants according to your requirements:\n"
+    if if_case_no == -1:
+        response_sentence = "I will find some good restaurants for you randomly:\n"
     for restaurant in restaurant_ls:
         response_sentence += '\t{}\n'.format(restaurant)
     return response_sentence

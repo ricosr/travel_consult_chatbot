@@ -22,10 +22,11 @@ def dinning_flow(current_slot, customer_utterance, just_sentence, if_case_no, ye
             current_slot["area"] = yes_no
         if if_case_no == 3 and current_slot["price"] == 0:
             current_slot["price"] = yes_no
+            return None, 3
 
     if not current_slot["restaurant"]:
         if_case_no = 0
-        return "Do you prefer some specific food?", if_case_no
+        return "Do you prefer some specific restaurant?", if_case_no
     if current_slot["food_drink"] == 0:
         if_case_no = 1
         return "Do you prefer some specific food?", if_case_no
@@ -35,6 +36,7 @@ def dinning_flow(current_slot, customer_utterance, just_sentence, if_case_no, ye
     if current_slot["price"] == 0:
         if_case_no = 3
         return "Do you have requirement about the average price?", if_case_no
+    return None, -1
 
 # def confirm_conditions(current_slot):
 
@@ -43,15 +45,15 @@ def dinning_handle(current_slot, customer_utterance, just_sentence, if_case_no):
     ie_values_dict, yes_no = dinning_nlu_rule(customer_utterance)
     if yes_no == "yes" and if_case_no == 4:
         # 1.search database 2.nlg
-        restaurant_ls = []   # TODO: temp
-        return nlg_chose_restaurant(restaurant_ls)
+        restaurant_ls = ["abcd", "efg", "hig", "klm"]   # TODO: temp
+        return nlg_chose_restaurant(restaurant_ls, if_case_no), current_slot, if_case_no
     if yes_no == 'no' and if_case_no == 4:
         if not ie_values_dict:
             response_utterance, if_case_no = dinning_flow(current_slot, customer_utterance, just_sentence, if_case_no, yes_no)
             return response_utterance, current_slot, if_case_no
 
     for k, v in ie_values_dict.items():
-        if v:    # TODO: state tracker
+        if v and v != 0:    # TODO: state tracker
             current_slot[k] = v
     state = dialogue_state(current_slot)
     if state is True:
@@ -59,4 +61,11 @@ def dinning_handle(current_slot, customer_utterance, just_sentence, if_case_no):
         return condition_confirm_utterance, current_slot, 4
     else:
         response_utterance, if_case_no = dinning_flow(current_slot, customer_utterance, just_sentence, if_case_no, yes_no)
+        if if_case_no == -1:
+            restaurant_ls = ["abcd", "efg", "hig", "klm"]  # TODO: temp search database
+            return nlg_chose_restaurant(restaurant_ls, if_case_no), current_slot, if_case_no
+        state = dialogue_state(current_slot)
+        if state is True:
+            condition_confirm_utterance = nlg_confirm_conditions(current_slot)
+            return condition_confirm_utterance, current_slot, 4
     return response_utterance, current_slot, if_case_no

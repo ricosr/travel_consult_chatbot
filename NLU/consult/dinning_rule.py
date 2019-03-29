@@ -8,5 +8,6 @@ key_word_3 = ["nearby", "near", "far", "across", "adjacent", "around", "back", "
 key_word_4b = ["expensive", "cheap", "cheap", "cheapest"]
 
 positive_confirm = ["yes", "sure", "ok"]
+negative_confirm = ["no", "not", None]
+
 positive_confirm_phrase = ["no problem", "of course"]
-negative_confirm = ["no", "not"]

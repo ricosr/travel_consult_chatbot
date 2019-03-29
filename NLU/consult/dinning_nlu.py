@@ -17,7 +17,6 @@ def dinning_nlu_rule(customer_utterance):
     if match_obj:
         return_key = True
         ie_values_dict["restaurant"] = match_obj.group(1)
-    print(ie_values_dict, "111111111")
 
     match_obj = re.search(rule_2, customer_utterance)
     if match_obj:
@@ -42,7 +41,9 @@ def dinning_nlu_rule(customer_utterance):
         if phrase in customer_utterance:
             return ie_values_dict, "yes"    # TODO: temp
     utterance_list = nltk.word_tokenize(customer_utterance.lower())
+    print(utterance_list)
     for confirm_p, confirm_n in zip(positive_confirm, negative_confirm):
+        print(confirm_p, confirm_n)
         for word in utterance_list:
             if confirm_p == word:
                 return ie_values_dict, "yes"   # TODO: temp
