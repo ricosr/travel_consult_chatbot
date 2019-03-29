@@ -2,7 +2,7 @@
 
 dinning_slot = {
     "restaurant": None,
-    "food_drink": 0,
+    "food": 0,
     "area": 0,
     "price": 0
 }

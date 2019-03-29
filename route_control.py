@@ -4,6 +4,7 @@ import copy
 
 from intent import judge_intent
 from config.config import intent_config, slot_config
+from oprate_database import Database
 
 
 def get_input():    # TODO
@@ -19,6 +20,7 @@ def distribute_task():    # TODO
 
 
 def control():
+    db_obj = Database("mongodb://XXXX:XXXX@209.97.XXX.XXX:27017/admin", "XXX")
     print("<<<Can I help you?")
     current_intent = ''
     just_sentence = False
@@ -41,7 +43,7 @@ def control():
             current_intent_slot_dict[current_intent] = copy.deepcopy(slot_config[current_intent])
             current_slot = current_intent_slot_dict[current_intent]
         handle_function = intent_config[current_intent]
-        out_content, current_slot, if_case_no = handle_function(current_slot, customer_utterance, just_sentence, if_case_no)
+        out_content, current_slot, if_case_no = handle_function(current_slot, customer_utterance, just_sentence, if_case_no, db_obj)
         current_intent_slot_dict[current_intent] = current_slot
         print(out_content)    # TODO: temp
 

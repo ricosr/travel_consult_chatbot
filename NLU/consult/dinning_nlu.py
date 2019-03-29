@@ -21,7 +21,7 @@ def dinning_nlu_rule(customer_utterance):
     match_obj = re.search(rule_2, customer_utterance)
     if match_obj:
         return_key = True
-        ie_values_dict["food_drink"] = match_obj.group(2)   # TODO: temp
+        ie_values_dict["food"] = match_obj.group(2)   # TODO: temp
 
     for word_3 in key_word_3:
         if word_3 in customer_utterance:

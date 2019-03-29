@@ -7,8 +7,8 @@ def nlg_confirm_conditions(current_slot):
         response_sentence_ls[1] = response_sentence_ls[1].format(current_slot["restaurant"])
     else:
         response_sentence_ls[1] = ''
-    if current_slot["food_drink"] != 0 and current_slot["food_drink"] != "no":
-        response_sentence_ls[2] = response_sentence_ls[2].format(current_slot["food_drink"])
+    if current_slot["food"] != 0 and current_slot["food"] != "no":
+        response_sentence_ls[2] = response_sentence_ls[2].format(current_slot["food"])
     else:
         response_sentence_ls[2] = ''
     if current_slot["area"] != 0 and current_slot["area"] != "no":
