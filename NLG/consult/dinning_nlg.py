@@ -34,11 +34,13 @@ def nlg_confirm_conditions(current_slot):
     return ''.join(response_sentence_ls).strip().rstrip(',') + '?'
 
 
+# [{'_id': ObjectId('5c9dd1ad30736e2180a10911'), 'restaurant': 'kfc', 'food': 'hamburger', 'area': 'near', 'price': 'cheap'}, {'_id': ObjectId('5c9dd1ad30736e2180a10912'), 'restaurant': 'yoshinoya', 'food': 'rice', 'area': 'far', 'price': 'cheap'}, {'_id': ObjectId('5c9dd1ae30736e2180a10913'), 'restaurant': 'abcd', 'food': 'hotpot', 'area': 'near', 'price': 'expensive'}, {'_id': ObjectId('5c9dd23c30736e315896f669'), 'restaurant': 'kfc', 'food': 'hamburger', 'area': 'far', 'price': 'cheap'}]
 def nlg_chose_restaurant(restaurant_ls, if_case_no):
+    print(restaurant_ls)
     response_sentence = "I find these restaurants according to your requirements:\n"
     if if_case_no == -1:
         response_sentence = "I will find some good restaurants for you randomly:\n"
     for restaurant in restaurant_ls:
-        response_sentence += '\t{}\n'.format(restaurant)
+        response_sentence += '\trestaurant {}, has {}, in a {} place, average price is {}.\n'.format(restaurant["restaurant"], restaurant["food"], restaurant["area"], restaurant["price"])
     return response_sentence
 
