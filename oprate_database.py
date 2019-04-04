@@ -27,6 +27,7 @@ class Database:
             if not v or v == 'no' or v == 0:
                 temp_query_dict.pop(k)
         collection_obj = self.db_opt[collection_name]
+        # print(temp_query_dict)
         query_result = collection_obj.find(temp_query_dict)
         return list(query_result)
 

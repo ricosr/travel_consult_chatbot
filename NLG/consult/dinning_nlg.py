@@ -1,6 +1,18 @@
 # -*- coding: utf-8 -*-
 
 
+reply_dict = {
+    0: ["Do you prefer some specific restaurant?"],
+    1: ["Do you prefer some specific food?"],
+    2: ["Do you have demand about the distance from the restaurant?"],
+    3: ["Do you have requirement about the average price?"]
+}
+
+confirm_dict = {
+
+}
+
+
 def nlg_confirm_conditions(current_slot):
     response_sentence_ls = ["Do you want ", "a restaurant {}, ", "to eat {}, ", "in {} place, ", "{} price"]
     if current_slot["restaurant"] and current_slot["restaurant"] != "no":
