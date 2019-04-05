@@ -3,7 +3,7 @@
 import copy
 
 from intent import judge_intent
-from state_tracker import *
+from state_tracker import State
 from config.config import intent_config, slot_config, database_address, database_name
 from oprate_database import Database
 
@@ -27,7 +27,7 @@ def control():
     just_sentence = False
     current_intent_slot_dict = {}
     intent_state_tracker_dict = {}
-    if_case_no = None
+    state_no = None
     while True:
         customer_utterance = input(">>>")    # TODO: temp
         intent = judge_intent.judge_intent(customer_utterance)
@@ -47,11 +47,13 @@ def control():
 
         handle_function = intent_config[current_intent]
 
-        if intent in intent_state_tracker_dict:
-            if_case_no = intent_state_tracker_dict[intent]
+        # if intent in intent_state_tracker_dict:
+        #     state_no = intent_state_tracker_dict[intent]
+        if intent not in intent_state_tracker_dict:
+            intent_state_tracker_dict[intent] = State()
 
-        out_content, current_slot, if_case_no = handle_function(current_slot, customer_utterance, intent_state_tracker_dict, just_sentence, if_case_no, db_obj)
-        intent_state_tracker_dict[intent] = if_case_no
+        out_content, current_slot = handle_function(current_slot, customer_utterance, intent_state_tracker_dict, just_sentence, db_obj)
+        # intent_state_tracker_dict[intent] = state_no
         current_intent_slot_dict[current_intent] = current_slot
         print(out_content)    # TODO: temp
 
