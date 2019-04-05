@@ -4,7 +4,7 @@ import copy
 
 from intent import judge_intent
 from state_tracker import State
-from config.config import intent_config, slot_config, database_address, database_name
+from config.config import intent_config, slot_config, database_address, database_name, db_collection_config
 from oprate_database import Database
 
 
@@ -52,7 +52,9 @@ def control():
         if current_intent not in intent_state_tracker_dict:
             intent_state_tracker_dict[current_intent] = State(None)
 
-        out_content, current_slot = handle_function(slot_config[current_intent], customer_utterance, intent_state_tracker_dict[current_intent], just_sentence, db_obj)
+        collection_name = db_collection_config[current_intent]
+
+        out_content, current_slot = handle_function(slot_config[current_intent], customer_utterance, intent_state_tracker_dict[current_intent], just_sentence, db_obj, collection_name)
         # intent_state_tracker_dict[intent] = state_no
         # current_intent_slot_dict[current_intent] = current_slot
         current_intent = intent

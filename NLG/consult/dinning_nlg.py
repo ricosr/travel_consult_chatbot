@@ -44,3 +44,7 @@ def nlg_chose_restaurant(restaurant_ls, if_case_no):
         response_sentence += '\trestaurant {}, has {}, in a {} place, average price is {}.\n'.format(restaurant["restaurant"], restaurant["food"], restaurant["area"], restaurant["price"])
     return response_sentence
 
+
+def nlg_confirm_each_slot(slot_key):
+    return "temp"
+

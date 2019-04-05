@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from NLU.consult.dinning_nlu import dinning_nlu_rule
-from NLG.consult.dinning_nlg import nlg_confirm_conditions, nlg_chose_restaurant, reply_dict
+from NLG.consult.dinning_nlg import nlg_confirm_conditions, nlg_chose_restaurant, nlg_confirm_each_slot, reply_dict
 
 
 # def dialogue_state(current_slot):
@@ -39,13 +39,13 @@ def dinning_flow(current_slot, customer_utterance, just_sentence, if_case_no, ye
     return None, -1
 
 
-def dinning_handle(current_slot, customer_utterance, state_tracker_obj, just_sentence, db_obj):
+def dinning_handle(current_slot, customer_utterance, state_tracker_obj, just_sentence, db_obj, collection_name):
     last_slot_key = state_tracker_obj.get_last_slot_key()
     ie_values_dict, yes_no = dinning_nlu_rule(customer_utterance)
 
     if yes_no == "positive" and last_slot_key == "done":    # TODO: 0405, the same way to 0,1,2,3
-        restaurant_ls = db_obj.read_db("restaurant", current_slot)
-        return nlg_chose_restaurant(restaurant_ls, last_slot_key), current_slot, last_slot_key
+        result_ls = db_obj.read_db(collection_name, current_slot)
+        return nlg_chose_restaurant(result_ls, last_slot_key), current_slot, last_slot_key
     if yes_no == 'negative' and last_slot_key == "done":
         if not ie_values_dict:
             response_utterance, last_slot_key = dinning_flow(current_slot, customer_utterance, just_sentence, last_slot_key, yes_no)
@@ -55,6 +55,10 @@ def dinning_handle(current_slot, customer_utterance, state_tracker_obj, just_sen
 
     state_tracker_obj.update_all_state(ie_values_dict)
     state_tracker_obj.get_current_slot(current_slot)
+    need_confirm_slot = state_tracker_obj.get_need_to_confirm()
+    if need_confirm_slot:
+        return nlg_confirm_each_slot(last_slot_key)    #  last_slot_key???????
+
     state = state_tracker_obj.judge_dialogue_state()
 
     if state is True:
@@ -63,11 +67,12 @@ def dinning_handle(current_slot, customer_utterance, state_tracker_obj, just_sen
         return condition_confirm_utterance
     else:
         response_utterance, last_slot_key = dinning_flow(current_slot, customer_utterance, just_sentence, last_slot_key, yes_no)
-        if last_slot_key == "done":
-            restaurant_ls = db_obj.read_db("restaurant", current_slot)
-            return nlg_chose_restaurant(restaurant_ls, last_slot_key)
-        state = state_tracker_obj.judge_dialogue_state()
-        if state is True:
-            condition_confirm_utterance = nlg_confirm_conditions(current_slot)
-            return condition_confirm_utterance
+        state_tracker_obj.update_last_slot_key(last_slot_key)
+        # if last_slot_key == "done":
+        #     result_ls = db_obj.read_db(collection_name, current_slot)
+        #     return nlg_chose_restaurant(result_ls, last_slot_key)
+        # state = state_tracker_obj.judge_dialogue_state()
+        # if state is True:
+        #     condition_confirm_utterance = nlg_confirm_conditions(current_slot)
+        #     return condition_confirm_utterance
     return response_utterance

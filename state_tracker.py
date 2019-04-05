@@ -46,6 +46,9 @@ class State:
             if self.get_confidence(slot_key) == 1:
                 current_slot[slot_key] = value_dict["slot_value"]
 
+    def get_need_to_confirm(self):
+
+
     def judge_dialogue_state(self):
         for slot_key, value_dict in self.state_dict.items():
             if value_dict["slot_value"] is not None and value_dict["slot_value"] != 0 and value_dict["confidence"] == 1:
