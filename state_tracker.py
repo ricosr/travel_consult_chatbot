@@ -31,6 +31,7 @@ class State:
         return self.state_dict[slot_state]["confidence"]
 
     def update_all_state(self, ie_values_dict):
+        print(ie_values_dict)
         if ie_values_dict:
             for k, v in ie_values_dict.items():
                 if v and v != 0:  # TODO: state tracker
@@ -56,12 +57,16 @@ class State:
         return confirm_key_ls
 
     def judge_dialogue_state(self):
-        for slot_state, value_dict in self.state_dict.items():
-            if value_dict["slot_value"] is not None and value_dict["slot_value"] != 0 and value_dict["confidence"] == 1:
-                continue
-            else:
-                return False
-        return True   # all slots are OK
+        if self.state_dict:
+            for slot_state, value_dict in self.state_dict.items():
+                print(value_dict)
+                if value_dict["slot_value"] is not None and value_dict["slot_value"] != 0 and value_dict["confidence"] == 1:
+                    continue
+                else:
+                    return False
+            return True   # all slots are OK
+        else:
+            return False
 
     # def get_none_slot(self, current_slot):
 
