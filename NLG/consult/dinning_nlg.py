@@ -2,14 +2,10 @@
 
 
 reply_dict = {
-    0: ["Do you prefer some specific restaurant?"],
-    1: ["Do you prefer some specific food?"],
-    2: ["Do you have demand about the distance from the restaurant?"],
-    3: ["Do you have requirement about the average price?"]
-}
-
-confirm_dict = {
-
+    "restaurant": ["Do you prefer some specific restaurant?"],
+    "food": ["Do you prefer some specific food?"],
+    "area": ["Do you have demand about the distance from the restaurant?"],
+    "price": ["Do you have requirement about the average price?"]
 }
 
 
@@ -35,7 +31,7 @@ def nlg_confirm_conditions(current_slot):
 
 
 # [{'_id': ObjectId('5c9dd1ad30736e2180a10911'), 'restaurant': 'kfc', 'food': 'hamburger', 'area': 'near', 'price': 'cheap'}, {'_id': ObjectId('5c9dd1ad30736e2180a10912'), 'restaurant': 'yoshinoya', 'food': 'rice', 'area': 'far', 'price': 'cheap'}, {'_id': ObjectId('5c9dd1ae30736e2180a10913'), 'restaurant': 'abcd', 'food': 'hotpot', 'area': 'near', 'price': 'expensive'}, {'_id': ObjectId('5c9dd23c30736e315896f669'), 'restaurant': 'kfc', 'food': 'hamburger', 'area': 'far', 'price': 'cheap'}]
-def nlg_chose_restaurant(restaurant_ls, if_case_no):
+def nlg_recommend_restaurant(restaurant_ls, if_case_no):
     print(restaurant_ls)
     response_sentence = "I find these restaurants according to your requirements:\n"
     if if_case_no == -1:
@@ -45,6 +41,13 @@ def nlg_chose_restaurant(restaurant_ls, if_case_no):
     return response_sentence
 
 
-def nlg_confirm_each_slot(slot_key):
-    return "temp"
+def nlg_confirm_each_slot(slot_key, slot_value):
+    confirm_dict = {
+        "restaurant": ["Are you sure you want to go to {}?"],
+        "food": ["Are you sure you want to eat {}?"],
+        "area": ["Are you sure you prefer a {} place?"],
+        "price": ["Are you sure you prefer a price?"]
+    }
+    return confirm_dict[slot_key][0].format(slot_value)    # temp TODO: random
+
 

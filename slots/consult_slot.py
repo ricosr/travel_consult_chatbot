@@ -6,4 +6,5 @@ dinning_slot = {
     "area": 0,           # 2
     "price": 0           # 3
 }
+# dinning_slot_state = ["restaurant", "food", "area", "price", "done", "change"]
 
