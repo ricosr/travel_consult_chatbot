@@ -34,6 +34,7 @@ def dinning_nlu_rule(customer_utterance):
             return_key = True
             ie_values_dict["price"] = word_4b
             break
+
     if return_key is True:
         return ie_values_dict, None
     

@@ -39,22 +39,23 @@ def control():
         else:
             just_sentence = True
 
-        if intent in current_intent_slot_dict:
-            current_slot = current_intent_slot_dict[intent]
-        else:
-            current_intent_slot_dict[current_intent] = copy.deepcopy(slot_config[current_intent])
-            current_slot = current_intent_slot_dict[current_intent]
+        # if intent in current_intent_slot_dict:
+        #     current_slot = current_intent_slot_dict[intent]
+        # else:
+        #     current_intent_slot_dict[current_intent] = copy.deepcopy(slot_config[current_intent])
+        #     current_slot = current_intent_slot_dict[current_intent]
 
         handle_function = intent_config[current_intent]
 
         # if intent in intent_state_tracker_dict:
         #     state_no = intent_state_tracker_dict[intent]
-        if intent not in intent_state_tracker_dict:
-            intent_state_tracker_dict[intent] = State()
+        if current_intent not in intent_state_tracker_dict:
+            intent_state_tracker_dict[current_intent] = State(None)
 
-        out_content, current_slot = handle_function(current_slot, customer_utterance, intent_state_tracker_dict, just_sentence, db_obj)
+        out_content, current_slot = handle_function(slot_config[current_intent], customer_utterance, intent_state_tracker_dict[current_intent], just_sentence, db_obj)
         # intent_state_tracker_dict[intent] = state_no
-        current_intent_slot_dict[current_intent] = current_slot
+        # current_intent_slot_dict[current_intent] = current_slot
+        current_intent = intent
         print(out_content)    # TODO: temp
 
 
