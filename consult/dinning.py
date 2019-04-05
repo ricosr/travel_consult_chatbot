@@ -38,33 +38,21 @@ def dinning_flow(current_slot, customer_utterance, just_sentence, if_case_no, ye
         return reply_dict[if_case_no][0], if_case_no
     return None, -1
 
-# def confirm_conditions(current_slot):
-
 
 def dinning_handle(current_slot, customer_utterance, state_tracker_obj, just_sentence, db_obj):
-    last_slot_key = state_tracker_obj.get_last_state_no()
+    last_slot_key = state_tracker_obj.get_last_slot_key()
     ie_values_dict, yes_no = dinning_nlu_rule(customer_utterance)
 
-    if yes_no == "positive" and last_slot_key == 4:    # TODO: 0405, the same way to 0,1,2,3
+    if yes_no == "positive" and last_slot_key == "done":    # TODO: 0405, the same way to 0,1,2,3
         restaurant_ls = db_obj.read_db("restaurant", current_slot)
         return nlg_chose_restaurant(restaurant_ls, last_slot_key), current_slot, last_slot_key
-    if yes_no == 'negative' and last_slot_key == 4:
+    if yes_no == 'negative' and last_slot_key == "done":
         if not ie_values_dict:
             response_utterance, last_slot_key = dinning_flow(current_slot, customer_utterance, just_sentence, last_slot_key, yes_no)
             return response_utterance, current_slot, last_slot_key
         else:
             return "Do you have any other requirements?", current_slot, last_slot_key
 
-    # for k, v in ie_values_dict.items():
-    #     if v and v != 0:
-    #         if k in state_tracker_obj.get_state():
-    #             if state_tracker_obj.get_slot_value(k) == v:
-    #                 state_tracker_obj.update_confidence(k, 1)
-    #             else:
-    #                 state_tracker_obj.update_confidence(k, 0.5)
-    #         else:
-    #             state_tracker_obj.add_one_state(k, v, 0.5)
-    #         current_slot[k] = v
     state_tracker_obj.update_all_state(ie_values_dict)
     state_tracker_obj.get_current_slot(current_slot)
     state = state_tracker_obj.judge_dialogue_state()
