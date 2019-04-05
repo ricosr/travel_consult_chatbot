@@ -3,6 +3,7 @@
 import copy
 
 from intent import judge_intent
+from state_tracker import *
 from config.config import intent_config, slot_config, database_address, database_name
 from oprate_database import Database
 
@@ -25,6 +26,7 @@ def control():
     current_intent = ''
     just_sentence = False
     current_intent_slot_dict = {}
+    intent_state_tracker_dict = {}
     if_case_no = None
     while True:
         customer_utterance = input(">>>")    # TODO: temp
@@ -42,9 +44,14 @@ def control():
         else:
             current_intent_slot_dict[current_intent] = copy.deepcopy(slot_config[current_intent])
             current_slot = current_intent_slot_dict[current_intent]
+
         handle_function = intent_config[current_intent]
 
-        out_content, current_slot, if_case_no = handle_function(current_slot, customer_utterance, just_sentence, if_case_no, db_obj)
+        if intent in intent_state_tracker_dict:
+            if_case_no = intent_state_tracker_dict[intent]
+
+        out_content, current_slot, if_case_no = handle_function(current_slot, customer_utterance, intent_state_tracker_dict, just_sentence, if_case_no, db_obj)
+        intent_state_tracker_dict[intent] = if_case_no
         current_intent_slot_dict[current_intent] = current_slot
         print(out_content)    # TODO: temp
 

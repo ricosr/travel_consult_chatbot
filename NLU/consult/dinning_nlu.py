@@ -37,17 +37,16 @@ def dinning_nlu_rule(customer_utterance):
     if return_key is True:
         return ie_values_dict, None
     
-    for phrase in positive_confirm_phrase:
+    for phrase in positive_confirm_phrase:    # positive phrase answers
         if phrase in customer_utterance:
-            return ie_values_dict, "yes"    # TODO: temp
+            return ie_values_dict, "positive"    # TODO: temp
     utterance_list = nltk.word_tokenize(customer_utterance.lower())
     # print(utterance_list)
-    for confirm_p, confirm_n in zip(positive_confirm, negative_confirm):
-        # print(confirm_p, confirm_n)
+    for confirm_p, confirm_n in zip(positive_confirm, negative_confirm):    # positive and negative answer
         for word in utterance_list:
             if confirm_p == word:
-                return ie_values_dict, "yes"   # TODO: temp
+                return ie_values_dict, "positive"   # TODO: temp
             if confirm_n == word:
-                return ie_values_dict, "no"   # TODO: temp
+                return ie_values_dict, "negative"   # TODO: temp
     return ie_values_dict, None
 
