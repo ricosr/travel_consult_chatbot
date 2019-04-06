@@ -34,9 +34,11 @@ def final_confirm(ie_values_dict, current_slot, state_tracker_obj, last_slot_sta
         state_tracker_obj.update_last_slot_state("done")
         return nlg_recommend_restaurant(result_ls, last_slot_state)
     if yes_no == "negative" and last_slot_state == "done":
-        if not ie_values_dict:
+        if ie_values_dict:
             response_utterance, last_slot_state = dinning_reply(current_slot)
             state_tracker_obj.update_last_slot_state(last_slot_state)
+            state_tracker_obj.update_all_state(ie_values_dict)  # update dialogue state for all slots
+            state_tracker_obj.get_current_slot(current_slot)  # fill and get current slots
             return response_utterance
         else:
             state_tracker_obj.update_last_slot_state("change")
@@ -46,10 +48,12 @@ def final_confirm(ie_values_dict, current_slot, state_tracker_obj, last_slot_sta
 def change_slot(state_tracker_obj, current_slot, ie_values_dict, last_slot_state, yes_no, db_obj, collection_name):
     if yes_no == "positive" and last_slot_state == "change":
         if not ie_values_dict:
-            response_utterance, last_slot_state = dinning_reply(current_slot)
-            if last_slot_state != -1:
-                state_tracker_obj.update_last_slot_state(last_slot_state)
-                return response_utterance
+            state_tracker_obj.update_last_slot_state(None)
+            return "your requirements?"
+            # response_utterance, last_slot_state = dinning_reply(current_slot)
+            # if last_slot_state:
+            #     state_tracker_obj.update_last_slot_state(last_slot_state)
+            #     return response_utterance
     if yes_no == "negative" and last_slot_state == "change":
         result_ls = db_obj.read_db(collection_name, current_slot)
         return nlg_recommend_restaurant(result_ls, last_slot_state)
@@ -69,6 +73,7 @@ def confirm_each_slot(state_tracker_obj, last_slot_state):
 def dinning_handle(current_slot, customer_utterance, state_tracker_obj, db_obj, collection_name):
     last_slot_state = state_tracker_obj.get_last_slot_state()
     ie_values_dict, yes_no = dinning_nlu_rule(customer_utterance)
+    print(last_slot_state, ie_values_dict, yes_no)
 
     response_utterance = judge_confirm_each_slot(state_tracker_obj, last_slot_state, current_slot, yes_no)
     if response_utterance:
@@ -82,8 +87,11 @@ def dinning_handle(current_slot, customer_utterance, state_tracker_obj, db_obj, 
     if response_utterance:
         return response_utterance
 
+    print(state_tracker_obj.get_state())
     state_tracker_obj.update_all_state(ie_values_dict)    # update dialogue state for all slots
     state_tracker_obj.get_current_slot(current_slot)      # fill and get current slots
+    print(state_tracker_obj.get_state())
+    print(current_slot)
 
     response_utterance = confirm_each_slot(state_tracker_obj, last_slot_state)
     if response_utterance:
