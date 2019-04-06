@@ -41,7 +41,7 @@ def dinning_flow(current_slot):
     return None, -1
 
 
-def dinning_handle(current_slot, customer_utterance, state_tracker_obj, just_sentence, db_obj, collection_name):
+def dinning_handle(current_slot, customer_utterance, state_tracker_obj, db_obj, collection_name):
     last_slot_state = state_tracker_obj.get_last_slot_state()
     ie_values_dict, yes_no = dinning_nlu_rule(customer_utterance)
 
@@ -50,6 +50,7 @@ def dinning_handle(current_slot, customer_utterance, state_tracker_obj, just_sen
         if yes_no == "positive":
             if last_slot_state in state_tracker_obj.get_state():
                 state_tracker_obj.update_confidence(last_slot_state, 1)
+                state_tracker_obj.get_current_slot(current_slot)
                 response_utterance, last_slot_state = dinning_flow(current_slot)
                 if last_slot_state != -1:
                     state_tracker_obj.update_last_slot_state(last_slot_state)
@@ -57,8 +58,11 @@ def dinning_handle(current_slot, customer_utterance, state_tracker_obj, just_sen
         if yes_no == "negative":
             if last_slot_state in state_tracker_obj.get_state():
                 state_tracker_obj.update_confidence(last_slot_state, 0)
+                state_tracker_obj.get_current_slot(current_slot)
             else:
+                print("nonoononononon")
                 state_tracker_obj.add_one_state(last_slot_state, "no", 1)
+                state_tracker_obj.get_current_slot(current_slot)
             response_utterance, last_slot_state = dinning_flow(current_slot)
             if last_slot_state != -1:
                 state_tracker_obj.update_last_slot_state(last_slot_state)
@@ -102,7 +106,7 @@ def dinning_handle(current_slot, customer_utterance, state_tracker_obj, just_sen
             state_tracker_obj.update_last_slot_state(need_confirm_slot_ls[0])
             return nlg_confirm_each_slot(need_confirm_slot_ls[0], current_slot[need_confirm_slot_ls[0]])
         else:
-            return nlg_confirm_each_slot(last_slot_state, current_slot[last_slot_state])
+            return nlg_confirm_each_slot(last_slot_state, state_tracker_obj.get_slot_value(last_slot_state))
     # #############################confirm for each slot E##############################
 
     state = state_tracker_obj.judge_dialogue_state()    # judge whether the filling slots process is done

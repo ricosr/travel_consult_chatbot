@@ -2,7 +2,7 @@
 
 
 reply_dict = {
-    "restaurant": ["Do you prefer some specific restaurant?"],
+    "restaurant": ["Do you prefer a specific restaurant?"],
     "food": ["Do you prefer some specific food?"],
     "area": ["Do you have demand about the distance from the restaurant?"],
     "price": ["Do you have requirement about the average price?"]
@@ -10,24 +10,32 @@ reply_dict = {
 
 
 def nlg_confirm_conditions(current_slot):
+    judge_key = False
     response_sentence_ls = ["Do you want ", "a restaurant {}, ", "to eat {}, ", "in {} place, ", "{} price"]
     if current_slot["restaurant"] and current_slot["restaurant"] != "no":
+        judge_key = True
         response_sentence_ls[1] = response_sentence_ls[1].format(current_slot["restaurant"])
     else:
         response_sentence_ls[1] = ''
     if current_slot["food"] != 0 and current_slot["food"] != "no":
+        judge_key = True
         response_sentence_ls[2] = response_sentence_ls[2].format(current_slot["food"])
     else:
         response_sentence_ls[2] = ''
     if current_slot["area"] != 0 and current_slot["area"] != "no":
+        judge_key = True
         response_sentence_ls[3] = response_sentence_ls[3].format(current_slot["area"])
     else:
         response_sentence_ls[3] = ''
     if current_slot["price"] != 0 and current_slot["price"] != "no":
+        judge_key = True
         response_sentence_ls[4] = response_sentence_ls[4].format(current_slot["price"])
     else:
         response_sentence_ls[4] = ''
-    return ''.join(response_sentence_ls).strip().rstrip(',') + '?'
+    if judge_key:
+        return ''.join(response_sentence_ls).strip().rstrip(',') + '?'
+    else:
+        return "Sorry, you should tell me what do you want to eat or a restaurant?"
 
 
 # [{'_id': ObjectId('5c9dd1ad30736e2180a10911'), 'restaurant': 'kfc', 'food': 'hamburger', 'area': 'near', 'price': 'cheap'}, {'_id': ObjectId('5c9dd1ad30736e2180a10912'), 'restaurant': 'yoshinoya', 'food': 'rice', 'area': 'far', 'price': 'cheap'}, {'_id': ObjectId('5c9dd1ae30736e2180a10913'), 'restaurant': 'abcd', 'food': 'hotpot', 'area': 'near', 'price': 'expensive'}, {'_id': ObjectId('5c9dd23c30736e315896f669'), 'restaurant': 'kfc', 'food': 'hamburger', 'area': 'far', 'price': 'cheap'}]

@@ -31,7 +31,7 @@ class State:
         return self.state_dict[slot_state]["confidence"]
 
     def update_all_state(self, ie_values_dict):
-        print(ie_values_dict)
+        # print(ie_values_dict)
         if ie_values_dict:
             for k, v in ie_values_dict.items():
                 if v and v != 0:  # TODO: state tracker
@@ -48,6 +48,8 @@ class State:
             for slot_key, value_dict in self.get_state().items():
                 if self.get_confidence(slot_key) == 1:
                     current_slot[slot_key] = value_dict["slot_value"]
+                if self.get_confidence(slot_key) < 1:
+                    current_slot[slot_key] = None
 
     def get_need_to_confirm(self):
         confirm_key_ls = []
