@@ -39,6 +39,7 @@ class State:
                         if self.get_slot_value(k) == v:
                             self.update_confidence(k, 1)
                         else:
+                            self.update_slot_value(k, v)
                             self.update_confidence(k, 0.5)
                     else:
                         self.add_one_state(k, v, 0.5)

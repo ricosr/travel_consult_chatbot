@@ -60,7 +60,6 @@ def dinning_handle(current_slot, customer_utterance, state_tracker_obj, db_obj, 
                 state_tracker_obj.update_confidence(last_slot_state, 0)
                 state_tracker_obj.get_current_slot(current_slot)
             else:
-                print("nonoononononon")
                 state_tracker_obj.add_one_state(last_slot_state, "no", 1)
                 state_tracker_obj.get_current_slot(current_slot)
             response_utterance, last_slot_state = dinning_flow(current_slot)
@@ -101,10 +100,12 @@ def dinning_handle(current_slot, customer_utterance, state_tracker_obj, db_obj, 
 
     # #############################confirm for each slot S##############################
     need_confirm_slot_ls = state_tracker_obj.get_need_to_confirm()
+    print(need_confirm_slot_ls)
     if need_confirm_slot_ls:   # need to confirm for each slot
         if last_slot_state not in need_confirm_slot_ls:    # start
+            print(state_tracker_obj.get_state())
             state_tracker_obj.update_last_slot_state(need_confirm_slot_ls[0])
-            return nlg_confirm_each_slot(need_confirm_slot_ls[0], current_slot[need_confirm_slot_ls[0]])
+            return nlg_confirm_each_slot(need_confirm_slot_ls[0], state_tracker_obj.get_slot_value(need_confirm_slot_ls[0]))
         else:
             return nlg_confirm_each_slot(last_slot_state, state_tracker_obj.get_slot_value(last_slot_state))
     # #############################confirm for each slot E##############################
