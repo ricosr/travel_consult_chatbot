@@ -1,14 +1,6 @@
 # -*- coding: utf-8 -*-
 
 
-reply_dict = {
-    "restaurant": ["Do you prefer a specific restaurant?"],
-    "food": ["Do you prefer some specific food?"],
-    "area": ["Do you have demand about the distance from the restaurant?"],
-    "price": ["Do you have requirement about the average price?"]
-}
-
-
 def nlg_confirm_conditions(current_slot):
     judge_key = False
     response_sentence_ls = ["Do you want ", "a restaurant {}, ", "to eat {}, ", "in {} place, ", "{} price"]
@@ -54,8 +46,21 @@ def nlg_confirm_each_slot(slot_key, slot_value):
         "restaurant": ["Are you sure you want to go to {}?"],
         "food": ["Are you sure you want to eat {}?"],
         "area": ["Are you sure you prefer a {} place?"],
-        "price": ["Are you sure you prefer a price?"]
+        "price": ["Are you sure you prefer a {} price?"]
     }
     return confirm_dict[slot_key][0].format(slot_value)    # temp TODO: random
+
+
+def dinning_reply(current_slot):
+    reply_dict = {
+        "restaurant": ["Do you prefer a specific restaurant?"],
+        "food": ["Do you prefer some specific food?"],
+        "area": ["Do you have demand about the distance from the restaurant?"],
+        "price": ["Do you have requirement about the average price?"]
+    }
+    for key, value in current_slot.items():
+        if not value or value == 0:
+            return reply_dict[key][0], key
+    return None, None
 
 
