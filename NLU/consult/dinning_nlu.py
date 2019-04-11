@@ -11,7 +11,7 @@ from NLU.consult.dinning_rule import positive_confirm_phrase, positive_confirm, 
 
 
 def dinning_nlu_rule(customer_utterance):
-    ie_values_dict = copy.deepcopy(dinning_slot)
+    ie_values_dict = {}
     match_obj = re.search(rule_1a, customer_utterance)
     return_key = False
     if match_obj:
