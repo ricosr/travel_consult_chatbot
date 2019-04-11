@@ -5,7 +5,9 @@ from random import choice
 
 def nlg_confirm_conditions(current_slot):
     judge_key = False
-    response_sentence_ls = ["Do you want ", "a restaurant {}, ", "to eat {}, ", "in {} place, ", "{} price"]
+    response_list = [["Do you want ", "a restaurant {}, ", "to eat {}, ", "in {} place, ", "{} price"],
+                     ["A restaurant {},", " for you {} here, " "and you can taste {} there", "with a {} price, OK?"]]
+    response_sentence_ls = choice(response_list)
     if current_slot["restaurant"] and current_slot["restaurant"] != "no":
         judge_key = True
         response_sentence_ls[1] = response_sentence_ls[1].format(current_slot["restaurant"])
