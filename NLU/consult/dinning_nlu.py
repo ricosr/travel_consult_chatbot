@@ -6,7 +6,7 @@ import copy
 import nltk
 
 from slots.consult_slot import dinning_slot
-from NLU.consult.dinning_rule import rule_1a, rule_2, key_word_3, key_word_4b
+from NLU.consult.dinning_rule import rule_1a, rule_1a_tag_tuple, rule_2, key_word_3, key_word_4b
 from NLU.consult.dinning_rule import positive_confirm_phrase, positive_confirm, negative_confirm
 
 
