@@ -10,7 +10,12 @@ from NLU.consult.dinning_rule import rule_1a, rule_1a_tag_tuple, rule_2, key_wor
 from NLU.consult.dinning_rule import positive_confirm_phrase, positive_confirm, negative_confirm
 
 
+def match_word_tags(customer_utterance_ls):
+    pass
+
+
 def dinning_nlu_rule(customer_utterance):
+    utterance_list = nltk.word_tokenize(customer_utterance.lower())
     ie_values_dict = {}
     match_obj = re.search(rule_1a, customer_utterance)
     return_key = False
@@ -41,8 +46,6 @@ def dinning_nlu_rule(customer_utterance):
     for phrase in positive_confirm_phrase:    # positive phrase answers
         if phrase in customer_utterance:
             return ie_values_dict, "positive"    # TODO: temp
-    utterance_list = nltk.word_tokenize(customer_utterance.lower())
-    # print(utterance_list)
     for confirm_p, confirm_n in zip(positive_confirm, negative_confirm):    # positive and negative answer
         for word in utterance_list:
             if confirm_p == word:

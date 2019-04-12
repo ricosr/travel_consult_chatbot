@@ -6,7 +6,8 @@ from random import choice
 def nlg_confirm_conditions(current_slot):
     judge_key = False
     response_list = [["Do you want ", "a restaurant {}, ", "to eat {}, ", "in {} place, ", "{} price"],
-                     ["A restaurant {},", " for you {} here, " "and you can taste {} there", "with a {} price, OK?"]]
+                     ["Again, ", "a restaurant {},", " you can taste {}, ", "and for you {} here, ", "with a {} price, OK?"]
+                     ]
     response_sentence_ls = choice(response_list)
     if current_slot["restaurant"] and current_slot["restaurant"] != "no":
         judge_key = True
@@ -68,7 +69,7 @@ def nlg_confirm_each_slot(slot_key, slot_value):
     return confirm_sentence.format(slot_value)    # temp TODO: random
 
 
-def dinning_reply(current_slot):
+def dinning_reply(state_tracker_obj, current_slot):
     reply_dict = {
         "restaurant": ["Do you prefer a specific restaurant?", "You mean a specific restaurant, right?",
                        "So, you would like a specific restaurant, right?"],
@@ -81,8 +82,13 @@ def dinning_reply(current_slot):
     }
     for key, value in current_slot.items():
         if not value or value == 0:
-            reply_sentence = choice(reply_dict[key])
-            return reply_sentence, key
+            if key in state_tracker_obj.get_state():
+                if state_tracker_obj.get_state()[key] == 0:
+                    reply_sentence = choice(reply_dict[key])
+                    return reply_sentence, key
+            else:
+                reply_sentence = choice(reply_dict[key])
+                return reply_sentence, key
     return None, None
 
 
