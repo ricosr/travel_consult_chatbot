@@ -1,0 +1,10322 @@
+## intent:search_commodity
+- 我想买个[塑身美体](commodity)啊
+- 哪里有卖[塑身美体](commodity)的店
+- 找一个卖[塑身美体](commodity)的地方
+- 帮我找有卖[塑身美体](commodity)的商店
+- 哪里有商场可以买[塑身美体](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[法兰琳卡](commodity)啊
+- 哪里有卖[法兰琳卡](commodity)的店
+- 找一个卖[法兰琳卡](commodity)的地方
+- 帮我找有卖[法兰琳卡](commodity)的商店
+- 哪里有商场可以买[法兰琳卡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[唇线笔](commodity)啊
+- 哪里有卖[唇线笔](commodity)的店
+- 找一个卖[唇线笔](commodity)的地方
+- 帮我找有卖[唇线笔](commodity)的商店
+- 哪里有商场可以买[唇线笔](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[衣品天成](commodity)啊
+- 哪里有卖[衣品天成](commodity)的店
+- 找一个卖[衣品天成](commodity)的地方
+- 帮我找有卖[衣品天成](commodity)的商店
+- 哪里有商场可以买[衣品天成](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[牙素](commodity)啊
+- 哪里有卖[牙素](commodity)的店
+- 找一个卖[牙素](commodity)的地方
+- 帮我找有卖[牙素](commodity)的商店
+- 哪里有商场可以买[牙素](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[胸部护理](commodity)啊
+- 哪里有卖[胸部护理](commodity)的店
+- 找一个卖[胸部护理](commodity)的地方
+- 帮我找有卖[胸部护理](commodity)的商店
+- 哪里有商场可以买[胸部护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[茶几](commodity)啊
+- 哪里有卖[茶几](commodity)的店
+- 找一个卖[茶几](commodity)的地方
+- 帮我找有卖[茶几](commodity)的商店
+- 哪里有商场可以买[茶几](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[平板配件](commodity)啊
+- 哪里有卖[平板配件](commodity)的店
+- 找一个卖[平板配件](commodity)的地方
+- 帮我找有卖[平板配件](commodity)的商店
+- 哪里有商场可以买[平板配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[验钞机](commodity)啊
+- 哪里有卖[验钞机](commodity)的店
+- 找一个卖[验钞机](commodity)的地方
+- 帮我找有卖[验钞机](commodity)的商店
+- 哪里有商场可以买[验钞机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鲜花速递](commodity)啊
+- 哪里有卖[鲜花速递](commodity)的店
+- 找一个卖[鲜花速递](commodity)的地方
+- 帮我找有卖[鲜花速递](commodity)的商店
+- 哪里有商场可以买[鲜花速递](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[话剧](commodity)啊
+- 哪里有卖[话剧](commodity)的店
+- 找一个卖[话剧](commodity)的地方
+- 帮我找有卖[话剧](commodity)的商店
+- 哪里有商场可以买[话剧](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[皮带](commodity)啊
+- 哪里有卖[皮带](commodity)的店
+- 找一个卖[皮带](commodity)的地方
+- 帮我找有卖[皮带](commodity)的商店
+- 哪里有商场可以买[皮带](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[苹果内置配件](commodity)啊
+- 哪里有卖[苹果内置配件](commodity)的店
+- 找一个卖[苹果内置配件](commodity)的地方
+- 帮我找有卖[苹果内置配件](commodity)的商店
+- 哪里有商场可以买[苹果内置配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[诗篇](commodity)啊
+- 哪里有卖[诗篇](commodity)的店
+- 找一个卖[诗篇](commodity)的地方
+- 帮我找有卖[诗篇](commodity)的商店
+- 哪里有商场可以买[诗篇](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[笔](commodity)啊
+- 哪里有卖[笔](commodity)的店
+- 找一个卖[笔](commodity)的地方
+- 帮我找有卖[笔](commodity)的商店
+- 哪里有商场可以买[笔](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[模型零配件](commodity)啊
+- 哪里有卖[模型零配件](commodity)的店
+- 找一个卖[模型零配件](commodity)的地方
+- 帮我找有卖[模型零配件](commodity)的商店
+- 哪里有商场可以买[模型零配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[影碟机](commodity)啊
+- 哪里有卖[影碟机](commodity)的店
+- 找一个卖[影碟机](commodity)的地方
+- 帮我找有卖[影碟机](commodity)的商店
+- 哪里有商场可以买[影碟机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[雪地靴](commodity)啊
+- 哪里有卖[雪地靴](commodity)的店
+- 找一个卖[雪地靴](commodity)的地方
+- 帮我找有卖[雪地靴](commodity)的商店
+- 哪里有商场可以买[雪地靴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[卫生护垫](commodity)啊
+- 哪里有卖[卫生护垫](commodity)的店
+- 找一个卖[卫生护垫](commodity)的地方
+- 帮我找有卖[卫生护垫](commodity)的商店
+- 哪里有商场可以买[卫生护垫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[毛巾架](commodity)啊
+- 哪里有卖[毛巾架](commodity)的店
+- 找一个卖[毛巾架](commodity)的地方
+- 帮我找有卖[毛巾架](commodity)的商店
+- 哪里有商场可以买[毛巾架](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[相片](commodity)啊
+- 哪里有卖[相片](commodity)的店
+- 找一个卖[相片](commodity)的地方
+- 帮我找有卖[相片](commodity)的商店
+- 哪里有商场可以买[相片](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[游泳](commodity)啊
+- 哪里有卖[游泳](commodity)的店
+- 找一个卖[游泳](commodity)的地方
+- 帮我找有卖[游泳](commodity)的商店
+- 哪里有商场可以买[游泳](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[干衣机](commodity)啊
+- 哪里有卖[干衣机](commodity)的店
+- 找一个卖[干衣机](commodity)的地方
+- 帮我找有卖[干衣机](commodity)的商店
+- 哪里有商场可以买[干衣机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[果干](commodity)啊
+- 哪里有卖[果干](commodity)的店
+- 找一个卖[果干](commodity)的地方
+- 帮我找有卖[果干](commodity)的商店
+- 哪里有商场可以买[果干](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[展柜](commodity)啊
+- 哪里有卖[展柜](commodity)的店
+- 找一个卖[展柜](commodity)的地方
+- 帮我找有卖[展柜](commodity)的商店
+- 哪里有商场可以买[展柜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它电脑周边](commodity)啊
+- 哪里有卖[其它电脑周边](commodity)的店
+- 找一个卖[其它电脑周边](commodity)的地方
+- 帮我找有卖[其它电脑周边](commodity)的商店
+- 哪里有商场可以买[其它电脑周边](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[发包](commodity)啊
+- 哪里有卖[发包](commodity)的店
+- 找一个卖[发包](commodity)的地方
+- 帮我找有卖[发包](commodity)的商店
+- 哪里有商场可以买[发包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电磁炉](commodity)啊
+- 哪里有卖[电磁炉](commodity)的店
+- 找一个卖[电磁炉](commodity)的地方
+- 帮我找有卖[电磁炉](commodity)的商店
+- 哪里有商场可以买[电磁炉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[防爆膜](commodity)啊
+- 哪里有卖[防爆膜](commodity)的店
+- 找一个卖[防爆膜](commodity)的地方
+- 帮我找有卖[防爆膜](commodity)的商店
+- 哪里有商场可以买[防爆膜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[学生文具](commodity)啊
+- 哪里有卖[学生文具](commodity)的店
+- 找一个卖[学生文具](commodity)的地方
+- 帮我找有卖[学生文具](commodity)的商店
+- 哪里有商场可以买[学生文具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[迷你植物](commodity)啊
+- 哪里有卖[迷你植物](commodity)的店
+- 找一个卖[迷你植物](commodity)的地方
+- 帮我找有卖[迷你植物](commodity)的商店
+- 哪里有商场可以买[迷你植物](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[夹克](commodity)啊
+- 哪里有卖[夹克](commodity)的店
+- 找一个卖[夹克](commodity)的地方
+- 帮我找有卖[夹克](commodity)的商店
+- 哪里有商场可以买[夹克](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[摇滚](commodity)啊
+- 哪里有卖[摇滚](commodity)的店
+- 找一个卖[摇滚](commodity)的地方
+- 帮我找有卖[摇滚](commodity)的商店
+- 哪里有商场可以买[摇滚](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[垫](commodity)啊
+- 哪里有卖[垫](commodity)的店
+- 找一个卖[垫](commodity)的地方
+- 帮我找有卖[垫](commodity)的商店
+- 哪里有商场可以买[垫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[倒模](commodity)啊
+- 哪里有卖[倒模](commodity)的店
+- 找一个卖[倒模](commodity)的地方
+- 帮我找有卖[倒模](commodity)的商店
+- 哪里有商场可以买[倒模](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外羽绒服](commodity)啊
+- 哪里有卖[户外羽绒服](commodity)的店
+- 找一个卖[户外羽绒服](commodity)的地方
+- 帮我找有卖[户外羽绒服](commodity)的商店
+- 哪里有商场可以买[户外羽绒服](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[羽毛球相关](commodity)啊
+- 哪里有卖[羽毛球相关](commodity)的店
+- 找一个卖[羽毛球相关](commodity)的地方
+- 帮我找有卖[羽毛球相关](commodity)的商店
+- 哪里有商场可以买[羽毛球相关](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[门窗](commodity)啊
+- 哪里有卖[门窗](commodity)的店
+- 找一个卖[门窗](commodity)的地方
+- 帮我找有卖[门窗](commodity)的商店
+- 哪里有商场可以买[门窗](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[泳衣](commodity)啊
+- 哪里有卖[泳衣](commodity)的店
+- 找一个卖[泳衣](commodity)的地方
+- 帮我找有卖[泳衣](commodity)的商店
+- 哪里有商场可以买[泳衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电风扇](commodity)啊
+- 哪里有卖[电风扇](commodity)的店
+- 找一个卖[电风扇](commodity)的地方
+- 帮我找有卖[电风扇](commodity)的商店
+- 哪里有商场可以买[电风扇](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[iPod配件](commodity)啊
+- 哪里有卖[iPod配件](commodity)的店
+- 找一个卖[iPod配件](commodity)的地方
+- 帮我找有卖[iPod配件](commodity)的商店
+- 哪里有商场可以买[iPod配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外箱包](commodity)啊
+- 哪里有卖[户外箱包](commodity)的店
+- 找一个卖[户外箱包](commodity)的地方
+- 帮我找有卖[户外箱包](commodity)的商店
+- 哪里有商场可以买[户外箱包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[考勤机](commodity)啊
+- 哪里有卖[考勤机](commodity)的店
+- 找一个卖[考勤机](commodity)的地方
+- 帮我找有卖[考勤机](commodity)的商店
+- 哪里有商场可以买[考勤机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[大衣](commodity)啊
+- 哪里有卖[大衣](commodity)的店
+- 找一个卖[大衣](commodity)的地方
+- 帮我找有卖[大衣](commodity)的商店
+- 哪里有商场可以买[大衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[母婴](commodity)啊
+- 哪里有卖[母婴](commodity)的店
+- 找一个卖[母婴](commodity)的地方
+- 帮我找有卖[母婴](commodity)的商店
+- 哪里有商场可以买[母婴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[专栏](commodity)啊
+- 哪里有卖[专栏](commodity)的店
+- 找一个卖[专栏](commodity)的地方
+- 帮我找有卖[专栏](commodity)的商店
+- 哪里有商场可以买[专栏](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[LOMO相机](commodity)啊
+- 哪里有卖[LOMO相机](commodity)的店
+- 找一个卖[LOMO相机](commodity)的地方
+- 帮我找有卖[LOMO相机](commodity)的商店
+- 哪里有商场可以买[LOMO相机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[骆驼](commodity)啊
+- 哪里有卖[骆驼](commodity)的店
+- 找一个卖[骆驼](commodity)的地方
+- 帮我找有卖[骆驼](commodity)的商店
+- 哪里有商场可以买[骆驼](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[咬咬袋](commodity)啊
+- 哪里有卖[咬咬袋](commodity)的店
+- 找一个卖[咬咬袋](commodity)的地方
+- 帮我找有卖[咬咬袋](commodity)的商店
+- 哪里有商场可以买[咬咬袋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[发饰](commodity)啊
+- 哪里有卖[发饰](commodity)的店
+- 找一个卖[发饰](commodity)的地方
+- 帮我找有卖[发饰](commodity)的商店
+- 哪里有商场可以买[发饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[T恤](commodity)啊
+- 哪里有卖[T恤](commodity)的店
+- 找一个卖[T恤](commodity)的地方
+- 帮我找有卖[T恤](commodity)的商店
+- 哪里有商场可以买[T恤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鬼塚虎](commodity)啊
+- 哪里有卖[鬼塚虎](commodity)的店
+- 找一个卖[鬼塚虎](commodity)的地方
+- 帮我找有卖[鬼塚虎](commodity)的商店
+- 哪里有商场可以买[鬼塚虎](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家用五金](commodity)啊
+- 哪里有卖[家用五金](commodity)的店
+- 找一个卖[家用五金](commodity)的地方
+- 帮我找有卖[家用五金](commodity)的商店
+- 哪里有商场可以买[家用五金](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[血压计](commodity)啊
+- 哪里有卖[血压计](commodity)的店
+- 找一个卖[血压计](commodity)的地方
+- 帮我找有卖[血压计](commodity)的商店
+- 哪里有商场可以买[血压计](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[丽丽](commodity)啊
+- 哪里有卖[丽丽](commodity)的店
+- 找一个卖[丽丽](commodity)的地方
+- 帮我找有卖[丽丽](commodity)的商店
+- 哪里有商场可以买[丽丽](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电影](commodity)啊
+- 哪里有卖[电影](commodity)的店
+- 找一个卖[电影](commodity)的地方
+- 帮我找有卖[电影](commodity)的商店
+- 哪里有商场可以买[电影](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[花瓶](commodity)啊
+- 哪里有卖[花瓶](commodity)的店
+- 找一个卖[花瓶](commodity)的地方
+- 帮我找有卖[花瓶](commodity)的商店
+- 哪里有商场可以买[花瓶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他家居饰品](commodity)啊
+- 哪里有卖[其他家居饰品](commodity)的店
+- 找一个卖[其他家居饰品](commodity)的地方
+- 帮我找有卖[其他家居饰品](commodity)的商店
+- 哪里有商场可以买[其他家居饰品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[线类](commodity)啊
+- 哪里有卖[线类](commodity)的店
+- 找一个卖[线类](commodity)的地方
+- 帮我找有卖[线类](commodity)的商店
+- 哪里有商场可以买[线类](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[磨砂](commodity)啊
+- 哪里有卖[磨砂](commodity)的店
+- 找一个卖[磨砂](commodity)的地方
+- 帮我找有卖[磨砂](commodity)的商店
+- 哪里有商场可以买[磨砂](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[椅套](commodity)啊
+- 哪里有卖[椅套](commodity)的店
+- 找一个卖[椅套](commodity)的地方
+- 帮我找有卖[椅套](commodity)的商店
+- 哪里有商场可以买[椅套](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[设计服务](commodity)啊
+- 哪里有卖[设计服务](commodity)的店
+- 找一个卖[设计服务](commodity)的地方
+- 帮我找有卖[设计服务](commodity)的商店
+- 哪里有商场可以买[设计服务](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他户外服装](commodity)啊
+- 哪里有卖[其他户外服装](commodity)的店
+- 找一个卖[其他户外服装](commodity)的地方
+- 帮我找有卖[其他户外服装](commodity)的商店
+- 哪里有商场可以买[其他户外服装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[浴盐](commodity)啊
+- 哪里有卖[浴盐](commodity)的店
+- 找一个卖[浴盐](commodity)的地方
+- 帮我找有卖[浴盐](commodity)的商店
+- 哪里有商场可以买[浴盐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[卡姿兰](commodity)啊
+- 哪里有卖[卡姿兰](commodity)的店
+- 找一个卖[卡姿兰](commodity)的地方
+- 帮我找有卖[卡姿兰](commodity)的商店
+- 哪里有商场可以买[卡姿兰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[机票](commodity)啊
+- 哪里有卖[机票](commodity)的店
+- 找一个卖[机票](commodity)的地方
+- 帮我找有卖[机票](commodity)的商店
+- 哪里有商场可以买[机票](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鱼类及其用品](commodity)啊
+- 哪里有卖[鱼类及其用品](commodity)的店
+- 找一个卖[鱼类及其用品](commodity)的地方
+- 帮我找有卖[鱼类及其用品](commodity)的商店
+- 哪里有商场可以买[鱼类及其用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[扫把](commodity)啊
+- 哪里有卖[扫把](commodity)的店
+- 找一个卖[扫把](commodity)的地方
+- 帮我找有卖[扫把](commodity)的商店
+- 哪里有商场可以买[扫把](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[针织衫](commodity)啊
+- 哪里有卖[针织衫](commodity)的店
+- 找一个卖[针织衫](commodity)的地方
+- 帮我找有卖[针织衫](commodity)的商店
+- 哪里有商场可以买[针织衫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[台灯](commodity)啊
+- 哪里有卖[台灯](commodity)的店
+- 找一个卖[台灯](commodity)的地方
+- 帮我找有卖[台灯](commodity)的商店
+- 哪里有商场可以买[台灯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电热毯](commodity)啊
+- 哪里有卖[电热毯](commodity)的店
+- 找一个卖[电热毯](commodity)的地方
+- 帮我找有卖[电热毯](commodity)的商店
+- 哪里有商场可以买[电热毯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[仿真花](commodity)啊
+- 哪里有卖[仿真花](commodity)的店
+- 找一个卖[仿真花](commodity)的地方
+- 帮我找有卖[仿真花](commodity)的商店
+- 哪里有商场可以买[仿真花](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[BB霜](commodity)啊
+- 哪里有卖[BB霜](commodity)的店
+- 找一个卖[BB霜](commodity)的地方
+- 帮我找有卖[BB霜](commodity)的商店
+- 哪里有商场可以买[BB霜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[洗浴](commodity)啊
+- 哪里有卖[洗浴](commodity)的店
+- 找一个卖[洗浴](commodity)的地方
+- 帮我找有卖[洗浴](commodity)的商店
+- 哪里有商场可以买[洗浴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手部护理](commodity)啊
+- 哪里有卖[手部护理](commodity)的店
+- 找一个卖[手部护理](commodity)的地方
+- 帮我找有卖[手部护理](commodity)的商店
+- 哪里有商场可以买[手部护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[卫生纸](commodity)啊
+- 哪里有卖[卫生纸](commodity)的店
+- 找一个卖[卫生纸](commodity)的地方
+- 帮我找有卖[卫生纸](commodity)的商店
+- 哪里有商场可以买[卫生纸](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[卓诗尼](commodity)啊
+- 哪里有卖[卓诗尼](commodity)的店
+- 找一个卖[卓诗尼](commodity)的地方
+- 帮我找有卖[卓诗尼](commodity)的商店
+- 哪里有商场可以买[卓诗尼](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[古籍](commodity)啊
+- 哪里有卖[古籍](commodity)的店
+- 找一个卖[古籍](commodity)的地方
+- 帮我找有卖[古籍](commodity)的商店
+- 哪里有商场可以买[古籍](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[网游](commodity)啊
+- 哪里有卖[网游](commodity)的店
+- 找一个卖[网游](commodity)的地方
+- 帮我找有卖[网游](commodity)的商店
+- 哪里有商场可以买[网游](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Kans](commodity)啊
+- 哪里有卖[Kans](commodity)的店
+- 找一个卖[Kans](commodity)的地方
+- 帮我找有卖[Kans](commodity)的商店
+- 哪里有商场可以买[Kans](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鼠标垫](commodity)啊
+- 哪里有卖[鼠标垫](commodity)的店
+- 找一个卖[鼠标垫](commodity)的地方
+- 帮我找有卖[鼠标垫](commodity)的商店
+- 哪里有商场可以买[鼠标垫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[宠物](commodity)啊
+- 哪里有卖[宠物](commodity)的店
+- 找一个卖[宠物](commodity)的地方
+- 帮我找有卖[宠物](commodity)的商店
+- 哪里有商场可以买[宠物](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[法律](commodity)啊
+- 哪里有卖[法律](commodity)的店
+- 找一个卖[法律](commodity)的地方
+- 帮我找有卖[法律](commodity)的商店
+- 哪里有商场可以买[法律](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[胸针](commodity)啊
+- 哪里有卖[胸针](commodity)的店
+- 找一个卖[胸针](commodity)的地方
+- 帮我找有卖[胸针](commodity)的商店
+- 哪里有商场可以买[胸针](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[梵莉思](commodity)啊
+- 哪里有卖[梵莉思](commodity)的店
+- 找一个卖[梵莉思](commodity)的地方
+- 帮我找有卖[梵莉思](commodity)的商店
+- 哪里有商场可以买[梵莉思](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[咖啡机](commodity)啊
+- 哪里有卖[咖啡机](commodity)的店
+- 找一个卖[咖啡机](commodity)的地方
+- 帮我找有卖[咖啡机](commodity)的商店
+- 哪里有商场可以买[咖啡机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[雨伞](commodity)啊
+- 哪里有卖[雨伞](commodity)的店
+- 找一个卖[雨伞](commodity)的地方
+- 帮我找有卖[雨伞](commodity)的商店
+- 哪里有商场可以买[雨伞](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[便签](commodity)啊
+- 哪里有卖[便签](commodity)的店
+- 找一个卖[便签](commodity)的地方
+- 帮我找有卖[便签](commodity)的商店
+- 哪里有商场可以买[便签](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动户外配饰](commodity)啊
+- 哪里有卖[运动户外配饰](commodity)的店
+- 找一个卖[运动户外配饰](commodity)的地方
+- 帮我找有卖[运动户外配饰](commodity)的商店
+- 哪里有商场可以买[运动户外配饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[乐町音儿](commodity)啊
+- 哪里有卖[乐町音儿](commodity)的店
+- 找一个卖[乐町音儿](commodity)的地方
+- 帮我找有卖[乐町音儿](commodity)的商店
+- 哪里有商场可以买[乐町音儿](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[酒柜](commodity)啊
+- 哪里有卖[酒柜](commodity)的店
+- 找一个卖[酒柜](commodity)的地方
+- 帮我找有卖[酒柜](commodity)的商店
+- 哪里有商场可以买[酒柜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[办公家具](commodity)啊
+- 哪里有卖[办公家具](commodity)的店
+- 找一个卖[办公家具](commodity)的地方
+- 帮我找有卖[办公家具](commodity)的商店
+- 哪里有商场可以买[办公家具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[汽车美容](commodity)啊
+- 哪里有卖[汽车美容](commodity)的店
+- 找一个卖[汽车美容](commodity)的地方
+- 帮我找有卖[汽车美容](commodity)的商店
+- 哪里有商场可以买[汽车美容](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[加湿](commodity)啊
+- 哪里有卖[加湿](commodity)的店
+- 找一个卖[加湿](commodity)的地方
+- 帮我找有卖[加湿](commodity)的商店
+- 哪里有商场可以买[加湿](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[音像](commodity)啊
+- 哪里有卖[音像](commodity)的店
+- 找一个卖[音像](commodity)的地方
+- 帮我找有卖[音像](commodity)的商店
+- 哪里有商场可以买[音像](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[经管类图书](commodity)啊
+- 哪里有卖[经管类图书](commodity)的店
+- 找一个卖[经管类图书](commodity)的地方
+- 帮我找有卖[经管类图书](commodity)的商店
+- 哪里有商场可以买[经管类图书](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动裙装](commodity)啊
+- 哪里有卖[运动裙装](commodity)的店
+- 找一个卖[运动裙装](commodity)的地方
+- 帮我找有卖[运动裙装](commodity)的商店
+- 哪里有商场可以买[运动裙装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[达芙妮](commodity)啊
+- 哪里有卖[达芙妮](commodity)的店
+- 找一个卖[达芙妮](commodity)的地方
+- 帮我找有卖[达芙妮](commodity)的商店
+- 哪里有商场可以买[达芙妮](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[wis](commodity)啊
+- 哪里有卖[wis](commodity)的店
+- 找一个卖[wis](commodity)的地方
+- 帮我找有卖[wis](commodity)的商店
+- 哪里有商场可以买[wis](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[透真](commodity)啊
+- 哪里有卖[透真](commodity)的店
+- 找一个卖[透真](commodity)的地方
+- 帮我找有卖[透真](commodity)的商店
+- 哪里有商场可以买[透真](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[收录机](commodity)啊
+- 哪里有卖[收录机](commodity)的店
+- 找一个卖[收录机](commodity)的地方
+- 帮我找有卖[收录机](commodity)的商店
+- 哪里有商场可以买[收录机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[床垫](commodity)啊
+- 哪里有卖[床垫](commodity)的店
+- 找一个卖[床垫](commodity)的地方
+- 帮我找有卖[床垫](commodity)的商店
+- 哪里有商场可以买[床垫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[吸汗巾](commodity)啊
+- 哪里有卖[吸汗巾](commodity)的店
+- 找一个卖[吸汗巾](commodity)的地方
+- 帮我找有卖[吸汗巾](commodity)的商店
+- 哪里有商场可以买[吸汗巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[童车自行车](commodity)啊
+- 哪里有卖[童车自行车](commodity)的店
+- 找一个卖[童车自行车](commodity)的地方
+- 帮我找有卖[童车自行车](commodity)的商店
+- 哪里有商场可以买[童车自行车](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[中小型健身器材](commodity)啊
+- 哪里有卖[中小型健身器材](commodity)的店
+- 找一个卖[中小型健身器材](commodity)的地方
+- 帮我找有卖[中小型健身器材](commodity)的商店
+- 哪里有商场可以买[中小型健身器材](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[足球相关](commodity)啊
+- 哪里有卖[足球相关](commodity)的店
+- 找一个卖[足球相关](commodity)的地方
+- 帮我找有卖[足球相关](commodity)的商店
+- 哪里有商场可以买[足球相关](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[充值](commodity)啊
+- 哪里有卖[充值](commodity)的店
+- 找一个卖[充值](commodity)的地方
+- 帮我找有卖[充值](commodity)的商店
+- 哪里有商场可以买[充值](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[面料](commodity)啊
+- 哪里有卖[面料](commodity)的店
+- 找一个卖[面料](commodity)的地方
+- 帮我找有卖[面料](commodity)的商店
+- 哪里有商场可以买[面料](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家居服务](commodity)啊
+- 哪里有卖[家居服务](commodity)的店
+- 找一个卖[家居服务](commodity)的地方
+- 帮我找有卖[家居服务](commodity)的商店
+- 哪里有商场可以买[家居服务](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[极限运动](commodity)啊
+- 哪里有卖[极限运动](commodity)的店
+- 找一个卖[极限运动](commodity)的地方
+- 帮我找有卖[极限运动](commodity)的商店
+- 哪里有商场可以买[极限运动](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[燕窝](commodity)啊
+- 哪里有卖[燕窝](commodity)的店
+- 找一个卖[燕窝](commodity)的地方
+- 帮我找有卖[燕窝](commodity)的商店
+- 哪里有商场可以买[燕窝](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[早教](commodity)啊
+- 哪里有卖[早教](commodity)的店
+- 找一个卖[早教](commodity)的地方
+- 帮我找有卖[早教](commodity)的商店
+- 哪里有商场可以买[早教](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[登山鞋](commodity)啊
+- 哪里有卖[登山鞋](commodity)的店
+- 找一个卖[登山鞋](commodity)的地方
+- 帮我找有卖[登山鞋](commodity)的商店
+- 哪里有商场可以买[登山鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[护眼用品](commodity)啊
+- 哪里有卖[护眼用品](commodity)的店
+- 找一个卖[护眼用品](commodity)的地方
+- 帮我找有卖[护眼用品](commodity)的商店
+- 哪里有商场可以买[护眼用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[饰品盒](commodity)啊
+- 哪里有卖[饰品盒](commodity)的店
+- 找一个卖[饰品盒](commodity)的地方
+- 帮我找有卖[饰品盒](commodity)的商店
+- 哪里有商场可以买[饰品盒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[情趣丝袜](commodity)啊
+- 哪里有卖[情趣丝袜](commodity)的店
+- 找一个卖[情趣丝袜](commodity)的地方
+- 帮我找有卖[情趣丝袜](commodity)的商店
+- 哪里有商场可以买[情趣丝袜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[水桶](commodity)啊
+- 哪里有卖[水桶](commodity)的店
+- 找一个卖[水桶](commodity)的地方
+- 帮我找有卖[水桶](commodity)的商店
+- 哪里有商场可以买[水桶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[民族拉弦乐器](commodity)啊
+- 哪里有卖[民族拉弦乐器](commodity)的店
+- 找一个卖[民族拉弦乐器](commodity)的地方
+- 帮我找有卖[民族拉弦乐器](commodity)的商店
+- 哪里有商场可以买[民族拉弦乐器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[牛初乳](commodity)啊
+- 哪里有卖[牛初乳](commodity)的店
+- 找一个卖[牛初乳](commodity)的地方
+- 帮我找有卖[牛初乳](commodity)的商店
+- 哪里有商场可以买[牛初乳](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士双肩包](commodity)啊
+- 哪里有卖[男士双肩包](commodity)的店
+- 找一个卖[男士双肩包](commodity)的地方
+- 帮我找有卖[男士双肩包](commodity)的商店
+- 哪里有商场可以买[男士双肩包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[领结](commodity)啊
+- 哪里有卖[领结](commodity)的店
+- 找一个卖[领结](commodity)的地方
+- 帮我找有卖[领结](commodity)的商店
+- 哪里有商场可以买[领结](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他运动器材](commodity)啊
+- 哪里有卖[其他运动器材](commodity)的店
+- 找一个卖[其他运动器材](commodity)的地方
+- 帮我找有卖[其他运动器材](commodity)的商店
+- 哪里有商场可以买[其他运动器材](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[腰封](commodity)啊
+- 哪里有卖[腰封](commodity)的店
+- 找一个卖[腰封](commodity)的地方
+- 帮我找有卖[腰封](commodity)的商店
+- 哪里有商场可以买[腰封](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士内衣](commodity)啊
+- 哪里有卖[男士内衣](commodity)的店
+- 找一个卖[男士内衣](commodity)的地方
+- 帮我找有卖[男士内衣](commodity)的商店
+- 哪里有商场可以买[男士内衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[综艺](commodity)啊
+- 哪里有卖[综艺](commodity)的店
+- 找一个卖[综艺](commodity)的地方
+- 帮我找有卖[综艺](commodity)的商店
+- 哪里有商场可以买[综艺](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[票](commodity)啊
+- 哪里有卖[票](commodity)的店
+- 找一个卖[票](commodity)的地方
+- 帮我找有卖[票](commodity)的商店
+- 哪里有商场可以买[票](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[卫浴](commodity)啊
+- 哪里有卖[卫浴](commodity)的店
+- 找一个卖[卫浴](commodity)的地方
+- 帮我找有卖[卫浴](commodity)的商店
+- 哪里有商场可以买[卫浴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电蒸锅](commodity)啊
+- 哪里有卖[电蒸锅](commodity)的店
+- 找一个卖[电蒸锅](commodity)的地方
+- 帮我找有卖[电蒸锅](commodity)的商店
+- 哪里有商场可以买[电蒸锅](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[温灸器](commodity)啊
+- 哪里有卖[温灸器](commodity)的店
+- 找一个卖[温灸器](commodity)的地方
+- 帮我找有卖[温灸器](commodity)的商店
+- 哪里有商场可以买[温灸器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[商用厨电](commodity)啊
+- 哪里有卖[商用厨电](commodity)的店
+- 找一个卖[商用厨电](commodity)的地方
+- 帮我找有卖[商用厨电](commodity)的商店
+- 哪里有商场可以买[商用厨电](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[狗零食](commodity)啊
+- 哪里有卖[狗零食](commodity)的店
+- 找一个卖[狗零食](commodity)的地方
+- 帮我找有卖[狗零食](commodity)的商店
+- 哪里有商场可以买[狗零食](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[杯垫](commodity)啊
+- 哪里有卖[杯垫](commodity)的店
+- 找一个卖[杯垫](commodity)的地方
+- 帮我找有卖[杯垫](commodity)的商店
+- 哪里有商场可以买[杯垫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[袖扣](commodity)啊
+- 哪里有卖[袖扣](commodity)的店
+- 找一个卖[袖扣](commodity)的地方
+- 帮我找有卖[袖扣](commodity)的商店
+- 哪里有商场可以买[袖扣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[飞跃](commodity)啊
+- 哪里有卖[飞跃](commodity)的店
+- 找一个卖[飞跃](commodity)的地方
+- 帮我找有卖[飞跃](commodity)的商店
+- 哪里有商场可以买[飞跃](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外眼镜](commodity)啊
+- 哪里有卖[户外眼镜](commodity)的店
+- 找一个卖[户外眼镜](commodity)的地方
+- 帮我找有卖[户外眼镜](commodity)的商店
+- 哪里有商场可以买[户外眼镜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[衬衫](commodity)啊
+- 哪里有卖[衬衫](commodity)的店
+- 找一个卖[衬衫](commodity)的地方
+- 帮我找有卖[衬衫](commodity)的商店
+- 哪里有商场可以买[衬衫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[两性关系](commodity)啊
+- 哪里有卖[两性关系](commodity)的店
+- 找一个卖[两性关系](commodity)的地方
+- 帮我找有卖[两性关系](commodity)的商店
+- 哪里有商场可以买[两性关系](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[领带夹](commodity)啊
+- 哪里有卖[领带夹](commodity)的店
+- 找一个卖[领带夹](commodity)的地方
+- 帮我找有卖[领带夹](commodity)的商店
+- 哪里有商场可以买[领带夹](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[MP3](commodity)啊
+- 哪里有卖[MP3](commodity)的店
+- 找一个卖[MP3](commodity)的地方
+- 帮我找有卖[MP3](commodity)的商店
+- 哪里有商场可以买[MP3](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[靴裤](commodity)啊
+- 哪里有卖[靴裤](commodity)的店
+- 找一个卖[靴裤](commodity)的地方
+- 帮我找有卖[靴裤](commodity)的商店
+- 哪里有商场可以买[靴裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[口风琴](commodity)啊
+- 哪里有卖[口风琴](commodity)的店
+- 找一个卖[口风琴](commodity)的地方
+- 帮我找有卖[口风琴](commodity)的商店
+- 哪里有商场可以买[口风琴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电子体温计](commodity)啊
+- 哪里有卖[电子体温计](commodity)的店
+- 找一个卖[电子体温计](commodity)的地方
+- 帮我找有卖[电子体温计](commodity)的商店
+- 哪里有商场可以买[电子体温计](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[低帮皮鞋](commodity)啊
+- 哪里有卖[低帮皮鞋](commodity)的店
+- 找一个卖[低帮皮鞋](commodity)的地方
+- 帮我找有卖[低帮皮鞋](commodity)的商店
+- 哪里有商场可以买[低帮皮鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[外设产品](commodity)啊
+- 哪里有卖[外设产品](commodity)的店
+- 找一个卖[外设产品](commodity)的地方
+- 帮我找有卖[外设产品](commodity)的商店
+- 哪里有商场可以买[外设产品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家用理疗仪](commodity)啊
+- 哪里有卖[家用理疗仪](commodity)的店
+- 找一个卖[家用理疗仪](commodity)的地方
+- 帮我找有卖[家用理疗仪](commodity)的商店
+- 哪里有商场可以买[家用理疗仪](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[花盆](commodity)啊
+- 哪里有卖[花盆](commodity)的店
+- 找一个卖[花盆](commodity)的地方
+- 帮我找有卖[花盆](commodity)的商店
+- 哪里有商场可以买[花盆](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[猫](commodity)啊
+- 哪里有卖[猫](commodity)的店
+- 找一个卖[猫](commodity)的地方
+- 帮我找有卖[猫](commodity)的商店
+- 哪里有商场可以买[猫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[语克](commodity)啊
+- 哪里有卖[语克](commodity)的店
+- 找一个卖[语克](commodity)的地方
+- 帮我找有卖[语克](commodity)的商店
+- 哪里有商场可以买[语克](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[喂养用品](commodity)啊
+- 哪里有卖[喂养用品](commodity)的店
+- 找一个卖[喂养用品](commodity)的地方
+- 帮我找有卖[喂养用品](commodity)的商店
+- 哪里有商场可以买[喂养用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家庭影院](commodity)啊
+- 哪里有卖[家庭影院](commodity)的店
+- 找一个卖[家庭影院](commodity)的地方
+- 帮我找有卖[家庭影院](commodity)的商店
+- 哪里有商场可以买[家庭影院](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[套餐](commodity)啊
+- 哪里有卖[套餐](commodity)的店
+- 找一个卖[套餐](commodity)的地方
+- 帮我找有卖[套餐](commodity)的商店
+- 哪里有商场可以买[套餐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[ZARA](commodity)啊
+- 哪里有卖[ZARA](commodity)的店
+- 找一个卖[ZARA](commodity)的地方
+- 帮我找有卖[ZARA](commodity)的商店
+- 哪里有商场可以买[ZARA](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[民歌](commodity)啊
+- 哪里有卖[民歌](commodity)的店
+- 找一个卖[民歌](commodity)的地方
+- 帮我找有卖[民歌](commodity)的商店
+- 哪里有商场可以买[民歌](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[工艺礼品](commodity)啊
+- 哪里有卖[工艺礼品](commodity)的店
+- 找一个卖[工艺礼品](commodity)的地方
+- 帮我找有卖[工艺礼品](commodity)的商店
+- 哪里有商场可以买[工艺礼品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[DIY](commodity)啊
+- 哪里有卖[DIY](commodity)的店
+- 找一个卖[DIY](commodity)的地方
+- 帮我找有卖[DIY](commodity)的商店
+- 哪里有商场可以买[DIY](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鱼松](commodity)啊
+- 哪里有卖[鱼松](commodity)的店
+- 找一个卖[鱼松](commodity)的地方
+- 帮我找有卖[鱼松](commodity)的商店
+- 哪里有商场可以买[鱼松](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[木林森](commodity)啊
+- 哪里有卖[木林森](commodity)的店
+- 找一个卖[木林森](commodity)的地方
+- 帮我找有卖[木林森](commodity)的商店
+- 哪里有商场可以买[木林森](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[马桶垫](commodity)啊
+- 哪里有卖[马桶垫](commodity)的店
+- 找一个卖[马桶垫](commodity)的地方
+- 帮我找有卖[马桶垫](commodity)的商店
+- 哪里有商场可以买[马桶垫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[韩后](commodity)啊
+- 哪里有卖[韩后](commodity)的店
+- 找一个卖[韩后](commodity)的地方
+- 帮我找有卖[韩后](commodity)的商店
+- 哪里有商场可以买[韩后](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手风琴](commodity)啊
+- 哪里有卖[手风琴](commodity)的店
+- 找一个卖[手风琴](commodity)的地方
+- 帮我找有卖[手风琴](commodity)的商店
+- 哪里有商场可以买[手风琴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[游戏代练](commodity)啊
+- 哪里有卖[游戏代练](commodity)的店
+- 找一个卖[游戏代练](commodity)的地方
+- 帮我找有卖[游戏代练](commodity)的商店
+- 哪里有商场可以买[游戏代练](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电工配件](commodity)啊
+- 哪里有卖[电工配件](commodity)的店
+- 找一个卖[电工配件](commodity)的地方
+- 帮我找有卖[电工配件](commodity)的商店
+- 哪里有商场可以买[电工配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[欧莱雅](commodity)啊
+- 哪里有卖[欧莱雅](commodity)的店
+- 找一个卖[欧莱雅](commodity)的地方
+- 帮我找有卖[欧莱雅](commodity)的商店
+- 哪里有商场可以买[欧莱雅](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[垃圾桶](commodity)啊
+- 哪里有卖[垃圾桶](commodity)的店
+- 找一个卖[垃圾桶](commodity)的地方
+- 帮我找有卖[垃圾桶](commodity)的商店
+- 哪里有商场可以买[垃圾桶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[龟虾蟹及其用品](commodity)啊
+- 哪里有卖[龟虾蟹及其用品](commodity)的店
+- 找一个卖[龟虾蟹及其用品](commodity)的地方
+- 帮我找有卖[龟虾蟹及其用品](commodity)的商店
+- 哪里有商场可以买[龟虾蟹及其用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它图书](commodity)啊
+- 哪里有卖[其它图书](commodity)的店
+- 找一个卖[其它图书](commodity)的地方
+- 帮我找有卖[其它图书](commodity)的商店
+- 哪里有商场可以买[其它图书](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[数码摄像机](commodity)啊
+- 哪里有卖[数码摄像机](commodity)的店
+- 找一个卖[数码摄像机](commodity)的地方
+- 帮我找有卖[数码摄像机](commodity)的商店
+- 哪里有商场可以买[数码摄像机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[靓米猫](commodity)啊
+- 哪里有卖[靓米猫](commodity)的店
+- 找一个卖[靓米猫](commodity)的地方
+- 帮我找有卖[靓米猫](commodity)的商店
+- 哪里有商场可以买[靓米猫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[双肩包](commodity)啊
+- 哪里有卖[双肩包](commodity)的店
+- 找一个卖[双肩包](commodity)的地方
+- 帮我找有卖[双肩包](commodity)的商店
+- 哪里有商场可以买[双肩包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[钻石](commodity)啊
+- 哪里有卖[钻石](commodity)的店
+- 找一个卖[钻石](commodity)的地方
+- 帮我找有卖[钻石](commodity)的商店
+- 哪里有商场可以买[钻石](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[进口保健品](commodity)啊
+- 哪里有卖[进口保健品](commodity)的店
+- 找一个卖[进口保健品](commodity)的地方
+- 帮我找有卖[进口保健品](commodity)的商店
+- 哪里有商场可以买[进口保健品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[NeoZita](commodity)啊
+- 哪里有卖[NeoZita](commodity)的店
+- 找一个卖[NeoZita](commodity)的地方
+- 帮我找有卖[NeoZita](commodity)的商店
+- 哪里有商场可以买[NeoZita](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[二十八间](commodity)啊
+- 哪里有卖[二十八间](commodity)的店
+- 找一个卖[二十八间](commodity)的地方
+- 帮我找有卖[二十八间](commodity)的商店
+- 哪里有商场可以买[二十八间](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[pos机](commodity)啊
+- 哪里有卖[pos机](commodity)的店
+- 找一个卖[pos机](commodity)的地方
+- 帮我找有卖[pos机](commodity)的商店
+- 哪里有商场可以买[pos机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[品立](commodity)啊
+- 哪里有卖[品立](commodity)的店
+- 找一个卖[品立](commodity)的地方
+- 帮我找有卖[品立](commodity)的商店
+- 哪里有商场可以买[品立](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[刺绣](commodity)啊
+- 哪里有卖[刺绣](commodity)的店
+- 找一个卖[刺绣](commodity)的地方
+- 帮我找有卖[刺绣](commodity)的商店
+- 哪里有商场可以买[刺绣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[LED](commodity)啊
+- 哪里有卖[LED](commodity)的店
+- 找一个卖[LED](commodity)的地方
+- 帮我找有卖[LED](commodity)的商店
+- 哪里有商场可以买[LED](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[纸尿裤](commodity)啊
+- 哪里有卖[纸尿裤](commodity)的店
+- 找一个卖[纸尿裤](commodity)的地方
+- 帮我找有卖[纸尿裤](commodity)的商店
+- 哪里有商场可以买[纸尿裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他服饰配件](commodity)啊
+- 哪里有卖[其他服饰配件](commodity)的店
+- 找一个卖[其他服饰配件](commodity)的地方
+- 帮我找有卖[其他服饰配件](commodity)的商店
+- 哪里有商场可以买[其他服饰配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[网络会员卡](commodity)啊
+- 哪里有卖[网络会员卡](commodity)的店
+- 找一个卖[网络会员卡](commodity)的地方
+- 帮我找有卖[网络会员卡](commodity)的商店
+- 哪里有商场可以买[网络会员卡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[饼干](commodity)啊
+- 哪里有卖[饼干](commodity)的店
+- 找一个卖[饼干](commodity)的地方
+- 帮我找有卖[饼干](commodity)的商店
+- 哪里有商场可以买[饼干](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[哥弟](commodity)啊
+- 哪里有卖[哥弟](commodity)的店
+- 找一个卖[哥弟](commodity)的地方
+- 帮我找有卖[哥弟](commodity)的商店
+- 哪里有商场可以买[哥弟](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[CD盒](commodity)啊
+- 哪里有卖[CD盒](commodity)的店
+- 找一个卖[CD盒](commodity)的地方
+- 帮我找有卖[CD盒](commodity)的商店
+- 哪里有商场可以买[CD盒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[数据传输](commodity)啊
+- 哪里有卖[数据传输](commodity)的店
+- 找一个卖[数据传输](commodity)的地方
+- 帮我找有卖[数据传输](commodity)的商店
+- 哪里有商场可以买[数据传输](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[儿童套装](commodity)啊
+- 哪里有卖[儿童套装](commodity)的店
+- 找一个卖[儿童套装](commodity)的地方
+- 帮我找有卖[儿童套装](commodity)的商店
+- 哪里有商场可以买[儿童套装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[美食](commodity)啊
+- 哪里有卖[美食](commodity)的店
+- 找一个卖[美食](commodity)的地方
+- 帮我找有卖[美食](commodity)的商店
+- 哪里有商场可以买[美食](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[西洋鼓](commodity)啊
+- 哪里有卖[西洋鼓](commodity)的店
+- 找一个卖[西洋鼓](commodity)的地方
+- 帮我找有卖[西洋鼓](commodity)的商店
+- 哪里有商场可以买[西洋鼓](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[净化](commodity)啊
+- 哪里有卖[净化](commodity)的店
+- 找一个卖[净化](commodity)的地方
+- 帮我找有卖[净化](commodity)的商店
+- 哪里有商场可以买[净化](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[苏秘37°](commodity)啊
+- 哪里有卖[苏秘37°](commodity)的店
+- 找一个卖[苏秘37°](commodity)的地方
+- 帮我找有卖[苏秘37°](commodity)的商店
+- 哪里有商场可以买[苏秘37°](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[滑板](commodity)啊
+- 哪里有卖[滑板](commodity)的店
+- 找一个卖[滑板](commodity)的地方
+- 帮我找有卖[滑板](commodity)的商店
+- 哪里有商场可以买[滑板](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[更多纸张本册](commodity)啊
+- 哪里有卖[更多纸张本册](commodity)的店
+- 找一个卖[更多纸张本册](commodity)的地方
+- 帮我找有卖[更多纸张本册](commodity)的商店
+- 哪里有商场可以买[更多纸张本册](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[戒烟](commodity)啊
+- 哪里有卖[戒烟](commodity)的店
+- 找一个卖[戒烟](commodity)的地方
+- 帮我找有卖[戒烟](commodity)的商店
+- 哪里有商场可以买[戒烟](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[床](commodity)啊
+- 哪里有卖[床](commodity)的店
+- 找一个卖[床](commodity)的地方
+- 帮我找有卖[床](commodity)的商店
+- 哪里有商场可以买[床](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[进口饼干](commodity)啊
+- 哪里有卖[进口饼干](commodity)的店
+- 找一个卖[进口饼干](commodity)的地方
+- 帮我找有卖[进口饼干](commodity)的商店
+- 哪里有商场可以买[进口饼干](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[应用软件](commodity)啊
+- 哪里有卖[应用软件](commodity)的店
+- 找一个卖[应用软件](commodity)的地方
+- 帮我找有卖[应用软件](commodity)的商店
+- 哪里有商场可以买[应用软件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[救生衣](commodity)啊
+- 哪里有卖[救生衣](commodity)的店
+- 找一个卖[救生衣](commodity)的地方
+- 帮我找有卖[救生衣](commodity)的商店
+- 哪里有商场可以买[救生衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[架类](commodity)啊
+- 哪里有卖[架类](commodity)的店
+- 找一个卖[架类](commodity)的地方
+- 帮我找有卖[架类](commodity)的商店
+- 哪里有商场可以买[架类](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[新生儿纪念](commodity)啊
+- 哪里有卖[新生儿纪念](commodity)的店
+- 找一个卖[新生儿纪念](commodity)的地方
+- 帮我找有卖[新生儿纪念](commodity)的商店
+- 哪里有商场可以买[新生儿纪念](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[滑雪用品](commodity)啊
+- 哪里有卖[滑雪用品](commodity)的店
+- 找一个卖[滑雪用品](commodity)的地方
+- 帮我找有卖[滑雪用品](commodity)的商店
+- 哪里有商场可以买[滑雪用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[刀具](commodity)啊
+- 哪里有卖[刀具](commodity)的店
+- 找一个卖[刀具](commodity)的地方
+- 帮我找有卖[刀具](commodity)的商店
+- 哪里有商场可以买[刀具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[连身裤](commodity)啊
+- 哪里有卖[连身裤](commodity)的店
+- 找一个卖[连身裤](commodity)的地方
+- 帮我找有卖[连身裤](commodity)的商店
+- 哪里有商场可以买[连身裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它食品](commodity)啊
+- 哪里有卖[其它食品](commodity)的店
+- 找一个卖[其它食品](commodity)的地方
+- 帮我找有卖[其它食品](commodity)的商店
+- 哪里有商场可以买[其它食品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[收音机](commodity)啊
+- 哪里有卖[收音机](commodity)的店
+- 找一个卖[收音机](commodity)的地方
+- 帮我找有卖[收音机](commodity)的商店
+- 哪里有商场可以买[收音机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[GPS](commodity)啊
+- 哪里有卖[GPS](commodity)的店
+- 找一个卖[GPS](commodity)的地方
+- 帮我找有卖[GPS](commodity)的商店
+- 哪里有商场可以买[GPS](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电视剧](commodity)啊
+- 哪里有卖[电视剧](commodity)的店
+- 找一个卖[电视剧](commodity)的地方
+- 帮我找有卖[电视剧](commodity)的商店
+- 哪里有商场可以买[电视剧](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[卡包](commodity)啊
+- 哪里有卖[卡包](commodity)的店
+- 找一个卖[卡包](commodity)的地方
+- 帮我找有卖[卡包](commodity)的商店
+- 哪里有商场可以买[卡包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[氙气灯](commodity)啊
+- 哪里有卖[氙气灯](commodity)的店
+- 找一个卖[氙气灯](commodity)的地方
+- 帮我找有卖[氙气灯](commodity)的商店
+- 哪里有商场可以买[氙气灯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[相册](commodity)啊
+- 哪里有卖[相册](commodity)的店
+- 找一个卖[相册](commodity)的地方
+- 帮我找有卖[相册](commodity)的商店
+- 哪里有商场可以买[相册](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[办公用纸](commodity)啊
+- 哪里有卖[办公用纸](commodity)的店
+- 找一个卖[办公用纸](commodity)的地方
+- 帮我找有卖[办公用纸](commodity)的商店
+- 哪里有商场可以买[办公用纸](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家庭清洁](commodity)啊
+- 哪里有卖[家庭清洁](commodity)的店
+- 找一个卖[家庭清洁](commodity)的地方
+- 帮我找有卖[家庭清洁](commodity)的商店
+- 哪里有商场可以买[家庭清洁](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[三角衣架](commodity)啊
+- 哪里有卖[三角衣架](commodity)的店
+- 找一个卖[三角衣架](commodity)的地方
+- 帮我找有卖[三角衣架](commodity)的商店
+- 哪里有商场可以买[三角衣架](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[笔记本散热](commodity)啊
+- 哪里有卖[笔记本散热](commodity)的店
+- 找一个卖[笔记本散热](commodity)的地方
+- 帮我找有卖[笔记本散热](commodity)的商店
+- 哪里有商场可以买[笔记本散热](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[卡通](commodity)啊
+- 哪里有卖[卡通](commodity)的店
+- 找一个卖[卡通](commodity)的地方
+- 帮我找有卖[卡通](commodity)的商店
+- 哪里有商场可以买[卡通](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[土特产](commodity)啊
+- 哪里有卖[土特产](commodity)的店
+- 找一个卖[土特产](commodity)的地方
+- 帮我找有卖[土特产](commodity)的商店
+- 哪里有商场可以买[土特产](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[LED设备](commodity)啊
+- 哪里有卖[LED设备](commodity)的店
+- 找一个卖[LED设备](commodity)的地方
+- 帮我找有卖[LED设备](commodity)的商店
+- 哪里有商场可以买[LED设备](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[数码影音](commodity)啊
+- 哪里有卖[数码影音](commodity)的店
+- 找一个卖[数码影音](commodity)的地方
+- 帮我找有卖[数码影音](commodity)的商店
+- 哪里有商场可以买[数码影音](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电吹风](commodity)啊
+- 哪里有卖[电吹风](commodity)的店
+- 找一个卖[电吹风](commodity)的地方
+- 帮我找有卖[电吹风](commodity)的商店
+- 哪里有商场可以买[电吹风](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[消毒用具](commodity)啊
+- 哪里有卖[消毒用具](commodity)的店
+- 找一个卖[消毒用具](commodity)的地方
+- 帮我找有卖[消毒用具](commodity)的商店
+- 哪里有商场可以买[消毒用具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[护发素](commodity)啊
+- 哪里有卖[护发素](commodity)的店
+- 找一个卖[护发素](commodity)的地方
+- 帮我找有卖[护发素](commodity)的商店
+- 哪里有商场可以买[护发素](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[阳伞](commodity)啊
+- 哪里有卖[阳伞](commodity)的店
+- 找一个卖[阳伞](commodity)的地方
+- 帮我找有卖[阳伞](commodity)的商店
+- 哪里有商场可以买[阳伞](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[制品](commodity)啊
+- 哪里有卖[制品](commodity)的店
+- 找一个卖[制品](commodity)的地方
+- 帮我找有卖[制品](commodity)的商店
+- 哪里有商场可以买[制品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[One Leaf](commodity)啊
+- 哪里有卖[One Leaf](commodity)的店
+- 找一个卖[One Leaf](commodity)的地方
+- 帮我找有卖[One Leaf](commodity)的商店
+- 哪里有商场可以买[One Leaf](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[迈特优](commodity)啊
+- 哪里有卖[迈特优](commodity)的店
+- 找一个卖[迈特优](commodity)的地方
+- 帮我找有卖[迈特优](commodity)的商店
+- 哪里有商场可以买[迈特优](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[篮球鞋](commodity)啊
+- 哪里有卖[篮球鞋](commodity)的店
+- 找一个卖[篮球鞋](commodity)的地方
+- 帮我找有卖[篮球鞋](commodity)的商店
+- 哪里有商场可以买[篮球鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手机号](commodity)啊
+- 哪里有卖[手机号](commodity)的店
+- 找一个卖[手机号](commodity)的地方
+- 帮我找有卖[手机号](commodity)的商店
+- 哪里有商场可以买[手机号](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[安全套](commodity)啊
+- 哪里有卖[安全套](commodity)的店
+- 找一个卖[安全套](commodity)的地方
+- 帮我找有卖[安全套](commodity)的商店
+- 哪里有商场可以买[安全套](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手机耳机](commodity)啊
+- 哪里有卖[手机耳机](commodity)的店
+- 找一个卖[手机耳机](commodity)的地方
+- 帮我找有卖[手机耳机](commodity)的商店
+- 哪里有商场可以买[手机耳机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[打底衫](commodity)啊
+- 哪里有卖[打底衫](commodity)的店
+- 找一个卖[打底衫](commodity)的地方
+- 帮我找有卖[打底衫](commodity)的商店
+- 哪里有商场可以买[打底衫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[妈咪包](commodity)啊
+- 哪里有卖[妈咪包](commodity)的店
+- 找一个卖[妈咪包](commodity)的地方
+- 帮我找有卖[妈咪包](commodity)的商店
+- 哪里有商场可以买[妈咪包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[摆件](commodity)啊
+- 哪里有卖[摆件](commodity)的店
+- 找一个卖[摆件](commodity)的地方
+- 帮我找有卖[摆件](commodity)的商店
+- 哪里有商场可以买[摆件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家居](commodity)啊
+- 哪里有卖[家居](commodity)的店
+- 找一个卖[家居](commodity)的地方
+- 帮我找有卖[家居](commodity)的商店
+- 哪里有商场可以买[家居](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[USB电脑周边](commodity)啊
+- 哪里有卖[USB电脑周边](commodity)的店
+- 找一个卖[USB电脑周边](commodity)的地方
+- 帮我找有卖[USB电脑周边](commodity)的商店
+- 哪里有商场可以买[USB电脑周边](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[调奶器](commodity)啊
+- 哪里有卖[调奶器](commodity)的店
+- 找一个卖[调奶器](commodity)的地方
+- 帮我找有卖[调奶器](commodity)的商店
+- 哪里有商场可以买[调奶器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[腾讯QQ专区](commodity)啊
+- 哪里有卖[腾讯QQ专区](commodity)的店
+- 找一个卖[腾讯QQ专区](commodity)的地方
+- 帮我找有卖[腾讯QQ专区](commodity)的商店
+- 哪里有商场可以买[腾讯QQ专区](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[乐器](commodity)啊
+- 哪里有卖[乐器](commodity)的店
+- 找一个卖[乐器](commodity)的地方
+- 帮我找有卖[乐器](commodity)的商店
+- 哪里有商场可以买[乐器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[防尿垫巾](commodity)啊
+- 哪里有卖[防尿垫巾](commodity)的店
+- 找一个卖[防尿垫巾](commodity)的地方
+- 帮我找有卖[防尿垫巾](commodity)的商店
+- 哪里有商场可以买[防尿垫巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[雨披](commodity)啊
+- 哪里有卖[雨披](commodity)的店
+- 找一个卖[雨披](commodity)的地方
+- 帮我找有卖[雨披](commodity)的商店
+- 哪里有商场可以买[雨披](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[展示用品](commodity)啊
+- 哪里有卖[展示用品](commodity)的店
+- 找一个卖[展示用品](commodity)的地方
+- 帮我找有卖[展示用品](commodity)的商店
+- 哪里有商场可以买[展示用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[蓝调](commodity)啊
+- 哪里有卖[蓝调](commodity)的店
+- 找一个卖[蓝调](commodity)的地方
+- 帮我找有卖[蓝调](commodity)的商店
+- 哪里有商场可以买[蓝调](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[宠物玩具](commodity)啊
+- 哪里有卖[宠物玩具](commodity)的店
+- 找一个卖[宠物玩具](commodity)的地方
+- 帮我找有卖[宠物玩具](commodity)的商店
+- 哪里有商场可以买[宠物玩具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[产后塑身](commodity)啊
+- 哪里有卖[产后塑身](commodity)的店
+- 找一个卖[产后塑身](commodity)的地方
+- 帮我找有卖[产后塑身](commodity)的商店
+- 哪里有商场可以买[产后塑身](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男鞋](commodity)啊
+- 哪里有卖[男鞋](commodity)的店
+- 找一个卖[男鞋](commodity)的地方
+- 帮我找有卖[男鞋](commodity)的商店
+- 哪里有商场可以买[男鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[指南针](commodity)啊
+- 哪里有卖[指南针](commodity)的店
+- 找一个卖[指南针](commodity)的地方
+- 帮我找有卖[指南针](commodity)的商店
+- 哪里有商场可以买[指南针](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[乳饮料](commodity)啊
+- 哪里有卖[乳饮料](commodity)的店
+- 找一个卖[乳饮料](commodity)的地方
+- 帮我找有卖[乳饮料](commodity)的商店
+- 哪里有商场可以买[乳饮料](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[光驱](commodity)啊
+- 哪里有卖[光驱](commodity)的店
+- 找一个卖[光驱](commodity)的地方
+- 帮我找有卖[光驱](commodity)的商店
+- 哪里有商场可以买[光驱](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Teenie Weenie](commodity)啊
+- 哪里有卖[Teenie Weenie](commodity)的店
+- 找一个卖[Teenie Weenie](commodity)的地方
+- 帮我找有卖[Teenie Weenie](commodity)的商店
+- 哪里有商场可以买[Teenie Weenie](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[计算机](commodity)啊
+- 哪里有卖[计算机](commodity)的店
+- 找一个卖[计算机](commodity)的地方
+- 帮我找有卖[计算机](commodity)的商店
+- 哪里有商场可以买[计算机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[枣类](commodity)啊
+- 哪里有卖[枣类](commodity)的店
+- 找一个卖[枣类](commodity)的地方
+- 帮我找有卖[枣类](commodity)的商店
+- 哪里有商场可以买[枣类](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[号](commodity)啊
+- 哪里有卖[号](commodity)的店
+- 找一个卖[号](commodity)的地方
+- 帮我找有卖[号](commodity)的商店
+- 哪里有商场可以买[号](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[奶粉](commodity)啊
+- 哪里有卖[奶粉](commodity)的店
+- 找一个卖[奶粉](commodity)的地方
+- 帮我找有卖[奶粉](commodity)的商店
+- 哪里有商场可以买[奶粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[镜类](commodity)啊
+- 哪里有卖[镜类](commodity)的店
+- 找一个卖[镜类](commodity)的地方
+- 帮我找有卖[镜类](commodity)的商店
+- 哪里有商场可以买[镜类](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[唇膏](commodity)啊
+- 哪里有卖[唇膏](commodity)的店
+- 找一个卖[唇膏](commodity)的地方
+- 帮我找有卖[唇膏](commodity)的商店
+- 哪里有商场可以买[唇膏](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[REDDRAGONFLY](commodity)啊
+- 哪里有卖[REDDRAGONFLY](commodity)的店
+- 找一个卖[REDDRAGONFLY](commodity)的地方
+- 帮我找有卖[REDDRAGONFLY](commodity)的商店
+- 哪里有商场可以买[REDDRAGONFLY](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[高帮鞋](commodity)啊
+- 哪里有卖[高帮鞋](commodity)的店
+- 找一个卖[高帮鞋](commodity)的地方
+- 帮我找有卖[高帮鞋](commodity)的商店
+- 哪里有商场可以买[高帮鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[维生素](commodity)啊
+- 哪里有卖[维生素](commodity)的店
+- 找一个卖[维生素](commodity)的地方
+- 帮我找有卖[维生素](commodity)的商店
+- 哪里有商场可以买[维生素](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[硒鼓](commodity)啊
+- 哪里有卖[硒鼓](commodity)的店
+- 找一个卖[硒鼓](commodity)的地方
+- 帮我找有卖[硒鼓](commodity)的商店
+- 哪里有商场可以买[硒鼓](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[凉鞋](commodity)啊
+- 哪里有卖[凉鞋](commodity)的店
+- 找一个卖[凉鞋](commodity)的地方
+- 帮我找有卖[凉鞋](commodity)的商店
+- 哪里有商场可以买[凉鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Fila](commodity)啊
+- 哪里有卖[Fila](commodity)的店
+- 找一个卖[Fila](commodity)的地方
+- 帮我找有卖[Fila](commodity)的商店
+- 哪里有商场可以买[Fila](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[装饰纸巾盒](commodity)啊
+- 哪里有卖[装饰纸巾盒](commodity)的店
+- 找一个卖[装饰纸巾盒](commodity)的地方
+- 帮我找有卖[装饰纸巾盒](commodity)的商店
+- 哪里有商场可以买[装饰纸巾盒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[空气清新剂](commodity)啊
+- 哪里有卖[空气清新剂](commodity)的店
+- 找一个卖[空气清新剂](commodity)的地方
+- 帮我找有卖[空气清新剂](commodity)的商店
+- 哪里有商场可以买[空气清新剂](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[布艺手工成品](commodity)啊
+- 哪里有卖[布艺手工成品](commodity)的店
+- 找一个卖[布艺手工成品](commodity)的地方
+- 帮我找有卖[布艺手工成品](commodity)的商店
+- 哪里有商场可以买[布艺手工成品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[音响](commodity)啊
+- 哪里有卖[音响](commodity)的店
+- 找一个卖[音响](commodity)的地方
+- 帮我找有卖[音响](commodity)的商店
+- 哪里有商场可以买[音响](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它软件](commodity)啊
+- 哪里有卖[其它软件](commodity)的店
+- 找一个卖[其它软件](commodity)的地方
+- 帮我找有卖[其它软件](commodity)的商店
+- 哪里有商场可以买[其它软件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[西装裤](commodity)啊
+- 哪里有卖[西装裤](commodity)的店
+- 找一个卖[西装裤](commodity)的地方
+- 帮我找有卖[西装裤](commodity)的商店
+- 哪里有商场可以买[西装裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[刘海](commodity)啊
+- 哪里有卖[刘海](commodity)的店
+- 找一个卖[刘海](commodity)的地方
+- 帮我找有卖[刘海](commodity)的商店
+- 哪里有商场可以买[刘海](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[舞台影音](commodity)啊
+- 哪里有卖[舞台影音](commodity)的店
+- 找一个卖[舞台影音](commodity)的地方
+- 帮我找有卖[舞台影音](commodity)的商店
+- 哪里有商场可以买[舞台影音](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[装修](commodity)啊
+- 哪里有卖[装修](commodity)的店
+- 找一个卖[装修](commodity)的地方
+- 帮我找有卖[装修](commodity)的商店
+- 哪里有商场可以买[装修](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[乱步](commodity)啊
+- 哪里有卖[乱步](commodity)的店
+- 找一个卖[乱步](commodity)的地方
+- 帮我找有卖[乱步](commodity)的商店
+- 哪里有商场可以买[乱步](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他儿童服装](commodity)啊
+- 哪里有卖[其他儿童服装](commodity)的店
+- 找一个卖[其他儿童服装](commodity)的地方
+- 帮我找有卖[其他儿童服装](commodity)的商店
+- 哪里有商场可以买[其他儿童服装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[戏曲](commodity)啊
+- 哪里有卖[戏曲](commodity)的店
+- 找一个卖[戏曲](commodity)的地方
+- 帮我找有卖[戏曲](commodity)的商店
+- 哪里有商场可以买[戏曲](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[茵曼](commodity)啊
+- 哪里有卖[茵曼](commodity)的店
+- 找一个卖[茵曼](commodity)的地方
+- 帮我找有卖[茵曼](commodity)的商店
+- 哪里有商场可以买[茵曼](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[杂粮](commodity)啊
+- 哪里有卖[杂粮](commodity)的店
+- 找一个卖[杂粮](commodity)的地方
+- 帮我找有卖[杂粮](commodity)的商店
+- 哪里有商场可以买[杂粮](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[女士手提包](commodity)啊
+- 哪里有卖[女士手提包](commodity)的店
+- 找一个卖[女士手提包](commodity)的地方
+- 帮我找有卖[女士手提包](commodity)的商店
+- 哪里有商场可以买[女士手提包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[英爵伦](commodity)啊
+- 哪里有卖[英爵伦](commodity)的店
+- 找一个卖[英爵伦](commodity)的地方
+- 帮我找有卖[英爵伦](commodity)的商店
+- 哪里有商场可以买[英爵伦](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它影音设备](commodity)啊
+- 哪里有卖[其它影音设备](commodity)的店
+- 找一个卖[其它影音设备](commodity)的地方
+- 帮我找有卖[其它影音设备](commodity)的商店
+- 哪里有商场可以买[其它影音设备](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士洁面](commodity)啊
+- 哪里有卖[男士洁面](commodity)的店
+- 找一个卖[男士洁面](commodity)的地方
+- 帮我找有卖[男士洁面](commodity)的商店
+- 哪里有商场可以买[男士洁面](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它球类运动](commodity)啊
+- 哪里有卖[其它球类运动](commodity)的店
+- 找一个卖[其它球类运动](commodity)的地方
+- 帮我找有卖[其它球类运动](commodity)的商店
+- 哪里有商场可以买[其它球类运动](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[美体瘦身卡](commodity)啊
+- 哪里有卖[美体瘦身卡](commodity)的店
+- 找一个卖[美体瘦身卡](commodity)的地方
+- 帮我找有卖[美体瘦身卡](commodity)的商店
+- 哪里有商场可以买[美体瘦身卡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[毛衣](commodity)啊
+- 哪里有卖[毛衣](commodity)的店
+- 找一个卖[毛衣](commodity)的地方
+- 帮我找有卖[毛衣](commodity)的商店
+- 哪里有商场可以买[毛衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[望远镜](commodity)啊
+- 哪里有卖[望远镜](commodity)的店
+- 找一个卖[望远镜](commodity)的地方
+- 帮我找有卖[望远镜](commodity)的商店
+- 哪里有商场可以买[望远镜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[职业套装](commodity)啊
+- 哪里有卖[职业套装](commodity)的店
+- 找一个卖[职业套装](commodity)的地方
+- 帮我找有卖[职业套装](commodity)的商店
+- 哪里有商场可以买[职业套装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[耳机](commodity)啊
+- 哪里有卖[耳机](commodity)的店
+- 找一个卖[耳机](commodity)的地方
+- 帮我找有卖[耳机](commodity)的商店
+- 哪里有商场可以买[耳机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[游戏账号](commodity)啊
+- 哪里有卖[游戏账号](commodity)的店
+- 找一个卖[游戏账号](commodity)的地方
+- 帮我找有卖[游戏账号](commodity)的商店
+- 哪里有商场可以买[游戏账号](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[孕期营养品](commodity)啊
+- 哪里有卖[孕期营养品](commodity)的店
+- 找一个卖[孕期营养品](commodity)的地方
+- 帮我找有卖[孕期营养品](commodity)的商店
+- 哪里有商场可以买[孕期营养品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[接发](commodity)啊
+- 哪里有卖[接发](commodity)的店
+- 找一个卖[接发](commodity)的地方
+- 帮我找有卖[接发](commodity)的商店
+- 哪里有商场可以买[接发](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[蓬蓬粉](commodity)啊
+- 哪里有卖[蓬蓬粉](commodity)的店
+- 找一个卖[蓬蓬粉](commodity)的地方
+- 帮我找有卖[蓬蓬粉](commodity)的商店
+- 哪里有商场可以买[蓬蓬粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[爵士](commodity)啊
+- 哪里有卖[爵士](commodity)的店
+- 找一个卖[爵士](commodity)的地方
+- 帮我找有卖[爵士](commodity)的商店
+- 哪里有商场可以买[爵士](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[教材](commodity)啊
+- 哪里有卖[教材](commodity)的店
+- 找一个卖[教材](commodity)的地方
+- 帮我找有卖[教材](commodity)的商店
+- 哪里有商场可以买[教材](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[蜂胶](commodity)啊
+- 哪里有卖[蜂胶](commodity)的店
+- 找一个卖[蜂胶](commodity)的地方
+- 帮我找有卖[蜂胶](commodity)的商店
+- 哪里有商场可以买[蜂胶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[洗护](commodity)啊
+- 哪里有卖[洗护](commodity)的店
+- 找一个卖[洗护](commodity)的地方
+- 帮我找有卖[洗护](commodity)的商店
+- 哪里有商场可以买[洗护](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[回力](commodity)啊
+- 哪里有卖[回力](commodity)的店
+- 找一个卖[回力](commodity)的地方
+- 帮我找有卖[回力](commodity)的商店
+- 哪里有商场可以买[回力](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[魔术](commodity)啊
+- 哪里有卖[魔术](commodity)的店
+- 找一个卖[魔术](commodity)的地方
+- 帮我找有卖[魔术](commodity)的商店
+- 哪里有商场可以买[魔术](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[餐椅摇椅](commodity)啊
+- 哪里有卖[餐椅摇椅](commodity)的店
+- 找一个卖[餐椅摇椅](commodity)的地方
+- 帮我找有卖[餐椅摇椅](commodity)的商店
+- 哪里有商场可以买[餐椅摇椅](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[小说](commodity)啊
+- 哪里有卖[小说](commodity)的店
+- 找一个卖[小说](commodity)的地方
+- 帮我找有卖[小说](commodity)的商店
+- 哪里有商场可以买[小说](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他家具](commodity)啊
+- 哪里有卖[其他家具](commodity)的店
+- 找一个卖[其他家具](commodity)的地方
+- 帮我找有卖[其他家具](commodity)的商店
+- 哪里有商场可以买[其他家具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[插座](commodity)啊
+- 哪里有卖[插座](commodity)的店
+- 找一个卖[插座](commodity)的地方
+- 帮我找有卖[插座](commodity)的商店
+- 哪里有商场可以买[插座](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[汽车香水](commodity)啊
+- 哪里有卖[汽车香水](commodity)的店
+- 找一个卖[汽车香水](commodity)的地方
+- 帮我找有卖[汽车香水](commodity)的商店
+- 哪里有商场可以买[汽车香水](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[涂料](commodity)啊
+- 哪里有卖[涂料](commodity)的店
+- 找一个卖[涂料](commodity)的地方
+- 帮我找有卖[涂料](commodity)的商店
+- 哪里有商场可以买[涂料](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[feiyue](commodity)啊
+- 哪里有卖[feiyue](commodity)的店
+- 找一个卖[feiyue](commodity)的地方
+- 帮我找有卖[feiyue](commodity)的商店
+- 哪里有商场可以买[feiyue](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[冷柜](commodity)啊
+- 哪里有卖[冷柜](commodity)的店
+- 找一个卖[冷柜](commodity)的地方
+- 帮我找有卖[冷柜](commodity)的商店
+- 哪里有商场可以买[冷柜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[吊扇](commodity)啊
+- 哪里有卖[吊扇](commodity)的店
+- 找一个卖[吊扇](commodity)的地方
+- 帮我找有卖[吊扇](commodity)的商店
+- 哪里有商场可以买[吊扇](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家纺](commodity)啊
+- 哪里有卖[家纺](commodity)的店
+- 找一个卖[家纺](commodity)的地方
+- 帮我找有卖[家纺](commodity)的商店
+- 哪里有商场可以买[家纺](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[半亩花田SU:M37°](commodity)啊
+- 哪里有卖[半亩花田SU:M37°](commodity)的店
+- 找一个卖[半亩花田SU:M37°](commodity)的地方
+- 帮我找有卖[半亩花田SU:M37°](commodity)的商店
+- 哪里有商场可以买[半亩花田SU:M37°](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[浴帽](commodity)啊
+- 哪里有卖[浴帽](commodity)的店
+- 找一个卖[浴帽](commodity)的地方
+- 帮我找有卖[浴帽](commodity)的商店
+- 哪里有商场可以买[浴帽](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电烤箱](commodity)啊
+- 哪里有卖[电烤箱](commodity)的店
+- 找一个卖[电烤箱](commodity)的地方
+- 帮我找有卖[电烤箱](commodity)的商店
+- 哪里有商场可以买[电烤箱](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它运动服装](commodity)啊
+- 哪里有卖[其它运动服装](commodity)的店
+- 找一个卖[其它运动服装](commodity)的地方
+- 帮我找有卖[其它运动服装](commodity)的商店
+- 哪里有商场可以买[其它运动服装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[三轮车](commodity)啊
+- 哪里有卖[三轮车](commodity)的店
+- 找一个卖[三轮车](commodity)的地方
+- 帮我找有卖[三轮车](commodity)的商店
+- 哪里有商场可以买[三轮车](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[考试](commodity)啊
+- 哪里有卖[考试](commodity)的店
+- 找一个卖[考试](commodity)的地方
+- 帮我找有卖[考试](commodity)的商店
+- 哪里有商场可以买[考试](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[PSP](commodity)啊
+- 哪里有卖[PSP](commodity)的店
+- 找一个卖[PSP](commodity)的地方
+- 帮我找有卖[PSP](commodity)的商店
+- 哪里有商场可以买[PSP](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[汽车清洗工具](commodity)啊
+- 哪里有卖[汽车清洗工具](commodity)的店
+- 找一个卖[汽车清洗工具](commodity)的地方
+- 帮我找有卖[汽车清洗工具](commodity)的商店
+- 哪里有商场可以买[汽车清洗工具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[少儿](commodity)啊
+- 哪里有卖[少儿](commodity)的店
+- 找一个卖[少儿](commodity)的地方
+- 帮我找有卖[少儿](commodity)的商店
+- 哪里有商场可以买[少儿](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[进口酒](commodity)啊
+- 哪里有卖[进口酒](commodity)的店
+- 找一个卖[进口酒](commodity)的地方
+- 帮我找有卖[进口酒](commodity)的商店
+- 哪里有商场可以买[进口酒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[功能音乐](commodity)啊
+- 哪里有卖[功能音乐](commodity)的店
+- 找一个卖[功能音乐](commodity)的地方
+- 帮我找有卖[功能音乐](commodity)的商店
+- 哪里有商场可以买[功能音乐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[滤镜](commodity)啊
+- 哪里有卖[滤镜](commodity)的店
+- 找一个卖[滤镜](commodity)的地方
+- 帮我找有卖[滤镜](commodity)的商店
+- 哪里有商场可以买[滤镜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[三角巾](commodity)啊
+- 哪里有卖[三角巾](commodity)的店
+- 找一个卖[三角巾](commodity)的地方
+- 帮我找有卖[三角巾](commodity)的商店
+- 哪里有商场可以买[三角巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[棋牌](commodity)啊
+- 哪里有卖[棋牌](commodity)的店
+- 找一个卖[棋牌](commodity)的地方
+- 帮我找有卖[棋牌](commodity)的商店
+- 哪里有商场可以买[棋牌](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动包](commodity)啊
+- 哪里有卖[运动包](commodity)的店
+- 找一个卖[运动包](commodity)的地方
+- 帮我找有卖[运动包](commodity)的商店
+- 哪里有商场可以买[运动包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[轮滑鞋](commodity)啊
+- 哪里有卖[轮滑鞋](commodity)的店
+- 找一个卖[轮滑鞋](commodity)的地方
+- 帮我找有卖[轮滑鞋](commodity)的商店
+- 哪里有商场可以买[轮滑鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[香皂](commodity)啊
+- 哪里有卖[香皂](commodity)的店
+- 找一个卖[香皂](commodity)的地方
+- 帮我找有卖[香皂](commodity)的商店
+- 哪里有商场可以买[香皂](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[社会科学](commodity)啊
+- 哪里有卖[社会科学](commodity)的店
+- 找一个卖[社会科学](commodity)的地方
+- 帮我找有卖[社会科学](commodity)的商店
+- 哪里有商场可以买[社会科学](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[桌布](commodity)啊
+- 哪里有卖[桌布](commodity)的店
+- 找一个卖[桌布](commodity)的地方
+- 帮我找有卖[桌布](commodity)的商店
+- 哪里有商场可以买[桌布](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[熟食](commodity)啊
+- 哪里有卖[熟食](commodity)的店
+- 找一个卖[熟食](commodity)的地方
+- 帮我找有卖[熟食](commodity)的商店
+- 哪里有商场可以买[熟食](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[纽西塔](commodity)啊
+- 哪里有卖[纽西塔](commodity)的店
+- 找一个卖[纽西塔](commodity)的地方
+- 帮我找有卖[纽西塔](commodity)的商店
+- 哪里有商场可以买[纽西塔](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[组合](commodity)啊
+- 哪里有卖[组合](commodity)的店
+- 找一个卖[组合](commodity)的地方
+- 帮我找有卖[组合](commodity)的商店
+- 哪里有商场可以买[组合](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它](commodity)啊
+- 哪里有卖[其它](commodity)的店
+- 找一个卖[其它](commodity)的地方
+- 帮我找有卖[其它](commodity)的商店
+- 哪里有商场可以买[其它](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[孕妇内衣](commodity)啊
+- 哪里有卖[孕妇内衣](commodity)的店
+- 找一个卖[孕妇内衣](commodity)的地方
+- 帮我找有卖[孕妇内衣](commodity)的商店
+- 哪里有商场可以买[孕妇内衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[披肩](commodity)啊
+- 哪里有卖[披肩](commodity)的店
+- 找一个卖[披肩](commodity)的地方
+- 帮我找有卖[披肩](commodity)的商店
+- 哪里有商场可以买[披肩](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[内衣](commodity)啊
+- 哪里有卖[内衣](commodity)的店
+- 找一个卖[内衣](commodity)的地方
+- 帮我找有卖[内衣](commodity)的商店
+- 哪里有商场可以买[内衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它用品](commodity)啊
+- 哪里有卖[其它用品](commodity)的店
+- 找一个卖[其它用品](commodity)的地方
+- 帮我找有卖[其它用品](commodity)的商店
+- 哪里有商场可以买[其它用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手机配饰](commodity)啊
+- 哪里有卖[手机配饰](commodity)的店
+- 找一个卖[手机配饰](commodity)的地方
+- 帮我找有卖[手机配饰](commodity)的商店
+- 哪里有商场可以买[手机配饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[裁剪用品](commodity)啊
+- 哪里有卖[裁剪用品](commodity)的店
+- 找一个卖[裁剪用品](commodity)的地方
+- 帮我找有卖[裁剪用品](commodity)的商店
+- 哪里有商场可以买[裁剪用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[周边](commodity)啊
+- 哪里有卖[周边](commodity)的店
+- 找一个卖[周边](commodity)的地方
+- 帮我找有卖[周边](commodity)的商店
+- 哪里有商场可以买[周边](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[游戏附件](commodity)啊
+- 哪里有卖[游戏附件](commodity)的店
+- 找一个卖[游戏附件](commodity)的地方
+- 帮我找有卖[游戏附件](commodity)的商店
+- 哪里有商场可以买[游戏附件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[药盒](commodity)啊
+- 哪里有卖[药盒](commodity)的店
+- 找一个卖[药盒](commodity)的地方
+- 帮我找有卖[药盒](commodity)的商店
+- 哪里有商场可以买[药盒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[生活电器配件](commodity)啊
+- 哪里有卖[生活电器配件](commodity)的店
+- 找一个卖[生活电器配件](commodity)的地方
+- 帮我找有卖[生活电器配件](commodity)的商店
+- 哪里有商场可以买[生活电器配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[教育考试软件](commodity)啊
+- 哪里有卖[教育考试软件](commodity)的店
+- 找一个卖[教育考试软件](commodity)的地方
+- 帮我找有卖[教育考试软件](commodity)的商店
+- 哪里有商场可以买[教育考试软件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[付费卡](commodity)啊
+- 哪里有卖[付费卡](commodity)的店
+- 找一个卖[付费卡](commodity)的地方
+- 帮我找有卖[付费卡](commodity)的商店
+- 哪里有商场可以买[付费卡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[红蓝宝石](commodity)啊
+- 哪里有卖[红蓝宝石](commodity)的店
+- 找一个卖[红蓝宝石](commodity)的地方
+- 帮我找有卖[红蓝宝石](commodity)的商店
+- 哪里有商场可以买[红蓝宝石](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[游戏点卡](commodity)啊
+- 哪里有卖[游戏点卡](commodity)的店
+- 找一个卖[游戏点卡](commodity)的地方
+- 帮我找有卖[游戏点卡](commodity)的商店
+- 哪里有商场可以买[游戏点卡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[吊坠](commodity)啊
+- 哪里有卖[吊坠](commodity)的店
+- 找一个卖[吊坠](commodity)的地方
+- 帮我找有卖[吊坠](commodity)的商店
+- 哪里有商场可以买[吊坠](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[地席](commodity)啊
+- 哪里有卖[地席](commodity)的店
+- 找一个卖[地席](commodity)的地方
+- 帮我找有卖[地席](commodity)的商店
+- 哪里有商场可以买[地席](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[地暖](commodity)啊
+- 哪里有卖[地暖](commodity)的店
+- 找一个卖[地暖](commodity)的地方
+- 帮我找有卖[地暖](commodity)的商店
+- 哪里有商场可以买[地暖](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[微单相机](commodity)啊
+- 哪里有卖[微单相机](commodity)的店
+- 找一个卖[微单相机](commodity)的地方
+- 帮我找有卖[微单相机](commodity)的商店
+- 哪里有商场可以买[微单相机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[方向盘](commodity)啊
+- 哪里有卖[方向盘](commodity)的店
+- 找一个卖[方向盘](commodity)的地方
+- 帮我找有卖[方向盘](commodity)的商店
+- 哪里有商场可以买[方向盘](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[瑞士军刀](commodity)啊
+- 哪里有卖[瑞士军刀](commodity)的店
+- 找一个卖[瑞士军刀](commodity)的地方
+- 帮我找有卖[瑞士军刀](commodity)的商店
+- 哪里有商场可以买[瑞士军刀](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手镯](commodity)啊
+- 哪里有卖[手镯](commodity)的店
+- 找一个卖[手镯](commodity)的地方
+- 帮我找有卖[手镯](commodity)的商店
+- 哪里有商场可以买[手镯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[居家商品定制](commodity)啊
+- 哪里有卖[居家商品定制](commodity)的店
+- 找一个卖[居家商品定制](commodity)的地方
+- 帮我找有卖[居家商品定制](commodity)的商店
+- 哪里有商场可以买[居家商品定制](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[中老年服饰](commodity)啊
+- 哪里有卖[中老年服饰](commodity)的店
+- 找一个卖[中老年服饰](commodity)的地方
+- 帮我找有卖[中老年服饰](commodity)的商店
+- 哪里有商场可以买[中老年服饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[进口豆类](commodity)啊
+- 哪里有卖[进口豆类](commodity)的店
+- 找一个卖[进口豆类](commodity)的地方
+- 帮我找有卖[进口豆类](commodity)的商店
+- 哪里有商场可以买[进口豆类](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[服务](commodity)啊
+- 哪里有卖[服务](commodity)的店
+- 找一个卖[服务](commodity)的地方
+- 帮我找有卖[服务](commodity)的商店
+- 哪里有商场可以买[服务](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[成人纸尿裤](commodity)啊
+- 哪里有卖[成人纸尿裤](commodity)的店
+- 找一个卖[成人纸尿裤](commodity)的地方
+- 帮我找有卖[成人纸尿裤](commodity)的商店
+- 哪里有商场可以买[成人纸尿裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[装饰烟灰缸](commodity)啊
+- 哪里有卖[装饰烟灰缸](commodity)的店
+- 找一个卖[装饰烟灰缸](commodity)的地方
+- 帮我找有卖[装饰烟灰缸](commodity)的商店
+- 哪里有商场可以买[装饰烟灰缸](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[西服](commodity)啊
+- 哪里有卖[西服](commodity)的店
+- 找一个卖[西服](commodity)的地方
+- 帮我找有卖[西服](commodity)的商店
+- 哪里有商场可以买[西服](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[落地钟](commodity)啊
+- 哪里有卖[落地钟](commodity)的店
+- 找一个卖[落地钟](commodity)的地方
+- 帮我找有卖[落地钟](commodity)的商店
+- 哪里有商场可以买[落地钟](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[自然堂](commodity)啊
+- 哪里有卖[自然堂](commodity)的店
+- 找一个卖[自然堂](commodity)的地方
+- 帮我找有卖[自然堂](commodity)的商店
+- 哪里有商场可以买[自然堂](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[连裤袜](commodity)啊
+- 哪里有卖[连裤袜](commodity)的店
+- 找一个卖[连裤袜](commodity)的地方
+- 帮我找有卖[连裤袜](commodity)的商店
+- 哪里有商场可以买[连裤袜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[防护装备](commodity)啊
+- 哪里有卖[防护装备](commodity)的店
+- 找一个卖[防护装备](commodity)的地方
+- 帮我找有卖[防护装备](commodity)的商店
+- 哪里有商场可以买[防护装备](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电脑元件](commodity)啊
+- 哪里有卖[电脑元件](commodity)的店
+- 找一个卖[电脑元件](commodity)的地方
+- 帮我找有卖[电脑元件](commodity)的商店
+- 哪里有商场可以买[电脑元件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[瑜伽服饰](commodity)啊
+- 哪里有卖[瑜伽服饰](commodity)的店
+- 找一个卖[瑜伽服饰](commodity)的地方
+- 帮我找有卖[瑜伽服饰](commodity)的商店
+- 哪里有商场可以买[瑜伽服饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[政治](commodity)啊
+- 哪里有卖[政治](commodity)的店
+- 找一个卖[政治](commodity)的地方
+- 帮我找有卖[政治](commodity)的商店
+- 哪里有商场可以买[政治](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[五分裤](commodity)啊
+- 哪里有卖[五分裤](commodity)的店
+- 找一个卖[五分裤](commodity)的地方
+- 帮我找有卖[五分裤](commodity)的商店
+- 哪里有商场可以买[五分裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[进口CD](commodity)啊
+- 哪里有卖[进口CD](commodity)的店
+- 找一个卖[进口CD](commodity)的地方
+- 帮我找有卖[进口CD](commodity)的商店
+- 哪里有商场可以买[进口CD](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[篆刻](commodity)啊
+- 哪里有卖[篆刻](commodity)的店
+- 找一个卖[篆刻](commodity)的地方
+- 帮我找有卖[篆刻](commodity)的商店
+- 哪里有商场可以买[篆刻](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[刻录机](commodity)啊
+- 哪里有卖[刻录机](commodity)的店
+- 找一个卖[刻录机](commodity)的地方
+- 帮我找有卖[刻录机](commodity)的商店
+- 哪里有商场可以买[刻录机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[雪纺衫](commodity)啊
+- 哪里有卖[雪纺衫](commodity)的店
+- 找一个卖[雪纺衫](commodity)的地方
+- 帮我找有卖[雪纺衫](commodity)的商店
+- 哪里有商场可以买[雪纺衫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[肉制品](commodity)啊
+- 哪里有卖[肉制品](commodity)的店
+- 找一个卖[肉制品](commodity)的地方
+- 帮我找有卖[肉制品](commodity)的商店
+- 哪里有商场可以买[肉制品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[面霜](commodity)啊
+- 哪里有卖[面霜](commodity)的店
+- 找一个卖[面霜](commodity)的地方
+- 帮我找有卖[面霜](commodity)的商店
+- 哪里有商场可以买[面霜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动套装](commodity)啊
+- 哪里有卖[运动套装](commodity)的店
+- 找一个卖[运动套装](commodity)的地方
+- 帮我找有卖[运动套装](commodity)的商店
+- 哪里有商场可以买[运动套装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[狗狗](commodity)啊
+- 哪里有卖[狗狗](commodity)的店
+- 找一个卖[狗狗](commodity)的地方
+- 帮我找有卖[狗狗](commodity)的商店
+- 哪里有商场可以买[狗狗](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[凳](commodity)啊
+- 哪里有卖[凳](commodity)的店
+- 找一个卖[凳](commodity)的地方
+- 帮我找有卖[凳](commodity)的商店
+- 哪里有商场可以买[凳](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[足部护理](commodity)啊
+- 哪里有卖[足部护理](commodity)的店
+- 找一个卖[足部护理](commodity)的地方
+- 帮我找有卖[足部护理](commodity)的商店
+- 哪里有商场可以买[足部护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[木方](commodity)啊
+- 哪里有卖[木方](commodity)的店
+- 找一个卖[木方](commodity)的地方
+- 帮我找有卖[木方](commodity)的商店
+- 哪里有商场可以买[木方](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[内衣裤](commodity)啊
+- 哪里有卖[内衣裤](commodity)的店
+- 找一个卖[内衣裤](commodity)的地方
+- 帮我找有卖[内衣裤](commodity)的商店
+- 哪里有商场可以买[内衣裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[掌机](commodity)啊
+- 哪里有卖[掌机](commodity)的店
+- 找一个卖[掌机](commodity)的地方
+- 帮我找有卖[掌机](commodity)的商店
+- 哪里有商场可以买[掌机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[卡宾](commodity)啊
+- 哪里有卖[卡宾](commodity)的店
+- 找一个卖[卡宾](commodity)的地方
+- 帮我找有卖[卡宾](commodity)的商店
+- 哪里有商场可以买[卡宾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[情侣情趣](commodity)啊
+- 哪里有卖[情侣情趣](commodity)的店
+- 找一个卖[情侣情趣](commodity)的地方
+- 帮我找有卖[情侣情趣](commodity)的商店
+- 哪里有商场可以买[情侣情趣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[百洁布](commodity)啊
+- 哪里有卖[百洁布](commodity)的店
+- 找一个卖[百洁布](commodity)的地方
+- 帮我找有卖[百洁布](commodity)的商店
+- 哪里有商场可以买[百洁布](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[卫生巾](commodity)啊
+- 哪里有卖[卫生巾](commodity)的店
+- 找一个卖[卫生巾](commodity)的地方
+- 帮我找有卖[卫生巾](commodity)的商店
+- 哪里有商场可以买[卫生巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[孕产](commodity)啊
+- 哪里有卖[孕产](commodity)的店
+- 找一个卖[孕产](commodity)的地方
+- 帮我找有卖[孕产](commodity)的商店
+- 哪里有商场可以买[孕产](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[儿童下装](commodity)啊
+- 哪里有卖[儿童下装](commodity)的店
+- 找一个卖[儿童下装](commodity)的地方
+- 帮我找有卖[儿童下装](commodity)的商店
+- 哪里有商场可以买[儿童下装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[酒类](commodity)啊
+- 哪里有卖[酒类](commodity)的店
+- 找一个卖[酒类](commodity)的地方
+- 帮我找有卖[酒类](commodity)的商店
+- 哪里有商场可以买[酒类](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[显示器](commodity)啊
+- 哪里有卖[显示器](commodity)的店
+- 找一个卖[显示器](commodity)的地方
+- 帮我找有卖[显示器](commodity)的商店
+- 哪里有商场可以买[显示器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[安踏](commodity)啊
+- 哪里有卖[安踏](commodity)的店
+- 找一个卖[安踏](commodity)的地方
+- 帮我找有卖[安踏](commodity)的商店
+- 哪里有商场可以买[安踏](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[机房布线](commodity)啊
+- 哪里有卖[机房布线](commodity)的店
+- 找一个卖[机房布线](commodity)的地方
+- 帮我找有卖[机房布线](commodity)的商店
+- 哪里有商场可以买[机房布线](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[毛巾](commodity)啊
+- 哪里有卖[毛巾](commodity)的店
+- 找一个卖[毛巾](commodity)的地方
+- 帮我找有卖[毛巾](commodity)的商店
+- 哪里有商场可以买[毛巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[休闲鞋](commodity)啊
+- 哪里有卖[休闲鞋](commodity)的店
+- 找一个卖[休闲鞋](commodity)的地方
+- 帮我找有卖[休闲鞋](commodity)的商店
+- 哪里有商场可以买[休闲鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[按摩枕](commodity)啊
+- 哪里有卖[按摩枕](commodity)的店
+- 找一个卖[按摩枕](commodity)的地方
+- 帮我找有卖[按摩枕](commodity)的商店
+- 哪里有商场可以买[按摩枕](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[照明](commodity)啊
+- 哪里有卖[照明](commodity)的店
+- 找一个卖[照明](commodity)的地方
+- 帮我找有卖[照明](commodity)的商店
+- 哪里有商场可以买[照明](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外照明](commodity)啊
+- 哪里有卖[户外照明](commodity)的店
+- 找一个卖[户外照明](commodity)的地方
+- 帮我找有卖[户外照明](commodity)的商店
+- 哪里有商场可以买[户外照明](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[儿童床上用品](commodity)啊
+- 哪里有卖[儿童床上用品](commodity)的店
+- 找一个卖[儿童床上用品](commodity)的地方
+- 帮我找有卖[儿童床上用品](commodity)的商店
+- 哪里有商场可以买[儿童床上用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[沐浴用品](commodity)啊
+- 哪里有卖[沐浴用品](commodity)的店
+- 找一个卖[沐浴用品](commodity)的地方
+- 帮我找有卖[沐浴用品](commodity)的商店
+- 哪里有商场可以买[沐浴用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鱿鱼](commodity)啊
+- 哪里有卖[鱿鱼](commodity)的店
+- 找一个卖[鱿鱼](commodity)的地方
+- 帮我找有卖[鱿鱼](commodity)的商店
+- 哪里有商场可以买[鱿鱼](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[健身鞋](commodity)啊
+- 哪里有卖[健身鞋](commodity)的店
+- 找一个卖[健身鞋](commodity)的地方
+- 帮我找有卖[健身鞋](commodity)的商店
+- 哪里有商场可以买[健身鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[阴影粉](commodity)啊
+- 哪里有卖[阴影粉](commodity)的店
+- 找一个卖[阴影粉](commodity)的地方
+- 帮我找有卖[阴影粉](commodity)的商店
+- 哪里有商场可以买[阴影粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动polo衫](commodity)啊
+- 哪里有卖[运动polo衫](commodity)的店
+- 找一个卖[运动polo衫](commodity)的地方
+- 帮我找有卖[运动polo衫](commodity)的商店
+- 哪里有商场可以买[运动polo衫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[iPhone配件](commodity)啊
+- 哪里有卖[iPhone配件](commodity)的店
+- 找一个卖[iPhone配件](commodity)的地方
+- 帮我找有卖[iPhone配件](commodity)的商店
+- 哪里有商场可以买[iPhone配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[施工用具](commodity)啊
+- 哪里有卖[施工用具](commodity)的店
+- 找一个卖[施工用具](commodity)的地方
+- 帮我找有卖[施工用具](commodity)的商店
+- 哪里有商场可以买[施工用具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[商务皮鞋](commodity)啊
+- 哪里有卖[商务皮鞋](commodity)的店
+- 找一个卖[商务皮鞋](commodity)的地方
+- 帮我找有卖[商务皮鞋](commodity)的商店
+- 哪里有商场可以买[商务皮鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[梳子](commodity)啊
+- 哪里有卖[梳子](commodity)的店
+- 找一个卖[梳子](commodity)的地方
+- 帮我找有卖[梳子](commodity)的商店
+- 哪里有商场可以买[梳子](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[剃](commodity)啊
+- 哪里有卖[剃](commodity)的店
+- 找一个卖[剃](commodity)的地方
+- 帮我找有卖[剃](commodity)的商店
+- 哪里有商场可以买[剃](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[养生](commodity)啊
+- 哪里有卖[养生](commodity)的店
+- 找一个卖[养生](commodity)的地方
+- 帮我找有卖[养生](commodity)的商店
+- 哪里有商场可以买[养生](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[制服](commodity)啊
+- 哪里有卖[制服](commodity)的店
+- 找一个卖[制服](commodity)的地方
+- 帮我找有卖[制服](commodity)的商店
+- 哪里有商场可以买[制服](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[碎纸机](commodity)啊
+- 哪里有卖[碎纸机](commodity)的店
+- 找一个卖[碎纸机](commodity)的地方
+- 帮我找有卖[碎纸机](commodity)的商店
+- 哪里有商场可以买[碎纸机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电火锅](commodity)啊
+- 哪里有卖[电火锅](commodity)的店
+- 找一个卖[电火锅](commodity)的地方
+- 帮我找有卖[电火锅](commodity)的商店
+- 哪里有商场可以买[电火锅](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[防撞](commodity)啊
+- 哪里有卖[防撞](commodity)的店
+- 找一个卖[防撞](commodity)的地方
+- 帮我找有卖[防撞](commodity)的商店
+- 哪里有商场可以买[防撞](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[果脯](commodity)啊
+- 哪里有卖[果脯](commodity)的店
+- 找一个卖[果脯](commodity)的地方
+- 帮我找有卖[果脯](commodity)的商店
+- 哪里有商场可以买[果脯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[军迷用品](commodity)啊
+- 哪里有卖[军迷用品](commodity)的店
+- 找一个卖[军迷用品](commodity)的地方
+- 帮我找有卖[军迷用品](commodity)的商店
+- 哪里有商场可以买[军迷用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电子血糖仪](commodity)啊
+- 哪里有卖[电子血糖仪](commodity)的店
+- 找一个卖[电子血糖仪](commodity)的地方
+- 帮我找有卖[电子血糖仪](commodity)的商店
+- 哪里有商场可以买[电子血糖仪](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[云台](commodity)啊
+- 哪里有卖[云台](commodity)的店
+- 找一个卖[云台](commodity)的地方
+- 帮我找有卖[云台](commodity)的商店
+- 哪里有商场可以买[云台](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[车灯](commodity)啊
+- 哪里有卖[车灯](commodity)的店
+- 找一个卖[车灯](commodity)的地方
+- 帮我找有卖[车灯](commodity)的商店
+- 哪里有商场可以买[车灯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[枸杞及其制品](commodity)啊
+- 哪里有卖[枸杞及其制品](commodity)的店
+- 找一个卖[枸杞及其制品](commodity)的地方
+- 帮我找有卖[枸杞及其制品](commodity)的商店
+- 哪里有商场可以买[枸杞及其制品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[搭配眼镜](commodity)啊
+- 哪里有卖[搭配眼镜](commodity)的店
+- 找一个卖[搭配眼镜](commodity)的地方
+- 帮我找有卖[搭配眼镜](commodity)的商店
+- 哪里有商场可以买[搭配眼镜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[孕期护肤](commodity)啊
+- 哪里有卖[孕期护肤](commodity)的店
+- 找一个卖[孕期护肤](commodity)的地方
+- 帮我找有卖[孕期护肤](commodity)的商店
+- 哪里有商场可以买[孕期护肤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[笔记本](commodity)啊
+- 哪里有卖[笔记本](commodity)的店
+- 找一个卖[笔记本](commodity)的地方
+- 帮我找有卖[笔记本](commodity)的商店
+- 哪里有商场可以买[笔记本](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[瑷珊](commodity)啊
+- 哪里有卖[瑷珊](commodity)的店
+- 找一个卖[瑷珊](commodity)的地方
+- 帮我找有卖[瑷珊](commodity)的商店
+- 哪里有商场可以买[瑷珊](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家装主材](commodity)啊
+- 哪里有卖[家装主材](commodity)的店
+- 找一个卖[家装主材](commodity)的地方
+- 帮我找有卖[家装主材](commodity)的商店
+- 哪里有商场可以买[家装主材](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[儿童轮滑](commodity)啊
+- 哪里有卖[儿童轮滑](commodity)的店
+- 找一个卖[儿童轮滑](commodity)的地方
+- 帮我找有卖[儿童轮滑](commodity)的商店
+- 哪里有商场可以买[儿童轮滑](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[配送安装服务](commodity)啊
+- 哪里有卖[配送安装服务](commodity)的店
+- 找一个卖[配送安装服务](commodity)的地方
+- 帮我找有卖[配送安装服务](commodity)的商店
+- 哪里有商场可以买[配送安装服务](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[油污清洁](commodity)啊
+- 哪里有卖[油污清洁](commodity)的店
+- 找一个卖[油污清洁](commodity)的地方
+- 帮我找有卖[油污清洁](commodity)的商店
+- 哪里有商场可以买[油污清洁](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[头巾](commodity)啊
+- 哪里有卖[头巾](commodity)的店
+- 找一个卖[头巾](commodity)的地方
+- 帮我找有卖[头巾](commodity)的商店
+- 哪里有商场可以买[头巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[园艺用品](commodity)啊
+- 哪里有卖[园艺用品](commodity)的店
+- 找一个卖[园艺用品](commodity)的地方
+- 帮我找有卖[园艺用品](commodity)的商店
+- 哪里有商场可以买[园艺用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电动车配件](commodity)啊
+- 哪里有卖[电动车配件](commodity)的店
+- 找一个卖[电动车配件](commodity)的地方
+- 帮我找有卖[电动车配件](commodity)的商店
+- 哪里有商场可以买[电动车配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[水果](commodity)啊
+- 哪里有卖[水果](commodity)的店
+- 找一个卖[水果](commodity)的地方
+- 帮我找有卖[水果](commodity)的商店
+- 哪里有商场可以买[水果](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[女鞋](commodity)啊
+- 哪里有卖[女鞋](commodity)的店
+- 找一个卖[女鞋](commodity)的地方
+- 帮我找有卖[女鞋](commodity)的商店
+- 哪里有商场可以买[女鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[弹力素](commodity)啊
+- 哪里有卖[弹力素](commodity)的店
+- 找一个卖[弹力素](commodity)的地方
+- 帮我找有卖[弹力素](commodity)的商店
+- 哪里有商场可以买[弹力素](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[卸妆](commodity)啊
+- 哪里有卖[卸妆](commodity)的店
+- 找一个卖[卸妆](commodity)的地方
+- 帮我找有卖[卸妆](commodity)的商店
+- 哪里有商场可以买[卸妆](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[石](commodity)啊
+- 哪里有卖[石](commodity)的店
+- 找一个卖[石](commodity)的地方
+- 帮我找有卖[石](commodity)的商店
+- 哪里有商场可以买[石](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[牙线](commodity)啊
+- 哪里有卖[牙线](commodity)的店
+- 找一个卖[牙线](commodity)的地方
+- 帮我找有卖[牙线](commodity)的商店
+- 哪里有商场可以买[牙线](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家务手套](commodity)啊
+- 哪里有卖[家务手套](commodity)的店
+- 找一个卖[家务手套](commodity)的地方
+- 帮我找有卖[家务手套](commodity)的商店
+- 哪里有商场可以买[家务手套](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[音乐会](commodity)啊
+- 哪里有卖[音乐会](commodity)的店
+- 找一个卖[音乐会](commodity)的地方
+- 帮我找有卖[音乐会](commodity)的商店
+- 哪里有商场可以买[音乐会](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[瑜伽垫](commodity)啊
+- 哪里有卖[瑜伽垫](commodity)的店
+- 找一个卖[瑜伽垫](commodity)的地方
+- 帮我找有卖[瑜伽垫](commodity)的商店
+- 哪里有商场可以买[瑜伽垫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[票务](commodity)啊
+- 哪里有卖[票务](commodity)的店
+- 找一个卖[票务](commodity)的地方
+- 帮我找有卖[票务](commodity)的商店
+- 哪里有商场可以买[票务](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[MacBook配件](commodity)啊
+- 哪里有卖[MacBook配件](commodity)的店
+- 找一个卖[MacBook配件](commodity)的地方
+- 帮我找有卖[MacBook配件](commodity)的商店
+- 哪里有商场可以买[MacBook配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[DHA](commodity)啊
+- 哪里有卖[DHA](commodity)的店
+- 找一个卖[DHA](commodity)的地方
+- 帮我找有卖[DHA](commodity)的商店
+- 哪里有商场可以买[DHA](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[门卡](commodity)啊
+- 哪里有卖[门卡](commodity)的店
+- 找一个卖[门卡](commodity)的地方
+- 帮我找有卖[门卡](commodity)的商店
+- 哪里有商场可以买[门卡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[游戏](commodity)啊
+- 哪里有卖[游戏](commodity)的店
+- 找一个卖[游戏](commodity)的地方
+- 帮我找有卖[游戏](commodity)的商店
+- 哪里有商场可以买[游戏](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[工作站](commodity)啊
+- 哪里有卖[工作站](commodity)的店
+- 找一个卖[工作站](commodity)的地方
+- 帮我找有卖[工作站](commodity)的商店
+- 哪里有商场可以买[工作站](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外休闲裤](commodity)啊
+- 哪里有卖[户外休闲裤](commodity)的店
+- 找一个卖[户外休闲裤](commodity)的地方
+- 帮我找有卖[户外休闲裤](commodity)的商店
+- 哪里有商场可以买[户外休闲裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[成人用品](commodity)啊
+- 哪里有卖[成人用品](commodity)的店
+- 找一个卖[成人用品](commodity)的地方
+- 帮我找有卖[成人用品](commodity)的商店
+- 哪里有商场可以买[成人用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电脑硬件](commodity)啊
+- 哪里有卖[电脑硬件](commodity)的店
+- 找一个卖[电脑硬件](commodity)的地方
+- 帮我找有卖[电脑硬件](commodity)的商店
+- 哪里有商场可以买[电脑硬件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[A.H.C](commodity)啊
+- 哪里有卖[A.H.C](commodity)的店
+- 找一个卖[A.H.C](commodity)的地方
+- 帮我找有卖[A.H.C](commodity)的商店
+- 哪里有商场可以买[A.H.C](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[湿巾](commodity)啊
+- 哪里有卖[湿巾](commodity)的店
+- 找一个卖[湿巾](commodity)的地方
+- 帮我找有卖[湿巾](commodity)的商店
+- 哪里有商场可以买[湿巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[不织布](commodity)啊
+- 哪里有卖[不织布](commodity)的店
+- 找一个卖[不织布](commodity)的地方
+- 帮我找有卖[不织布](commodity)的商店
+- 哪里有商场可以买[不织布](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[滑雪鞋](commodity)啊
+- 哪里有卖[滑雪鞋](commodity)的店
+- 找一个卖[滑雪鞋](commodity)的地方
+- 帮我找有卖[滑雪鞋](commodity)的商店
+- 哪里有商场可以买[滑雪鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动](commodity)啊
+- 哪里有卖[运动](commodity)的店
+- 找一个卖[运动](commodity)的地方
+- 帮我找有卖[运动](commodity)的商店
+- 哪里有商场可以买[运动](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[儿童裙装](commodity)啊
+- 哪里有卖[儿童裙装](commodity)的店
+- 找一个卖[儿童裙装](commodity)的地方
+- 帮我找有卖[儿童裙装](commodity)的商店
+- 哪里有商场可以买[儿童裙装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[腰带](commodity)啊
+- 哪里有卖[腰带](commodity)的店
+- 找一个卖[腰带](commodity)的地方
+- 帮我找有卖[腰带](commodity)的商店
+- 哪里有商场可以买[腰带](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[亲子装](commodity)啊
+- 哪里有卖[亲子装](commodity)的店
+- 找一个卖[亲子装](commodity)的地方
+- 帮我找有卖[亲子装](commodity)的商店
+- 哪里有商场可以买[亲子装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[育儿](commodity)啊
+- 哪里有卖[育儿](commodity)的店
+- 找一个卖[育儿](commodity)的地方
+- 帮我找有卖[育儿](commodity)的商店
+- 哪里有商场可以买[育儿](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[生活类图书](commodity)啊
+- 哪里有卖[生活类图书](commodity)的店
+- 找一个卖[生活类图书](commodity)的地方
+- 帮我找有卖[生活类图书](commodity)的商店
+- 哪里有商场可以买[生活类图书](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[饮品](commodity)啊
+- 哪里有卖[饮品](commodity)的店
+- 找一个卖[饮品](commodity)的地方
+- 帮我找有卖[饮品](commodity)的商店
+- 哪里有商场可以买[饮品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[进口咖啡](commodity)啊
+- 哪里有卖[进口咖啡](commodity)的店
+- 找一个卖[进口咖啡](commodity)的地方
+- 帮我找有卖[进口咖啡](commodity)的商店
+- 哪里有商场可以买[进口咖啡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[奥古狮登蓓尔](commodity)啊
+- 哪里有卖[奥古狮登蓓尔](commodity)的店
+- 找一个卖[奥古狮登蓓尔](commodity)的地方
+- 帮我找有卖[奥古狮登蓓尔](commodity)的商店
+- 哪里有商场可以买[奥古狮登蓓尔](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[进口粮食](commodity)啊
+- 哪里有卖[进口粮食](commodity)的店
+- 找一个卖[进口粮食](commodity)的地方
+- 帮我找有卖[进口粮食](commodity)的商店
+- 哪里有商场可以买[进口粮食](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[衣架](commodity)啊
+- 哪里有卖[衣架](commodity)的店
+- 找一个卖[衣架](commodity)的地方
+- 帮我找有卖[衣架](commodity)的商店
+- 哪里有商场可以买[衣架](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电子计步器](commodity)啊
+- 哪里有卖[电子计步器](commodity)的店
+- 找一个卖[电子计步器](commodity)的地方
+- 帮我找有卖[电子计步器](commodity)的商店
+- 哪里有商场可以买[电子计步器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[礼服婚纱配件](commodity)啊
+- 哪里有卖[礼服婚纱配件](commodity)的店
+- 找一个卖[礼服婚纱配件](commodity)的地方
+- 帮我找有卖[礼服婚纱配件](commodity)的商店
+- 哪里有商场可以买[礼服婚纱配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[CMMB移动电视](commodity)啊
+- 哪里有卖[CMMB移动电视](commodity)的店
+- 找一个卖[CMMB移动电视](commodity)的地方
+- 帮我找有卖[CMMB移动电视](commodity)的商店
+- 哪里有商场可以买[CMMB移动电视](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[板鞋](commodity)啊
+- 哪里有卖[板鞋](commodity)的店
+- 找一个卖[板鞋](commodity)的地方
+- 帮我找有卖[板鞋](commodity)的商店
+- 哪里有商场可以买[板鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[暖宝](commodity)啊
+- 哪里有卖[暖宝](commodity)的店
+- 找一个卖[暖宝](commodity)的地方
+- 帮我找有卖[暖宝](commodity)的商店
+- 哪里有商场可以买[暖宝](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[女装](commodity)啊
+- 哪里有卖[女装](commodity)的店
+- 找一个卖[女装](commodity)的地方
+- 帮我找有卖[女装](commodity)的商店
+- 哪里有商场可以买[女装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[网络](commodity)啊
+- 哪里有卖[网络](commodity)的店
+- 找一个卖[网络](commodity)的地方
+- 帮我找有卖[网络](commodity)的商店
+- 哪里有商场可以买[网络](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[排球鞋](commodity)啊
+- 哪里有卖[排球鞋](commodity)的店
+- 找一个卖[排球鞋](commodity)的地方
+- 帮我找有卖[排球鞋](commodity)的商店
+- 哪里有商场可以买[排球鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[宠物相关](commodity)啊
+- 哪里有卖[宠物相关](commodity)的店
+- 找一个卖[宠物相关](commodity)的地方
+- 帮我找有卖[宠物相关](commodity)的商店
+- 哪里有商场可以买[宠物相关](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[仿真花材料](commodity)啊
+- 哪里有卖[仿真花材料](commodity)的店
+- 找一个卖[仿真花材料](commodity)的地方
+- 帮我找有卖[仿真花材料](commodity)的商店
+- 哪里有商场可以买[仿真花材料](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[民间运动](commodity)啊
+- 哪里有卖[民间运动](commodity)的店
+- 找一个卖[民间运动](commodity)的地方
+- 帮我找有卖[民间运动](commodity)的商店
+- 哪里有商场可以买[民间运动](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[凉席](commodity)啊
+- 哪里有卖[凉席](commodity)的店
+- 找一个卖[凉席](commodity)的地方
+- 帮我找有卖[凉席](commodity)的商店
+- 哪里有商场可以买[凉席](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[邮票](commodity)啊
+- 哪里有卖[邮票](commodity)的店
+- 找一个卖[邮票](commodity)的地方
+- 帮我找有卖[邮票](commodity)的商店
+- 哪里有商场可以买[邮票](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[调味](commodity)啊
+- 哪里有卖[调味](commodity)的店
+- 找一个卖[调味](commodity)的地方
+- 帮我找有卖[调味](commodity)的商店
+- 哪里有商场可以买[调味](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[塑身美体增高](commodity)啊
+- 哪里有卖[塑身美体增高](commodity)的店
+- 找一个卖[塑身美体增高](commodity)的地方
+- 帮我找有卖[塑身美体增高](commodity)的商店
+- 哪里有商场可以买[塑身美体增高](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家居服](commodity)啊
+- 哪里有卖[家居服](commodity)的店
+- 找一个卖[家居服](commodity)的地方
+- 帮我找有卖[家居服](commodity)的商店
+- 哪里有商场可以买[家居服](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[服装定制](commodity)啊
+- 哪里有卖[服装定制](commodity)的店
+- 找一个卖[服装定制](commodity)的地方
+- 帮我找有卖[服装定制](commodity)的商店
+- 哪里有商场可以买[服装定制](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[提琴](commodity)啊
+- 哪里有卖[提琴](commodity)的店
+- 找一个卖[提琴](commodity)的地方
+- 帮我找有卖[提琴](commodity)的商店
+- 哪里有商场可以买[提琴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[脱毛器](commodity)啊
+- 哪里有卖[脱毛器](commodity)的店
+- 找一个卖[脱毛器](commodity)的地方
+- 帮我找有卖[脱毛器](commodity)的商店
+- 哪里有商场可以买[脱毛器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[戏剧](commodity)啊
+- 哪里有卖[戏剧](commodity)的店
+- 找一个卖[戏剧](commodity)的地方
+- 帮我找有卖[戏剧](commodity)的商店
+- 哪里有商场可以买[戏剧](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[氧吧](commodity)啊
+- 哪里有卖[氧吧](commodity)的店
+- 找一个卖[氧吧](commodity)的地方
+- 帮我找有卖[氧吧](commodity)的商店
+- 哪里有商场可以买[氧吧](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鱼肠](commodity)啊
+- 哪里有卖[鱼肠](commodity)的店
+- 找一个卖[鱼肠](commodity)的地方
+- 帮我找有卖[鱼肠](commodity)的商店
+- 哪里有商场可以买[鱼肠](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[沙拉](commodity)啊
+- 哪里有卖[沙拉](commodity)的店
+- 找一个卖[沙拉](commodity)的地方
+- 帮我找有卖[沙拉](commodity)的商店
+- 哪里有商场可以买[沙拉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[箱](commodity)啊
+- 哪里有卖[箱](commodity)的店
+- 找一个卖[箱](commodity)的地方
+- 帮我找有卖[箱](commodity)的商店
+- 哪里有商场可以买[箱](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[办公设备](commodity)啊
+- 哪里有卖[办公设备](commodity)的店
+- 找一个卖[办公设备](commodity)的地方
+- 帮我找有卖[办公设备](commodity)的商店
+- 哪里有商场可以买[办公设备](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[发胶](commodity)啊
+- 哪里有卖[发胶](commodity)的店
+- 找一个卖[发胶](commodity)的地方
+- 帮我找有卖[发胶](commodity)的商店
+- 哪里有商场可以买[发胶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士斜挎包](commodity)啊
+- 哪里有卖[男士斜挎包](commodity)的店
+- 找一个卖[男士斜挎包](commodity)的地方
+- 帮我找有卖[男士斜挎包](commodity)的商店
+- 哪里有商场可以买[男士斜挎包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[纱窗](commodity)啊
+- 哪里有卖[纱窗](commodity)的店
+- 找一个卖[纱窗](commodity)的地方
+- 帮我找有卖[纱窗](commodity)的商店
+- 哪里有商场可以买[纱窗](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[眼镜配件](commodity)啊
+- 哪里有卖[眼镜配件](commodity)的店
+- 找一个卖[眼镜配件](commodity)的地方
+- 帮我找有卖[眼镜配件](commodity)的商店
+- 哪里有商场可以买[眼镜配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[打印机配件](commodity)啊
+- 哪里有卖[打印机配件](commodity)的店
+- 找一个卖[打印机配件](commodity)的地方
+- 帮我找有卖[打印机配件](commodity)的商店
+- 哪里有商场可以买[打印机配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[凉拖](commodity)啊
+- 哪里有卖[凉拖](commodity)的店
+- 找一个卖[凉拖](commodity)的地方
+- 帮我找有卖[凉拖](commodity)的商店
+- 哪里有商场可以买[凉拖](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[灯具](commodity)啊
+- 哪里有卖[灯具](commodity)的店
+- 找一个卖[灯具](commodity)的地方
+- 帮我找有卖[灯具](commodity)的商店
+- 哪里有商场可以买[灯具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手杖](commodity)啊
+- 哪里有卖[手杖](commodity)的店
+- 找一个卖[手杖](commodity)的地方
+- 帮我找有卖[手杖](commodity)的商店
+- 哪里有商场可以买[手杖](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[蓝牙耳机](commodity)啊
+- 哪里有卖[蓝牙耳机](commodity)的店
+- 找一个卖[蓝牙耳机](commodity)的地方
+- 帮我找有卖[蓝牙耳机](commodity)的商店
+- 哪里有商场可以买[蓝牙耳机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电视盒](commodity)啊
+- 哪里有卖[电视盒](commodity)的店
+- 找一个卖[电视盒](commodity)的地方
+- 帮我找有卖[电视盒](commodity)的商店
+- 哪里有商场可以买[电视盒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[墨盒](commodity)啊
+- 哪里有卖[墨盒](commodity)的店
+- 找一个卖[墨盒](commodity)的地方
+- 帮我找有卖[墨盒](commodity)的商店
+- 哪里有商场可以买[墨盒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[腮红](commodity)啊
+- 哪里有卖[腮红](commodity)的店
+- 找一个卖[腮红](commodity)的地方
+- 帮我找有卖[腮红](commodity)的商店
+- 哪里有商场可以买[腮红](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[本地化生活服务](commodity)啊
+- 哪里有卖[本地化生活服务](commodity)的店
+- 找一个卖[本地化生活服务](commodity)的地方
+- 帮我找有卖[本地化生活服务](commodity)的商店
+- 哪里有商场可以买[本地化生活服务](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[货架](commodity)啊
+- 哪里有卖[货架](commodity)的店
+- 找一个卖[货架](commodity)的地方
+- 帮我找有卖[货架](commodity)的商店
+- 哪里有商场可以买[货架](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[提醒](commodity)啊
+- 哪里有卖[提醒](commodity)的店
+- 找一个卖[提醒](commodity)的地方
+- 帮我找有卖[提醒](commodity)的商店
+- 哪里有商场可以买[提醒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[营养品](commodity)啊
+- 哪里有卖[营养品](commodity)的店
+- 找一个卖[营养品](commodity)的地方
+- 帮我找有卖[营养品](commodity)的商店
+- 哪里有商场可以买[营养品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电子](commodity)啊
+- 哪里有卖[电子](commodity)的店
+- 找一个卖[电子](commodity)的地方
+- 帮我找有卖[电子](commodity)的商店
+- 哪里有商场可以买[电子](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[摄像头](commodity)啊
+- 哪里有卖[摄像头](commodity)的店
+- 找一个卖[摄像头](commodity)的地方
+- 帮我找有卖[摄像头](commodity)的商店
+- 哪里有商场可以买[摄像头](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[休闲食品](commodity)啊
+- 哪里有卖[休闲食品](commodity)的店
+- 找一个卖[休闲食品](commodity)的地方
+- 帮我找有卖[休闲食品](commodity)的商店
+- 哪里有商场可以买[休闲食品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鉴定](commodity)啊
+- 哪里有卖[鉴定](commodity)的店
+- 找一个卖[鉴定](commodity)的地方
+- 帮我找有卖[鉴定](commodity)的商店
+- 哪里有商场可以买[鉴定](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鞋油](commodity)啊
+- 哪里有卖[鞋油](commodity)的店
+- 找一个卖[鞋油](commodity)的地方
+- 帮我找有卖[鞋油](commodity)的商店
+- 哪里有商场可以买[鞋油](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[内裤](commodity)啊
+- 哪里有卖[内裤](commodity)的店
+- 找一个卖[内裤](commodity)的地方
+- 帮我找有卖[内裤](commodity)的商店
+- 哪里有商场可以买[内裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外休闲服](commodity)啊
+- 哪里有卖[户外休闲服](commodity)的店
+- 找一个卖[户外休闲服](commodity)的地方
+- 帮我找有卖[户外休闲服](commodity)的商店
+- 哪里有商场可以买[户外休闲服](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[甩脂机](commodity)啊
+- 哪里有卖[甩脂机](commodity)的店
+- 找一个卖[甩脂机](commodity)的地方
+- 帮我找有卖[甩脂机](commodity)的商店
+- 哪里有商场可以买[甩脂机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[床上套件](commodity)啊
+- 哪里有卖[床上套件](commodity)的店
+- 找一个卖[床上套件](commodity)的地方
+- 帮我找有卖[床上套件](commodity)的商店
+- 哪里有商场可以买[床上套件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家具五金](commodity)啊
+- 哪里有卖[家具五金](commodity)的店
+- 找一个卖[家具五金](commodity)的地方
+- 帮我找有卖[家具五金](commodity)的商店
+- 哪里有商场可以买[家具五金](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[婚纱](commodity)啊
+- 哪里有卖[婚纱](commodity)的店
+- 找一个卖[婚纱](commodity)的地方
+- 帮我找有卖[婚纱](commodity)的商店
+- 哪里有商场可以买[婚纱](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士面部护理](commodity)啊
+- 哪里有卖[男士面部护理](commodity)的店
+- 找一个卖[男士面部护理](commodity)的地方
+- 帮我找有卖[男士面部护理](commodity)的商店
+- 哪里有商场可以买[男士面部护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[轮椅](commodity)啊
+- 哪里有卖[轮椅](commodity)的店
+- 找一个卖[轮椅](commodity)的地方
+- 帮我找有卖[轮椅](commodity)的商店
+- 哪里有商场可以买[轮椅](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[吊带](commodity)啊
+- 哪里有卖[吊带](commodity)的店
+- 找一个卖[吊带](commodity)的地方
+- 帮我找有卖[吊带](commodity)的商店
+- 哪里有商场可以买[吊带](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外鞋袜](commodity)啊
+- 哪里有卖[户外鞋袜](commodity)的店
+- 找一个卖[户外鞋袜](commodity)的地方
+- 帮我找有卖[户外鞋袜](commodity)的商店
+- 哪里有商场可以买[户外鞋袜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[烟具](commodity)啊
+- 哪里有卖[烟具](commodity)的店
+- 找一个卖[烟具](commodity)的地方
+- 帮我找有卖[烟具](commodity)的商店
+- 哪里有商场可以买[烟具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[开关](commodity)啊
+- 哪里有卖[开关](commodity)的店
+- 找一个卖[开关](commodity)的地方
+- 帮我找有卖[开关](commodity)的商店
+- 哪里有商场可以买[开关](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[保健按摩器材](commodity)啊
+- 哪里有卖[保健按摩器材](commodity)的店
+- 找一个卖[保健按摩器材](commodity)的地方
+- 帮我找有卖[保健按摩器材](commodity)的商店
+- 哪里有商场可以买[保健按摩器材](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[台历](commodity)啊
+- 哪里有卖[台历](commodity)的店
+- 找一个卖[台历](commodity)的地方
+- 帮我找有卖[台历](commodity)的商店
+- 哪里有商场可以买[台历](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[配件](commodity)啊
+- 哪里有卖[配件](commodity)的店
+- 找一个卖[配件](commodity)的地方
+- 帮我找有卖[配件](commodity)的商店
+- 哪里有商场可以买[配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[护手霜](commodity)啊
+- 哪里有卖[护手霜](commodity)的店
+- 找一个卖[护手霜](commodity)的地方
+- 帮我找有卖[护手霜](commodity)的商店
+- 哪里有商场可以买[护手霜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[生活电器](commodity)啊
+- 哪里有卖[生活电器](commodity)的店
+- 找一个卖[生活电器](commodity)的地方
+- 帮我找有卖[生活电器](commodity)的商店
+- 哪里有商场可以买[生活电器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[指环](commodity)啊
+- 哪里有卖[指环](commodity)的店
+- 找一个卖[指环](commodity)的地方
+- 帮我找有卖[指环](commodity)的商店
+- 哪里有商场可以买[指环](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[护耳](commodity)啊
+- 哪里有卖[护耳](commodity)的店
+- 找一个卖[护耳](commodity)的地方
+- 帮我找有卖[护耳](commodity)的商店
+- 哪里有商场可以买[护耳](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[CARSLAN](commodity)啊
+- 哪里有卖[CARSLAN](commodity)的店
+- 找一个卖[CARSLAN](commodity)的地方
+- 帮我找有卖[CARSLAN](commodity)的商店
+- 哪里有商场可以买[CARSLAN](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[美妆个护](commodity)啊
+- 哪里有卖[美妆个护](commodity)的店
+- 找一个卖[美妆个护](commodity)的地方
+- 帮我找有卖[美妆个护](commodity)的商店
+- 哪里有商场可以买[美妆个护](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[口水巾](commodity)啊
+- 哪里有卖[口水巾](commodity)的店
+- 找一个卖[口水巾](commodity)的地方
+- 帮我找有卖[口水巾](commodity)的商店
+- 哪里有商场可以买[口水巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[童装](commodity)啊
+- 哪里有卖[童装](commodity)的店
+- 找一个卖[童装](commodity)的地方
+- 帮我找有卖[童装](commodity)的商店
+- 哪里有商场可以买[童装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[建筑](commodity)啊
+- 哪里有卖[建筑](commodity)的店
+- 找一个卖[建筑](commodity)的地方
+- 帮我找有卖[建筑](commodity)的商店
+- 哪里有商场可以买[建筑](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[排球相关](commodity)啊
+- 哪里有卖[排球相关](commodity)的店
+- 找一个卖[排球相关](commodity)的地方
+- 帮我找有卖[排球相关](commodity)的商店
+- 哪里有商场可以买[排球相关](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[身体乳液](commodity)啊
+- 哪里有卖[身体乳液](commodity)的店
+- 找一个卖[身体乳液](commodity)的地方
+- 帮我找有卖[身体乳液](commodity)的商店
+- 哪里有商场可以买[身体乳液](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[女士单肩包](commodity)啊
+- 哪里有卖[女士单肩包](commodity)的店
+- 找一个卖[女士单肩包](commodity)的地方
+- 帮我找有卖[女士单肩包](commodity)的商店
+- 哪里有商场可以买[女士单肩包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[牙胶](commodity)啊
+- 哪里有卖[牙胶](commodity)的店
+- 找一个卖[牙胶](commodity)的地方
+- 帮我找有卖[牙胶](commodity)的商店
+- 哪里有商场可以买[牙胶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[酒水](commodity)啊
+- 哪里有卖[酒水](commodity)的店
+- 找一个卖[酒水](commodity)的地方
+- 帮我找有卖[酒水](commodity)的商店
+- 哪里有商场可以买[酒水](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[桌旗](commodity)啊
+- 哪里有卖[桌旗](commodity)的店
+- 找一个卖[桌旗](commodity)的地方
+- 帮我找有卖[桌旗](commodity)的商店
+- 哪里有商场可以买[桌旗](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[设计](commodity)啊
+- 哪里有卖[设计](commodity)的店
+- 找一个卖[设计](commodity)的地方
+- 帮我找有卖[设计](commodity)的商店
+- 哪里有商场可以买[设计](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它保健器材](commodity)啊
+- 哪里有卖[其它保健器材](commodity)的店
+- 找一个卖[其它保健器材](commodity)的地方
+- 帮我找有卖[其它保健器材](commodity)的商店
+- 哪里有商场可以买[其它保健器材](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[固齿](commodity)啊
+- 哪里有卖[固齿](commodity)的店
+- 找一个卖[固齿](commodity)的地方
+- 帮我找有卖[固齿](commodity)的商店
+- 哪里有商场可以买[固齿](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[项圈](commodity)啊
+- 哪里有卖[项圈](commodity)的店
+- 找一个卖[项圈](commodity)的地方
+- 帮我找有卖[项圈](commodity)的商店
+- 哪里有商场可以买[项圈](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[豆干](commodity)啊
+- 哪里有卖[豆干](commodity)的店
+- 找一个卖[豆干](commodity)的地方
+- 帮我找有卖[豆干](commodity)的商店
+- 哪里有商场可以买[豆干](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外装备](commodity)啊
+- 哪里有卖[户外装备](commodity)的店
+- 找一个卖[户外装备](commodity)的地方
+- 帮我找有卖[户外装备](commodity)的商店
+- 哪里有商场可以买[户外装备](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他家庭清洁](commodity)啊
+- 哪里有卖[其他家庭清洁](commodity)的店
+- 找一个卖[其他家庭清洁](commodity)的地方
+- 帮我找有卖[其他家庭清洁](commodity)的商店
+- 哪里有商场可以买[其他家庭清洁](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电炖锅](commodity)啊
+- 哪里有卖[电炖锅](commodity)的店
+- 找一个卖[电炖锅](commodity)的地方
+- 帮我找有卖[电炖锅](commodity)的商店
+- 哪里有商场可以买[电炖锅](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[香水](commodity)啊
+- 哪里有卖[香水](commodity)的店
+- 找一个卖[香水](commodity)的地方
+- 帮我找有卖[香水](commodity)的商店
+- 哪里有商场可以买[香水](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[豆浆机](commodity)啊
+- 哪里有卖[豆浆机](commodity)的店
+- 找一个卖[豆浆机](commodity)的地方
+- 帮我找有卖[豆浆机](commodity)的商店
+- 哪里有商场可以买[豆浆机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[花苗](commodity)啊
+- 哪里有卖[花苗](commodity)的店
+- 找一个卖[花苗](commodity)的地方
+- 帮我找有卖[花苗](commodity)的商店
+- 哪里有商场可以买[花苗](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[零配件](commodity)啊
+- 哪里有卖[零配件](commodity)的店
+- 找一个卖[零配件](commodity)的地方
+- 帮我找有卖[零配件](commodity)的商店
+- 哪里有商场可以买[零配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[明星纪念品](commodity)啊
+- 哪里有卖[明星纪念品](commodity)的店
+- 找一个卖[明星纪念品](commodity)的地方
+- 帮我找有卖[明星纪念品](commodity)的商店
+- 哪里有商场可以买[明星纪念品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[滴眼液](commodity)啊
+- 哪里有卖[滴眼液](commodity)的店
+- 找一个卖[滴眼液](commodity)的地方
+- 帮我找有卖[滴眼液](commodity)的商店
+- 哪里有商场可以买[滴眼液](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[监控器材及系统](commodity)啊
+- 哪里有卖[监控器材及系统](commodity)的店
+- 找一个卖[监控器材及系统](commodity)的地方
+- 帮我找有卖[监控器材及系统](commodity)的商店
+- 哪里有商场可以买[监控器材及系统](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[童车](commodity)啊
+- 哪里有卖[童车](commodity)的店
+- 找一个卖[童车](commodity)的地方
+- 帮我找有卖[童车](commodity)的商店
+- 哪里有商场可以买[童车](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[保暖内衣](commodity)啊
+- 哪里有卖[保暖内衣](commodity)的店
+- 找一个卖[保暖内衣](commodity)的地方
+- 帮我找有卖[保暖内衣](commodity)的商店
+- 哪里有商场可以买[保暖内衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[高尔夫球相关](commodity)啊
+- 哪里有卖[高尔夫球相关](commodity)的店
+- 找一个卖[高尔夫球相关](commodity)的地方
+- 帮我找有卖[高尔夫球相关](commodity)的商店
+- 哪里有商场可以买[高尔夫球相关](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[热水袋](commodity)啊
+- 哪里有卖[热水袋](commodity)的店
+- 找一个卖[热水袋](commodity)的地方
+- 帮我找有卖[热水袋](commodity)的商店
+- 哪里有商场可以买[热水袋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动球衣](commodity)啊
+- 哪里有卖[运动球衣](commodity)的店
+- 找一个卖[运动球衣](commodity)的地方
+- 帮我找有卖[运动球衣](commodity)的商店
+- 哪里有商场可以买[运动球衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[牙膏](commodity)啊
+- 哪里有卖[牙膏](commodity)的店
+- 找一个卖[牙膏](commodity)的地方
+- 帮我找有卖[牙膏](commodity)的商店
+- 哪里有商场可以买[牙膏](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[大家电配件](commodity)啊
+- 哪里有卖[大家电配件](commodity)的店
+- 找一个卖[大家电配件](commodity)的地方
+- 帮我找有卖[大家电配件](commodity)的商店
+- 哪里有商场可以买[大家电配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[华语流行](commodity)啊
+- 哪里有卖[华语流行](commodity)的店
+- 找一个卖[华语流行](commodity)的地方
+- 帮我找有卖[华语流行](commodity)的商店
+- 哪里有商场可以买[华语流行](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士护肤](commodity)啊
+- 哪里有卖[男士护肤](commodity)的店
+- 找一个卖[男士护肤](commodity)的地方
+- 帮我找有卖[男士护肤](commodity)的商店
+- 哪里有商场可以买[男士护肤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他运动鞋](commodity)啊
+- 哪里有卖[其他运动鞋](commodity)的店
+- 找一个卖[其他运动鞋](commodity)的地方
+- 帮我找有卖[其他运动鞋](commodity)的商店
+- 哪里有商场可以买[其他运动鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[移动电源](commodity)啊
+- 哪里有卖[移动电源](commodity)的店
+- 找一个卖[移动电源](commodity)的地方
+- 帮我找有卖[移动电源](commodity)的商店
+- 哪里有商场可以买[移动电源](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[酒吧](commodity)啊
+- 哪里有卖[酒吧](commodity)的店
+- 找一个卖[酒吧](commodity)的地方
+- 帮我找有卖[酒吧](commodity)的商店
+- 哪里有商场可以买[酒吧](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[打底裙](commodity)啊
+- 哪里有卖[打底裙](commodity)的店
+- 找一个卖[打底裙](commodity)的地方
+- 帮我找有卖[打底裙](commodity)的商店
+- 哪里有商场可以买[打底裙](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[换气扇](commodity)啊
+- 哪里有卖[换气扇](commodity)的店
+- 找一个卖[换气扇](commodity)的地方
+- 帮我找有卖[换气扇](commodity)的商店
+- 哪里有商场可以买[换气扇](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[温碧泉](commodity)啊
+- 哪里有卖[温碧泉](commodity)的店
+- 找一个卖[温碧泉](commodity)的地方
+- 帮我找有卖[温碧泉](commodity)的商店
+- 哪里有商场可以买[温碧泉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士彩妆](commodity)啊
+- 哪里有卖[男士彩妆](commodity)的店
+- 找一个卖[男士彩妆](commodity)的地方
+- 帮我找有卖[男士彩妆](commodity)的商店
+- 哪里有商场可以买[男士彩妆](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[无线网络](commodity)啊
+- 哪里有卖[无线网络](commodity)的店
+- 找一个卖[无线网络](commodity)的地方
+- 帮我找有卖[无线网络](commodity)的商店
+- 哪里有商场可以买[无线网络](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[礼服](commodity)啊
+- 哪里有卖[礼服](commodity)的店
+- 找一个卖[礼服](commodity)的地方
+- 帮我找有卖[礼服](commodity)的商店
+- 哪里有商场可以买[礼服](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[休闲](commodity)啊
+- 哪里有卖[休闲](commodity)的店
+- 找一个卖[休闲](commodity)的地方
+- 帮我找有卖[休闲](commodity)的商店
+- 哪里有商场可以买[休闲](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[双眼皮贴](commodity)啊
+- 哪里有卖[双眼皮贴](commodity)的店
+- 找一个卖[双眼皮贴](commodity)的地方
+- 帮我找有卖[双眼皮贴](commodity)的商店
+- 哪里有商场可以买[双眼皮贴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[服饰服装](commodity)啊
+- 哪里有卖[服饰服装](commodity)的店
+- 找一个卖[服饰服装](commodity)的地方
+- 帮我找有卖[服饰服装](commodity)的商店
+- 哪里有商场可以买[服饰服装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他玩具](commodity)啊
+- 哪里有卖[其他玩具](commodity)的店
+- 找一个卖[其他玩具](commodity)的地方
+- 帮我找有卖[其他玩具](commodity)的商店
+- 哪里有商场可以买[其他玩具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电动剃须刀](commodity)啊
+- 哪里有卖[电动剃须刀](commodity)的店
+- 找一个卖[电动剃须刀](commodity)的地方
+- 帮我找有卖[电动剃须刀](commodity)的商店
+- 哪里有商场可以买[电动剃须刀](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[胶卷相机](commodity)啊
+- 哪里有卖[胶卷相机](commodity)的店
+- 找一个卖[胶卷相机](commodity)的地方
+- 帮我找有卖[胶卷相机](commodity)的商店
+- 哪里有商场可以买[胶卷相机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[饭盒袋](commodity)啊
+- 哪里有卖[饭盒袋](commodity)的店
+- 找一个卖[饭盒袋](commodity)的地方
+- 帮我找有卖[饭盒袋](commodity)的商店
+- 哪里有商场可以买[饭盒袋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[线材](commodity)啊
+- 哪里有卖[线材](commodity)的店
+- 找一个卖[线材](commodity)的地方
+- 帮我找有卖[线材](commodity)的商店
+- 哪里有商场可以买[线材](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[体育用品](commodity)啊
+- 哪里有卖[体育用品](commodity)的店
+- 找一个卖[体育用品](commodity)的地方
+- 帮我找有卖[体育用品](commodity)的商店
+- 哪里有商场可以买[体育用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[衣帽架](commodity)啊
+- 哪里有卖[衣帽架](commodity)的店
+- 找一个卖[衣帽架](commodity)的地方
+- 帮我找有卖[衣帽架](commodity)的商店
+- 哪里有商场可以买[衣帽架](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[海鲜](commodity)啊
+- 哪里有卖[海鲜](commodity)的店
+- 找一个卖[海鲜](commodity)的地方
+- 帮我找有卖[海鲜](commodity)的商店
+- 哪里有商场可以买[海鲜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[脚链](commodity)啊
+- 哪里有卖[脚链](commodity)的店
+- 找一个卖[脚链](commodity)的地方
+- 帮我找有卖[脚链](commodity)的商店
+- 哪里有商场可以买[脚链](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[击剑运动](commodity)啊
+- 哪里有卖[击剑运动](commodity)的店
+- 找一个卖[击剑运动](commodity)的地方
+- 帮我找有卖[击剑运动](commodity)的商店
+- 哪里有商场可以买[击剑运动](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[篮](commodity)啊
+- 哪里有卖[篮](commodity)的店
+- 找一个卖[篮](commodity)的地方
+- 帮我找有卖[篮](commodity)的商店
+- 哪里有商场可以买[篮](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[机械五金](commodity)啊
+- 哪里有卖[机械五金](commodity)的店
+- 找一个卖[机械五金](commodity)的地方
+- 帮我找有卖[机械五金](commodity)的商店
+- 哪里有商场可以买[机械五金](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[清洁](commodity)啊
+- 哪里有卖[清洁](commodity)的店
+- 找一个卖[清洁](commodity)的地方
+- 帮我找有卖[清洁](commodity)的商店
+- 哪里有商场可以买[清洁](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[靠垫](commodity)啊
+- 哪里有卖[靠垫](commodity)的店
+- 找一个卖[靠垫](commodity)的地方
+- 帮我找有卖[靠垫](commodity)的商店
+- 哪里有商场可以买[靠垫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电动工具](commodity)啊
+- 哪里有卖[电动工具](commodity)的店
+- 找一个卖[电动工具](commodity)的地方
+- 帮我找有卖[电动工具](commodity)的商店
+- 哪里有商场可以买[电动工具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[亲子](commodity)啊
+- 哪里有卖[亲子](commodity)的店
+- 找一个卖[亲子](commodity)的地方
+- 帮我找有卖[亲子](commodity)的商店
+- 哪里有商场可以买[亲子](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[美妆工具](commodity)啊
+- 哪里有卖[美妆工具](commodity)的店
+- 找一个卖[美妆工具](commodity)的地方
+- 帮我找有卖[美妆工具](commodity)的商店
+- 哪里有商场可以买[美妆工具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[婚庆用品](commodity)啊
+- 哪里有卖[婚庆用品](commodity)的店
+- 找一个卖[婚庆用品](commodity)的地方
+- 帮我找有卖[婚庆用品](commodity)的商店
+- 哪里有商场可以买[婚庆用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电脑整机](commodity)啊
+- 哪里有卖[电脑整机](commodity)的店
+- 找一个卖[电脑整机](commodity)的地方
+- 帮我找有卖[电脑整机](commodity)的商店
+- 哪里有商场可以买[电脑整机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[茶饮](commodity)啊
+- 哪里有卖[茶饮](commodity)的店
+- 找一个卖[茶饮](commodity)的地方
+- 帮我找有卖[茶饮](commodity)的商店
+- 哪里有商场可以买[茶饮](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[洗衣刷](commodity)啊
+- 哪里有卖[洗衣刷](commodity)的店
+- 找一个卖[洗衣刷](commodity)的地方
+- 帮我找有卖[洗衣刷](commodity)的商店
+- 哪里有商场可以买[洗衣刷](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[泳圈](commodity)啊
+- 哪里有卖[泳圈](commodity)的店
+- 找一个卖[泳圈](commodity)的地方
+- 帮我找有卖[泳圈](commodity)的商店
+- 哪里有商场可以买[泳圈](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[乐器配件](commodity)啊
+- 哪里有卖[乐器配件](commodity)的店
+- 找一个卖[乐器配件](commodity)的地方
+- 帮我找有卖[乐器配件](commodity)的商店
+- 哪里有商场可以买[乐器配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[阿依莉](commodity)啊
+- 哪里有卖[阿依莉](commodity)的店
+- 找一个卖[阿依莉](commodity)的地方
+- 帮我找有卖[阿依莉](commodity)的商店
+- 哪里有商场可以买[阿依莉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[教育影视](commodity)啊
+- 哪里有卖[教育影视](commodity)的店
+- 找一个卖[教育影视](commodity)的地方
+- 帮我找有卖[教育影视](commodity)的商店
+- 哪里有商场可以买[教育影视](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[酒壶](commodity)啊
+- 哪里有卖[酒壶](commodity)的店
+- 找一个卖[酒壶](commodity)的地方
+- 帮我找有卖[酒壶](commodity)的商店
+- 哪里有商场可以买[酒壶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[去黑头](commodity)啊
+- 哪里有卖[去黑头](commodity)的店
+- 找一个卖[去黑头](commodity)的地方
+- 帮我找有卖[去黑头](commodity)的商店
+- 哪里有商场可以买[去黑头](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[浴擦](commodity)啊
+- 哪里有卖[浴擦](commodity)的店
+- 找一个卖[浴擦](commodity)的地方
+- 帮我找有卖[浴擦](commodity)的商店
+- 哪里有商场可以买[浴擦](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[iPhone保护壳](commodity)啊
+- 哪里有卖[iPhone保护壳](commodity)的店
+- 找一个卖[iPhone保护壳](commodity)的地方
+- 帮我找有卖[iPhone保护壳](commodity)的商店
+- 哪里有商场可以买[iPhone保护壳](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[果篓](commodity)啊
+- 哪里有卖[果篓](commodity)的店
+- 找一个卖[果篓](commodity)的地方
+- 帮我找有卖[果篓](commodity)的商店
+- 哪里有商场可以买[果篓](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[床褥](commodity)啊
+- 哪里有卖[床褥](commodity)的店
+- 找一个卖[床褥](commodity)的地方
+- 帮我找有卖[床褥](commodity)的商店
+- 哪里有商场可以买[床褥](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[盆栽](commodity)啊
+- 哪里有卖[盆栽](commodity)的店
+- 找一个卖[盆栽](commodity)的地方
+- 帮我找有卖[盆栽](commodity)的商店
+- 哪里有商场可以买[盆栽](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[去角质](commodity)啊
+- 哪里有卖[去角质](commodity)的店
+- 找一个卖[去角质](commodity)的地方
+- 帮我找有卖[去角质](commodity)的商店
+- 哪里有商场可以买[去角质](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[婴儿牛奶粉](commodity)啊
+- 哪里有卖[婴儿牛奶粉](commodity)的店
+- 找一个卖[婴儿牛奶粉](commodity)的地方
+- 帮我找有卖[婴儿牛奶粉](commodity)的商店
+- 哪里有商场可以买[婴儿牛奶粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[钢琴](commodity)啊
+- 哪里有卖[钢琴](commodity)的店
+- 找一个卖[钢琴](commodity)的地方
+- 帮我找有卖[钢琴](commodity)的商店
+- 哪里有商场可以买[钢琴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[铂金](commodity)啊
+- 哪里有卖[铂金](commodity)的店
+- 找一个卖[铂金](commodity)的地方
+- 帮我找有卖[铂金](commodity)的商店
+- 哪里有商场可以买[铂金](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[进口巧克力](commodity)啊
+- 哪里有卖[进口巧克力](commodity)的店
+- 找一个卖[进口巧克力](commodity)的地方
+- 帮我找有卖[进口巧克力](commodity)的商店
+- 哪里有商场可以买[进口巧克力](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[书包](commodity)啊
+- 哪里有卖[书包](commodity)的店
+- 找一个卖[书包](commodity)的地方
+- 帮我找有卖[书包](commodity)的商店
+- 哪里有商场可以买[书包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外袜子](commodity)啊
+- 哪里有卖[户外袜子](commodity)的店
+- 找一个卖[户外袜子](commodity)的地方
+- 帮我找有卖[户外袜子](commodity)的商店
+- 哪里有商场可以买[户外袜子](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[功能箱包](commodity)啊
+- 哪里有卖[功能箱包](commodity)的店
+- 找一个卖[功能箱包](commodity)的地方
+- 帮我找有卖[功能箱包](commodity)的商店
+- 哪里有商场可以买[功能箱包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[速干衣](commodity)啊
+- 哪里有卖[速干衣](commodity)的店
+- 找一个卖[速干衣](commodity)的地方
+- 帮我找有卖[速干衣](commodity)的商店
+- 哪里有商场可以买[速干衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[马桶刷](commodity)啊
+- 哪里有卖[马桶刷](commodity)的店
+- 找一个卖[马桶刷](commodity)的地方
+- 帮我找有卖[马桶刷](commodity)的商店
+- 哪里有商场可以买[马桶刷](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外衣裤套装](commodity)啊
+- 哪里有卖[户外衣裤套装](commodity)的店
+- 找一个卖[户外衣裤套装](commodity)的地方
+- 帮我找有卖[户外衣裤套装](commodity)的商店
+- 哪里有商场可以买[户外衣裤套装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手柄](commodity)啊
+- 哪里有卖[手柄](commodity)的店
+- 找一个卖[手柄](commodity)的地方
+- 帮我找有卖[手柄](commodity)的商店
+- 哪里有商场可以买[手柄](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[刃具](commodity)啊
+- 哪里有卖[刃具](commodity)的店
+- 找一个卖[刃具](commodity)的地方
+- 帮我找有卖[刃具](commodity)的商店
+- 哪里有商场可以买[刃具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[音乐玩具](commodity)啊
+- 哪里有卖[音乐玩具](commodity)的店
+- 找一个卖[音乐玩具](commodity)的地方
+- 帮我找有卖[音乐玩具](commodity)的商店
+- 哪里有商场可以买[音乐玩具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[OSM](commodity)啊
+- 哪里有卖[OSM](commodity)的店
+- 找一个卖[OSM](commodity)的地方
+- 帮我找有卖[OSM](commodity)的商店
+- 哪里有商场可以买[OSM](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[蔬菜](commodity)啊
+- 哪里有卖[蔬菜](commodity)的店
+- 找一个卖[蔬菜](commodity)的地方
+- 帮我找有卖[蔬菜](commodity)的商店
+- 哪里有商场可以买[蔬菜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[充电器](commodity)啊
+- 哪里有卖[充电器](commodity)的店
+- 找一个卖[充电器](commodity)的地方
+- 帮我找有卖[充电器](commodity)的商店
+- 哪里有商场可以买[充电器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[保鲜盒](commodity)啊
+- 哪里有卖[保鲜盒](commodity)的店
+- 找一个卖[保鲜盒](commodity)的地方
+- 帮我找有卖[保鲜盒](commodity)的商店
+- 哪里有商场可以买[保鲜盒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[CHARLES&KEITH](commodity)啊
+- 哪里有卖[CHARLES&KEITH](commodity)的店
+- 找一个卖[CHARLES&KEITH](commodity)的地方
+- 帮我找有卖[CHARLES&KEITH](commodity)的商店
+- 哪里有商场可以买[CHARLES&KEITH](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[洗手液](commodity)啊
+- 哪里有卖[洗手液](commodity)的店
+- 找一个卖[洗手液](commodity)的地方
+- 帮我找有卖[洗手液](commodity)的商店
+- 哪里有商场可以买[洗手液](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它生活日用品](commodity)啊
+- 哪里有卖[其它生活日用品](commodity)的店
+- 找一个卖[其它生活日用品](commodity)的地方
+- 帮我找有卖[其它生活日用品](commodity)的商店
+- 哪里有商场可以买[其它生活日用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[精油皂](commodity)啊
+- 哪里有卖[精油皂](commodity)的店
+- 找一个卖[精油皂](commodity)的地方
+- 帮我找有卖[精油皂](commodity)的商店
+- 哪里有商场可以买[精油皂](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[七匹狼](commodity)啊
+- 哪里有卖[七匹狼](commodity)的店
+- 找一个卖[七匹狼](commodity)的地方
+- 帮我找有卖[七匹狼](commodity)的商店
+- 哪里有商场可以买[七匹狼](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[锌](commodity)啊
+- 哪里有卖[锌](commodity)的店
+- 找一个卖[锌](commodity)的地方
+- 帮我找有卖[锌](commodity)的商店
+- 哪里有商场可以买[锌](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[眼部保健](commodity)啊
+- 哪里有卖[眼部保健](commodity)的店
+- 找一个卖[眼部保健](commodity)的地方
+- 帮我找有卖[眼部保健](commodity)的商店
+- 哪里有商场可以买[眼部保健](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电池](commodity)啊
+- 哪里有卖[电池](commodity)的店
+- 找一个卖[电池](commodity)的地方
+- 帮我找有卖[电池](commodity)的商店
+- 哪里有商场可以买[电池](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[收藏](commodity)啊
+- 哪里有卖[收藏](commodity)的店
+- 找一个卖[收藏](commodity)的地方
+- 帮我找有卖[收藏](commodity)的商店
+- 哪里有商场可以买[收藏](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电动牙刷](commodity)啊
+- 哪里有卖[电动牙刷](commodity)的店
+- 找一个卖[电动牙刷](commodity)的地方
+- 帮我找有卖[电动牙刷](commodity)的商店
+- 哪里有商场可以买[电动牙刷](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[刷漆用具](commodity)啊
+- 哪里有卖[刷漆用具](commodity)的店
+- 找一个卖[刷漆用具](commodity)的地方
+- 帮我找有卖[刷漆用具](commodity)的商店
+- 哪里有商场可以买[刷漆用具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[地板刷](commodity)啊
+- 哪里有卖[地板刷](commodity)的店
+- 找一个卖[地板刷](commodity)的地方
+- 帮我找有卖[地板刷](commodity)的商店
+- 哪里有商场可以买[地板刷](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鞋盒](commodity)啊
+- 哪里有卖[鞋盒](commodity)的店
+- 找一个卖[鞋盒](commodity)的地方
+- 帮我找有卖[鞋盒](commodity)的商店
+- 哪里有商场可以买[鞋盒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[数码钢琴](commodity)啊
+- 哪里有卖[数码钢琴](commodity)的店
+- 找一个卖[数码钢琴](commodity)的地方
+- 帮我找有卖[数码钢琴](commodity)的商店
+- 哪里有商场可以买[数码钢琴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[mp4](commodity)啊
+- 哪里有卖[mp4](commodity)的店
+- 找一个卖[mp4](commodity)的地方
+- 帮我找有卖[mp4](commodity)的商店
+- 哪里有商场可以买[mp4](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[餐垫](commodity)啊
+- 哪里有卖[餐垫](commodity)的店
+- 找一个卖[餐垫](commodity)的地方
+- 帮我找有卖[餐垫](commodity)的商店
+- 哪里有商场可以买[餐垫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[床幔](commodity)啊
+- 哪里有卖[床幔](commodity)的店
+- 找一个卖[床幔](commodity)的地方
+- 帮我找有卖[床幔](commodity)的商店
+- 哪里有商场可以买[床幔](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[散热](commodity)啊
+- 哪里有卖[散热](commodity)的店
+- 找一个卖[散热](commodity)的地方
+- 帮我找有卖[散热](commodity)的商店
+- 哪里有商场可以买[散热](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[文曲星](commodity)啊
+- 哪里有卖[文曲星](commodity)的店
+- 找一个卖[文曲星](commodity)的地方
+- 帮我找有卖[文曲星](commodity)的商店
+- 哪里有商场可以买[文曲星](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[背婴带](commodity)啊
+- 哪里有卖[背婴带](commodity)的店
+- 找一个卖[背婴带](commodity)的地方
+- 帮我找有卖[背婴带](commodity)的商店
+- 哪里有商场可以买[背婴带](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[主板](commodity)啊
+- 哪里有卖[主板](commodity)的店
+- 找一个卖[主板](commodity)的地方
+- 帮我找有卖[主板](commodity)的商店
+- 哪里有商场可以买[主板](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[藕粉](commodity)啊
+- 哪里有卖[藕粉](commodity)的店
+- 找一个卖[藕粉](commodity)的地方
+- 帮我找有卖[藕粉](commodity)的商店
+- 哪里有商场可以买[藕粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[发膜](commodity)啊
+- 哪里有卖[发膜](commodity)的店
+- 找一个卖[发膜](commodity)的地方
+- 帮我找有卖[发膜](commodity)的商店
+- 哪里有商场可以买[发膜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电饭煲](commodity)啊
+- 哪里有卖[电饭煲](commodity)的店
+- 找一个卖[电饭煲](commodity)的地方
+- 帮我找有卖[电饭煲](commodity)的商店
+- 哪里有商场可以买[电饭煲](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[登山攀岩](commodity)啊
+- 哪里有卖[登山攀岩](commodity)的店
+- 找一个卖[登山攀岩](commodity)的地方
+- 帮我找有卖[登山攀岩](commodity)的商店
+- 哪里有商场可以买[登山攀岩](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[点读机配件](commodity)啊
+- 哪里有卖[点读机配件](commodity)的店
+- 找一个卖[点读机配件](commodity)的地方
+- 帮我找有卖[点读机配件](commodity)的商店
+- 哪里有商场可以买[点读机配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[降温剂](commodity)啊
+- 哪里有卖[降温剂](commodity)的店
+- 找一个卖[降温剂](commodity)的地方
+- 帮我找有卖[降温剂](commodity)的商店
+- 哪里有商场可以买[降温剂](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[座](commodity)啊
+- 哪里有卖[座](commodity)的店
+- 找一个卖[座](commodity)的地方
+- 帮我找有卖[座](commodity)的商店
+- 哪里有商场可以买[座](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[乒乓球鞋](commodity)啊
+- 哪里有卖[乒乓球鞋](commodity)的店
+- 找一个卖[乒乓球鞋](commodity)的地方
+- 帮我找有卖[乒乓球鞋](commodity)的商店
+- 哪里有商场可以买[乒乓球鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[伊芙丽](commodity)啊
+- 哪里有卖[伊芙丽](commodity)的店
+- 找一个卖[伊芙丽](commodity)的地方
+- 帮我找有卖[伊芙丽](commodity)的商店
+- 哪里有商场可以买[伊芙丽](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[禽蛋](commodity)啊
+- 哪里有卖[禽蛋](commodity)的店
+- 找一个卖[禽蛋](commodity)的地方
+- 帮我找有卖[禽蛋](commodity)的商店
+- 哪里有商场可以买[禽蛋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[冰箱贴](commodity)啊
+- 哪里有卖[冰箱贴](commodity)的店
+- 找一个卖[冰箱贴](commodity)的地方
+- 帮我找有卖[冰箱贴](commodity)的商店
+- 哪里有商场可以买[冰箱贴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[毯](commodity)啊
+- 哪里有卖[毯](commodity)的店
+- 找一个卖[毯](commodity)的地方
+- 帮我找有卖[毯](commodity)的商店
+- 哪里有商场可以买[毯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[指甲剪](commodity)啊
+- 哪里有卖[指甲剪](commodity)的店
+- 找一个卖[指甲剪](commodity)的地方
+- 帮我找有卖[指甲剪](commodity)的商店
+- 哪里有商场可以买[指甲剪](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手机电池](commodity)啊
+- 哪里有卖[手机电池](commodity)的店
+- 找一个卖[手机电池](commodity)的地方
+- 帮我找有卖[手机电池](commodity)的商店
+- 哪里有商场可以买[手机电池](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[儿童用包](commodity)啊
+- 哪里有卖[儿童用包](commodity)的店
+- 找一个卖[儿童用包](commodity)的地方
+- 帮我找有卖[儿童用包](commodity)的商店
+- 哪里有商场可以买[儿童用包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[361°](commodity)啊
+- 哪里有卖[361°](commodity)的店
+- 找一个卖[361°](commodity)的地方
+- 帮我找有卖[361°](commodity)的商店
+- 哪里有商场可以买[361°](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[唐狮](commodity)啊
+- 哪里有卖[唐狮](commodity)的店
+- 找一个卖[唐狮](commodity)的地方
+- 帮我找有卖[唐狮](commodity)的商店
+- 哪里有商场可以买[唐狮](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[挂历](commodity)啊
+- 哪里有卖[挂历](commodity)的店
+- 找一个卖[挂历](commodity)的地方
+- 帮我找有卖[挂历](commodity)的商店
+- 哪里有商场可以买[挂历](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[坚果](commodity)啊
+- 哪里有卖[坚果](commodity)的店
+- 找一个卖[坚果](commodity)的地方
+- 帮我找有卖[坚果](commodity)的商店
+- 哪里有商场可以买[坚果](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[网卡](commodity)啊
+- 哪里有卖[网卡](commodity)的店
+- 找一个卖[网卡](commodity)的地方
+- 帮我找有卖[网卡](commodity)的商店
+- 哪里有商场可以买[网卡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[科普读物](commodity)啊
+- 哪里有卖[科普读物](commodity)的店
+- 找一个卖[科普读物](commodity)的地方
+- 帮我找有卖[科普读物](commodity)的商店
+- 哪里有商场可以买[科普读物](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[辅食](commodity)啊
+- 哪里有卖[辅食](commodity)的店
+- 找一个卖[辅食](commodity)的地方
+- 帮我找有卖[辅食](commodity)的商店
+- 哪里有商场可以买[辅食](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它大家电](commodity)啊
+- 哪里有卖[其它大家电](commodity)的店
+- 找一个卖[其它大家电](commodity)的地方
+- 帮我找有卖[其它大家电](commodity)的商店
+- 哪里有商场可以买[其它大家电](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[清洁剂](commodity)啊
+- 哪里有卖[清洁剂](commodity)的店
+- 找一个卖[清洁剂](commodity)的地方
+- 帮我找有卖[清洁剂](commodity)的商店
+- 哪里有商场可以买[清洁剂](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[机箱](commodity)啊
+- 哪里有卖[机箱](commodity)的店
+- 找一个卖[机箱](commodity)的地方
+- 帮我找有卖[机箱](commodity)的商店
+- 哪里有商场可以买[机箱](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[大家电](commodity)啊
+- 哪里有卖[大家电](commodity)的店
+- 找一个卖[大家电](commodity)的地方
+- 帮我找有卖[大家电](commodity)的商店
+- 哪里有商场可以买[大家电](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[摩托车相关](commodity)啊
+- 哪里有卖[摩托车相关](commodity)的店
+- 找一个卖[摩托车相关](commodity)的地方
+- 帮我找有卖[摩托车相关](commodity)的商店
+- 哪里有商场可以买[摩托车相关](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电子凭证](commodity)啊
+- 哪里有卖[电子凭证](commodity)的店
+- 找一个卖[电子凭证](commodity)的地方
+- 帮我找有卖[电子凭证](commodity)的商店
+- 哪里有商场可以买[电子凭证](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[睡衣](commodity)啊
+- 哪里有卖[睡衣](commodity)的店
+- 找一个卖[睡衣](commodity)的地方
+- 帮我找有卖[睡衣](commodity)的商店
+- 哪里有商场可以买[睡衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[财会用品](commodity)啊
+- 哪里有卖[财会用品](commodity)的店
+- 找一个卖[财会用品](commodity)的地方
+- 帮我找有卖[财会用品](commodity)的商店
+- 哪里有商场可以买[财会用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[教育培训](commodity)啊
+- 哪里有卖[教育培训](commodity)的店
+- 找一个卖[教育培训](commodity)的地方
+- 帮我找有卖[教育培训](commodity)的商店
+- 哪里有商场可以买[教育培训](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鞋类用品](commodity)啊
+- 哪里有卖[鞋类用品](commodity)的店
+- 找一个卖[鞋类用品](commodity)的地方
+- 帮我找有卖[鞋类用品](commodity)的商店
+- 哪里有商场可以买[鞋类用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[世界音乐](commodity)啊
+- 哪里有卖[世界音乐](commodity)的店
+- 找一个卖[世界音乐](commodity)的地方
+- 帮我找有卖[世界音乐](commodity)的商店
+- 哪里有商场可以买[世界音乐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[功能眼镜](commodity)啊
+- 哪里有卖[功能眼镜](commodity)的店
+- 找一个卖[功能眼镜](commodity)的地方
+- 帮我找有卖[功能眼镜](commodity)的商店
+- 哪里有商场可以买[功能眼镜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[假睫毛](commodity)啊
+- 哪里有卖[假睫毛](commodity)的店
+- 找一个卖[假睫毛](commodity)的地方
+- 帮我找有卖[假睫毛](commodity)的商店
+- 哪里有商场可以买[假睫毛](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[笔筒](commodity)啊
+- 哪里有卖[笔筒](commodity)的店
+- 找一个卖[笔筒](commodity)的地方
+- 帮我找有卖[笔筒](commodity)的商店
+- 哪里有商场可以买[笔筒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[相声](commodity)啊
+- 哪里有卖[相声](commodity)的店
+- 找一个卖[相声](commodity)的地方
+- 帮我找有卖[相声](commodity)的商店
+- 哪里有商场可以买[相声](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[走索](commodity)啊
+- 哪里有卖[走索](commodity)的店
+- 找一个卖[走索](commodity)的地方
+- 帮我找有卖[走索](commodity)的商店
+- 哪里有商场可以买[走索](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电子琴](commodity)啊
+- 哪里有卖[电子琴](commodity)的店
+- 找一个卖[电子琴](commodity)的地方
+- 帮我找有卖[电子琴](commodity)的商店
+- 哪里有商场可以买[电子琴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[保养工具](commodity)啊
+- 哪里有卖[保养工具](commodity)的店
+- 找一个卖[保养工具](commodity)的地方
+- 帮我找有卖[保养工具](commodity)的商店
+- 哪里有商场可以买[保养工具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士手提包](commodity)啊
+- 哪里有卖[男士手提包](commodity)的店
+- 找一个卖[男士手提包](commodity)的地方
+- 帮我找有卖[男士手提包](commodity)的商店
+- 哪里有商场可以买[男士手提包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[拉拉裤](commodity)啊
+- 哪里有卖[拉拉裤](commodity)的店
+- 找一个卖[拉拉裤](commodity)的地方
+- 帮我找有卖[拉拉裤](commodity)的商店
+- 哪里有商场可以买[拉拉裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[炒股软件](commodity)啊
+- 哪里有卖[炒股软件](commodity)的店
+- 找一个卖[炒股软件](commodity)的地方
+- 帮我找有卖[炒股软件](commodity)的商店
+- 哪里有商场可以买[炒股软件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[工具](commodity)啊
+- 哪里有卖[工具](commodity)的店
+- 找一个卖[工具](commodity)的地方
+- 帮我找有卖[工具](commodity)的商店
+- 哪里有商场可以买[工具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[桌面游戏](commodity)啊
+- 哪里有卖[桌面游戏](commodity)的店
+- 找一个卖[桌面游戏](commodity)的地方
+- 帮我找有卖[桌面游戏](commodity)的商店
+- 哪里有商场可以买[桌面游戏](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[装饰器皿](commodity)啊
+- 哪里有卖[装饰器皿](commodity)的店
+- 找一个卖[装饰器皿](commodity)的地方
+- 帮我找有卖[装饰器皿](commodity)的商店
+- 哪里有商场可以买[装饰器皿](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[瓦帛](commodity)啊
+- 哪里有卖[瓦帛](commodity)的店
+- 找一个卖[瓦帛](commodity)的地方
+- 帮我找有卖[瓦帛](commodity)的商店
+- 哪里有商场可以买[瓦帛](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[板材](commodity)啊
+- 哪里有卖[板材](commodity)的店
+- 找一个卖[板材](commodity)的地方
+- 帮我找有卖[板材](commodity)的商店
+- 哪里有商场可以买[板材](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[太阳眼镜](commodity)啊
+- 哪里有卖[太阳眼镜](commodity)的店
+- 找一个卖[太阳眼镜](commodity)的地方
+- 帮我找有卖[太阳眼镜](commodity)的商店
+- 哪里有商场可以买[太阳眼镜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家用游戏机](commodity)啊
+- 哪里有卖[家用游戏机](commodity)的店
+- 找一个卖[家用游戏机](commodity)的地方
+- 帮我找有卖[家用游戏机](commodity)的商店
+- 哪里有商场可以买[家用游戏机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[吸尘器](commodity)啊
+- 哪里有卖[吸尘器](commodity)的店
+- 找一个卖[吸尘器](commodity)的地方
+- 帮我找有卖[吸尘器](commodity)的商店
+- 哪里有商场可以买[吸尘器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[羊绒衫](commodity)啊
+- 哪里有卖[羊绒衫](commodity)的店
+- 找一个卖[羊绒衫](commodity)的地方
+- 帮我找有卖[羊绒衫](commodity)的商店
+- 哪里有商场可以买[羊绒衫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Mr.A](commodity)啊
+- 哪里有卖[Mr.A](commodity)的店
+- 找一个卖[Mr.A](commodity)的地方
+- 帮我找有卖[Mr.A](commodity)的商店
+- 哪里有商场可以买[Mr.A](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[包装设备](commodity)啊
+- 哪里有卖[包装设备](commodity)的店
+- 找一个卖[包装设备](commodity)的地方
+- 帮我找有卖[包装设备](commodity)的商店
+- 哪里有商场可以买[包装设备](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[贴纸](commodity)啊
+- 哪里有卖[贴纸](commodity)的店
+- 找一个卖[贴纸](commodity)的地方
+- 帮我找有卖[贴纸](commodity)的商店
+- 哪里有商场可以买[贴纸](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电纸书配件](commodity)啊
+- 哪里有卖[电纸书配件](commodity)的店
+- 找一个卖[电纸书配件](commodity)的地方
+- 帮我找有卖[电纸书配件](commodity)的商店
+- 哪里有商场可以买[电纸书配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[休闲裤](commodity)啊
+- 哪里有卖[休闲裤](commodity)的店
+- 找一个卖[休闲裤](commodity)的地方
+- 帮我找有卖[休闲裤](commodity)的商店
+- 哪里有商场可以买[休闲裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[进口饮料](commodity)啊
+- 哪里有卖[进口饮料](commodity)的店
+- 找一个卖[进口饮料](commodity)的地方
+- 帮我找有卖[进口饮料](commodity)的商店
+- 哪里有商场可以买[进口饮料](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[宝宝定制](commodity)啊
+- 哪里有卖[宝宝定制](commodity)的店
+- 找一个卖[宝宝定制](commodity)的地方
+- 帮我找有卖[宝宝定制](commodity)的商店
+- 哪里有商场可以买[宝宝定制](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[奶嘴](commodity)啊
+- 哪里有卖[奶嘴](commodity)的店
+- 找一个卖[奶嘴](commodity)的地方
+- 帮我找有卖[奶嘴](commodity)的商店
+- 哪里有商场可以买[奶嘴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[宠物用品](commodity)啊
+- 哪里有卖[宠物用品](commodity)的店
+- 找一个卖[宠物用品](commodity)的地方
+- 帮我找有卖[宠物用品](commodity)的商店
+- 哪里有商场可以买[宠物用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[翡翠](commodity)啊
+- 哪里有卖[翡翠](commodity)的店
+- 找一个卖[翡翠](commodity)的地方
+- 帮我找有卖[翡翠](commodity)的商店
+- 哪里有商场可以买[翡翠](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[打印机](commodity)啊
+- 哪里有卖[打印机](commodity)的店
+- 找一个卖[打印机](commodity)的地方
+- 帮我找有卖[打印机](commodity)的商店
+- 哪里有商场可以买[打印机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他网络设备](commodity)啊
+- 哪里有卖[其他网络设备](commodity)的店
+- 找一个卖[其他网络设备](commodity)的地方
+- 帮我找有卖[其他网络设备](commodity)的商店
+- 哪里有商场可以买[其他网络设备](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外休闲](commodity)啊
+- 哪里有卖[户外休闲](commodity)的店
+- 找一个卖[户外休闲](commodity)的地方
+- 帮我找有卖[户外休闲](commodity)的商店
+- 哪里有商场可以买[户外休闲](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[New Balance](commodity)啊
+- 哪里有卖[New Balance](commodity)的店
+- 找一个卖[New Balance](commodity)的地方
+- 帮我找有卖[New Balance](commodity)的商店
+- 哪里有商场可以买[New Balance](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[秋水伊人](commodity)啊
+- 哪里有卖[秋水伊人](commodity)的店
+- 找一个卖[秋水伊人](commodity)的地方
+- 帮我找有卖[秋水伊人](commodity)的商店
+- 哪里有商场可以买[秋水伊人](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[挂烫](commodity)啊
+- 哪里有卖[挂烫](commodity)的店
+- 找一个卖[挂烫](commodity)的地方
+- 帮我找有卖[挂烫](commodity)的商店
+- 哪里有商场可以买[挂烫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[中小学教辅](commodity)啊
+- 哪里有卖[中小学教辅](commodity)的店
+- 找一个卖[中小学教辅](commodity)的地方
+- 帮我找有卖[中小学教辅](commodity)的商店
+- 哪里有商场可以买[中小学教辅](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[粉饼](commodity)啊
+- 哪里有卖[粉饼](commodity)的店
+- 找一个卖[粉饼](commodity)的地方
+- 帮我找有卖[粉饼](commodity)的商店
+- 哪里有商场可以买[粉饼](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他面部护理](commodity)啊
+- 哪里有卖[其他面部护理](commodity)的店
+- 找一个卖[其他面部护理](commodity)的地方
+- 帮我找有卖[其他面部护理](commodity)的商店
+- 哪里有商场可以买[其他面部护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[贺卡](commodity)啊
+- 哪里有卖[贺卡](commodity)的店
+- 找一个卖[贺卡](commodity)的地方
+- 帮我找有卖[贺卡](commodity)的商店
+- 哪里有商场可以买[贺卡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[乳品](commodity)啊
+- 哪里有卖[乳品](commodity)的店
+- 找一个卖[乳品](commodity)的地方
+- 帮我找有卖[乳品](commodity)的商店
+- 哪里有商场可以买[乳品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[吸奶器](commodity)啊
+- 哪里有卖[吸奶器](commodity)的店
+- 找一个卖[吸奶器](commodity)的地方
+- 帮我找有卖[吸奶器](commodity)的商店
+- 哪里有商场可以买[吸奶器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[饮具](commodity)啊
+- 哪里有卖[饮具](commodity)的店
+- 找一个卖[饮具](commodity)的地方
+- 帮我找有卖[饮具](commodity)的商店
+- 哪里有商场可以买[饮具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[宗教](commodity)啊
+- 哪里有卖[宗教](commodity)的店
+- 找一个卖[宗教](commodity)的地方
+- 帮我找有卖[宗教](commodity)的商店
+- 哪里有商场可以买[宗教](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动棉衣](commodity)啊
+- 哪里有卖[运动棉衣](commodity)的店
+- 找一个卖[运动棉衣](commodity)的地方
+- 帮我找有卖[运动棉衣](commodity)的商店
+- 哪里有商场可以买[运动棉衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[被罩](commodity)啊
+- 哪里有卖[被罩](commodity)的店
+- 找一个卖[被罩](commodity)的地方
+- 帮我找有卖[被罩](commodity)的商店
+- 哪里有商场可以买[被罩](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[瘦身纤体](commodity)啊
+- 哪里有卖[瘦身纤体](commodity)的店
+- 找一个卖[瘦身纤体](commodity)的地方
+- 帮我找有卖[瘦身纤体](commodity)的商店
+- 哪里有商场可以买[瘦身纤体](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[动漫](commodity)啊
+- 哪里有卖[动漫](commodity)的店
+- 找一个卖[动漫](commodity)的地方
+- 帮我找有卖[动漫](commodity)的商店
+- 哪里有商场可以买[动漫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[工业技术](commodity)啊
+- 哪里有卖[工业技术](commodity)的店
+- 找一个卖[工业技术](commodity)的地方
+- 帮我找有卖[工业技术](commodity)的商店
+- 哪里有商场可以买[工业技术](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[奶酪](commodity)啊
+- 哪里有卖[奶酪](commodity)的店
+- 找一个卖[奶酪](commodity)的地方
+- 帮我找有卖[奶酪](commodity)的商店
+- 哪里有商场可以买[奶酪](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[娃娃](commodity)啊
+- 哪里有卖[娃娃](commodity)的店
+- 找一个卖[娃娃](commodity)的地方
+- 帮我找有卖[娃娃](commodity)的商店
+- 哪里有商场可以买[娃娃](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[台案](commodity)啊
+- 哪里有卖[台案](commodity)的店
+- 找一个卖[台案](commodity)的地方
+- 帮我找有卖[台案](commodity)的商店
+- 哪里有商场可以买[台案](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[光源](commodity)啊
+- 哪里有卖[光源](commodity)的店
+- 找一个卖[光源](commodity)的地方
+- 帮我找有卖[光源](commodity)的商店
+- 哪里有商场可以买[光源](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[交换机](commodity)啊
+- 哪里有卖[交换机](commodity)的店
+- 找一个卖[交换机](commodity)的地方
+- 帮我找有卖[交换机](commodity)的商店
+- 哪里有商场可以买[交换机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[工作服](commodity)啊
+- 哪里有卖[工作服](commodity)的店
+- 找一个卖[工作服](commodity)的地方
+- 帮我找有卖[工作服](commodity)的商店
+- 哪里有商场可以买[工作服](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[胶黏用品](commodity)啊
+- 哪里有卖[胶黏用品](commodity)的店
+- 找一个卖[胶黏用品](commodity)的地方
+- 帮我找有卖[胶黏用品](commodity)的商店
+- 哪里有商场可以买[胶黏用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[辅助用品](commodity)啊
+- 哪里有卖[辅助用品](commodity)的店
+- 找一个卖[辅助用品](commodity)的地方
+- 帮我找有卖[辅助用品](commodity)的商店
+- 哪里有商场可以买[辅助用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[化妆水](commodity)啊
+- 哪里有卖[化妆水](commodity)的店
+- 找一个卖[化妆水](commodity)的地方
+- 帮我找有卖[化妆水](commodity)的商店
+- 哪里有商场可以买[化妆水](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[十字绣](commodity)啊
+- 哪里有卖[十字绣](commodity)的店
+- 找一个卖[十字绣](commodity)的地方
+- 帮我找有卖[十字绣](commodity)的商店
+- 哪里有商场可以买[十字绣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Little Dream Garden](commodity)啊
+- 哪里有卖[Little Dream Garden](commodity)的店
+- 找一个卖[Little Dream Garden](commodity)的地方
+- 帮我找有卖[Little Dream Garden](commodity)的商店
+- 哪里有商场可以买[Little Dream Garden](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[厨房清洁](commodity)啊
+- 哪里有卖[厨房清洁](commodity)的店
+- 找一个卖[厨房清洁](commodity)的地方
+- 帮我找有卖[厨房清洁](commodity)的商店
+- 哪里有商场可以买[厨房清洁](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[婴童](commodity)啊
+- 哪里有卖[婴童](commodity)的店
+- 找一个卖[婴童](commodity)的地方
+- 帮我找有卖[婴童](commodity)的商店
+- 哪里有商场可以买[婴童](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[被套](commodity)啊
+- 哪里有卖[被套](commodity)的店
+- 找一个卖[被套](commodity)的地方
+- 帮我找有卖[被套](commodity)的商店
+- 哪里有商场可以买[被套](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[枕套](commodity)啊
+- 哪里有卖[枕套](commodity)的店
+- 找一个卖[枕套](commodity)的地方
+- 帮我找有卖[枕套](commodity)的商店
+- 哪里有商场可以买[枕套](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[民族弹拨乐器](commodity)啊
+- 哪里有卖[民族弹拨乐器](commodity)的店
+- 找一个卖[民族弹拨乐器](commodity)的地方
+- 帮我找有卖[民族弹拨乐器](commodity)的商店
+- 哪里有商场可以买[民族弹拨乐器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[越野跑鞋](commodity)啊
+- 哪里有卖[越野跑鞋](commodity)的店
+- 找一个卖[越野跑鞋](commodity)的地方
+- 帮我找有卖[越野跑鞋](commodity)的商店
+- 哪里有商场可以买[越野跑鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[3G无线上网缴费](commodity)啊
+- 哪里有卖[3G无线上网缴费](commodity)的店
+- 找一个卖[3G无线上网缴费](commodity)的地方
+- 帮我找有卖[3G无线上网缴费](commodity)的商店
+- 哪里有商场可以买[3G无线上网缴费](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[时尚](commodity)啊
+- 哪里有卖[时尚](commodity)的店
+- 找一个卖[时尚](commodity)的地方
+- 帮我找有卖[时尚](commodity)的商店
+- 哪里有商场可以买[时尚](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[民谣](commodity)啊
+- 哪里有卖[民谣](commodity)的店
+- 找一个卖[民谣](commodity)的地方
+- 帮我找有卖[民谣](commodity)的商店
+- 哪里有商场可以买[民谣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[霜](commodity)啊
+- 哪里有卖[霜](commodity)的店
+- 找一个卖[霜](commodity)的地方
+- 帮我找有卖[霜](commodity)的商店
+- 哪里有商场可以买[霜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[服饰配件](commodity)啊
+- 哪里有卖[服饰配件](commodity)的店
+- 找一个卖[服饰配件](commodity)的地方
+- 帮我找有卖[服饰配件](commodity)的商店
+- 哪里有商场可以买[服饰配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[honeyGIRL](commodity)啊
+- 哪里有卖[honeyGIRL](commodity)的店
+- 找一个卖[honeyGIRL](commodity)的地方
+- 帮我找有卖[honeyGIRL](commodity)的商店
+- 哪里有商场可以买[honeyGIRL](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[学爬](commodity)啊
+- 哪里有卖[学爬](commodity)的店
+- 找一个卖[学爬](commodity)的地方
+- 帮我找有卖[学爬](commodity)的商店
+- 哪里有商场可以买[学爬](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[沙滩鞋](commodity)啊
+- 哪里有卖[沙滩鞋](commodity)的店
+- 找一个卖[沙滩鞋](commodity)的地方
+- 帮我找有卖[沙滩鞋](commodity)的商店
+- 哪里有商场可以买[沙滩鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[计生用品](commodity)啊
+- 哪里有卖[计生用品](commodity)的店
+- 找一个卖[计生用品](commodity)的地方
+- 帮我找有卖[计生用品](commodity)的商店
+- 哪里有商场可以买[计生用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[桌游](commodity)啊
+- 哪里有卖[桌游](commodity)的店
+- 找一个卖[桌游](commodity)的地方
+- 帮我找有卖[桌游](commodity)的商店
+- 哪里有商场可以买[桌游](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[画框](commodity)啊
+- 哪里有卖[画框](commodity)的店
+- 找一个卖[画框](commodity)的地方
+- 帮我找有卖[画框](commodity)的商店
+- 哪里有商场可以买[画框](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[指甲钳](commodity)啊
+- 哪里有卖[指甲钳](commodity)的店
+- 找一个卖[指甲钳](commodity)的地方
+- 帮我找有卖[指甲钳](commodity)的商店
+- 哪里有商场可以买[指甲钳](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[女士斜挎包](commodity)啊
+- 哪里有卖[女士斜挎包](commodity)的店
+- 找一个卖[女士斜挎包](commodity)的地方
+- 帮我找有卖[女士斜挎包](commodity)的商店
+- 哪里有商场可以买[女士斜挎包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[美肤宝](commodity)啊
+- 哪里有卖[美肤宝](commodity)的店
+- 找一个卖[美肤宝](commodity)的地方
+- 帮我找有卖[美肤宝](commodity)的商店
+- 哪里有商场可以买[美肤宝](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[居家拖鞋](commodity)啊
+- 哪里有卖[居家拖鞋](commodity)的店
+- 找一个卖[居家拖鞋](commodity)的地方
+- 帮我找有卖[居家拖鞋](commodity)的商店
+- 哪里有商场可以买[居家拖鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[瑜伽配件](commodity)啊
+- 哪里有卖[瑜伽配件](commodity)的店
+- 找一个卖[瑜伽配件](commodity)的地方
+- 帮我找有卖[瑜伽配件](commodity)的商店
+- 哪里有商场可以买[瑜伽配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[遮瑕](commodity)啊
+- 哪里有卖[遮瑕](commodity)的店
+- 找一个卖[遮瑕](commodity)的地方
+- 帮我找有卖[遮瑕](commodity)的商店
+- 哪里有商场可以买[遮瑕](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[演出](commodity)啊
+- 哪里有卖[演出](commodity)的店
+- 找一个卖[演出](commodity)的地方
+- 帮我找有卖[演出](commodity)的商店
+- 哪里有商场可以买[演出](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[激光笔](commodity)啊
+- 哪里有卖[激光笔](commodity)的店
+- 找一个卖[激光笔](commodity)的地方
+- 帮我找有卖[激光笔](commodity)的商店
+- 哪里有商场可以买[激光笔](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[牙签](commodity)啊
+- 哪里有卖[牙签](commodity)的店
+- 找一个卖[牙签](commodity)的地方
+- 帮我找有卖[牙签](commodity)的商店
+- 哪里有商场可以买[牙签](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[餐巾纸](commodity)啊
+- 哪里有卖[餐巾纸](commodity)的店
+- 找一个卖[餐巾纸](commodity)的地方
+- 帮我找有卖[餐巾纸](commodity)的商店
+- 哪里有商场可以买[餐巾纸](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[乡村](commodity)啊
+- 哪里有卖[乡村](commodity)的店
+- 找一个卖[乡村](commodity)的地方
+- 帮我找有卖[乡村](commodity)的商店
+- 哪里有商场可以买[乡村](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Polo衫](commodity)啊
+- 哪里有卖[Polo衫](commodity)的店
+- 找一个卖[Polo衫](commodity)的地方
+- 帮我找有卖[Polo衫](commodity)的商店
+- 哪里有商场可以买[Polo衫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[热水器](commodity)啊
+- 哪里有卖[热水器](commodity)的店
+- 找一个卖[热水器](commodity)的地方
+- 帮我找有卖[热水器](commodity)的商店
+- 哪里有商场可以买[热水器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[野餐炊具](commodity)啊
+- 哪里有卖[野餐炊具](commodity)的店
+- 找一个卖[野餐炊具](commodity)的地方
+- 帮我找有卖[野餐炊具](commodity)的商店
+- 哪里有商场可以买[野餐炊具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动器材](commodity)啊
+- 哪里有卖[运动器材](commodity)的店
+- 找一个卖[运动器材](commodity)的地方
+- 帮我找有卖[运动器材](commodity)的商店
+- 哪里有商场可以买[运动器材](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手提CD](commodity)啊
+- 哪里有卖[手提CD](commodity)的店
+- 找一个卖[手提CD](commodity)的地方
+- 帮我找有卖[手提CD](commodity)的商店
+- 哪里有商场可以买[手提CD](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[枕头](commodity)啊
+- 哪里有卖[枕头](commodity)的店
+- 找一个卖[枕头](commodity)的地方
+- 帮我找有卖[枕头](commodity)的商店
+- 哪里有商场可以买[枕头](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[儿童上装](commodity)啊
+- 哪里有卖[儿童上装](commodity)的店
+- 找一个卖[儿童上装](commodity)的地方
+- 帮我找有卖[儿童上装](commodity)的商店
+- 哪里有商场可以买[儿童上装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[挂钟](commodity)啊
+- 哪里有卖[挂钟](commodity)的店
+- 找一个卖[挂钟](commodity)的地方
+- 帮我找有卖[挂钟](commodity)的商店
+- 哪里有商场可以买[挂钟](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[呢大衣](commodity)啊
+- 哪里有卖[呢大衣](commodity)的店
+- 找一个卖[呢大衣](commodity)的地方
+- 帮我找有卖[呢大衣](commodity)的商店
+- 哪里有商场可以买[呢大衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他水晶](commodity)啊
+- 哪里有卖[其他水晶](commodity)的店
+- 找一个卖[其他水晶](commodity)的地方
+- 帮我找有卖[其他水晶](commodity)的商店
+- 哪里有商场可以买[其他水晶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[个性定制](commodity)啊
+- 哪里有卖[个性定制](commodity)的店
+- 找一个卖[个性定制](commodity)的地方
+- 帮我找有卖[个性定制](commodity)的商店
+- 哪里有商场可以买[个性定制](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[PROYA](commodity)啊
+- 哪里有卖[PROYA](commodity)的店
+- 找一个卖[PROYA](commodity)的地方
+- 帮我找有卖[PROYA](commodity)的商店
+- 哪里有商场可以买[PROYA](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[读卡器](commodity)啊
+- 哪里有卖[读卡器](commodity)的店
+- 找一个卖[读卡器](commodity)的地方
+- 帮我找有卖[读卡器](commodity)的商店
+- 哪里有商场可以买[读卡器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[管阀](commodity)啊
+- 哪里有卖[管阀](commodity)的店
+- 找一个卖[管阀](commodity)的地方
+- 帮我找有卖[管阀](commodity)的商店
+- 哪里有商场可以买[管阀](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[扭扭车](commodity)啊
+- 哪里有卖[扭扭车](commodity)的店
+- 找一个卖[扭扭车](commodity)的地方
+- 帮我找有卖[扭扭车](commodity)的商店
+- 哪里有商场可以买[扭扭车](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[蜜饯](commodity)啊
+- 哪里有卖[蜜饯](commodity)的店
+- 找一个卖[蜜饯](commodity)的地方
+- 帮我找有卖[蜜饯](commodity)的商店
+- 哪里有商场可以买[蜜饯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[笔记本配件](commodity)啊
+- 哪里有卖[笔记本配件](commodity)的店
+- 找一个卖[笔记本配件](commodity)的地方
+- 帮我找有卖[笔记本配件](commodity)的商店
+- 哪里有商场可以买[笔记本配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[外语](commodity)啊
+- 哪里有卖[外语](commodity)的店
+- 找一个卖[外语](commodity)的地方
+- 帮我找有卖[外语](commodity)的商店
+- 哪里有商场可以买[外语](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[雨鞋](commodity)啊
+- 哪里有卖[雨鞋](commodity)的店
+- 找一个卖[雨鞋](commodity)的地方
+- 帮我找有卖[雨鞋](commodity)的商店
+- 哪里有商场可以买[雨鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[数码单反相机](commodity)啊
+- 哪里有卖[数码单反相机](commodity)的店
+- 找一个卖[数码单反相机](commodity)的地方
+- 帮我找有卖[数码单反相机](commodity)的商店
+- 哪里有商场可以买[数码单反相机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[厨房](commodity)啊
+- 哪里有卖[厨房](commodity)的店
+- 找一个卖[厨房](commodity)的地方
+- 帮我找有卖[厨房](commodity)的商店
+- 哪里有商场可以买[厨房](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[桌类](commodity)啊
+- 哪里有卖[桌类](commodity)的店
+- 找一个卖[桌类](commodity)的地方
+- 帮我找有卖[桌类](commodity)的商店
+- 哪里有商场可以买[桌类](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[婴儿洗护](commodity)啊
+- 哪里有卖[婴儿洗护](commodity)的店
+- 找一个卖[婴儿洗护](commodity)的地方
+- 帮我找有卖[婴儿洗护](commodity)的商店
+- 哪里有商场可以买[婴儿洗护](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[围脖](commodity)啊
+- 哪里有卖[围脖](commodity)的店
+- 找一个卖[围脖](commodity)的地方
+- 帮我找有卖[围脖](commodity)的商店
+- 哪里有商场可以买[围脖](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[健美操](commodity)啊
+- 哪里有卖[健美操](commodity)的店
+- 找一个卖[健美操](commodity)的地方
+- 帮我找有卖[健美操](commodity)的商店
+- 哪里有商场可以买[健美操](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[系统软件](commodity)啊
+- 哪里有卖[系统软件](commodity)的店
+- 找一个卖[系统软件](commodity)的地方
+- 帮我找有卖[系统软件](commodity)的商店
+- 哪里有商场可以买[系统软件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[塌类](commodity)啊
+- 哪里有卖[塌类](commodity)的店
+- 找一个卖[塌类](commodity)的地方
+- 帮我找有卖[塌类](commodity)的商店
+- 哪里有商场可以买[塌类](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[帘类配件](commodity)啊
+- 哪里有卖[帘类配件](commodity)的店
+- 找一个卖[帘类配件](commodity)的地方
+- 帮我找有卖[帘类配件](commodity)的商店
+- 哪里有商场可以买[帘类配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[羊奶粉](commodity)啊
+- 哪里有卖[羊奶粉](commodity)的店
+- 找一个卖[羊奶粉](commodity)的地方
+- 帮我找有卖[羊奶粉](commodity)的商店
+- 哪里有商场可以买[羊奶粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[拆除用具](commodity)啊
+- 哪里有卖[拆除用具](commodity)的店
+- 找一个卖[拆除用具](commodity)的地方
+- 帮我找有卖[拆除用具](commodity)的商店
+- 哪里有商场可以买[拆除用具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[皮草](commodity)啊
+- 哪里有卖[皮草](commodity)的店
+- 找一个卖[皮草](commodity)的地方
+- 帮我找有卖[皮草](commodity)的商店
+- 哪里有商场可以买[皮草](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[美妆](commodity)啊
+- 哪里有卖[美妆](commodity)的店
+- 找一个卖[美妆](commodity)的地方
+- 帮我找有卖[美妆](commodity)的商店
+- 哪里有商场可以买[美妆](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[VIISHOW](commodity)啊
+- 哪里有卖[VIISHOW](commodity)的店
+- 找一个卖[VIISHOW](commodity)的地方
+- 帮我找有卖[VIISHOW](commodity)的商店
+- 哪里有商场可以买[VIISHOW](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他饰品相关](commodity)啊
+- 哪里有卖[其他饰品相关](commodity)的店
+- 找一个卖[其他饰品相关](commodity)的地方
+- 帮我找有卖[其他饰品相关](commodity)的商店
+- 哪里有商场可以买[其他饰品相关](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Hifi音响配件](commodity)啊
+- 哪里有卖[Hifi音响配件](commodity)的店
+- 找一个卖[Hifi音响配件](commodity)的地方
+- 帮我找有卖[Hifi音响配件](commodity)的商店
+- 哪里有商场可以买[Hifi音响配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[暖贴](commodity)啊
+- 哪里有卖[暖贴](commodity)的店
+- 找一个卖[暖贴](commodity)的地方
+- 帮我找有卖[暖贴](commodity)的商店
+- 哪里有商场可以买[暖贴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[学习机](commodity)啊
+- 哪里有卖[学习机](commodity)的店
+- 找一个卖[学习机](commodity)的地方
+- 帮我找有卖[学习机](commodity)的商店
+- 哪里有商场可以买[学习机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鼠标](commodity)啊
+- 哪里有卖[鼠标](commodity)的店
+- 找一个卖[鼠标](commodity)的地方
+- 帮我找有卖[鼠标](commodity)的商店
+- 哪里有商场可以买[鼠标](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[布料](commodity)啊
+- 哪里有卖[布料](commodity)的店
+- 找一个卖[布料](commodity)的地方
+- 帮我找有卖[布料](commodity)的商店
+- 哪里有商场可以买[布料](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[糖果](commodity)啊
+- 哪里有卖[糖果](commodity)的店
+- 找一个卖[糖果](commodity)的地方
+- 帮我找有卖[糖果](commodity)的商店
+- 哪里有商场可以买[糖果](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[汽车GPS](commodity)啊
+- 哪里有卖[汽车GPS](commodity)的店
+- 找一个卖[汽车GPS](commodity)的地方
+- 帮我找有卖[汽车GPS](commodity)的商店
+- 哪里有商场可以买[汽车GPS](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[摇篮](commodity)啊
+- 哪里有卖[摇篮](commodity)的店
+- 找一个卖[摇篮](commodity)的地方
+- 帮我找有卖[摇篮](commodity)的商店
+- 哪里有商场可以买[摇篮](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[急救卫生](commodity)啊
+- 哪里有卖[急救卫生](commodity)的店
+- 找一个卖[急救卫生](commodity)的地方
+- 帮我找有卖[急救卫生](commodity)的商店
+- 哪里有商场可以买[急救卫生](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[防尘袋](commodity)啊
+- 哪里有卖[防尘袋](commodity)的店
+- 找一个卖[防尘袋](commodity)的地方
+- 帮我找有卖[防尘袋](commodity)的商店
+- 哪里有商场可以买[防尘袋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[舞蹈](commodity)啊
+- 哪里有卖[舞蹈](commodity)的店
+- 找一个卖[舞蹈](commodity)的地方
+- 帮我找有卖[舞蹈](commodity)的商店
+- 哪里有商场可以买[舞蹈](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[VANS](commodity)啊
+- 哪里有卖[VANS](commodity)的店
+- 找一个卖[VANS](commodity)的地方
+- 帮我找有卖[VANS](commodity)的商店
+- 哪里有商场可以买[VANS](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[漱口水](commodity)啊
+- 哪里有卖[漱口水](commodity)的店
+- 找一个卖[漱口水](commodity)的地方
+- 帮我找有卖[漱口水](commodity)的商店
+- 哪里有商场可以买[漱口水](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[营养面条](commodity)啊
+- 哪里有卖[营养面条](commodity)的店
+- 找一个卖[营养面条](commodity)的地方
+- 帮我找有卖[营养面条](commodity)的商店
+- 哪里有商场可以买[营养面条](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[励志](commodity)啊
+- 哪里有卖[励志](commodity)的店
+- 找一个卖[励志](commodity)的地方
+- 帮我找有卖[励志](commodity)的商店
+- 哪里有商场可以买[励志](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[SemirJosiny](commodity)啊
+- 哪里有卖[SemirJosiny](commodity)的店
+- 找一个卖[SemirJosiny](commodity)的地方
+- 帮我找有卖[SemirJosiny](commodity)的商店
+- 哪里有商场可以买[SemirJosiny](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[虚拟](commodity)啊
+- 哪里有卖[虚拟](commodity)的店
+- 找一个卖[虚拟](commodity)的地方
+- 帮我找有卖[虚拟](commodity)的商店
+- 哪里有商场可以买[虚拟](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[耗材](commodity)啊
+- 哪里有卖[耗材](commodity)的店
+- 找一个卖[耗材](commodity)的地方
+- 帮我找有卖[耗材](commodity)的商店
+- 哪里有商场可以买[耗材](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[铁](commodity)啊
+- 哪里有卖[铁](commodity)的店
+- 找一个卖[铁](commodity)的地方
+- 帮我找有卖[铁](commodity)的商店
+- 哪里有商场可以买[铁](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[风琴](commodity)啊
+- 哪里有卖[风琴](commodity)的店
+- 找一个卖[风琴](commodity)的地方
+- 帮我找有卖[风琴](commodity)的商店
+- 哪里有商场可以买[风琴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他](commodity)啊
+- 哪里有卖[其他](commodity)的店
+- 找一个卖[其他](commodity)的地方
+- 帮我找有卖[其他](commodity)的商店
+- 哪里有商场可以买[其他](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电子阅览器](commodity)啊
+- 哪里有卖[电子阅览器](commodity)的店
+- 找一个卖[电子阅览器](commodity)的地方
+- 帮我找有卖[电子阅览器](commodity)的商店
+- 哪里有商场可以买[电子阅览器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[珍珠](commodity)啊
+- 哪里有卖[珍珠](commodity)的店
+- 找一个卖[珍珠](commodity)的地方
+- 帮我找有卖[珍珠](commodity)的商店
+- 哪里有商场可以买[珍珠](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[口琴](commodity)啊
+- 哪里有卖[口琴](commodity)的店
+- 找一个卖[口琴](commodity)的地方
+- 帮我找有卖[口琴](commodity)的商店
+- 哪里有商场可以买[口琴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[巧克力](commodity)啊
+- 哪里有卖[巧克力](commodity)的店
+- 找一个卖[巧克力](commodity)的地方
+- 帮我找有卖[巧克力](commodity)的商店
+- 哪里有商场可以买[巧克力](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[眼部护理](commodity)啊
+- 哪里有卖[眼部护理](commodity)的店
+- 找一个卖[眼部护理](commodity)的地方
+- 帮我找有卖[眼部护理](commodity)的商店
+- 哪里有商场可以买[眼部护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[模型玩偶](commodity)啊
+- 哪里有卖[模型玩偶](commodity)的店
+- 找一个卖[模型玩偶](commodity)的地方
+- 帮我找有卖[模型玩偶](commodity)的商店
+- 哪里有商场可以买[模型玩偶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[防护器具](commodity)啊
+- 哪里有卖[防护器具](commodity)的店
+- 找一个卖[防护器具](commodity)的地方
+- 帮我找有卖[防护器具](commodity)的商店
+- 哪里有商场可以买[防护器具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[戒指](commodity)啊
+- 哪里有卖[戒指](commodity)的店
+- 找一个卖[戒指](commodity)的地方
+- 帮我找有卖[戒指](commodity)的商店
+- 哪里有商场可以买[戒指](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[明信片](commodity)啊
+- 哪里有卖[明信片](commodity)的店
+- 找一个卖[明信片](commodity)的地方
+- 帮我找有卖[明信片](commodity)的商店
+- 哪里有商场可以买[明信片](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[JEEP](commodity)啊
+- 哪里有卖[JEEP](commodity)的店
+- 找一个卖[JEEP](commodity)的地方
+- 帮我找有卖[JEEP](commodity)的商店
+- 哪里有商场可以买[JEEP](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[机电五金](commodity)啊
+- 哪里有卖[机电五金](commodity)的店
+- 找一个卖[机电五金](commodity)的地方
+- 帮我找有卖[机电五金](commodity)的商店
+- 哪里有商场可以买[机电五金](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[按摩椅](commodity)啊
+- 哪里有卖[按摩椅](commodity)的店
+- 找一个卖[按摩椅](commodity)的地方
+- 帮我找有卖[按摩椅](commodity)的商店
+- 哪里有商场可以买[按摩椅](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[木工用具](commodity)啊
+- 哪里有卖[木工用具](commodity)的店
+- 找一个卖[木工用具](commodity)的地方
+- 帮我找有卖[木工用具](commodity)的商店
+- 哪里有商场可以买[木工用具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[FAR.1984](commodity)啊
+- 哪里有卖[FAR.1984](commodity)的店
+- 找一个卖[FAR.1984](commodity)的地方
+- 帮我找有卖[FAR.1984](commodity)的商店
+- 哪里有商场可以买[FAR.1984](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[壁饰](commodity)啊
+- 哪里有卖[壁饰](commodity)的店
+- 找一个卖[壁饰](commodity)的地方
+- 帮我找有卖[壁饰](commodity)的商店
+- 哪里有商场可以买[壁饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动卫衣](commodity)啊
+- 哪里有卖[运动卫衣](commodity)的店
+- 找一个卖[运动卫衣](commodity)的地方
+- 帮我找有卖[运动卫衣](commodity)的商店
+- 哪里有商场可以买[运动卫衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[求生装备](commodity)啊
+- 哪里有卖[求生装备](commodity)的店
+- 找一个卖[求生装备](commodity)的地方
+- 帮我找有卖[求生装备](commodity)的商店
+- 哪里有商场可以买[求生装备](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[贝司](commodity)啊
+- 哪里有卖[贝司](commodity)的店
+- 找一个卖[贝司](commodity)的地方
+- 帮我找有卖[贝司](commodity)的商店
+- 哪里有商场可以买[贝司](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[唇彩](commodity)啊
+- 哪里有卖[唇彩](commodity)的店
+- 找一个卖[唇彩](commodity)的地方
+- 帮我找有卖[唇彩](commodity)的商店
+- 哪里有商场可以买[唇彩](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[刻录碟片](commodity)啊
+- 哪里有卖[刻录碟片](commodity)的店
+- 找一个卖[刻录碟片](commodity)的地方
+- 帮我找有卖[刻录碟片](commodity)的商店
+- 哪里有商场可以买[刻录碟片](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[脏衣篮](commodity)啊
+- 哪里有卖[脏衣篮](commodity)的店
+- 找一个卖[脏衣篮](commodity)的地方
+- 帮我找有卖[脏衣篮](commodity)的商店
+- 哪里有商场可以买[脏衣篮](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[文艺男](commodity)啊
+- 哪里有卖[文艺男](commodity)的店
+- 找一个卖[文艺男](commodity)的地方
+- 帮我找有卖[文艺男](commodity)的商店
+- 哪里有商场可以买[文艺男](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他厨房用品](commodity)啊
+- 哪里有卖[其他厨房用品](commodity)的店
+- 找一个卖[其他厨房用品](commodity)的地方
+- 帮我找有卖[其他厨房用品](commodity)的商店
+- 哪里有商场可以买[其他厨房用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[DIY饰品配件](commodity)啊
+- 哪里有卖[DIY饰品配件](commodity)的店
+- 找一个卖[DIY饰品配件](commodity)的地方
+- 帮我找有卖[DIY饰品配件](commodity)的商店
+- 哪里有商场可以买[DIY饰品配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[拉夏贝尔](commodity)啊
+- 哪里有卖[拉夏贝尔](commodity)的店
+- 找一个卖[拉夏贝尔](commodity)的地方
+- 帮我找有卖[拉夏贝尔](commodity)的商店
+- 哪里有商场可以买[拉夏贝尔](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[打底](commodity)啊
+- 哪里有卖[打底](commodity)的店
+- 找一个卖[打底](commodity)的地方
+- 帮我找有卖[打底](commodity)的商店
+- 哪里有商场可以买[打底](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[水电工](commodity)啊
+- 哪里有卖[水电工](commodity)的店
+- 找一个卖[水电工](commodity)的地方
+- 帮我找有卖[水电工](commodity)的商店
+- 哪里有商场可以买[水电工](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[哲学](commodity)啊
+- 哪里有卖[哲学](commodity)的店
+- 找一个卖[哲学](commodity)的地方
+- 帮我找有卖[哲学](commodity)的商店
+- 哪里有商场可以买[哲学](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[办公](commodity)啊
+- 哪里有卖[办公](commodity)的店
+- 找一个卖[办公](commodity)的地方
+- 帮我找有卖[办公](commodity)的商店
+- 哪里有商场可以买[办公](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[加热器](commodity)啊
+- 哪里有卖[加热器](commodity)的店
+- 找一个卖[加热器](commodity)的地方
+- 帮我找有卖[加热器](commodity)的商店
+- 哪里有商场可以买[加热器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[花生](commodity)啊
+- 哪里有卖[花生](commodity)的店
+- 找一个卖[花生](commodity)的地方
+- 帮我找有卖[花生](commodity)的商店
+- 哪里有商场可以买[花生](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[网络存储](commodity)啊
+- 哪里有卖[网络存储](commodity)的店
+- 找一个卖[网络存储](commodity)的地方
+- 帮我找有卖[网络存储](commodity)的商店
+- 哪里有商场可以买[网络存储](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[韩都衣舍戚米](commodity)啊
+- 哪里有卖[韩都衣舍戚米](commodity)的店
+- 找一个卖[韩都衣舍戚米](commodity)的地方
+- 帮我找有卖[韩都衣舍戚米](commodity)的商店
+- 哪里有商场可以买[韩都衣舍戚米](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[婴儿配方奶粉](commodity)啊
+- 哪里有卖[婴儿配方奶粉](commodity)的店
+- 找一个卖[婴儿配方奶粉](commodity)的地方
+- 帮我找有卖[婴儿配方奶粉](commodity)的商店
+- 哪里有商场可以买[婴儿配方奶粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[马尾](commodity)啊
+- 哪里有卖[马尾](commodity)的店
+- 找一个卖[马尾](commodity)的地方
+- 帮我找有卖[马尾](commodity)的商店
+- 哪里有商场可以买[马尾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[品牌保健品](commodity)啊
+- 哪里有卖[品牌保健品](commodity)的店
+- 找一个卖[品牌保健品](commodity)的地方
+- 帮我找有卖[品牌保健品](commodity)的商店
+- 哪里有商场可以买[品牌保健品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[压缩枕头](commodity)啊
+- 哪里有卖[压缩枕头](commodity)的店
+- 找一个卖[压缩枕头](commodity)的地方
+- 帮我找有卖[压缩枕头](commodity)的商店
+- 哪里有商场可以买[压缩枕头](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[相框](commodity)啊
+- 哪里有卖[相框](commodity)的店
+- 找一个卖[相框](commodity)的地方
+- 帮我找有卖[相框](commodity)的商店
+- 哪里有商场可以买[相框](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[网络设备](commodity)啊
+- 哪里有卖[网络设备](commodity)的店
+- 找一个卖[网络设备](commodity)的地方
+- 帮我找有卖[网络设备](commodity)的商店
+- 哪里有商场可以买[网络设备](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[爱和纯](commodity)啊
+- 哪里有卖[爱和纯](commodity)的店
+- 找一个卖[爱和纯](commodity)的地方
+- 帮我找有卖[爱和纯](commodity)的商店
+- 哪里有商场可以买[爱和纯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[建材](commodity)啊
+- 哪里有卖[建材](commodity)的店
+- 找一个卖[建材](commodity)的地方
+- 帮我找有卖[建材](commodity)的商店
+- 哪里有商场可以买[建材](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[合成器](commodity)啊
+- 哪里有卖[合成器](commodity)的店
+- 找一个卖[合成器](commodity)的地方
+- 帮我找有卖[合成器](commodity)的商店
+- 哪里有商场可以买[合成器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[调味瓶](commodity)啊
+- 哪里有卖[调味瓶](commodity)的店
+- 找一个卖[调味瓶](commodity)的地方
+- 帮我找有卖[调味瓶](commodity)的商店
+- 哪里有商场可以买[调味瓶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[乳液](commodity)啊
+- 哪里有卖[乳液](commodity)的店
+- 找一个卖[乳液](commodity)的地方
+- 帮我找有卖[乳液](commodity)的商店
+- 哪里有商场可以买[乳液](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[空调扇](commodity)啊
+- 哪里有卖[空调扇](commodity)的店
+- 找一个卖[空调扇](commodity)的地方
+- 帮我找有卖[空调扇](commodity)的商店
+- 哪里有商场可以买[空调扇](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[肉干](commodity)啊
+- 哪里有卖[肉干](commodity)的店
+- 找一个卖[肉干](commodity)的地方
+- 帮我找有卖[肉干](commodity)的商店
+- 哪里有商场可以买[肉干](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[卡套卡包](commodity)啊
+- 哪里有卖[卡套卡包](commodity)的店
+- 找一个卖[卡套卡包](commodity)的地方
+- 帮我找有卖[卡套卡包](commodity)的商店
+- 哪里有商场可以买[卡套卡包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[水壶](commodity)啊
+- 哪里有卖[水壶](commodity)的店
+- 找一个卖[水壶](commodity)的地方
+- 帮我找有卖[水壶](commodity)的商店
+- 哪里有商场可以买[水壶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[数码配件](commodity)啊
+- 哪里有卖[数码配件](commodity)的店
+- 找一个卖[数码配件](commodity)的地方
+- 帮我找有卖[数码配件](commodity)的商店
+- 哪里有商场可以买[数码配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[汽车影音](commodity)啊
+- 哪里有卖[汽车影音](commodity)的店
+- 找一个卖[汽车影音](commodity)的地方
+- 帮我找有卖[汽车影音](commodity)的商店
+- 哪里有商场可以买[汽车影音](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[文具](commodity)啊
+- 哪里有卖[文具](commodity)的店
+- 找一个卖[文具](commodity)的地方
+- 帮我找有卖[文具](commodity)的商店
+- 哪里有商场可以买[文具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[SLTOWN](commodity)啊
+- 哪里有卖[SLTOWN](commodity)的店
+- 找一个卖[SLTOWN](commodity)的地方
+- 帮我找有卖[SLTOWN](commodity)的商店
+- 哪里有商场可以买[SLTOWN](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[洁面](commodity)啊
+- 哪里有卖[洁面](commodity)的店
+- 找一个卖[洁面](commodity)的地方
+- 帮我找有卖[洁面](commodity)的商店
+- 哪里有商场可以买[洁面](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[除油刷](commodity)啊
+- 哪里有卖[除油刷](commodity)的店
+- 找一个卖[除油刷](commodity)的地方
+- 帮我找有卖[除油刷](commodity)的商店
+- 哪里有商场可以买[除油刷](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[单电](commodity)啊
+- 哪里有卖[单电](commodity)的店
+- 找一个卖[单电](commodity)的地方
+- 帮我找有卖[单电](commodity)的商店
+- 哪里有商场可以买[单电](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手工](commodity)啊
+- 哪里有卖[手工](commodity)的店
+- 找一个卖[手工](commodity)的地方
+- 帮我找有卖[手工](commodity)的商店
+- 哪里有商场可以买[手工](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[虫草](commodity)啊
+- 哪里有卖[虫草](commodity)的店
+- 找一个卖[虫草](commodity)的地方
+- 帮我找有卖[虫草](commodity)的商店
+- 哪里有商场可以买[虫草](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士腰包](commodity)啊
+- 哪里有卖[男士腰包](commodity)的店
+- 找一个卖[男士腰包](commodity)的地方
+- 帮我找有卖[男士腰包](commodity)的商店
+- 哪里有商场可以买[男士腰包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男装](commodity)啊
+- 哪里有卖[男装](commodity)的店
+- 找一个卖[男装](commodity)的地方
+- 帮我找有卖[男装](commodity)的商店
+- 哪里有商场可以买[男装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[青少年家具](commodity)啊
+- 哪里有卖[青少年家具](commodity)的店
+- 找一个卖[青少年家具](commodity)的地方
+- 帮我找有卖[青少年家具](commodity)的商店
+- 哪里有商场可以买[青少年家具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[工业设计](commodity)啊
+- 哪里有卖[工业设计](commodity)的店
+- 找一个卖[工业设计](commodity)的地方
+- 帮我找有卖[工业设计](commodity)的商店
+- 哪里有商场可以买[工业设计](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电动](commodity)啊
+- 哪里有卖[电动](commodity)的店
+- 找一个卖[电动](commodity)的地方
+- 帮我找有卖[电动](commodity)的商店
+- 哪里有商场可以买[电动](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[烹饪](commodity)啊
+- 哪里有卖[烹饪](commodity)的店
+- 找一个卖[烹饪](commodity)的地方
+- 帮我找有卖[烹饪](commodity)的商店
+- 哪里有商场可以买[烹饪](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[森马](commodity)啊
+- 哪里有卖[森马](commodity)的店
+- 找一个卖[森马](commodity)的地方
+- 帮我找有卖[森马](commodity)的商店
+- 哪里有商场可以买[森马](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[断路器](commodity)啊
+- 哪里有卖[断路器](commodity)的店
+- 找一个卖[断路器](commodity)的地方
+- 帮我找有卖[断路器](commodity)的商店
+- 哪里有商场可以买[断路器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[面部精华](commodity)啊
+- 哪里有卖[面部精华](commodity)的店
+- 找一个卖[面部精华](commodity)的地方
+- 帮我找有卖[面部精华](commodity)的商店
+- 哪里有商场可以买[面部精华](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[成套家具](commodity)啊
+- 哪里有卖[成套家具](commodity)的店
+- 找一个卖[成套家具](commodity)的地方
+- 帮我找有卖[成套家具](commodity)的商店
+- 哪里有商场可以买[成套家具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[USB电器](commodity)啊
+- 哪里有卖[USB电器](commodity)的店
+- 找一个卖[USB电器](commodity)的地方
+- 帮我找有卖[USB电器](commodity)的商店
+- 哪里有商场可以买[USB电器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[五金](commodity)啊
+- 哪里有卖[五金](commodity)的店
+- 找一个卖[五金](commodity)的地方
+- 帮我找有卖[五金](commodity)的商店
+- 哪里有商场可以买[五金](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[足部按摩](commodity)啊
+- 哪里有卖[足部按摩](commodity)的店
+- 找一个卖[足部按摩](commodity)的地方
+- 帮我找有卖[足部按摩](commodity)的商店
+- 哪里有商场可以买[足部按摩](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他男士护理](commodity)啊
+- 哪里有卖[其他男士护理](commodity)的店
+- 找一个卖[其他男士护理](commodity)的地方
+- 帮我找有卖[其他男士护理](commodity)的商店
+- 哪里有商场可以买[其他男士护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[汤粥](commodity)啊
+- 哪里有卖[汤粥](commodity)的店
+- 找一个卖[汤粥](commodity)的地方
+- 帮我找有卖[汤粥](commodity)的商店
+- 哪里有商场可以买[汤粥](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[进口调味品](commodity)啊
+- 哪里有卖[进口调味品](commodity)的店
+- 找一个卖[进口调味品](commodity)的地方
+- 帮我找有卖[进口调味品](commodity)的商店
+- 哪里有商场可以买[进口调味品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[微波用品](commodity)啊
+- 哪里有卖[微波用品](commodity)的店
+- 找一个卖[微波用品](commodity)的地方
+- 帮我找有卖[微波用品](commodity)的商店
+- 哪里有商场可以买[微波用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[占卜](commodity)啊
+- 哪里有卖[占卜](commodity)的店
+- 找一个卖[占卜](commodity)的地方
+- 帮我找有卖[占卜](commodity)的商店
+- 哪里有商场可以买[占卜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[墙钟](commodity)啊
+- 哪里有卖[墙钟](commodity)的店
+- 找一个卖[墙钟](commodity)的地方
+- 帮我找有卖[墙钟](commodity)的商店
+- 哪里有商场可以买[墙钟](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[胶卷](commodity)啊
+- 哪里有卖[胶卷](commodity)的店
+- 找一个卖[胶卷](commodity)的地方
+- 帮我找有卖[胶卷](commodity)的商店
+- 哪里有商场可以买[胶卷](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[缝纫用品](commodity)啊
+- 哪里有卖[缝纫用品](commodity)的店
+- 找一个卖[缝纫用品](commodity)的地方
+- 帮我找有卖[缝纫用品](commodity)的商店
+- 哪里有商场可以买[缝纫用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[平板电脑](commodity)啊
+- 哪里有卖[平板电脑](commodity)的店
+- 找一个卖[平板电脑](commodity)的地方
+- 帮我找有卖[平板电脑](commodity)的商店
+- 哪里有商场可以买[平板电脑](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[无框画](commodity)啊
+- 哪里有卖[无框画](commodity)的店
+- 找一个卖[无框画](commodity)的地方
+- 帮我找有卖[无框画](commodity)的商店
+- 哪里有商场可以买[无框画](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手工皂](commodity)啊
+- 哪里有卖[手工皂](commodity)的店
+- 找一个卖[手工皂](commodity)的地方
+- 帮我找有卖[手工皂](commodity)的商店
+- 哪里有商场可以买[手工皂](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[啫喱](commodity)啊
+- 哪里有卖[啫喱](commodity)的店
+- 找一个卖[啫喱](commodity)的地方
+- 帮我找有卖[啫喱](commodity)的商店
+- 哪里有商场可以买[啫喱](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[棒球相关](commodity)啊
+- 哪里有卖[棒球相关](commodity)的店
+- 找一个卖[棒球相关](commodity)的地方
+- 帮我找有卖[棒球相关](commodity)的商店
+- 哪里有商场可以买[棒球相关](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[染发膏](commodity)啊
+- 哪里有卖[染发膏](commodity)的店
+- 找一个卖[染发膏](commodity)的地方
+- 帮我找有卖[染发膏](commodity)的商店
+- 哪里有商场可以买[染发膏](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[珂莱蒂尔](commodity)啊
+- 哪里有卖[珂莱蒂尔](commodity)的店
+- 找一个卖[珂莱蒂尔](commodity)的地方
+- 帮我找有卖[珂莱蒂尔](commodity)的商店
+- 哪里有商场可以买[珂莱蒂尔](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[垂钓用品](commodity)啊
+- 哪里有卖[垂钓用品](commodity)的店
+- 找一个卖[垂钓用品](commodity)的地方
+- 帮我找有卖[垂钓用品](commodity)的商店
+- 哪里有商场可以买[垂钓用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Hanhoo](commodity)啊
+- 哪里有卖[Hanhoo](commodity)的店
+- 找一个卖[Hanhoo](commodity)的地方
+- 帮我找有卖[Hanhoo](commodity)的商店
+- 哪里有商场可以买[Hanhoo](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[海外代购奶粉](commodity)啊
+- 哪里有卖[海外代购奶粉](commodity)的店
+- 找一个卖[海外代购奶粉](commodity)的地方
+- 帮我找有卖[海外代购奶粉](commodity)的商店
+- 哪里有商场可以买[海外代购奶粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[锅具](commodity)啊
+- 哪里有卖[锅具](commodity)的店
+- 找一个卖[锅具](commodity)的地方
+- 帮我找有卖[锅具](commodity)的商店
+- 哪里有商场可以买[锅具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[孕妇装](commodity)啊
+- 哪里有卖[孕妇装](commodity)的店
+- 找一个卖[孕妇装](commodity)的地方
+- 帮我找有卖[孕妇装](commodity)的商店
+- 哪里有商场可以买[孕妇装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[数码清洁](commodity)啊
+- 哪里有卖[数码清洁](commodity)的店
+- 找一个卖[数码清洁](commodity)的地方
+- 帮我找有卖[数码清洁](commodity)的商店
+- 哪里有商场可以买[数码清洁](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[施华洛世奇](commodity)啊
+- 哪里有卖[施华洛世奇](commodity)的店
+- 找一个卖[施华洛世奇](commodity)的地方
+- 帮我找有卖[施华洛世奇](commodity)的商店
+- 哪里有商场可以买[施华洛世奇](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[暖气](commodity)啊
+- 哪里有卖[暖气](commodity)的店
+- 找一个卖[暖气](commodity)的地方
+- 帮我找有卖[暖气](commodity)的商店
+- 哪里有商场可以买[暖气](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[足浴器](commodity)啊
+- 哪里有卖[足浴器](commodity)的店
+- 找一个卖[足浴器](commodity)的地方
+- 帮我找有卖[足浴器](commodity)的商店
+- 哪里有商场可以买[足浴器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[安防报警服务](commodity)啊
+- 哪里有卖[安防报警服务](commodity)的店
+- 找一个卖[安防报警服务](commodity)的地方
+- 帮我找有卖[安防报警服务](commodity)的商店
+- 哪里有商场可以买[安防报警服务](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[松糕鞋](commodity)啊
+- 哪里有卖[松糕鞋](commodity)的店
+- 找一个卖[松糕鞋](commodity)的地方
+- 帮我找有卖[松糕鞋](commodity)的商店
+- 哪里有商场可以买[松糕鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[溯溪鞋](commodity)啊
+- 哪里有卖[溯溪鞋](commodity)的店
+- 找一个卖[溯溪鞋](commodity)的地方
+- 帮我找有卖[溯溪鞋](commodity)的商店
+- 哪里有商场可以买[溯溪鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[汽车改装](commodity)啊
+- 哪里有卖[汽车改装](commodity)的店
+- 找一个卖[汽车改装](commodity)的地方
+- 帮我找有卖[汽车改装](commodity)的商店
+- 哪里有商场可以买[汽车改装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[肉类](commodity)啊
+- 哪里有卖[肉类](commodity)的店
+- 找一个卖[肉类](commodity)的地方
+- 帮我找有卖[肉类](commodity)的商店
+- 哪里有商场可以买[肉类](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[健身车](commodity)啊
+- 哪里有卖[健身车](commodity)的店
+- 找一个卖[健身车](commodity)的地方
+- 帮我找有卖[健身车](commodity)的商店
+- 哪里有商场可以买[健身车](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[日韩流行](commodity)啊
+- 哪里有卖[日韩流行](commodity)的店
+- 找一个卖[日韩流行](commodity)的地方
+- 帮我找有卖[日韩流行](commodity)的商店
+- 哪里有商场可以买[日韩流行](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[功放](commodity)啊
+- 哪里有卖[功放](commodity)的店
+- 找一个卖[功放](commodity)的地方
+- 帮我找有卖[功放](commodity)的商店
+- 哪里有商场可以买[功放](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[猫主粮](commodity)啊
+- 哪里有卖[猫主粮](commodity)的店
+- 找一个卖[猫主粮](commodity)的地方
+- 帮我找有卖[猫主粮](commodity)的商店
+- 哪里有商场可以买[猫主粮](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[榨汁机](commodity)啊
+- 哪里有卖[榨汁机](commodity)的店
+- 找一个卖[榨汁机](commodity)的地方
+- 帮我找有卖[榨汁机](commodity)的商店
+- 哪里有商场可以买[榨汁机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他美发产品](commodity)啊
+- 哪里有卖[其他美发产品](commodity)的店
+- 找一个卖[其他美发产品](commodity)的地方
+- 帮我找有卖[其他美发产品](commodity)的商店
+- 哪里有商场可以买[其他美发产品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[创意礼品](commodity)啊
+- 哪里有卖[创意礼品](commodity)的店
+- 找一个卖[创意礼品](commodity)的地方
+- 帮我找有卖[创意礼品](commodity)的商店
+- 哪里有商场可以买[创意礼品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[小镇姗姗](commodity)啊
+- 哪里有卖[小镇姗姗](commodity)的店
+- 找一个卖[小镇姗姗](commodity)的地方
+- 帮我找有卖[小镇姗姗](commodity)的商店
+- 哪里有商场可以买[小镇姗姗](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[太阳能电池](commodity)啊
+- 哪里有卖[太阳能电池](commodity)的店
+- 找一个卖[太阳能电池](commodity)的地方
+- 帮我找有卖[太阳能电池](commodity)的商店
+- 哪里有商场可以买[太阳能电池](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[肉松](commodity)啊
+- 哪里有卖[肉松](commodity)的店
+- 找一个卖[肉松](commodity)的地方
+- 帮我找有卖[肉松](commodity)的商店
+- 哪里有商场可以买[肉松](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[存储卡](commodity)啊
+- 哪里有卖[存储卡](commodity)的店
+- 找一个卖[存储卡](commodity)的地方
+- 帮我找有卖[存储卡](commodity)的商店
+- 哪里有商场可以买[存储卡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手表](commodity)啊
+- 哪里有卖[手表](commodity)的店
+- 找一个卖[手表](commodity)的地方
+- 帮我找有卖[手表](commodity)的商店
+- 哪里有商场可以买[手表](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[DIY工具](commodity)啊
+- 哪里有卖[DIY工具](commodity)的店
+- 找一个卖[DIY工具](commodity)的地方
+- 帮我找有卖[DIY工具](commodity)的商店
+- 哪里有商场可以买[DIY工具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[旅游用品](commodity)啊
+- 哪里有卖[旅游用品](commodity)的店
+- 找一个卖[旅游用品](commodity)的地方
+- 帮我找有卖[旅游用品](commodity)的商店
+- 哪里有商场可以买[旅游用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[帐篷](commodity)啊
+- 哪里有卖[帐篷](commodity)的店
+- 找一个卖[帐篷](commodity)的地方
+- 帮我找有卖[帐篷](commodity)的商店
+- 哪里有商场可以买[帐篷](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[国画书法](commodity)啊
+- 哪里有卖[国画书法](commodity)的店
+- 找一个卖[国画书法](commodity)的地方
+- 帮我找有卖[国画书法](commodity)的商店
+- 哪里有商场可以买[国画书法](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手链](commodity)啊
+- 哪里有卖[手链](commodity)的店
+- 找一个卖[手链](commodity)的地方
+- 帮我找有卖[手链](commodity)的商店
+- 哪里有商场可以买[手链](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[笔记本贴膜](commodity)啊
+- 哪里有卖[笔记本贴膜](commodity)的店
+- 找一个卖[笔记本贴膜](commodity)的地方
+- 帮我找有卖[笔记本贴膜](commodity)的商店
+- 哪里有商场可以买[笔记本贴膜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[狗保健品](commodity)啊
+- 哪里有卖[狗保健品](commodity)的店
+- 找一个卖[狗保健品](commodity)的地方
+- 帮我找有卖[狗保健品](commodity)的商店
+- 哪里有商场可以买[狗保健品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[洁厕剂](commodity)啊
+- 哪里有卖[洁厕剂](commodity)的店
+- 找一个卖[洁厕剂](commodity)的地方
+- 帮我找有卖[洁厕剂](commodity)的商店
+- 哪里有商场可以买[洁厕剂](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[镜头](commodity)啊
+- 哪里有卖[镜头](commodity)的店
+- 找一个卖[镜头](commodity)的地方
+- 帮我找有卖[镜头](commodity)的商店
+- 哪里有商场可以买[镜头](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它厨房清洁](commodity)啊
+- 哪里有卖[其它厨房清洁](commodity)的店
+- 找一个卖[其它厨房清洁](commodity)的地方
+- 帮我找有卖[其它厨房清洁](commodity)的商店
+- 哪里有商场可以买[其它厨房清洁](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它书写工具](commodity)啊
+- 哪里有卖[其它书写工具](commodity)的店
+- 找一个卖[其它书写工具](commodity)的地方
+- 帮我找有卖[其它书写工具](commodity)的商店
+- 哪里有商场可以买[其它书写工具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[房产](commodity)啊
+- 哪里有卖[房产](commodity)的店
+- 找一个卖[房产](commodity)的地方
+- 帮我找有卖[房产](commodity)的商店
+- 哪里有商场可以买[房产](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[被子](commodity)啊
+- 哪里有卖[被子](commodity)的店
+- 找一个卖[被子](commodity)的地方
+- 帮我找有卖[被子](commodity)的商店
+- 哪里有商场可以买[被子](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[点穴棒](commodity)啊
+- 哪里有卖[点穴棒](commodity)的店
+- 找一个卖[点穴棒](commodity)的地方
+- 帮我找有卖[点穴棒](commodity)的商店
+- 哪里有商场可以买[点穴棒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[视频软件](commodity)啊
+- 哪里有卖[视频软件](commodity)的店
+- 找一个卖[视频软件](commodity)的地方
+- 帮我找有卖[视频软件](commodity)的商店
+- 哪里有商场可以买[视频软件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[虚拟货币](commodity)啊
+- 哪里有卖[虚拟货币](commodity)的店
+- 找一个卖[虚拟货币](commodity)的地方
+- 帮我找有卖[虚拟货币](commodity)的商店
+- 哪里有商场可以买[虚拟货币](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[百丽](commodity)啊
+- 哪里有卖[百丽](commodity)的店
+- 找一个卖[百丽](commodity)的地方
+- 帮我找有卖[百丽](commodity)的商店
+- 哪里有商场可以买[百丽](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[田径运动器材](commodity)啊
+- 哪里有卖[田径运动器材](commodity)的店
+- 找一个卖[田径运动器材](commodity)的地方
+- 帮我找有卖[田径运动器材](commodity)的商店
+- 哪里有商场可以买[田径运动器材](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[汽车安全防盗](commodity)啊
+- 哪里有卖[汽车安全防盗](commodity)的店
+- 找一个卖[汽车安全防盗](commodity)的地方
+- 帮我找有卖[汽车安全防盗](commodity)的商店
+- 哪里有商场可以买[汽车安全防盗](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[玩具](commodity)啊
+- 哪里有卖[玩具](commodity)的店
+- 找一个卖[玩具](commodity)的地方
+- 帮我找有卖[玩具](commodity)的商店
+- 哪里有商场可以买[玩具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电子音乐](commodity)啊
+- 哪里有卖[电子音乐](commodity)的店
+- 找一个卖[电子音乐](commodity)的地方
+- 帮我找有卖[电子音乐](commodity)的商店
+- 哪里有商场可以买[电子音乐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[投影机及配件](commodity)啊
+- 哪里有卖[投影机及配件](commodity)的店
+- 找一个卖[投影机及配件](commodity)的地方
+- 帮我找有卖[投影机及配件](commodity)的商店
+- 哪里有商场可以买[投影机及配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[布艺](commodity)啊
+- 哪里有卖[布艺](commodity)的店
+- 找一个卖[布艺](commodity)的地方
+- 帮我找有卖[布艺](commodity)的商店
+- 哪里有商场可以买[布艺](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家装](commodity)啊
+- 哪里有卖[家装](commodity)的店
+- 找一个卖[家装](commodity)的地方
+- 帮我找有卖[家装](commodity)的商店
+- 哪里有商场可以买[家装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[挂饰](commodity)啊
+- 哪里有卖[挂饰](commodity)的店
+- 找一个卖[挂饰](commodity)的地方
+- 帮我找有卖[挂饰](commodity)的商店
+- 哪里有商场可以买[挂饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[糕点](commodity)啊
+- 哪里有卖[糕点](commodity)的店
+- 找一个卖[糕点](commodity)的地方
+- 帮我找有卖[糕点](commodity)的商店
+- 哪里有商场可以买[糕点](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[内存](commodity)啊
+- 哪里有卖[内存](commodity)的店
+- 找一个卖[内存](commodity)的地方
+- 帮我找有卖[内存](commodity)的商店
+- 哪里有商场可以买[内存](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[睡袋](commodity)啊
+- 哪里有卖[睡袋](commodity)的店
+- 找一个卖[睡袋](commodity)的地方
+- 帮我找有卖[睡袋](commodity)的商店
+- 哪里有商场可以买[睡袋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[背心](commodity)啊
+- 哪里有卖[背心](commodity)的店
+- 找一个卖[背心](commodity)的地方
+- 帮我找有卖[背心](commodity)的商店
+- 哪里有商场可以买[背心](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[背包](commodity)啊
+- 哪里有卖[背包](commodity)的店
+- 找一个卖[背包](commodity)的地方
+- 帮我找有卖[背包](commodity)的商店
+- 哪里有商场可以买[背包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[女性器具](commodity)啊
+- 哪里有卖[女性器具](commodity)的店
+- 找一个卖[女性器具](commodity)的地方
+- 帮我找有卖[女性器具](commodity)的商店
+- 哪里有商场可以买[女性器具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[西点用品](commodity)啊
+- 哪里有卖[西点用品](commodity)的店
+- 找一个卖[西点用品](commodity)的地方
+- 帮我找有卖[西点用品](commodity)的商店
+- 哪里有商场可以买[西点用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[脸盆](commodity)啊
+- 哪里有卖[脸盆](commodity)的店
+- 找一个卖[脸盆](commodity)的地方
+- 帮我找有卖[脸盆](commodity)的商店
+- 哪里有商场可以买[脸盆](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[童装配饰](commodity)啊
+- 哪里有卖[童装配饰](commodity)的店
+- 找一个卖[童装配饰](commodity)的地方
+- 帮我找有卖[童装配饰](commodity)的商店
+- 哪里有商场可以买[童装配饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手机壳](commodity)啊
+- 哪里有卖[手机壳](commodity)的店
+- 找一个卖[手机壳](commodity)的地方
+- 帮我找有卖[手机壳](commodity)的商店
+- 哪里有商场可以买[手机壳](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它户外鞋类](commodity)啊
+- 哪里有卖[其它户外鞋类](commodity)的店
+- 找一个卖[其它户外鞋类](commodity)的地方
+- 帮我找有卖[其它户外鞋类](commodity)的商店
+- 哪里有商场可以买[其它户外鞋类](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[狗清洁用品](commodity)啊
+- 哪里有卖[狗清洁用品](commodity)的店
+- 找一个卖[狗清洁用品](commodity)的地方
+- 帮我找有卖[狗清洁用品](commodity)的商店
+- 哪里有商场可以买[狗清洁用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[耐克](commodity)啊
+- 哪里有卖[耐克](commodity)的店
+- 找一个卖[耐克](commodity)的地方
+- 帮我找有卖[耐克](commodity)的商店
+- 哪里有商场可以买[耐克](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[装潢](commodity)啊
+- 哪里有卖[装潢](commodity)的店
+- 找一个卖[装潢](commodity)的地方
+- 帮我找有卖[装潢](commodity)的商店
+- 哪里有商场可以买[装潢](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[玉石](commodity)啊
+- 哪里有卖[玉石](commodity)的店
+- 找一个卖[玉石](commodity)的地方
+- 帮我找有卖[玉石](commodity)的商店
+- 哪里有商场可以买[玉石](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[杀毒软件](commodity)啊
+- 哪里有卖[杀毒软件](commodity)的店
+- 找一个卖[杀毒软件](commodity)的地方
+- 帮我找有卖[杀毒软件](commodity)的商店
+- 哪里有商场可以买[杀毒软件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[数位板](commodity)啊
+- 哪里有卖[数位板](commodity)的店
+- 找一个卖[数位板](commodity)的地方
+- 帮我找有卖[数位板](commodity)的商店
+- 哪里有商场可以买[数位板](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动T恤](commodity)啊
+- 哪里有卖[运动T恤](commodity)的店
+- 找一个卖[运动T恤](commodity)的地方
+- 帮我找有卖[运动T恤](commodity)的商店
+- 哪里有商场可以买[运动T恤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[连衣裙](commodity)啊
+- 哪里有卖[连衣裙](commodity)的店
+- 找一个卖[连衣裙](commodity)的地方
+- 帮我找有卖[连衣裙](commodity)的商店
+- 哪里有商场可以买[连衣裙](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[新百伦](commodity)啊
+- 哪里有卖[新百伦](commodity)的店
+- 找一个卖[新百伦](commodity)的地方
+- 帮我找有卖[新百伦](commodity)的商店
+- 哪里有商场可以买[新百伦](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[婚庆](commodity)啊
+- 哪里有卖[婚庆](commodity)的店
+- 找一个卖[婚庆](commodity)的地方
+- 帮我找有卖[婚庆](commodity)的商店
+- 哪里有商场可以买[婚庆](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男性器具](commodity)啊
+- 哪里有卖[男性器具](commodity)的店
+- 找一个卖[男性器具](commodity)的地方
+- 帮我找有卖[男性器具](commodity)的商店
+- 哪里有商场可以买[男性器具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[缝纫机](commodity)啊
+- 哪里有卖[缝纫机](commodity)的店
+- 找一个卖[缝纫机](commodity)的地方
+- 帮我找有卖[缝纫机](commodity)的商店
+- 哪里有商场可以买[缝纫机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[字画](commodity)啊
+- 哪里有卖[字画](commodity)的店
+- 找一个卖[字画](commodity)的地方
+- 帮我找有卖[字画](commodity)的商店
+- 哪里有商场可以买[字画](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[水泥](commodity)啊
+- 哪里有卖[水泥](commodity)的店
+- 找一个卖[水泥](commodity)的地方
+- 帮我找有卖[水泥](commodity)的商店
+- 哪里有商场可以买[水泥](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[牛仔裤](commodity)啊
+- 哪里有卖[牛仔裤](commodity)的店
+- 找一个卖[牛仔裤](commodity)的地方
+- 帮我找有卖[牛仔裤](commodity)的商店
+- 哪里有商场可以买[牛仔裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[网球相关](commodity)啊
+- 哪里有卖[网球相关](commodity)的店
+- 找一个卖[网球相关](commodity)的地方
+- 帮我找有卖[网球相关](commodity)的商店
+- 哪里有商场可以买[网球相关](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[花架](commodity)啊
+- 哪里有卖[花架](commodity)的店
+- 找一个卖[花架](commodity)的地方
+- 帮我找有卖[花架](commodity)的商店
+- 哪里有商场可以买[花架](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[画片](commodity)啊
+- 哪里有卖[画片](commodity)的店
+- 找一个卖[画片](commodity)的地方
+- 帮我找有卖[画片](commodity)的商店
+- 哪里有商场可以买[画片](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[沙发套](commodity)啊
+- 哪里有卖[沙发套](commodity)的店
+- 找一个卖[沙发套](commodity)的地方
+- 帮我找有卖[沙发套](commodity)的商店
+- 哪里有商场可以买[沙发套](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[床单](commodity)啊
+- 哪里有卖[床单](commodity)的店
+- 找一个卖[床单](commodity)的地方
+- 帮我找有卖[床单](commodity)的商店
+- 哪里有商场可以买[床单](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[爱好](commodity)啊
+- 哪里有卖[爱好](commodity)的店
+- 找一个卖[爱好](commodity)的地方
+- 帮我找有卖[爱好](commodity)的商店
+- 哪里有商场可以买[爱好](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[簸箕](commodity)啊
+- 哪里有卖[簸箕](commodity)的店
+- 找一个卖[簸箕](commodity)的地方
+- 帮我找有卖[簸箕](commodity)的商店
+- 哪里有商场可以买[簸箕](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[果冻](commodity)啊
+- 哪里有卖[果冻](commodity)的店
+- 找一个卖[果冻](commodity)的地方
+- 帮我找有卖[果冻](commodity)的商店
+- 哪里有商场可以买[果冻](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[键盘](commodity)啊
+- 哪里有卖[键盘](commodity)的店
+- 找一个卖[键盘](commodity)的地方
+- 帮我找有卖[键盘](commodity)的商店
+- 哪里有商场可以买[键盘](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[面膜](commodity)啊
+- 哪里有卖[面膜](commodity)的店
+- 找一个卖[面膜](commodity)的地方
+- 帮我找有卖[面膜](commodity)的商店
+- 哪里有商场可以买[面膜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[T区护理](commodity)啊
+- 哪里有卖[T区护理](commodity)的店
+- 找一个卖[T区护理](commodity)的地方
+- 帮我找有卖[T区护理](commodity)的商店
+- 哪里有商场可以买[T区护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[保鲜膜](commodity)啊
+- 哪里有卖[保鲜膜](commodity)的店
+- 找一个卖[保鲜膜](commodity)的地方
+- 帮我找有卖[保鲜膜](commodity)的商店
+- 哪里有商场可以买[保鲜膜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[粉底](commodity)啊
+- 哪里有卖[粉底](commodity)的店
+- 找一个卖[粉底](commodity)的地方
+- 帮我找有卖[粉底](commodity)的商店
+- 哪里有商场可以买[粉底](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[抓绒衣](commodity)啊
+- 哪里有卖[抓绒衣](commodity)的店
+- 找一个卖[抓绒衣](commodity)的地方
+- 帮我找有卖[抓绒衣](commodity)的商店
+- 哪里有商场可以买[抓绒衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[胎教](commodity)啊
+- 哪里有卖[胎教](commodity)的店
+- 找一个卖[胎教](commodity)的地方
+- 帮我找有卖[胎教](commodity)的商店
+- 哪里有商场可以买[胎教](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[门帘](commodity)啊
+- 哪里有卖[门帘](commodity)的店
+- 找一个卖[门帘](commodity)的地方
+- 帮我找有卖[门帘](commodity)的商店
+- 哪里有商场可以买[门帘](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[蔬果](commodity)啊
+- 哪里有卖[蔬果](commodity)的店
+- 找一个卖[蔬果](commodity)的地方
+- 帮我找有卖[蔬果](commodity)的商店
+- 哪里有商场可以买[蔬果](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[吉他配件](commodity)啊
+- 哪里有卖[吉他配件](commodity)的店
+- 找一个卖[吉他配件](commodity)的地方
+- 帮我找有卖[吉他配件](commodity)的商店
+- 哪里有商场可以买[吉他配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动裤装](commodity)啊
+- 哪里有卖[运动裤装](commodity)的店
+- 找一个卖[运动裤装](commodity)的地方
+- 帮我找有卖[运动裤装](commodity)的商店
+- 哪里有商场可以买[运动裤装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[炭](commodity)啊
+- 哪里有卖[炭](commodity)的店
+- 找一个卖[炭](commodity)的地方
+- 帮我找有卖[炭](commodity)的商店
+- 哪里有商场可以买[炭](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[茶叶](commodity)啊
+- 哪里有卖[茶叶](commodity)的店
+- 找一个卖[茶叶](commodity)的地方
+- 帮我找有卖[茶叶](commodity)的商店
+- 哪里有商场可以买[茶叶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[剃须膏](commodity)啊
+- 哪里有卖[剃须膏](commodity)的店
+- 找一个卖[剃须膏](commodity)的地方
+- 帮我找有卖[剃须膏](commodity)的商店
+- 哪里有商场可以买[剃须膏](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[乒乓球相关](commodity)啊
+- 哪里有卖[乒乓球相关](commodity)的店
+- 找一个卖[乒乓球相关](commodity)的地方
+- 帮我找有卖[乒乓球相关](commodity)的商店
+- 哪里有商场可以买[乒乓球相关](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他滋补](commodity)啊
+- 哪里有卖[其他滋补](commodity)的店
+- 找一个卖[其他滋补](commodity)的地方
+- 帮我找有卖[其他滋补](commodity)的商店
+- 哪里有商场可以买[其他滋补](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[文胸](commodity)啊
+- 哪里有卖[文胸](commodity)的店
+- 找一个卖[文胸](commodity)的地方
+- 帮我找有卖[文胸](commodity)的商店
+- 哪里有商场可以买[文胸](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[速食](commodity)啊
+- 哪里有卖[速食](commodity)的店
+- 找一个卖[速食](commodity)的地方
+- 帮我找有卖[速食](commodity)的商店
+- 哪里有商场可以买[速食](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[椅](commodity)啊
+- 哪里有卖[椅](commodity)的店
+- 找一个卖[椅](commodity)的地方
+- 帮我找有卖[椅](commodity)的商店
+- 哪里有商场可以买[椅](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[纸巾](commodity)啊
+- 哪里有卖[纸巾](commodity)的店
+- 找一个卖[纸巾](commodity)的地方
+- 帮我找有卖[纸巾](commodity)的商店
+- 哪里有商场可以买[纸巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[黑胶](commodity)啊
+- 哪里有卖[黑胶](commodity)的店
+- 找一个卖[黑胶](commodity)的地方
+- 帮我找有卖[黑胶](commodity)的商店
+- 哪里有商场可以买[黑胶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[假不假鞋坊](commodity)啊
+- 哪里有卖[假不假鞋坊](commodity)的店
+- 找一个卖[假不假鞋坊](commodity)的地方
+- 帮我找有卖[假不假鞋坊](commodity)的商店
+- 哪里有商场可以买[假不假鞋坊](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[牙签筒](commodity)啊
+- 哪里有卖[牙签筒](commodity)的店
+- 找一个卖[牙签筒](commodity)的地方
+- 帮我找有卖[牙签筒](commodity)的商店
+- 哪里有商场可以买[牙签筒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[文房四宝](commodity)啊
+- 哪里有卖[文房四宝](commodity)的店
+- 找一个卖[文房四宝](commodity)的地方
+- 帮我找有卖[文房四宝](commodity)的商店
+- 哪里有商场可以买[文房四宝](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[身体护理](commodity)啊
+- 哪里有卖[身体护理](commodity)的店
+- 找一个卖[身体护理](commodity)的地方
+- 帮我找有卖[身体护理](commodity)的商店
+- 哪里有商场可以买[身体护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[七分裤](commodity)啊
+- 哪里有卖[七分裤](commodity)的店
+- 找一个卖[七分裤](commodity)的地方
+- 帮我找有卖[七分裤](commodity)的商店
+- 哪里有商场可以买[七分裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[隐形眼镜](commodity)啊
+- 哪里有卖[隐形眼镜](commodity)的店
+- 找一个卖[隐形眼镜](commodity)的地方
+- 帮我找有卖[隐形眼镜](commodity)的商店
+- 哪里有商场可以买[隐形眼镜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[景点门票](commodity)啊
+- 哪里有卖[景点门票](commodity)的店
+- 找一个卖[景点门票](commodity)的地方
+- 帮我找有卖[景点门票](commodity)的商店
+- 哪里有商场可以买[景点门票](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[洗液](commodity)啊
+- 哪里有卖[洗液](commodity)的店
+- 找一个卖[洗液](commodity)的地方
+- 帮我找有卖[洗液](commodity)的商店
+- 哪里有商场可以买[洗液](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[编程开发软件](commodity)啊
+- 哪里有卖[编程开发软件](commodity)的店
+- 找一个卖[编程开发软件](commodity)的地方
+- 帮我找有卖[编程开发软件](commodity)的商店
+- 哪里有商场可以买[编程开发软件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电线](commodity)啊
+- 哪里有卖[电线](commodity)的店
+- 找一个卖[电线](commodity)的地方
+- 帮我找有卖[电线](commodity)的商店
+- 哪里有商场可以买[电线](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[保健](commodity)啊
+- 哪里有卖[保健](commodity)的店
+- 找一个卖[保健](commodity)的地方
+- 帮我找有卖[保健](commodity)的商店
+- 哪里有商场可以买[保健](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[数码相框](commodity)啊
+- 哪里有卖[数码相框](commodity)的店
+- 找一个卖[数码相框](commodity)的地方
+- 帮我找有卖[数码相框](commodity)的商店
+- 哪里有商场可以买[数码相框](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[尿裤湿巾](commodity)啊
+- 哪里有卖[尿裤湿巾](commodity)的店
+- 找一个卖[尿裤湿巾](commodity)的地方
+- 帮我找有卖[尿裤湿巾](commodity)的商店
+- 哪里有商场可以买[尿裤湿巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[研磨](commodity)啊
+- 哪里有卖[研磨](commodity)的店
+- 找一个卖[研磨](commodity)的地方
+- 帮我找有卖[研磨](commodity)的商店
+- 哪里有商场可以买[研磨](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他手机配件](commodity)啊
+- 哪里有卖[其他手机配件](commodity)的店
+- 找一个卖[其他手机配件](commodity)的地方
+- 帮我找有卖[其他手机配件](commodity)的商店
+- 哪里有商场可以买[其他手机配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[VCD](commodity)啊
+- 哪里有卖[VCD](commodity)的店
+- 找一个卖[VCD](commodity)的地方
+- 帮我找有卖[VCD](commodity)的商店
+- 哪里有商场可以买[VCD](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[体育](commodity)啊
+- 哪里有卖[体育](commodity)的店
+- 找一个卖[体育](commodity)的地方
+- 帮我找有卖[体育](commodity)的商店
+- 哪里有商场可以买[体育](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[声卡](commodity)啊
+- 哪里有卖[声卡](commodity)的店
+- 找一个卖[声卡](commodity)的地方
+- 帮我找有卖[声卡](commodity)的商店
+- 哪里有商场可以买[声卡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[COGI](commodity)啊
+- 哪里有卖[COGI](commodity)的店
+- 找一个卖[COGI](commodity)的地方
+- 帮我找有卖[COGI](commodity)的商店
+- 哪里有商场可以买[COGI](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[冰柜](commodity)啊
+- 哪里有卖[冰柜](commodity)的店
+- 找一个卖[冰柜](commodity)的地方
+- 帮我找有卖[冰柜](commodity)的商店
+- 哪里有商场可以买[冰柜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[干电池](commodity)啊
+- 哪里有卖[干电池](commodity)的店
+- 找一个卖[干电池](commodity)的地方
+- 帮我找有卖[干电池](commodity)的商店
+- 哪里有商场可以买[干电池](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[古典音乐](commodity)啊
+- 哪里有卖[古典音乐](commodity)的店
+- 找一个卖[古典音乐](commodity)的地方
+- 帮我找有卖[古典音乐](commodity)的商店
+- 哪里有商场可以买[古典音乐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他民族乐器](commodity)啊
+- 哪里有卖[其他民族乐器](commodity)的店
+- 找一个卖[其他民族乐器](commodity)的地方
+- 帮我找有卖[其他民族乐器](commodity)的商店
+- 哪里有商场可以买[其他民族乐器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[瑜伽瘦身](commodity)啊
+- 哪里有卖[瑜伽瘦身](commodity)的店
+- 找一个卖[瑜伽瘦身](commodity)的地方
+- 帮我找有卖[瑜伽瘦身](commodity)的商店
+- 哪里有商场可以买[瑜伽瘦身](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[摄影摄像](commodity)啊
+- 哪里有卖[摄影摄像](commodity)的店
+- 找一个卖[摄影摄像](commodity)的地方
+- 帮我找有卖[摄影摄像](commodity)的商店
+- 哪里有商场可以买[摄影摄像](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他生活电器](commodity)啊
+- 哪里有卖[其他生活电器](commodity)的店
+- 找一个卖[其他生活电器](commodity)的地方
+- 帮我找有卖[其他生活电器](commodity)的商店
+- 哪里有商场可以买[其他生活电器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士单肩包](commodity)啊
+- 哪里有卖[男士单肩包](commodity)的店
+- 找一个卖[男士单肩包](commodity)的地方
+- 帮我找有卖[男士单肩包](commodity)的商店
+- 哪里有商场可以买[男士单肩包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[收纳陈列](commodity)啊
+- 哪里有卖[收纳陈列](commodity)的店
+- 找一个卖[收纳陈列](commodity)的地方
+- 帮我找有卖[收纳陈列](commodity)的商店
+- 哪里有商场可以买[收纳陈列](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[秋衣](commodity)啊
+- 哪里有卖[秋衣](commodity)的店
+- 找一个卖[秋衣](commodity)的地方
+- 帮我找有卖[秋衣](commodity)的商店
+- 哪里有商场可以买[秋衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[攻略](commodity)啊
+- 哪里有卖[攻略](commodity)的店
+- 找一个卖[攻略](commodity)的地方
+- 帮我找有卖[攻略](commodity)的商店
+- 哪里有商场可以买[攻略](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[清洁用品](commodity)啊
+- 哪里有卖[清洁用品](commodity)的店
+- 找一个卖[清洁用品](commodity)的地方
+- 帮我找有卖[清洁用品](commodity)的商店
+- 哪里有商场可以买[清洁用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[泵](commodity)啊
+- 哪里有卖[泵](commodity)的店
+- 找一个卖[泵](commodity)的地方
+- 帮我找有卖[泵](commodity)的商店
+- 哪里有商场可以买[泵](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[The history of whoo](commodity)啊
+- 哪里有卖[The history of whoo](commodity)的店
+- 找一个卖[The history of whoo](commodity)的地方
+- 帮我找有卖[The history of whoo](commodity)的商店
+- 哪里有商场可以买[The history of whoo](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[多用工具](commodity)啊
+- 哪里有卖[多用工具](commodity)的店
+- 找一个卖[多用工具](commodity)的地方
+- 帮我找有卖[多用工具](commodity)的商店
+- 哪里有商场可以买[多用工具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[日记本](commodity)啊
+- 哪里有卖[日记本](commodity)的店
+- 找一个卖[日记本](commodity)的地方
+- 帮我找有卖[日记本](commodity)的商店
+- 哪里有商场可以买[日记本](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Cosplay服饰](commodity)啊
+- 哪里有卖[Cosplay服饰](commodity)的店
+- 找一个卖[Cosplay服饰](commodity)的地方
+- 帮我找有卖[Cosplay服饰](commodity)的商店
+- 哪里有商场可以买[Cosplay服饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[餐桌用品](commodity)啊
+- 哪里有卖[餐桌用品](commodity)的店
+- 找一个卖[餐桌用品](commodity)的地方
+- 帮我找有卖[餐桌用品](commodity)的商店
+- 哪里有商场可以买[餐桌用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[舞曲](commodity)啊
+- 哪里有卖[舞曲](commodity)的店
+- 找一个卖[舞曲](commodity)的地方
+- 帮我找有卖[舞曲](commodity)的商店
+- 哪里有商场可以买[舞曲](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手帕](commodity)啊
+- 哪里有卖[手帕](commodity)的店
+- 找一个卖[手帕](commodity)的地方
+- 帮我找有卖[手帕](commodity)的商店
+- 哪里有商场可以买[手帕](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[插](commodity)啊
+- 哪里有卖[插](commodity)的店
+- 找一个卖[插](commodity)的地方
+- 帮我找有卖[插](commodity)的商店
+- 哪里有商场可以买[插](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[杰克琼斯](commodity)啊
+- 哪里有卖[杰克琼斯](commodity)的店
+- 找一个卖[杰克琼斯](commodity)的地方
+- 帮我找有卖[杰克琼斯](commodity)的商店
+- 哪里有商场可以买[杰克琼斯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[御泥坊](commodity)啊
+- 哪里有卖[御泥坊](commodity)的店
+- 找一个卖[御泥坊](commodity)的地方
+- 帮我找有卖[御泥坊](commodity)的商店
+- 哪里有商场可以买[御泥坊](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鼻贴](commodity)啊
+- 哪里有卖[鼻贴](commodity)的店
+- 找一个卖[鼻贴](commodity)的地方
+- 帮我找有卖[鼻贴](commodity)的商店
+- 哪里有商场可以买[鼻贴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[转换器](commodity)啊
+- 哪里有卖[转换器](commodity)的店
+- 找一个卖[转换器](commodity)的地方
+- 帮我找有卖[转换器](commodity)的商店
+- 哪里有商场可以买[转换器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[壁纸](commodity)啊
+- 哪里有卖[壁纸](commodity)的店
+- 找一个卖[壁纸](commodity)的地方
+- 帮我找有卖[壁纸](commodity)的商店
+- 哪里有商场可以买[壁纸](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[后](commodity)啊
+- 哪里有卖[后](commodity)的店
+- 找一个卖[后](commodity)的地方
+- 帮我找有卖[后](commodity)的商店
+- 哪里有商场可以买[后](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[高光粉](commodity)啊
+- 哪里有卖[高光粉](commodity)的店
+- 找一个卖[高光粉](commodity)的地方
+- 帮我找有卖[高光粉](commodity)的商店
+- 哪里有商场可以买[高光粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[跑步鞋](commodity)啊
+- 哪里有卖[跑步鞋](commodity)的店
+- 找一个卖[跑步鞋](commodity)的地方
+- 帮我找有卖[跑步鞋](commodity)的商店
+- 哪里有商场可以买[跑步鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[录音笔](commodity)啊
+- 哪里有卖[录音笔](commodity)的店
+- 找一个卖[录音笔](commodity)的地方
+- 帮我找有卖[录音笔](commodity)的商店
+- 哪里有商场可以买[录音笔](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[烧烤用品](commodity)啊
+- 哪里有卖[烧烤用品](commodity)的店
+- 找一个卖[烧烤用品](commodity)的地方
+- 帮我找有卖[烧烤用品](commodity)的商店
+- 哪里有商场可以买[烧烤用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[维修保养服务](commodity)啊
+- 哪里有卖[维修保养服务](commodity)的店
+- 找一个卖[维修保养服务](commodity)的地方
+- 帮我找有卖[维修保养服务](commodity)的商店
+- 哪里有商场可以买[维修保养服务](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[文学类](commodity)啊
+- 哪里有卖[文学类](commodity)的店
+- 找一个卖[文学类](commodity)的地方
+- 帮我找有卖[文学类](commodity)的商店
+- 哪里有商场可以买[文学类](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[收纳整理](commodity)啊
+- 哪里有卖[收纳整理](commodity)的店
+- 找一个卖[收纳整理](commodity)的地方
+- 帮我找有卖[收纳整理](commodity)的商店
+- 哪里有商场可以买[收纳整理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[围裙](commodity)啊
+- 哪里有卖[围裙](commodity)的店
+- 找一个卖[围裙](commodity)的地方
+- 帮我找有卖[围裙](commodity)的商店
+- 哪里有商场可以买[围裙](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电玩专用配件](commodity)啊
+- 哪里有卖[电玩专用配件](commodity)的店
+- 找一个卖[电玩专用配件](commodity)的地方
+- 帮我找有卖[电玩专用配件](commodity)的商店
+- 哪里有商场可以买[电玩专用配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[幽默](commodity)啊
+- 哪里有卖[幽默](commodity)的店
+- 找一个卖[幽默](commodity)的地方
+- 帮我找有卖[幽默](commodity)的商店
+- 哪里有商场可以买[幽默](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[UR](commodity)啊
+- 哪里有卖[UR](commodity)的店
+- 找一个卖[UR](commodity)的地方
+- 帮我找有卖[UR](commodity)的商店
+- 哪里有商场可以买[UR](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[粉](commodity)啊
+- 哪里有卖[粉](commodity)的店
+- 找一个卖[粉](commodity)的地方
+- 帮我找有卖[粉](commodity)的商店
+- 哪里有商场可以买[粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[绕线](commodity)啊
+- 哪里有卖[绕线](commodity)的店
+- 找一个卖[绕线](commodity)的地方
+- 帮我找有卖[绕线](commodity)的商店
+- 哪里有商场可以买[绕线](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[牌](commodity)啊
+- 哪里有卖[牌](commodity)的店
+- 找一个卖[牌](commodity)的地方
+- 帮我找有卖[牌](commodity)的商店
+- 哪里有商场可以买[牌](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[图书音像](commodity)啊
+- 哪里有卖[图书音像](commodity)的店
+- 找一个卖[图书音像](commodity)的地方
+- 帮我找有卖[图书音像](commodity)的商店
+- 哪里有商场可以买[图书音像](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[热风](commodity)啊
+- 哪里有卖[热风](commodity)的店
+- 找一个卖[热风](commodity)的地方
+- 帮我找有卖[热风](commodity)的商店
+- 哪里有商场可以买[热风](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[相纸](commodity)啊
+- 哪里有卖[相纸](commodity)的店
+- 找一个卖[相纸](commodity)的地方
+- 帮我找有卖[相纸](commodity)的商店
+- 哪里有商场可以买[相纸](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[平板电脑配件](commodity)啊
+- 哪里有卖[平板电脑配件](commodity)的店
+- 找一个卖[平板电脑配件](commodity)的地方
+- 帮我找有卖[平板电脑配件](commodity)的商店
+- 哪里有商场可以买[平板电脑配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[音乐DVD](commodity)啊
+- 哪里有卖[音乐DVD](commodity)的店
+- 找一个卖[音乐DVD](commodity)的地方
+- 帮我找有卖[音乐DVD](commodity)的商店
+- 哪里有商场可以买[音乐DVD](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[核桃](commodity)啊
+- 哪里有卖[核桃](commodity)的店
+- 找一个卖[核桃](commodity)的地方
+- 帮我找有卖[核桃](commodity)的商店
+- 哪里有商场可以买[核桃](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[生活服务](commodity)啊
+- 哪里有卖[生活服务](commodity)的店
+- 找一个卖[生活服务](commodity)的地方
+- 帮我找有卖[生活服务](commodity)的商店
+- 哪里有商场可以买[生活服务](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[节电器](commodity)啊
+- 哪里有卖[节电器](commodity)的店
+- 找一个卖[节电器](commodity)的地方
+- 帮我找有卖[节电器](commodity)的商店
+- 哪里有商场可以买[节电器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[油](commodity)啊
+- 哪里有卖[油](commodity)的店
+- 找一个卖[油](commodity)的地方
+- 帮我找有卖[油](commodity)的商店
+- 哪里有商场可以买[油](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[文件夹](commodity)啊
+- 哪里有卖[文件夹](commodity)的店
+- 找一个卖[文件夹](commodity)的地方
+- 帮我找有卖[文件夹](commodity)的商店
+- 哪里有商场可以买[文件夹](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[色带](commodity)啊
+- 哪里有卖[色带](commodity)的店
+- 找一个卖[色带](commodity)的地方
+- 帮我找有卖[色带](commodity)的商店
+- 哪里有商场可以买[色带](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[路由器](commodity)啊
+- 哪里有卖[路由器](commodity)的店
+- 找一个卖[路由器](commodity)的地方
+- 帮我找有卖[路由器](commodity)的商店
+- 哪里有商场可以买[路由器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[工具书](commodity)啊
+- 哪里有卖[工具书](commodity)的店
+- 找一个卖[工具书](commodity)的地方
+- 帮我找有卖[工具书](commodity)的商店
+- 哪里有商场可以买[工具书](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[CHANDO](commodity)啊
+- 哪里有卖[CHANDO](commodity)的店
+- 找一个卖[CHANDO](commodity)的地方
+- 帮我找有卖[CHANDO](commodity)的商店
+- 哪里有商场可以买[CHANDO](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[游戏装备](commodity)啊
+- 哪里有卖[游戏装备](commodity)的店
+- 找一个卖[游戏装备](commodity)的地方
+- 帮我找有卖[游戏装备](commodity)的商店
+- 哪里有商场可以买[游戏装备](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手套](commodity)啊
+- 哪里有卖[手套](commodity)的店
+- 找一个卖[手套](commodity)的地方
+- 帮我找有卖[手套](commodity)的商店
+- 哪里有商场可以买[手套](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[计算器](commodity)啊
+- 哪里有卖[计算器](commodity)的店
+- 找一个卖[计算器](commodity)的地方
+- 帮我找有卖[计算器](commodity)的商店
+- 哪里有商场可以买[计算器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[影棚专用](commodity)啊
+- 哪里有卖[影棚专用](commodity)的店
+- 找一个卖[影棚专用](commodity)的地方
+- 帮我找有卖[影棚专用](commodity)的商店
+- 哪里有商场可以买[影棚专用](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[自助餐](commodity)啊
+- 哪里有卖[自助餐](commodity)的店
+- 找一个卖[自助餐](commodity)的地方
+- 帮我找有卖[自助餐](commodity)的商店
+- 哪里有商场可以买[自助餐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[自然科学](commodity)啊
+- 哪里有卖[自然科学](commodity)的店
+- 找一个卖[自然科学](commodity)的地方
+- 帮我找有卖[自然科学](commodity)的商店
+- 哪里有商场可以买[自然科学](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[打底裤](commodity)啊
+- 哪里有卖[打底裤](commodity)的店
+- 找一个卖[打底裤](commodity)的地方
+- 帮我找有卖[打底裤](commodity)的商店
+- 哪里有商场可以买[打底裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[有框画](commodity)啊
+- 哪里有卖[有框画](commodity)的店
+- 找一个卖[有框画](commodity)的地方
+- 帮我找有卖[有框画](commodity)的商店
+- 哪里有商场可以买[有框画](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[棉衣](commodity)啊
+- 哪里有卖[棉衣](commodity)的店
+- 找一个卖[棉衣](commodity)的地方
+- 帮我找有卖[棉衣](commodity)的商店
+- 哪里有商场可以买[棉衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[数码](commodity)啊
+- 哪里有卖[数码](commodity)的店
+- 找一个卖[数码](commodity)的地方
+- 帮我找有卖[数码](commodity)的商店
+- 哪里有商场可以买[数码](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[发蜡](commodity)啊
+- 哪里有卖[发蜡](commodity)的店
+- 找一个卖[发蜡](commodity)的地方
+- 帮我找有卖[发蜡](commodity)的商店
+- 哪里有商场可以买[发蜡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[gu](commodity)啊
+- 哪里有卖[gu](commodity)的店
+- 找一个卖[gu](commodity)的地方
+- 帮我找有卖[gu](commodity)的商店
+- 哪里有商场可以买[gu](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[医药箱](commodity)啊
+- 哪里有卖[医药箱](commodity)的店
+- 找一个卖[医药箱](commodity)的地方
+- 帮我找有卖[医药箱](commodity)的商店
+- 哪里有商场可以买[医药箱](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[挂钩](commodity)啊
+- 哪里有卖[挂钩](commodity)的店
+- 找一个卖[挂钩](commodity)的地方
+- 帮我找有卖[挂钩](commodity)的商店
+- 哪里有商场可以买[挂钩](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[床类](commodity)啊
+- 哪里有卖[床类](commodity)的店
+- 找一个卖[床类](commodity)的地方
+- 帮我找有卖[床类](commodity)的商店
+- 哪里有商场可以买[床类](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[生活日用](commodity)啊
+- 哪里有卖[生活日用](commodity)的店
+- 找一个卖[生活日用](commodity)的地方
+- 帮我找有卖[生活日用](commodity)的商店
+- 哪里有商场可以买[生活日用](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[空气净化](commodity)啊
+- 哪里有卖[空气净化](commodity)的店
+- 找一个卖[空气净化](commodity)的地方
+- 帮我找有卖[空气净化](commodity)的商店
+- 哪里有商场可以买[空气净化](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[车标](commodity)啊
+- 哪里有卖[车标](commodity)的店
+- 找一个卖[车标](commodity)的地方
+- 帮我找有卖[车标](commodity)的商店
+- 哪里有商场可以买[车标](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[主题系列收藏](commodity)啊
+- 哪里有卖[主题系列收藏](commodity)的店
+- 找一个卖[主题系列收藏](commodity)的地方
+- 帮我找有卖[主题系列收藏](commodity)的商店
+- 哪里有商场可以买[主题系列收藏](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[公仔](commodity)啊
+- 哪里有卖[公仔](commodity)的店
+- 找一个卖[公仔](commodity)的地方
+- 帮我找有卖[公仔](commodity)的商店
+- 哪里有商场可以买[公仔](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[面包](commodity)啊
+- 哪里有卖[面包](commodity)的店
+- 找一个卖[面包](commodity)的地方
+- 帮我找有卖[面包](commodity)的商店
+- 哪里有商场可以买[面包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[匹克](commodity)啊
+- 哪里有卖[匹克](commodity)的店
+- 找一个卖[匹克](commodity)的地方
+- 帮我找有卖[匹克](commodity)的商店
+- 哪里有商场可以买[匹克](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[恒源祥](commodity)啊
+- 哪里有卖[恒源祥](commodity)的店
+- 找一个卖[恒源祥](commodity)的地方
+- 帮我找有卖[恒源祥](commodity)的商店
+- 哪里有商场可以买[恒源祥](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[卡帝乐鳄鱼](commodity)啊
+- 哪里有卖[卡帝乐鳄鱼](commodity)的店
+- 找一个卖[卡帝乐鳄鱼](commodity)的地方
+- 帮我找有卖[卡帝乐鳄鱼](commodity)的商店
+- 哪里有商场可以买[卡帝乐鳄鱼](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[防辐射](commodity)啊
+- 哪里有卖[防辐射](commodity)的店
+- 找一个卖[防辐射](commodity)的地方
+- 帮我找有卖[防辐射](commodity)的商店
+- 哪里有商场可以买[防辐射](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[柜类](commodity)啊
+- 哪里有卖[柜类](commodity)的店
+- 找一个卖[柜类](commodity)的地方
+- 帮我找有卖[柜类](commodity)的商店
+- 哪里有商场可以买[柜类](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[消毒](commodity)啊
+- 哪里有卖[消毒](commodity)的店
+- 找一个卖[消毒](commodity)的地方
+- 帮我找有卖[消毒](commodity)的商店
+- 哪里有商场可以买[消毒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[学步车](commodity)啊
+- 哪里有卖[学步车](commodity)的店
+- 找一个卖[学步车](commodity)的地方
+- 帮我找有卖[学步车](commodity)的商店
+- 哪里有商场可以买[学步车](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[美甲](commodity)啊
+- 哪里有卖[美甲](commodity)的店
+- 找一个卖[美甲](commodity)的地方
+- 帮我找有卖[美甲](commodity)的商店
+- 哪里有商场可以买[美甲](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他彩妆](commodity)啊
+- 哪里有卖[其他彩妆](commodity)的店
+- 找一个卖[其他彩妆](commodity)的地方
+- 帮我找有卖[其他彩妆](commodity)的商店
+- 哪里有商场可以买[其他彩妆](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[三脚架](commodity)啊
+- 哪里有卖[三脚架](commodity)的店
+- 找一个卖[三脚架](commodity)的地方
+- 帮我找有卖[三脚架](commodity)的商店
+- 哪里有商场可以买[三脚架](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[遮光罩](commodity)啊
+- 哪里有卖[遮光罩](commodity)的店
+- 找一个卖[遮光罩](commodity)的地方
+- 帮我找有卖[遮光罩](commodity)的商店
+- 哪里有商场可以买[遮光罩](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动鞋](commodity)啊
+- 哪里有卖[运动鞋](commodity)的店
+- 找一个卖[运动鞋](commodity)的地方
+- 帮我找有卖[运动鞋](commodity)的商店
+- 哪里有商场可以买[运动鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[蚊帐](commodity)啊
+- 哪里有卖[蚊帐](commodity)的店
+- 找一个卖[蚊帐](commodity)的地方
+- 帮我找有卖[蚊帐](commodity)的商店
+- 哪里有商场可以买[蚊帐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[妈妈奶粉](commodity)啊
+- 哪里有卖[妈妈奶粉](commodity)的店
+- 找一个卖[妈妈奶粉](commodity)的地方
+- 帮我找有卖[妈妈奶粉](commodity)的商店
+- 哪里有商场可以买[妈妈奶粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[单鞋](commodity)啊
+- 哪里有卖[单鞋](commodity)的店
+- 找一个卖[单鞋](commodity)的地方
+- 帮我找有卖[单鞋](commodity)的商店
+- 哪里有商场可以买[单鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[PECHOIN](commodity)啊
+- 哪里有卖[PECHOIN](commodity)的店
+- 找一个卖[PECHOIN](commodity)的地方
+- 帮我找有卖[PECHOIN](commodity)的商店
+- 哪里有商场可以买[PECHOIN](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[打火机](commodity)啊
+- 哪里有卖[打火机](commodity)的店
+- 找一个卖[打火机](commodity)的地方
+- 帮我找有卖[打火机](commodity)的商店
+- 哪里有商场可以买[打火机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[肉脯](commodity)啊
+- 哪里有卖[肉脯](commodity)的店
+- 找一个卖[肉脯](commodity)的地方
+- 帮我找有卖[肉脯](commodity)的商店
+- 哪里有商场可以买[肉脯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[西餐](commodity)啊
+- 哪里有卖[西餐](commodity)的店
+- 找一个卖[西餐](commodity)的地方
+- 帮我找有卖[西餐](commodity)的商店
+- 哪里有商场可以买[西餐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他影像配件](commodity)啊
+- 哪里有卖[其他影像配件](commodity)的店
+- 找一个卖[其他影像配件](commodity)的地方
+- 帮我找有卖[其他影像配件](commodity)的商店
+- 哪里有商场可以买[其他影像配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[丸美](commodity)啊
+- 哪里有卖[丸美](commodity)的店
+- 找一个卖[丸美](commodity)的地方
+- 帮我找有卖[丸美](commodity)的商店
+- 哪里有商场可以买[丸美](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[扫描仪](commodity)啊
+- 哪里有卖[扫描仪](commodity)的店
+- 找一个卖[扫描仪](commodity)的地方
+- 帮我找有卖[扫描仪](commodity)的商店
+- 哪里有商场可以买[扫描仪](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[睡袍](commodity)啊
+- 哪里有卖[睡袍](commodity)的店
+- 找一个卖[睡袍](commodity)的地方
+- 帮我找有卖[睡袍](commodity)的商店
+- 哪里有商场可以买[睡袍](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[俱乐部](commodity)啊
+- 哪里有卖[俱乐部](commodity)的店
+- 找一个卖[俱乐部](commodity)的地方
+- 帮我找有卖[俱乐部](commodity)的商店
+- 哪里有商场可以买[俱乐部](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[泳帽](commodity)啊
+- 哪里有卖[泳帽](commodity)的店
+- 找一个卖[泳帽](commodity)的地方
+- 帮我找有卖[泳帽](commodity)的商店
+- 哪里有商场可以买[泳帽](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[毛绒玩具](commodity)啊
+- 哪里有卖[毛绒玩具](commodity)的店
+- 找一个卖[毛绒玩具](commodity)的地方
+- 帮我找有卖[毛绒玩具](commodity)的商店
+- 哪里有商场可以买[毛绒玩具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[行业软件](commodity)啊
+- 哪里有卖[行业软件](commodity)的店
+- 找一个卖[行业软件](commodity)的地方
+- 帮我找有卖[行业软件](commodity)的商店
+- 哪里有商场可以买[行业软件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[粮油](commodity)啊
+- 哪里有卖[粮油](commodity)的店
+- 找一个卖[粮油](commodity)的地方
+- 帮我找有卖[粮油](commodity)的商店
+- 哪里有商场可以买[粮油](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[OVOG](commodity)啊
+- 哪里有卖[OVOG](commodity)的店
+- 找一个卖[OVOG](commodity)的地方
+- 帮我找有卖[OVOG](commodity)的商店
+- 哪里有商场可以买[OVOG](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[网络游戏点卡](commodity)啊
+- 哪里有卖[网络游戏点卡](commodity)的店
+- 找一个卖[网络游戏点卡](commodity)的地方
+- 帮我找有卖[网络游戏点卡](commodity)的商店
+- 哪里有商场可以买[网络游戏点卡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[须后水](commodity)啊
+- 哪里有卖[须后水](commodity)的店
+- 找一个卖[须后水](commodity)的地方
+- 帮我找有卖[须后水](commodity)的商店
+- 哪里有商场可以买[须后水](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Zippo](commodity)啊
+- 哪里有卖[Zippo](commodity)的店
+- 找一个卖[Zippo](commodity)的地方
+- 帮我找有卖[Zippo](commodity)的商店
+- 哪里有商场可以买[Zippo](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[驱蚊灭虫](commodity)啊
+- 哪里有卖[驱蚊灭虫](commodity)的店
+- 找一个卖[驱蚊灭虫](commodity)的地方
+- 帮我找有卖[驱蚊灭虫](commodity)的商店
+- 哪里有商场可以买[驱蚊灭虫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[花器](commodity)啊
+- 哪里有卖[花器](commodity)的店
+- 找一个卖[花器](commodity)的地方
+- 帮我找有卖[花器](commodity)的商店
+- 哪里有商场可以买[花器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[一体机](commodity)啊
+- 哪里有卖[一体机](commodity)的店
+- 找一个卖[一体机](commodity)的地方
+- 帮我找有卖[一体机](commodity)的商店
+- 哪里有商场可以买[一体机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家电罩](commodity)啊
+- 哪里有卖[家电罩](commodity)的店
+- 找一个卖[家电罩](commodity)的地方
+- 帮我找有卖[家电罩](commodity)的商店
+- 哪里有商场可以买[家电罩](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[床罩](commodity)啊
+- 哪里有卖[床罩](commodity)的店
+- 找一个卖[床罩](commodity)的地方
+- 帮我找有卖[床罩](commodity)的商店
+- 哪里有商场可以买[床罩](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[台式机](commodity)啊
+- 哪里有卖[台式机](commodity)的店
+- 找一个卖[台式机](commodity)的地方
+- 帮我找有卖[台式机](commodity)的商店
+- 哪里有商场可以买[台式机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[马术运动](commodity)啊
+- 哪里有卖[马术运动](commodity)的店
+- 找一个卖[马术运动](commodity)的地方
+- 帮我找有卖[马术运动](commodity)的商店
+- 哪里有商场可以买[马术运动](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它服务](commodity)啊
+- 哪里有卖[其它服务](commodity)的店
+- 找一个卖[其它服务](commodity)的地方
+- 帮我找有卖[其它服务](commodity)的商店
+- 哪里有商场可以买[其它服务](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[个人护理配件](commodity)啊
+- 哪里有卖[个人护理配件](commodity)的店
+- 找一个卖[个人护理配件](commodity)的地方
+- 帮我找有卖[个人护理配件](commodity)的商店
+- 哪里有商场可以买[个人护理配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[摄影配件](commodity)啊
+- 哪里有卖[摄影配件](commodity)的店
+- 找一个卖[摄影配件](commodity)的地方
+- 帮我找有卖[摄影配件](commodity)的商店
+- 哪里有商场可以买[摄影配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[帆布鞋](commodity)啊
+- 哪里有卖[帆布鞋](commodity)的店
+- 找一个卖[帆布鞋](commodity)的地方
+- 帮我找有卖[帆布鞋](commodity)的商店
+- 哪里有商场可以买[帆布鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外水具](commodity)啊
+- 哪里有卖[户外水具](commodity)的店
+- 找一个卖[户外水具](commodity)的地方
+- 帮我找有卖[户外水具](commodity)的商店
+- 哪里有商场可以买[户外水具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[保健品](commodity)啊
+- 哪里有卖[保健品](commodity)的店
+- 找一个卖[保健品](commodity)的地方
+- 帮我找有卖[保健品](commodity)的商店
+- 哪里有商场可以买[保健品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家居生活](commodity)啊
+- 哪里有卖[家居生活](commodity)的店
+- 找一个卖[家居生活](commodity)的地方
+- 帮我找有卖[家居生活](commodity)的商店
+- 哪里有商场可以买[家居生活](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[篮球相关](commodity)啊
+- 哪里有卖[篮球相关](commodity)的店
+- 找一个卖[篮球相关](commodity)的地方
+- 帮我找有卖[篮球相关](commodity)的商店
+- 哪里有商场可以买[篮球相关](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[增值业务](commodity)啊
+- 哪里有卖[增值业务](commodity)的店
+- 找一个卖[增值业务](commodity)的地方
+- 帮我找有卖[增值业务](commodity)的商店
+- 哪里有商场可以买[增值业务](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它泳具](commodity)啊
+- 哪里有卖[其它泳具](commodity)的店
+- 找一个卖[其它泳具](commodity)的地方
+- 帮我找有卖[其它泳具](commodity)的商店
+- 哪里有商场可以买[其它泳具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[水产](commodity)啊
+- 哪里有卖[水产](commodity)的店
+- 找一个卖[水产](commodity)的地方
+- 帮我找有卖[水产](commodity)的商店
+- 哪里有商场可以买[水产](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他婴儿用品](commodity)啊
+- 哪里有卖[其他婴儿用品](commodity)的店
+- 找一个卖[其他婴儿用品](commodity)的地方
+- 帮我找有卖[其他婴儿用品](commodity)的商店
+- 哪里有商场可以买[其他婴儿用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[机器人](commodity)啊
+- 哪里有卖[机器人](commodity)的店
+- 找一个卖[机器人](commodity)的地方
+- 帮我找有卖[机器人](commodity)的商店
+- 哪里有商场可以买[机器人](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[米粉](commodity)啊
+- 哪里有卖[米粉](commodity)的店
+- 找一个卖[米粉](commodity)的地方
+- 帮我找有卖[米粉](commodity)的商店
+- 哪里有商场可以买[米粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它户外用品](commodity)啊
+- 哪里有卖[其它户外用品](commodity)的店
+- 找一个卖[其它户外用品](commodity)的地方
+- 帮我找有卖[其它户外用品](commodity)的商店
+- 哪里有商场可以买[其它户外用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[优衣库](commodity)啊
+- 哪里有卖[优衣库](commodity)的店
+- 找一个卖[优衣库](commodity)的地方
+- 帮我找有卖[优衣库](commodity)的商店
+- 哪里有商场可以买[优衣库](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[体操](commodity)啊
+- 哪里有卖[体操](commodity)的店
+- 找一个卖[体操](commodity)的地方
+- 帮我找有卖[体操](commodity)的商店
+- 哪里有商场可以买[体操](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它个人护理电器](commodity)啊
+- 哪里有卖[其它个人护理电器](commodity)的店
+- 找一个卖[其它个人护理电器](commodity)的地方
+- 帮我找有卖[其它个人护理电器](commodity)的商店
+- 哪里有商场可以买[其它个人护理电器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[长裤](commodity)啊
+- 哪里有卖[长裤](commodity)的店
+- 找一个卖[长裤](commodity)的地方
+- 帮我找有卖[长裤](commodity)的商店
+- 哪里有商场可以买[长裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[面包机](commodity)啊
+- 哪里有卖[面包机](commodity)的店
+- 找一个卖[面包机](commodity)的地方
+- 帮我找有卖[面包机](commodity)的商店
+- 哪里有商场可以买[面包机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[韩束](commodity)啊
+- 哪里有卖[韩束](commodity)的店
+- 找一个卖[韩束](commodity)的地方
+- 帮我找有卖[韩束](commodity)的商店
+- 哪里有商场可以买[韩束](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[农业](commodity)啊
+- 哪里有卖[农业](commodity)的店
+- 找一个卖[农业](commodity)的地方
+- 帮我找有卖[农业](commodity)的商店
+- 哪里有商场可以买[农业](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[体重秤](commodity)啊
+- 哪里有卖[体重秤](commodity)的店
+- 找一个卖[体重秤](commodity)的地方
+- 帮我找有卖[体重秤](commodity)的商店
+- 哪里有商场可以买[体重秤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[项链](commodity)啊
+- 哪里有卖[项链](commodity)的店
+- 找一个卖[项链](commodity)的地方
+- 帮我找有卖[项链](commodity)的商店
+- 哪里有商场可以买[项链](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[保温杯](commodity)啊
+- 哪里有卖[保温杯](commodity)的店
+- 找一个卖[保温杯](commodity)的地方
+- 帮我找有卖[保温杯](commodity)的商店
+- 哪里有商场可以买[保温杯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[一叶子](commodity)啊
+- 哪里有卖[一叶子](commodity)的店
+- 找一个卖[一叶子](commodity)的地方
+- 帮我找有卖[一叶子](commodity)的商店
+- 哪里有商场可以买[一叶子](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电玩](commodity)啊
+- 哪里有卖[电玩](commodity)的店
+- 找一个卖[电玩](commodity)的地方
+- 帮我找有卖[电玩](commodity)的商店
+- 哪里有商场可以买[电玩](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[台球相关](commodity)啊
+- 哪里有卖[台球相关](commodity)的店
+- 找一个卖[台球相关](commodity)的地方
+- 帮我找有卖[台球相关](commodity)的商店
+- 哪里有商场可以买[台球相关](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[林业](commodity)啊
+- 哪里有卖[林业](commodity)的店
+- 找一个卖[林业](commodity)的地方
+- 帮我找有卖[林业](commodity)的商店
+- 哪里有商场可以买[林业](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[美特斯邦威](commodity)啊
+- 哪里有卖[美特斯邦威](commodity)的店
+- 找一个卖[美特斯邦威](commodity)的地方
+- 帮我找有卖[美特斯邦威](commodity)的商店
+- 哪里有商场可以买[美特斯邦威](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[特步](commodity)啊
+- 哪里有卖[特步](commodity)的店
+- 找一个卖[特步](commodity)的地方
+- 帮我找有卖[特步](commodity)的商店
+- 哪里有商场可以买[特步](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动沙滩鞋](commodity)啊
+- 哪里有卖[运动沙滩鞋](commodity)的店
+- 找一个卖[运动沙滩鞋](commodity)的地方
+- 帮我找有卖[运动沙滩鞋](commodity)的商店
+- 哪里有商场可以买[运动沙滩鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[厨房电器配件](commodity)啊
+- 哪里有卖[厨房电器配件](commodity)的店
+- 找一个卖[厨房电器配件](commodity)的地方
+- 帮我找有卖[厨房电器配件](commodity)的商店
+- 哪里有商场可以买[厨房电器配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家教](commodity)啊
+- 哪里有卖[家教](commodity)的店
+- 找一个卖[家教](commodity)的地方
+- 帮我找有卖[家教](commodity)的商店
+- 哪里有商场可以买[家教](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[急救护理用品](commodity)啊
+- 哪里有卖[急救护理用品](commodity)的店
+- 找一个卖[急救护理用品](commodity)的地方
+- 帮我找有卖[急救护理用品](commodity)的商店
+- 哪里有商场可以买[急救护理用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[尿布](commodity)啊
+- 哪里有卖[尿布](commodity)的店
+- 找一个卖[尿布](commodity)的地方
+- 帮我找有卖[尿布](commodity)的商店
+- 哪里有商场可以买[尿布](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[晒衣架](commodity)啊
+- 哪里有卖[晒衣架](commodity)的店
+- 找一个卖[晒衣架](commodity)的地方
+- 帮我找有卖[晒衣架](commodity)的商店
+- 哪里有商场可以买[晒衣架](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[垫背巾](commodity)啊
+- 哪里有卖[垫背巾](commodity)的店
+- 找一个卖[垫背巾](commodity)的地方
+- 帮我找有卖[垫背巾](commodity)的商店
+- 哪里有商场可以买[垫背巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[影音电器](commodity)啊
+- 哪里有卖[影音电器](commodity)的店
+- 找一个卖[影音电器](commodity)的地方
+- 帮我找有卖[影音电器](commodity)的商店
+- 哪里有商场可以买[影音电器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[李宁](commodity)啊
+- 哪里有卖[李宁](commodity)的店
+- 找一个卖[李宁](commodity)的地方
+- 帮我找有卖[李宁](commodity)的商店
+- 哪里有商场可以买[李宁](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[民族吹奏乐器](commodity)啊
+- 哪里有卖[民族吹奏乐器](commodity)的店
+- 找一个卖[民族吹奏乐器](commodity)的地方
+- 帮我找有卖[民族吹奏乐器](commodity)的商店
+- 哪里有商场可以买[民族吹奏乐器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[天然琥珀](commodity)啊
+- 哪里有卖[天然琥珀](commodity)的店
+- 找一个卖[天然琥珀](commodity)的地方
+- 帮我找有卖[天然琥珀](commodity)的商店
+- 哪里有商场可以买[天然琥珀](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它相关项目](commodity)啊
+- 哪里有卖[其它相关项目](commodity)的店
+- 找一个卖[其它相关项目](commodity)的地方
+- 帮我找有卖[其它相关项目](commodity)的商店
+- 哪里有商场可以买[其它相关项目](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[MIDI乐器](commodity)啊
+- 哪里有卖[MIDI乐器](commodity)的店
+- 找一个卖[MIDI乐器](commodity)的地方
+- 帮我找有卖[MIDI乐器](commodity)的商店
+- 哪里有商场可以买[MIDI乐器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[GXG](commodity)啊
+- 哪里有卖[GXG](commodity)的店
+- 找一个卖[GXG](commodity)的地方
+- 帮我找有卖[GXG](commodity)的商店
+- 哪里有商场可以买[GXG](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[西服套装](commodity)啊
+- 哪里有卖[西服套装](commodity)的店
+- 找一个卖[西服套装](commodity)的地方
+- 帮我找有卖[西服套装](commodity)的商店
+- 哪里有商场可以买[西服套装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[线衣](commodity)啊
+- 哪里有卖[线衣](commodity)的店
+- 找一个卖[线衣](commodity)的地方
+- 帮我找有卖[线衣](commodity)的商店
+- 哪里有商场可以买[线衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[变压器](commodity)啊
+- 哪里有卖[变压器](commodity)的店
+- 找一个卖[变压器](commodity)的地方
+- 帮我找有卖[变压器](commodity)的商店
+- 哪里有商场可以买[变压器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[柔软剂](commodity)啊
+- 哪里有卖[柔软剂](commodity)的店
+- 找一个卖[柔软剂](commodity)的地方
+- 帮我找有卖[柔软剂](commodity)的商店
+- 哪里有商场可以买[柔软剂](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[学步](commodity)啊
+- 哪里有卖[学步](commodity)的店
+- 找一个卖[学步](commodity)的地方
+- 帮我找有卖[学步](commodity)的商店
+- 哪里有商场可以买[学步](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[罐头](commodity)啊
+- 哪里有卖[罐头](commodity)的店
+- 找一个卖[罐头](commodity)的地方
+- 帮我找有卖[罐头](commodity)的商店
+- 哪里有商场可以买[罐头](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家用电器](commodity)啊
+- 哪里有卖[家用电器](commodity)的店
+- 找一个卖[家用电器](commodity)的地方
+- 帮我找有卖[家用电器](commodity)的商店
+- 哪里有商场可以买[家用电器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[文学艺术](commodity)啊
+- 哪里有卖[文学艺术](commodity)的店
+- 找一个卖[文学艺术](commodity)的地方
+- 帮我找有卖[文学艺术](commodity)的商店
+- 哪里有商场可以买[文学艺术](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[厚底](commodity)啊
+- 哪里有卖[厚底](commodity)的店
+- 找一个卖[厚底](commodity)的地方
+- 帮我找有卖[厚底](commodity)的商店
+- 哪里有商场可以买[厚底](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[水密码](commodity)啊
+- 哪里有卖[水密码](commodity)的店
+- 找一个卖[水密码](commodity)的地方
+- 帮我找有卖[水密码](commodity)的商店
+- 哪里有商场可以买[水密码](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[冲锋裤](commodity)啊
+- 哪里有卖[冲锋裤](commodity)的店
+- 找一个卖[冲锋裤](commodity)的地方
+- 帮我找有卖[冲锋裤](commodity)的商店
+- 哪里有商场可以买[冲锋裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[油漆](commodity)啊
+- 哪里有卖[油漆](commodity)的店
+- 找一个卖[油漆](commodity)的地方
+- 帮我找有卖[油漆](commodity)的商店
+- 哪里有商场可以买[油漆](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[牙粉](commodity)啊
+- 哪里有卖[牙粉](commodity)的店
+- 找一个卖[牙粉](commodity)的地方
+- 帮我找有卖[牙粉](commodity)的商店
+- 哪里有商场可以买[牙粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[相片墙](commodity)啊
+- 哪里有卖[相片墙](commodity)的店
+- 找一个卖[相片墙](commodity)的地方
+- 帮我找有卖[相片墙](commodity)的商店
+- 哪里有商场可以买[相片墙](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[棉服](commodity)啊
+- 哪里有卖[棉服](commodity)的店
+- 找一个卖[棉服](commodity)的地方
+- 帮我找有卖[棉服](commodity)的商店
+- 哪里有商场可以买[棉服](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[内饰](commodity)啊
+- 哪里有卖[内饰](commodity)的店
+- 找一个卖[内饰](commodity)的地方
+- 帮我找有卖[内饰](commodity)的商店
+- 哪里有商场可以买[内饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[红蜻蜓](commodity)啊
+- 哪里有卖[红蜻蜓](commodity)的店
+- 找一个卖[红蜻蜓](commodity)的地方
+- 帮我找有卖[红蜻蜓](commodity)的商店
+- 哪里有商场可以买[红蜻蜓](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[透蜜](commodity)啊
+- 哪里有卖[透蜜](commodity)的店
+- 找一个卖[透蜜](commodity)的地方
+- 帮我找有卖[透蜜](commodity)的商店
+- 哪里有商场可以买[透蜜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[大型游乐设施](commodity)啊
+- 哪里有卖[大型游乐设施](commodity)的店
+- 找一个卖[大型游乐设施](commodity)的地方
+- 帮我找有卖[大型游乐设施](commodity)的商店
+- 哪里有商场可以买[大型游乐设施](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家庭](commodity)啊
+- 哪里有卖[家庭](commodity)的店
+- 找一个卖[家庭](commodity)的地方
+- 帮我找有卖[家庭](commodity)的商店
+- 哪里有商场可以买[家庭](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[短外套](commodity)啊
+- 哪里有卖[短外套](commodity)的店
+- 找一个卖[短外套](commodity)的地方
+- 帮我找有卖[短外套](commodity)的商店
+- 哪里有商场可以买[短外套](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[咖啡豆](commodity)啊
+- 哪里有卖[咖啡豆](commodity)的店
+- 找一个卖[咖啡豆](commodity)的地方
+- 帮我找有卖[咖啡豆](commodity)的商店
+- 哪里有商场可以买[咖啡豆](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它产品](commodity)啊
+- 哪里有卖[其它产品](commodity)的店
+- 找一个卖[其它产品](commodity)的地方
+- 帮我找有卖[其它产品](commodity)的商店
+- 哪里有商场可以买[其它产品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[教学演示](commodity)啊
+- 哪里有卖[教学演示](commodity)的店
+- 找一个卖[教学演示](commodity)的地方
+- 帮我找有卖[教学演示](commodity)的商店
+- 哪里有商场可以买[教学演示](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[单反手柄](commodity)啊
+- 哪里有卖[单反手柄](commodity)的店
+- 找一个卖[单反手柄](commodity)的地方
+- 帮我找有卖[单反手柄](commodity)的商店
+- 哪里有商场可以买[单反手柄](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[充电](commodity)啊
+- 哪里有卖[充电](commodity)的店
+- 找一个卖[充电](commodity)的地方
+- 帮我找有卖[充电](commodity)的商店
+- 哪里有商场可以买[充电](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[花种](commodity)啊
+- 哪里有卖[花种](commodity)的店
+- 找一个卖[花种](commodity)的地方
+- 帮我找有卖[花种](commodity)的商店
+- 哪里有商场可以买[花种](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[阔色](commodity)啊
+- 哪里有卖[阔色](commodity)的店
+- 找一个卖[阔色](commodity)的地方
+- 帮我找有卖[阔色](commodity)的商店
+- 哪里有商场可以买[阔色](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[婴儿安全用品](commodity)啊
+- 哪里有卖[婴儿安全用品](commodity)的店
+- 找一个卖[婴儿安全用品](commodity)的地方
+- 帮我找有卖[婴儿安全用品](commodity)的商店
+- 哪里有商场可以买[婴儿安全用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[WETHERM](commodity)啊
+- 哪里有卖[WETHERM](commodity)的店
+- 找一个卖[WETHERM](commodity)的地方
+- 帮我找有卖[WETHERM](commodity)的商店
+- 哪里有商场可以买[WETHERM](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[地图](commodity)啊
+- 哪里有卖[地图](commodity)的店
+- 找一个卖[地图](commodity)的地方
+- 帮我找有卖[地图](commodity)的商店
+- 哪里有商场可以买[地图](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[美容电器](commodity)啊
+- 哪里有卖[美容电器](commodity)的店
+- 找一个卖[美容电器](commodity)的地方
+- 帮我找有卖[美容电器](commodity)的商店
+- 哪里有商场可以买[美容电器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[SK-II](commodity)啊
+- 哪里有卖[SK-II](commodity)的店
+- 找一个卖[SK-II](commodity)的地方
+- 帮我找有卖[SK-II](commodity)的商店
+- 哪里有商场可以买[SK-II](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[束发带](commodity)啊
+- 哪里有卖[束发带](commodity)的店
+- 找一个卖[束发带](commodity)的地方
+- 帮我找有卖[束发带](commodity)的商店
+- 哪里有商场可以买[束发带](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[爽肤水](commodity)啊
+- 哪里有卖[爽肤水](commodity)的店
+- 找一个卖[爽肤水](commodity)的地方
+- 帮我找有卖[爽肤水](commodity)的商店
+- 哪里有商场可以买[爽肤水](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[闹钟](commodity)啊
+- 哪里有卖[闹钟](commodity)的店
+- 找一个卖[闹钟](commodity)的地方
+- 帮我找有卖[闹钟](commodity)的商店
+- 哪里有商场可以买[闹钟](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[文火炉](commodity)啊
+- 哪里有卖[文火炉](commodity)的店
+- 找一个卖[文火炉](commodity)的地方
+- 帮我找有卖[文火炉](commodity)的商店
+- 哪里有商场可以买[文火炉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[急救包](commodity)啊
+- 哪里有卖[急救包](commodity)的店
+- 找一个卖[急救包](commodity)的地方
+- 帮我找有卖[急救包](commodity)的商店
+- 哪里有商场可以买[急救包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[相簿](commodity)啊
+- 哪里有卖[相簿](commodity)的店
+- 找一个卖[相簿](commodity)的地方
+- 帮我找有卖[相簿](commodity)的商店
+- 哪里有商场可以买[相簿](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[汽车维修](commodity)啊
+- 哪里有卖[汽车维修](commodity)的店
+- 找一个卖[汽车维修](commodity)的地方
+- 帮我找有卖[汽车维修](commodity)的商店
+- 哪里有商场可以买[汽车维修](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[吉他](commodity)啊
+- 哪里有卖[吉他](commodity)的店
+- 找一个卖[吉他](commodity)的地方
+- 帮我找有卖[吉他](commodity)的商店
+- 哪里有商场可以买[吉他](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外仪表](commodity)啊
+- 哪里有卖[户外仪表](commodity)的店
+- 找一个卖[户外仪表](commodity)的地方
+- 帮我找有卖[户外仪表](commodity)的商店
+- 哪里有商场可以买[户外仪表](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[足浴](commodity)啊
+- 哪里有卖[足浴](commodity)的店
+- 找一个卖[足浴](commodity)的地方
+- 帮我找有卖[足浴](commodity)的商店
+- 哪里有商场可以买[足浴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[庆典音乐](commodity)啊
+- 哪里有卖[庆典音乐](commodity)的店
+- 找一个卖[庆典音乐](commodity)的地方
+- 帮我找有卖[庆典音乐](commodity)的商店
+- 哪里有商场可以买[庆典音乐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电动打蛋器](commodity)啊
+- 哪里有卖[电动打蛋器](commodity)的店
+- 找一个卖[电动打蛋器](commodity)的地方
+- 帮我找有卖[电动打蛋器](commodity)的商店
+- 哪里有商场可以买[电动打蛋器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[个人护理电器](commodity)啊
+- 哪里有卖[个人护理电器](commodity)的店
+- 找一个卖[个人护理电器](commodity)的地方
+- 帮我找有卖[个人护理电器](commodity)的商店
+- 哪里有商场可以买[个人护理电器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[稳压器](commodity)啊
+- 哪里有卖[稳压器](commodity)的店
+- 找一个卖[稳压器](commodity)的地方
+- 帮我找有卖[稳压器](commodity)的商店
+- 哪里有商场可以买[稳压器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[海味](commodity)啊
+- 哪里有卖[海味](commodity)的店
+- 找一个卖[海味](commodity)的地方
+- 帮我找有卖[海味](commodity)的商店
+- 哪里有商场可以买[海味](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鸿星尔克](commodity)啊
+- 哪里有卖[鸿星尔克](commodity)的店
+- 找一个卖[鸿星尔克](commodity)的地方
+- 帮我找有卖[鸿星尔克](commodity)的商店
+- 哪里有商场可以买[鸿星尔克](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Dickies](commodity)啊
+- 哪里有卖[Dickies](commodity)的店
+- 找一个卖[Dickies](commodity)的地方
+- 帮我找有卖[Dickies](commodity)的商店
+- 哪里有商场可以买[Dickies](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[历史](commodity)啊
+- 哪里有卖[历史](commodity)的店
+- 找一个卖[历史](commodity)的地方
+- 帮我找有卖[历史](commodity)的商店
+- 哪里有商场可以买[历史](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[美发配件工具](commodity)啊
+- 哪里有卖[美发配件工具](commodity)的店
+- 找一个卖[美发配件工具](commodity)的地方
+- 帮我找有卖[美发配件工具](commodity)的商店
+- 哪里有商场可以买[美发配件工具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[自行车](commodity)啊
+- 哪里有卖[自行车](commodity)的店
+- 找一个卖[自行车](commodity)的地方
+- 帮我找有卖[自行车](commodity)的商店
+- 哪里有商场可以买[自行车](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[民族服装](commodity)啊
+- 哪里有卖[民族服装](commodity)的店
+- 找一个卖[民族服装](commodity)的地方
+- 帮我找有卖[民族服装](commodity)的商店
+- 哪里有商场可以买[民族服装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[WETCODE](commodity)啊
+- 哪里有卖[WETCODE](commodity)的店
+- 找一个卖[WETCODE](commodity)的地方
+- 帮我找有卖[WETCODE](commodity)的商店
+- 哪里有商场可以买[WETCODE](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[野外通讯](commodity)啊
+- 哪里有卖[野外通讯](commodity)的店
+- 找一个卖[野外通讯](commodity)的地方
+- 帮我找有卖[野外通讯](commodity)的商店
+- 哪里有商场可以买[野外通讯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[地垫](commodity)啊
+- 哪里有卖[地垫](commodity)的店
+- 找一个卖[地垫](commodity)的地方
+- 帮我找有卖[地垫](commodity)的商店
+- 哪里有商场可以买[地垫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[HomeFacialPro](commodity)啊
+- 哪里有卖[HomeFacialPro](commodity)的店
+- 找一个卖[HomeFacialPro](commodity)的地方
+- 帮我找有卖[HomeFacialPro](commodity)的商店
+- 哪里有商场可以买[HomeFacialPro](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电水壶](commodity)啊
+- 哪里有卖[电水壶](commodity)的店
+- 找一个卖[电水壶](commodity)的地方
+- 帮我找有卖[电水壶](commodity)的商店
+- 哪里有商场可以买[电水壶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[料理机](commodity)啊
+- 哪里有卖[料理机](commodity)的店
+- 找一个卖[料理机](commodity)的地方
+- 帮我找有卖[料理机](commodity)的商店
+- 哪里有商场可以买[料理机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[装饰灯](commodity)啊
+- 哪里有卖[装饰灯](commodity)的店
+- 找一个卖[装饰灯](commodity)的地方
+- 帮我找有卖[装饰灯](commodity)的商店
+- 哪里有商场可以买[装饰灯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[油烟机](commodity)啊
+- 哪里有卖[油烟机](commodity)的店
+- 找一个卖[油烟机](commodity)的地方
+- 帮我找有卖[油烟机](commodity)的商店
+- 哪里有商场可以买[油烟机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[木条](commodity)啊
+- 哪里有卖[木条](commodity)的店
+- 找一个卖[木条](commodity)的地方
+- 帮我找有卖[木条](commodity)的商店
+- 哪里有商场可以买[木条](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[高姿](commodity)啊
+- 哪里有卖[高姿](commodity)的店
+- 找一个卖[高姿](commodity)的地方
+- 帮我找有卖[高姿](commodity)的商店
+- 哪里有商场可以买[高姿](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[婴幼宝贝服饰](commodity)啊
+- 哪里有卖[婴幼宝贝服饰](commodity)的店
+- 找一个卖[婴幼宝贝服饰](commodity)的地方
+- 帮我找有卖[婴幼宝贝服饰](commodity)的商店
+- 哪里有商场可以买[婴幼宝贝服饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[春纪](commodity)啊
+- 哪里有卖[春纪](commodity)的店
+- 找一个卖[春纪](commodity)的地方
+- 帮我找有卖[春纪](commodity)的商店
+- 哪里有商场可以买[春纪](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[取暖器](commodity)啊
+- 哪里有卖[取暖器](commodity)的店
+- 找一个卖[取暖器](commodity)的地方
+- 帮我找有卖[取暖器](commodity)的商店
+- 哪里有商场可以买[取暖器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外垫子](commodity)啊
+- 哪里有卖[户外垫子](commodity)的店
+- 找一个卖[户外垫子](commodity)的地方
+- 帮我找有卖[户外垫子](commodity)的商店
+- 哪里有商场可以买[户外垫子](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它个性定制](commodity)啊
+- 哪里有卖[其它个性定制](commodity)的店
+- 找一个卖[其它个性定制](commodity)的地方
+- 帮我找有卖[其它个性定制](commodity)的商店
+- 哪里有商场可以买[其它个性定制](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[钱币](commodity)啊
+- 哪里有卖[钱币](commodity)的店
+- 找一个卖[钱币](commodity)的地方
+- 帮我找有卖[钱币](commodity)的商店
+- 哪里有商场可以买[钱币](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[古董](commodity)啊
+- 哪里有卖[古董](commodity)的店
+- 找一个卖[古董](commodity)的地方
+- 帮我找有卖[古董](commodity)的商店
+- 哪里有商场可以买[古董](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[粘钩](commodity)啊
+- 哪里有卖[粘钩](commodity)的店
+- 找一个卖[粘钩](commodity)的地方
+- 帮我找有卖[粘钩](commodity)的商店
+- 哪里有商场可以买[粘钩](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[相宜本草](commodity)啊
+- 哪里有卖[相宜本草](commodity)的店
+- 找一个卖[相宜本草](commodity)的地方
+- 帮我找有卖[相宜本草](commodity)的商店
+- 哪里有商场可以买[相宜本草](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[马甲](commodity)啊
+- 哪里有卖[马甲](commodity)的店
+- 找一个卖[马甲](commodity)的地方
+- 帮我找有卖[马甲](commodity)的商店
+- 哪里有商场可以买[马甲](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[艺术](commodity)啊
+- 哪里有卖[艺术](commodity)的店
+- 找一个卖[艺术](commodity)的地方
+- 帮我找有卖[艺术](commodity)的商店
+- 哪里有商场可以买[艺术](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[防护](commodity)啊
+- 哪里有卖[防护](commodity)的店
+- 找一个卖[防护](commodity)的地方
+- 帮我找有卖[防护](commodity)的商店
+- 哪里有商场可以买[防护](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[H&M](commodity)啊
+- 哪里有卖[H&M](commodity)的店
+- 找一个卖[H&M](commodity)的地方
+- 帮我找有卖[H&M](commodity)的商店
+- 哪里有商场可以买[H&M](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[装饰](commodity)啊
+- 哪里有卖[装饰](commodity)的店
+- 找一个卖[装饰](commodity)的地方
+- 帮我找有卖[装饰](commodity)的商店
+- 哪里有商场可以买[装饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[文化](commodity)啊
+- 哪里有卖[文化](commodity)的店
+- 找一个卖[文化](commodity)的地方
+- 帮我找有卖[文化](commodity)的商店
+- 哪里有商场可以买[文化](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[折扣券](commodity)啊
+- 哪里有卖[折扣券](commodity)的店
+- 找一个卖[折扣券](commodity)的地方
+- 帮我找有卖[折扣券](commodity)的商店
+- 哪里有商场可以买[折扣券](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手机通讯](commodity)啊
+- 哪里有卖[手机通讯](commodity)的店
+- 找一个卖[手机通讯](commodity)的地方
+- 帮我找有卖[手机通讯](commodity)的商店
+- 哪里有商场可以买[手机通讯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[燃气灶](commodity)啊
+- 哪里有卖[燃气灶](commodity)的店
+- 找一个卖[燃气灶](commodity)的地方
+- 帮我找有卖[燃气灶](commodity)的商店
+- 哪里有商场可以买[燃气灶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[整体假发](commodity)啊
+- 哪里有卖[整体假发](commodity)的店
+- 找一个卖[整体假发](commodity)的地方
+- 帮我找有卖[整体假发](commodity)的商店
+- 哪里有商场可以买[整体假发](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[女包](commodity)啊
+- 哪里有卖[女包](commodity)的店
+- 找一个卖[女包](commodity)的地方
+- 帮我找有卖[女包](commodity)的商店
+- 哪里有商场可以买[女包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[阿迪达斯](commodity)啊
+- 哪里有卖[阿迪达斯](commodity)的店
+- 找一个卖[阿迪达斯](commodity)的地方
+- 帮我找有卖[阿迪达斯](commodity)的商店
+- 哪里有商场可以买[阿迪达斯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[室内休闲运动](commodity)啊
+- 哪里有卖[室内休闲运动](commodity)的店
+- 找一个卖[室内休闲运动](commodity)的地方
+- 帮我找有卖[室内休闲运动](commodity)的商店
+- 哪里有商场可以买[室内休闲运动](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电脑音乐](commodity)啊
+- 哪里有卖[电脑音乐](commodity)的店
+- 找一个卖[电脑音乐](commodity)的地方
+- 帮我找有卖[电脑音乐](commodity)的商店
+- 哪里有商场可以买[电脑音乐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[冲饮](commodity)啊
+- 哪里有卖[冲饮](commodity)的店
+- 找一个卖[冲饮](commodity)的地方
+- 帮我找有卖[冲饮](commodity)的商店
+- 哪里有商场可以买[冲饮](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他外设产品](commodity)啊
+- 哪里有卖[其他外设产品](commodity)的店
+- 找一个卖[其他外设产品](commodity)的地方
+- 帮我找有卖[其他外设产品](commodity)的商店
+- 哪里有商场可以买[其他外设产品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[女性护理](commodity)啊
+- 哪里有卖[女性护理](commodity)的店
+- 找一个卖[女性护理](commodity)的地方
+- 帮我找有卖[女性护理](commodity)的商店
+- 哪里有商场可以买[女性护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[散粉](commodity)啊
+- 哪里有卖[散粉](commodity)的店
+- 找一个卖[散粉](commodity)的地方
+- 帮我找有卖[散粉](commodity)的商店
+- 哪里有商场可以买[散粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[餐具](commodity)啊
+- 哪里有卖[餐具](commodity)的店
+- 找一个卖[餐具](commodity)的地方
+- 帮我找有卖[餐具](commodity)的商店
+- 哪里有商场可以买[餐具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[女士钱包](commodity)啊
+- 哪里有卖[女士钱包](commodity)的店
+- 找一个卖[女士钱包](commodity)的地方
+- 帮我找有卖[女士钱包](commodity)的商店
+- 哪里有商场可以买[女士钱包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[孕妇用品](commodity)啊
+- 哪里有卖[孕妇用品](commodity)的店
+- 找一个卖[孕妇用品](commodity)的地方
+- 帮我找有卖[孕妇用品](commodity)的商店
+- 哪里有商场可以买[孕妇用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[复印](commodity)啊
+- 哪里有卖[复印](commodity)的店
+- 找一个卖[复印](commodity)的地方
+- 帮我找有卖[复印](commodity)的商店
+- 哪里有商场可以买[复印](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[拔罐用品](commodity)啊
+- 哪里有卖[拔罐用品](commodity)的店
+- 找一个卖[拔罐用品](commodity)的地方
+- 帮我找有卖[拔罐用品](commodity)的商店
+- 哪里有商场可以买[拔罐用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[儿童乐器](commodity)啊
+- 哪里有卖[儿童乐器](commodity)的店
+- 找一个卖[儿童乐器](commodity)的地方
+- 帮我找有卖[儿童乐器](commodity)的商店
+- 哪里有商场可以买[儿童乐器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[婴儿护肤](commodity)啊
+- 哪里有卖[婴儿护肤](commodity)的店
+- 找一个卖[婴儿护肤](commodity)的地方
+- 帮我找有卖[婴儿护肤](commodity)的商店
+- 哪里有商场可以买[婴儿护肤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[梅](commodity)啊
+- 哪里有卖[梅](commodity)的店
+- 找一个卖[梅](commodity)的地方
+- 帮我找有卖[梅](commodity)的商店
+- 哪里有商场可以买[梅](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[除湿器](commodity)啊
+- 哪里有卖[除湿器](commodity)的店
+- 找一个卖[除湿器](commodity)的地方
+- 帮我找有卖[除湿器](commodity)的商店
+- 哪里有商场可以买[除湿器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[校服](commodity)啊
+- 哪里有卖[校服](commodity)的店
+- 找一个卖[校服](commodity)的地方
+- 帮我找有卖[校服](commodity)的商店
+- 哪里有商场可以买[校服](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[郎都](commodity)啊
+- 哪里有卖[郎都](commodity)的店
+- 找一个卖[郎都](commodity)的地方
+- 帮我找有卖[郎都](commodity)的商店
+- 哪里有商场可以买[郎都](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[面部护理](commodity)啊
+- 哪里有卖[面部护理](commodity)的店
+- 找一个卖[面部护理](commodity)的地方
+- 帮我找有卖[面部护理](commodity)的商店
+- 哪里有商场可以买[面部护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[登机箱](commodity)啊
+- 哪里有卖[登机箱](commodity)的店
+- 找一个卖[登机箱](commodity)的地方
+- 帮我找有卖[登机箱](commodity)的商店
+- 哪里有商场可以买[登机箱](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[有声读物](commodity)啊
+- 哪里有卖[有声读物](commodity)的店
+- 找一个卖[有声读物](commodity)的地方
+- 帮我找有卖[有声读物](commodity)的商店
+- 哪里有商场可以买[有声读物](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[冲锋衣](commodity)啊
+- 哪里有卖[冲锋衣](commodity)的店
+- 找一个卖[冲锋衣](commodity)的地方
+- 帮我找有卖[冲锋衣](commodity)的商店
+- 哪里有商场可以买[冲锋衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[纸巾盒](commodity)啊
+- 哪里有卖[纸巾盒](commodity)的店
+- 找一个卖[纸巾盒](commodity)的地方
+- 帮我找有卖[纸巾盒](commodity)的商店
+- 哪里有商场可以买[纸巾盒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[青春文学](commodity)啊
+- 哪里有卖[青春文学](commodity)的店
+- 找一个卖[青春文学](commodity)的地方
+- 帮我找有卖[青春文学](commodity)的商店
+- 哪里有商场可以买[青春文学](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[香薰](commodity)啊
+- 哪里有卖[香薰](commodity)的店
+- 找一个卖[香薰](commodity)的地方
+- 帮我找有卖[香薰](commodity)的商店
+- 哪里有商场可以买[香薰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[测量用具](commodity)啊
+- 哪里有卖[测量用具](commodity)的店
+- 找一个卖[测量用具](commodity)的地方
+- 帮我找有卖[测量用具](commodity)的商店
+- 哪里有商场可以买[测量用具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[护臀爽身](commodity)啊
+- 哪里有卖[护臀爽身](commodity)的店
+- 找一个卖[护臀爽身](commodity)的地方
+- 帮我找有卖[护臀爽身](commodity)的商店
+- 哪里有商场可以买[护臀爽身](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[智能玩具](commodity)啊
+- 哪里有卖[智能玩具](commodity)的店
+- 找一个卖[智能玩具](commodity)的地方
+- 帮我找有卖[智能玩具](commodity)的商店
+- 哪里有商场可以买[智能玩具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[胸包](commodity)啊
+- 哪里有卖[胸包](commodity)的店
+- 找一个卖[胸包](commodity)的地方
+- 帮我找有卖[胸包](commodity)的商店
+- 哪里有商场可以买[胸包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[复读机](commodity)啊
+- 哪里有卖[复读机](commodity)的店
+- 找一个卖[复读机](commodity)的地方
+- 帮我找有卖[复读机](commodity)的商店
+- 哪里有商场可以买[复读机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[轻音乐](commodity)啊
+- 哪里有卖[轻音乐](commodity)的店
+- 找一个卖[轻音乐](commodity)的地方
+- 帮我找有卖[轻音乐](commodity)的商店
+- 哪里有商场可以买[轻音乐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[咖啡器具](commodity)啊
+- 哪里有卖[咖啡器具](commodity)的店
+- 找一个卖[咖啡器具](commodity)的地方
+- 帮我找有卖[咖啡器具](commodity)的商店
+- 哪里有商场可以买[咖啡器具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[南极人](commodity)啊
+- 哪里有卖[南极人](commodity)的店
+- 找一个卖[南极人](commodity)的地方
+- 帮我找有卖[南极人](commodity)的商店
+- 哪里有商场可以买[南极人](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[服务器](commodity)啊
+- 哪里有卖[服务器](commodity)的店
+- 找一个卖[服务器](commodity)的地方
+- 帮我找有卖[服务器](commodity)的商店
+- 哪里有商场可以买[服务器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[膜法世家·1908](commodity)啊
+- 哪里有卖[膜法世家·1908](commodity)的店
+- 找一个卖[膜法世家·1908](commodity)的地方
+- 帮我找有卖[膜法世家·1908](commodity)的商店
+- 哪里有商场可以买[膜法世家·1908](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[曲艺](commodity)啊
+- 哪里有卖[曲艺](commodity)的店
+- 找一个卖[曲艺](commodity)的地方
+- 帮我找有卖[曲艺](commodity)的商店
+- 哪里有商场可以买[曲艺](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[度假服务](commodity)啊
+- 哪里有卖[度假服务](commodity)的店
+- 找一个卖[度假服务](commodity)的地方
+- 帮我找有卖[度假服务](commodity)的商店
+- 哪里有商场可以买[度假服务](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[女士手拿包](commodity)啊
+- 哪里有卖[女士手拿包](commodity)的店
+- 找一个卖[女士手拿包](commodity)的地方
+- 帮我找有卖[女士手拿包](commodity)的商店
+- 哪里有商场可以买[女士手拿包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[笛](commodity)啊
+- 哪里有卖[笛](commodity)的店
+- 找一个卖[笛](commodity)的地方
+- 帮我找有卖[笛](commodity)的商店
+- 哪里有商场可以买[笛](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[饮水机](commodity)啊
+- 哪里有卖[饮水机](commodity)的店
+- 找一个卖[饮水机](commodity)的地方
+- 帮我找有卖[饮水机](commodity)的商店
+- 哪里有商场可以买[饮水机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[DDR](commodity)啊
+- 哪里有卖[DDR](commodity)的店
+- 找一个卖[DDR](commodity)的地方
+- 帮我找有卖[DDR](commodity)的商店
+- 哪里有商场可以买[DDR](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[托运箱](commodity)啊
+- 哪里有卖[托运箱](commodity)的店
+- 找一个卖[托运箱](commodity)的地方
+- 帮我找有卖[托运箱](commodity)的商店
+- 哪里有商场可以买[托运箱](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鞋类箱包](commodity)啊
+- 哪里有卖[鞋类箱包](commodity)的店
+- 找一个卖[鞋类箱包](commodity)的地方
+- 帮我找有卖[鞋类箱包](commodity)的商店
+- 哪里有商场可以买[鞋类箱包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[洗发水](commodity)啊
+- 哪里有卖[洗发水](commodity)的店
+- 找一个卖[洗发水](commodity)的地方
+- 帮我找有卖[洗发水](commodity)的商店
+- 哪里有商场可以买[洗发水](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[麦片](commodity)啊
+- 哪里有卖[麦片](commodity)的店
+- 找一个卖[麦片](commodity)的地方
+- 帮我找有卖[麦片](commodity)的商店
+- 哪里有商场可以买[麦片](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[煮蛋器](commodity)啊
+- 哪里有卖[煮蛋器](commodity)的店
+- 找一个卖[煮蛋器](commodity)的地方
+- 帮我找有卖[煮蛋器](commodity)的商店
+- 哪里有商场可以买[煮蛋器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[拉杆箱](commodity)啊
+- 哪里有卖[拉杆箱](commodity)的店
+- 找一个卖[拉杆箱](commodity)的地方
+- 帮我找有卖[拉杆箱](commodity)的商店
+- 哪里有商场可以买[拉杆箱](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[办公设备配件](commodity)啊
+- 哪里有卖[办公设备配件](commodity)的店
+- 找一个卖[办公设备配件](commodity)的地方
+- 帮我找有卖[办公设备配件](commodity)的商店
+- 哪里有商场可以买[办公设备配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[袜子](commodity)啊
+- 哪里有卖[袜子](commodity)的店
+- 找一个卖[袜子](commodity)的地方
+- 帮我找有卖[袜子](commodity)的商店
+- 哪里有商场可以买[袜子](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[地板护理](commodity)啊
+- 哪里有卖[地板护理](commodity)的店
+- 找一个卖[地板护理](commodity)的地方
+- 帮我找有卖[地板护理](commodity)的商店
+- 哪里有商场可以买[地板护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家居饰品](commodity)啊
+- 哪里有卖[家居饰品](commodity)的店
+- 找一个卖[家居饰品](commodity)的地方
+- 帮我找有卖[家居饰品](commodity)的商店
+- 哪里有商场可以买[家居饰品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[发光](commodity)啊
+- 哪里有卖[发光](commodity)的店
+- 找一个卖[发光](commodity)的地方
+- 帮我找有卖[发光](commodity)的商店
+- 哪里有商场可以买[发光](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[CD机](commodity)啊
+- 哪里有卖[CD机](commodity)的店
+- 找一个卖[CD机](commodity)的地方
+- 帮我找有卖[CD机](commodity)的商店
+- 哪里有商场可以买[CD机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手写板](commodity)啊
+- 哪里有卖[手写板](commodity)的店
+- 找一个卖[手写板](commodity)的地方
+- 帮我找有卖[手写板](commodity)的商店
+- 哪里有商场可以买[手写板](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[帽子](commodity)啊
+- 哪里有卖[帽子](commodity)的店
+- 找一个卖[帽子](commodity)的地方
+- 帮我找有卖[帽子](commodity)的商店
+- 哪里有商场可以买[帽子](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Puella](commodity)啊
+- 哪里有卖[Puella](commodity)的店
+- 找一个卖[Puella](commodity)的地方
+- 帮我找有卖[Puella](commodity)的商店
+- 哪里有商场可以买[Puella](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[民族](commodity)啊
+- 哪里有卖[民族](commodity)的店
+- 找一个卖[民族](commodity)的地方
+- 帮我找有卖[民族](commodity)的商店
+- 哪里有商场可以买[民族](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Massimo Dutti](commodity)啊
+- 哪里有卖[Massimo Dutti](commodity)的店
+- 找一个卖[Massimo Dutti](commodity)的地方
+- 帮我找有卖[Massimo Dutti](commodity)的商店
+- 哪里有商场可以买[Massimo Dutti](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电压力锅](commodity)啊
+- 哪里有卖[电压力锅](commodity)的店
+- 找一个卖[电压力锅](commodity)的地方
+- 帮我找有卖[电压力锅](commodity)的商店
+- 哪里有商场可以买[电压力锅](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[麦克风](commodity)啊
+- 哪里有卖[麦克风](commodity)的店
+- 找一个卖[麦克风](commodity)的地方
+- 帮我找有卖[麦克风](commodity)的商店
+- 哪里有商场可以买[麦克风](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[活力板](commodity)啊
+- 哪里有卖[活力板](commodity)的店
+- 找一个卖[活力板](commodity)的地方
+- 帮我找有卖[活力板](commodity)的商店
+- 哪里有商场可以买[活力板](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[柜](commodity)啊
+- 哪里有卖[柜](commodity)的店
+- 找一个卖[柜](commodity)的地方
+- 帮我找有卖[柜](commodity)的商店
+- 哪里有商场可以买[柜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[mp3](commodity)啊
+- 哪里有卖[mp3](commodity)的店
+- 找一个卖[mp3](commodity)的地方
+- 帮我找有卖[mp3](commodity)的商店
+- 哪里有商场可以买[mp3](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外其他](commodity)啊
+- 哪里有卖[户外其他](commodity)的店
+- 找一个卖[户外其他](commodity)的地方
+- 帮我找有卖[户外其他](commodity)的商店
+- 哪里有商场可以买[户外其他](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[冰箱](commodity)啊
+- 哪里有卖[冰箱](commodity)的店
+- 找一个卖[冰箱](commodity)的地方
+- 帮我找有卖[冰箱](commodity)的商店
+- 哪里有商场可以买[冰箱](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[地毯](commodity)啊
+- 哪里有卖[地毯](commodity)的店
+- 找一个卖[地毯](commodity)的地方
+- 帮我找有卖[地毯](commodity)的商店
+- 哪里有商场可以买[地毯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[磨牙棒](commodity)啊
+- 哪里有卖[磨牙棒](commodity)的店
+- 找一个卖[磨牙棒](commodity)的地方
+- 帮我找有卖[磨牙棒](commodity)的商店
+- 哪里有商场可以买[磨牙棒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它影音产品](commodity)啊
+- 哪里有卖[其它影音产品](commodity)的店
+- 找一个卖[其它影音产品](commodity)的地方
+- 帮我找有卖[其它影音产品](commodity)的商店
+- 哪里有商场可以买[其它影音产品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士润唇膏](commodity)啊
+- 哪里有卖[男士润唇膏](commodity)的店
+- 找一个卖[男士润唇膏](commodity)的地方
+- 帮我找有卖[男士润唇膏](commodity)的商店
+- 哪里有商场可以买[男士润唇膏](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[纸尿片](commodity)啊
+- 哪里有卖[纸尿片](commodity)的店
+- 找一个卖[纸尿片](commodity)的地方
+- 帮我找有卖[纸尿片](commodity)的商店
+- 哪里有商场可以买[纸尿片](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[西点](commodity)啊
+- 哪里有卖[西点](commodity)的店
+- 找一个卖[西点](commodity)的地方
+- 帮我找有卖[西点](commodity)的商店
+- 哪里有商场可以买[西点](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动颈环](commodity)啊
+- 哪里有卖[运动颈环](commodity)的店
+- 找一个卖[运动颈环](commodity)的地方
+- 帮我找有卖[运动颈环](commodity)的商店
+- 哪里有商场可以买[运动颈环](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[跟踪器](commodity)啊
+- 哪里有卖[跟踪器](commodity)的店
+- 找一个卖[跟踪器](commodity)的地方
+- 帮我找有卖[跟踪器](commodity)的商店
+- 哪里有商场可以买[跟踪器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[武术](commodity)啊
+- 哪里有卖[武术](commodity)的店
+- 找一个卖[武术](commodity)的地方
+- 帮我找有卖[武术](commodity)的商店
+- 哪里有商场可以买[武术](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[空调](commodity)啊
+- 哪里有卖[空调](commodity)的店
+- 找一个卖[空调](commodity)的地方
+- 帮我找有卖[空调](commodity)的商店
+- 哪里有商场可以买[空调](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[润唇护唇](commodity)啊
+- 哪里有卖[润唇护唇](commodity)的店
+- 找一个卖[润唇护唇](commodity)的地方
+- 帮我找有卖[润唇护唇](commodity)的商店
+- 哪里有商场可以买[润唇护唇](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[方便](commodity)啊
+- 哪里有卖[方便](commodity)的店
+- 找一个卖[方便](commodity)的地方
+- 帮我找有卖[方便](commodity)的商店
+- 哪里有商场可以买[方便](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[腰链](commodity)啊
+- 哪里有卖[腰链](commodity)的店
+- 找一个卖[腰链](commodity)的地方
+- 帮我找有卖[腰链](commodity)的商店
+- 哪里有商场可以买[腰链](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[保温壶](commodity)啊
+- 哪里有卖[保温壶](commodity)的店
+- 找一个卖[保温壶](commodity)的地方
+- 帮我找有卖[保温壶](commodity)的商店
+- 哪里有商场可以买[保温壶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[办公用品](commodity)啊
+- 哪里有卖[办公用品](commodity)的店
+- 找一个卖[办公用品](commodity)的地方
+- 帮我找有卖[办公用品](commodity)的商店
+- 哪里有商场可以买[办公用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手机贴膜](commodity)啊
+- 哪里有卖[手机贴膜](commodity)的店
+- 找一个卖[手机贴膜](commodity)的地方
+- 帮我找有卖[手机贴膜](commodity)的商店
+- 哪里有商场可以买[手机贴膜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[罐](commodity)啊
+- 哪里有卖[罐](commodity)的店
+- 找一个卖[罐](commodity)的地方
+- 帮我找有卖[罐](commodity)的商店
+- 哪里有商场可以买[罐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[屏风](commodity)啊
+- 哪里有卖[屏风](commodity)的店
+- 找一个卖[屏风](commodity)的地方
+- 帮我找有卖[屏风](commodity)的商店
+- 哪里有商场可以买[屏风](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[珠宝](commodity)啊
+- 哪里有卖[珠宝](commodity)的店
+- 找一个卖[珠宝](commodity)的地方
+- 帮我找有卖[珠宝](commodity)的商店
+- 哪里有商场可以买[珠宝](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[游艺设施](commodity)啊
+- 哪里有卖[游艺设施](commodity)的店
+- 找一个卖[游艺设施](commodity)的地方
+- 帮我找有卖[游艺设施](commodity)的商店
+- 哪里有商场可以买[游艺设施](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[投资理财](commodity)啊
+- 哪里有卖[投资理财](commodity)的店
+- 找一个卖[投资理财](commodity)的地方
+- 帮我找有卖[投资理财](commodity)的商店
+- 哪里有商场可以买[投资理财](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[丝巾](commodity)啊
+- 哪里有卖[丝巾](commodity)的店
+- 找一个卖[丝巾](commodity)的地方
+- 帮我找有卖[丝巾](commodity)的商店
+- 哪里有商场可以买[丝巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[钟表](commodity)啊
+- 哪里有卖[钟表](commodity)的店
+- 找一个卖[钟表](commodity)的地方
+- 帮我找有卖[钟表](commodity)的商店
+- 哪里有商场可以买[钟表](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[功能内衣裤](commodity)啊
+- 哪里有卖[功能内衣裤](commodity)的店
+- 找一个卖[功能内衣裤](commodity)的地方
+- 帮我找有卖[功能内衣裤](commodity)的商店
+- 哪里有商场可以买[功能内衣裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[包](commodity)啊
+- 哪里有卖[包](commodity)的店
+- 找一个卖[包](commodity)的地方
+- 帮我找有卖[包](commodity)的商店
+- 哪里有商场可以买[包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[养护](commodity)啊
+- 哪里有卖[养护](commodity)的店
+- 找一个卖[养护](commodity)的地方
+- 帮我找有卖[养护](commodity)的商店
+- 哪里有商场可以买[养护](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[厨房电器](commodity)啊
+- 哪里有卖[厨房电器](commodity)的店
+- 找一个卖[厨房电器](commodity)的地方
+- 帮我找有卖[厨房电器](commodity)的商店
+- 哪里有商场可以买[厨房电器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[滑雪服](commodity)啊
+- 哪里有卖[滑雪服](commodity)的店
+- 找一个卖[滑雪服](commodity)的地方
+- 帮我找有卖[滑雪服](commodity)的商店
+- 哪里有商场可以买[滑雪服](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[拖把](commodity)啊
+- 哪里有卖[拖把](commodity)的店
+- 找一个卖[拖把](commodity)的地方
+- 帮我找有卖[拖把](commodity)的商店
+- 哪里有商场可以买[拖把](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[耳套](commodity)啊
+- 哪里有卖[耳套](commodity)的店
+- 找一个卖[耳套](commodity)的地方
+- 帮我找有卖[耳套](commodity)的商店
+- 哪里有商场可以买[耳套](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[装订用品](commodity)啊
+- 哪里有卖[装订用品](commodity)的店
+- 找一个卖[装订用品](commodity)的地方
+- 帮我找有卖[装订用品](commodity)的商店
+- 哪里有商场可以买[装订用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[蓬松喷雾](commodity)啊
+- 哪里有卖[蓬松喷雾](commodity)的店
+- 找一个卖[蓬松喷雾](commodity)的地方
+- 帮我找有卖[蓬松喷雾](commodity)的商店
+- 哪里有商场可以买[蓬松喷雾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[点钞](commodity)啊
+- 哪里有卖[点钞](commodity)的店
+- 找一个卖[点钞](commodity)的地方
+- 帮我找有卖[点钞](commodity)的商店
+- 哪里有商场可以买[点钞](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[出租](commodity)啊
+- 哪里有卖[出租](commodity)的店
+- 找一个卖[出租](commodity)的地方
+- 帮我找有卖[出租](commodity)的商店
+- 哪里有商场可以买[出租](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他个人护理](commodity)啊
+- 哪里有卖[其他个人护理](commodity)的店
+- 找一个卖[其他个人护理](commodity)的地方
+- 帮我找有卖[其他个人护理](commodity)的商店
+- 哪里有商场可以买[其他个人护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[保温包](commodity)啊
+- 哪里有卖[保温包](commodity)的店
+- 找一个卖[保温包](commodity)的地方
+- 帮我找有卖[保温包](commodity)的商店
+- 哪里有商场可以买[保温包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[抓绒裤](commodity)啊
+- 哪里有卖[抓绒裤](commodity)的店
+- 找一个卖[抓绒裤](commodity)的地方
+- 帮我找有卖[抓绒裤](commodity)的商店
+- 哪里有商场可以买[抓绒裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[大东](commodity)啊
+- 哪里有卖[大东](commodity)的店
+- 找一个卖[大东](commodity)的地方
+- 帮我找有卖[大东](commodity)的商店
+- 哪里有商场可以买[大东](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[ZEESEA](commodity)啊
+- 哪里有卖[ZEESEA](commodity)的店
+- 找一个卖[ZEESEA](commodity)的地方
+- 帮我找有卖[ZEESEA](commodity)的商店
+- 哪里有商场可以买[ZEESEA](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[贵重宝石](commodity)啊
+- 哪里有卖[贵重宝石](commodity)的店
+- 找一个卖[贵重宝石](commodity)的地方
+- 帮我找有卖[贵重宝石](commodity)的商店
+- 哪里有商场可以买[贵重宝石](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[洗衣液](commodity)啊
+- 哪里有卖[洗衣液](commodity)的店
+- 找一个卖[洗衣液](commodity)的地方
+- 帮我找有卖[洗衣液](commodity)的商店
+- 哪里有商场可以买[洗衣液](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[防晒](commodity)啊
+- 哪里有卖[防晒](commodity)的店
+- 找一个卖[防晒](commodity)的地方
+- 帮我找有卖[防晒](commodity)的商店
+- 哪里有商场可以买[防晒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[理发器](commodity)啊
+- 哪里有卖[理发器](commodity)的店
+- 找一个卖[理发器](commodity)的地方
+- 帮我找有卖[理发器](commodity)的商店
+- 哪里有商场可以买[理发器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[面粉](commodity)啊
+- 哪里有卖[面粉](commodity)的店
+- 找一个卖[面粉](commodity)的地方
+- 帮我找有卖[面粉](commodity)的商店
+- 哪里有商场可以买[面粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[浴帘](commodity)啊
+- 哪里有卖[浴帘](commodity)的店
+- 找一个卖[浴帘](commodity)的地方
+- 帮我找有卖[浴帘](commodity)的商店
+- 哪里有商场可以买[浴帘](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[优惠券](commodity)啊
+- 哪里有卖[优惠券](commodity)的店
+- 找一个卖[优惠券](commodity)的地方
+- 帮我找有卖[优惠券](commodity)的商店
+- 哪里有商场可以买[优惠券](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士钱包](commodity)啊
+- 哪里有卖[男士钱包](commodity)的店
+- 找一个卖[男士钱包](commodity)的地方
+- 帮我找有卖[男士钱包](commodity)的商店
+- 哪里有商场可以买[男士钱包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Damoson](commodity)啊
+- 哪里有卖[Damoson](commodity)的店
+- 找一个卖[Damoson](commodity)的地方
+- 帮我找有卖[Damoson](commodity)的商店
+- 哪里有商场可以买[Damoson](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[民乐](commodity)啊
+- 哪里有卖[民乐](commodity)的店
+- 找一个卖[民乐](commodity)的地方
+- 帮我找有卖[民乐](commodity)的商店
+- 哪里有商场可以买[民乐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[皮肤风衣](commodity)啊
+- 哪里有卖[皮肤风衣](commodity)的店
+- 找一个卖[皮肤风衣](commodity)的地方
+- 帮我找有卖[皮肤风衣](commodity)的商店
+- 哪里有商场可以买[皮肤风衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鱼干](commodity)啊
+- 哪里有卖[鱼干](commodity)的店
+- 找一个卖[鱼干](commodity)的地方
+- 帮我找有卖[鱼干](commodity)的商店
+- 哪里有商场可以买[鱼干](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[成功](commodity)啊
+- 哪里有卖[成功](commodity)的店
+- 找一个卖[成功](commodity)的地方
+- 帮我找有卖[成功](commodity)的商店
+- 哪里有商场可以买[成功](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[马克华菲](commodity)啊
+- 哪里有卖[马克华菲](commodity)的店
+- 找一个卖[马克华菲](commodity)的地方
+- 帮我找有卖[马克华菲](commodity)的商店
+- 哪里有商场可以买[马克华菲](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[内衣配件](commodity)啊
+- 哪里有卖[内衣配件](commodity)的店
+- 找一个卖[内衣配件](commodity)的地方
+- 帮我找有卖[内衣配件](commodity)的商店
+- 哪里有商场可以买[内衣配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[架](commodity)啊
+- 哪里有卖[架](commodity)的店
+- 找一个卖[架](commodity)的地方
+- 帮我找有卖[架](commodity)的商店
+- 哪里有商场可以买[架](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[软件源代码](commodity)啊
+- 哪里有卖[软件源代码](commodity)的店
+- 找一个卖[软件源代码](commodity)的地方
+- 帮我找有卖[软件源代码](commodity)的商店
+- 哪里有商场可以买[软件源代码](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动服装](commodity)啊
+- 哪里有卖[运动服装](commodity)的店
+- 找一个卖[运动服装](commodity)的地方
+- 帮我找有卖[运动服装](commodity)的商店
+- 哪里有商场可以买[运动服装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[菜粉](commodity)啊
+- 哪里有卖[菜粉](commodity)的店
+- 找一个卖[菜粉](commodity)的地方
+- 帮我找有卖[菜粉](commodity)的商店
+- 哪里有商场可以买[菜粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[奶粉存储盒](commodity)啊
+- 哪里有卖[奶粉存储盒](commodity)的店
+- 找一个卖[奶粉存储盒](commodity)的地方
+- 帮我找有卖[奶粉存储盒](commodity)的商店
+- 哪里有商场可以买[奶粉存储盒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[卫衣](commodity)啊
+- 哪里有卖[卫衣](commodity)的店
+- 找一个卖[卫衣](commodity)的地方
+- 帮我找有卖[卫衣](commodity)的商店
+- 哪里有商场可以买[卫衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[烹饪用具](commodity)啊
+- 哪里有卖[烹饪用具](commodity)的店
+- 找一个卖[烹饪用具](commodity)的地方
+- 帮我找有卖[烹饪用具](commodity)的商店
+- 哪里有商场可以买[烹饪用具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[急救箱](commodity)啊
+- 哪里有卖[急救箱](commodity)的店
+- 找一个卖[急救箱](commodity)的地方
+- 帮我找有卖[急救箱](commodity)的商店
+- 哪里有商场可以买[急救箱](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[模型](commodity)啊
+- 哪里有卖[模型](commodity)的店
+- 找一个卖[模型](commodity)的地方
+- 帮我找有卖[模型](commodity)的商店
+- 哪里有商场可以买[模型](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[提货券](commodity)啊
+- 哪里有卖[提货券](commodity)的店
+- 找一个卖[提货券](commodity)的地方
+- 帮我找有卖[提货券](commodity)的商店
+- 哪里有商场可以买[提货券](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[新生儿玩具](commodity)啊
+- 哪里有卖[新生儿玩具](commodity)的店
+- 找一个卖[新生儿玩具](commodity)的地方
+- 帮我找有卖[新生儿玩具](commodity)的商店
+- 哪里有商场可以买[新生儿玩具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[领带](commodity)啊
+- 哪里有卖[领带](commodity)的店
+- 找一个卖[领带](commodity)的地方
+- 帮我找有卖[领带](commodity)的商店
+- 哪里有商场可以买[领带](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他办公设备](commodity)啊
+- 哪里有卖[其他办公设备](commodity)的店
+- 找一个卖[其他办公设备](commodity)的地方
+- 帮我找有卖[其他办公设备](commodity)的商店
+- 哪里有商场可以买[其他办公设备](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[羽毛球鞋](commodity)啊
+- 哪里有卖[羽毛球鞋](commodity)的店
+- 找一个卖[羽毛球鞋](commodity)的地方
+- 帮我找有卖[羽毛球鞋](commodity)的商店
+- 哪里有商场可以买[羽毛球鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[商业](commodity)啊
+- 哪里有卖[商业](commodity)的店
+- 找一个卖[商业](commodity)的地方
+- 帮我找有卖[商业](commodity)的商店
+- 哪里有商场可以买[商业](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[收纳](commodity)啊
+- 哪里有卖[收纳](commodity)的店
+- 找一个卖[收纳](commodity)的地方
+- 帮我找有卖[收纳](commodity)的商店
+- 哪里有商场可以买[收纳](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[一枝春](commodity)啊
+- 哪里有卖[一枝春](commodity)的店
+- 找一个卖[一枝春](commodity)的地方
+- 帮我找有卖[一枝春](commodity)的商店
+- 哪里有商场可以买[一枝春](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士乳液](commodity)啊
+- 哪里有卖[男士乳液](commodity)的店
+- 找一个卖[男士乳液](commodity)的地方
+- 帮我找有卖[男士乳液](commodity)的商店
+- 哪里有商场可以买[男士乳液](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[酒杯](commodity)啊
+- 哪里有卖[酒杯](commodity)的店
+- 找一个卖[酒杯](commodity)的地方
+- 帮我找有卖[酒杯](commodity)的商店
+- 哪里有商场可以买[酒杯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[眼影](commodity)啊
+- 哪里有卖[眼影](commodity)的店
+- 找一个卖[眼影](commodity)的地方
+- 帮我找有卖[眼影](commodity)的商店
+- 哪里有商场可以买[眼影](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Onitsuka Tiger](commodity)啊
+- 哪里有卖[Onitsuka Tiger](commodity)的店
+- 找一个卖[Onitsuka Tiger](commodity)的地方
+- 帮我找有卖[Onitsuka Tiger](commodity)的商店
+- 哪里有商场可以买[Onitsuka Tiger](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[耳麦](commodity)啊
+- 哪里有卖[耳麦](commodity)的店
+- 找一个卖[耳麦](commodity)的地方
+- 帮我找有卖[耳麦](commodity)的商店
+- 哪里有商场可以买[耳麦](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[旗袍](commodity)啊
+- 哪里有卖[旗袍](commodity)的店
+- 找一个卖[旗袍](commodity)的地方
+- 帮我找有卖[旗袍](commodity)的商店
+- 哪里有商场可以买[旗袍](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[微波炉](commodity)啊
+- 哪里有卖[微波炉](commodity)的店
+- 找一个卖[微波炉](commodity)的地方
+- 帮我找有卖[微波炉](commodity)的商店
+- 哪里有商场可以买[微波炉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[CPU](commodity)啊
+- 哪里有卖[CPU](commodity)的店
+- 找一个卖[CPU](commodity)的地方
+- 帮我找有卖[CPU](commodity)的商店
+- 哪里有商场可以买[CPU](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[唇笔](commodity)啊
+- 哪里有卖[唇笔](commodity)的店
+- 找一个卖[唇笔](commodity)的地方
+- 帮我找有卖[唇笔](commodity)的商店
+- 哪里有商场可以买[唇笔](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[黄金](commodity)啊
+- 哪里有卖[黄金](commodity)的店
+- 找一个卖[黄金](commodity)的地方
+- 帮我找有卖[黄金](commodity)的商店
+- 哪里有商场可以买[黄金](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[洗衣机](commodity)啊
+- 哪里有卖[洗衣机](commodity)的店
+- 找一个卖[洗衣机](commodity)的地方
+- 帮我找有卖[洗衣机](commodity)的商店
+- 哪里有商场可以买[洗衣机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[蜂产品](commodity)啊
+- 哪里有卖[蜂产品](commodity)的店
+- 找一个卖[蜂产品](commodity)的地方
+- 帮我找有卖[蜂产品](commodity)的商店
+- 哪里有商场可以买[蜂产品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[旅游](commodity)啊
+- 哪里有卖[旅游](commodity)的店
+- 找一个卖[旅游](commodity)的地方
+- 帮我找有卖[旅游](commodity)的商店
+- 哪里有商场可以买[旅游](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[袖套](commodity)啊
+- 哪里有卖[袖套](commodity)的店
+- 找一个卖[袖套](commodity)的地方
+- 帮我找有卖[袖套](commodity)的商店
+- 哪里有商场可以买[袖套](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[礼品](commodity)啊
+- 哪里有卖[礼品](commodity)的店
+- 找一个卖[礼品](commodity)的地方
+- 帮我找有卖[礼品](commodity)的商店
+- 哪里有商场可以买[礼品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[婴儿床](commodity)啊
+- 哪里有卖[婴儿床](commodity)的店
+- 找一个卖[婴儿床](commodity)的地方
+- 帮我找有卖[婴儿床](commodity)的商店
+- 哪里有商场可以买[婴儿床](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[茶具](commodity)啊
+- 哪里有卖[茶具](commodity)的店
+- 找一个卖[茶具](commodity)的地方
+- 帮我找有卖[茶具](commodity)的商店
+- 哪里有商场可以买[茶具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[软件开发](commodity)啊
+- 哪里有卖[软件开发](commodity)的店
+- 找一个卖[软件开发](commodity)的地方
+- 帮我找有卖[软件开发](commodity)的商店
+- 哪里有商场可以买[软件开发](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[膨化](commodity)啊
+- 哪里有卖[膨化](commodity)的店
+- 找一个卖[膨化](commodity)的地方
+- 帮我找有卖[膨化](commodity)的商店
+- 哪里有商场可以买[膨化](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士爽肤水](commodity)啊
+- 哪里有卖[男士爽肤水](commodity)的店
+- 找一个卖[男士爽肤水](commodity)的地方
+- 帮我找有卖[男士爽肤水](commodity)的商店
+- 哪里有商场可以买[男士爽肤水](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[赛车相关](commodity)啊
+- 哪里有卖[赛车相关](commodity)的店
+- 找一个卖[赛车相关](commodity)的地方
+- 帮我找有卖[赛车相关](commodity)的商店
+- 哪里有商场可以买[赛车相关](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士防晒](commodity)啊
+- 哪里有卖[男士防晒](commodity)的店
+- 找一个卖[男士防晒](commodity)的地方
+- 帮我找有卖[男士防晒](commodity)的商店
+- 哪里有商场可以买[男士防晒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动娱乐](commodity)啊
+- 哪里有卖[运动娱乐](commodity)的店
+- 找一个卖[运动娱乐](commodity)的地方
+- 帮我找有卖[运动娱乐](commodity)的商店
+- 哪里有商场可以买[运动娱乐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[参类滋补品](commodity)啊
+- 哪里有卖[参类滋补品](commodity)的店
+- 找一个卖[参类滋补品](commodity)的地方
+- 帮我找有卖[参类滋补品](commodity)的商店
+- 哪里有商场可以买[参类滋补品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[保险杠](commodity)啊
+- 哪里有卖[保险杠](commodity)的店
+- 找一个卖[保险杠](commodity)的地方
+- 帮我找有卖[保险杠](commodity)的商店
+- 哪里有商场可以买[保险杠](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[基础建材](commodity)啊
+- 哪里有卖[基础建材](commodity)的店
+- 找一个卖[基础建材](commodity)的地方
+- 帮我找有卖[基础建材](commodity)的商店
+- 哪里有商场可以买[基础建材](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[靴子](commodity)啊
+- 哪里有卖[靴子](commodity)的店
+- 找一个卖[靴子](commodity)的地方
+- 帮我找有卖[靴子](commodity)的商店
+- 哪里有商场可以买[靴子](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[暖奶](commodity)啊
+- 哪里有卖[暖奶](commodity)的店
+- 找一个卖[暖奶](commodity)的地方
+- 帮我找有卖[暖奶](commodity)的商店
+- 哪里有商场可以买[暖奶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[杯具](commodity)啊
+- 哪里有卖[杯具](commodity)的店
+- 找一个卖[杯具](commodity)的地方
+- 帮我找有卖[杯具](commodity)的商店
+- 哪里有商场可以买[杯具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[九分裤](commodity)啊
+- 哪里有卖[九分裤](commodity)的店
+- 找一个卖[九分裤](commodity)的地方
+- 帮我找有卖[九分裤](commodity)的商店
+- 哪里有商场可以买[九分裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[大型健身器械](commodity)啊
+- 哪里有卖[大型健身器械](commodity)的店
+- 找一个卖[大型健身器械](commodity)的地方
+- 帮我找有卖[大型健身器械](commodity)的商店
+- 哪里有商场可以买[大型健身器械](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[教育图书](commodity)啊
+- 哪里有卖[教育图书](commodity)的店
+- 找一个卖[教育图书](commodity)的地方
+- 帮我找有卖[教育图书](commodity)的商店
+- 哪里有商场可以买[教育图书](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[羽绒服](commodity)啊
+- 哪里有卖[羽绒服](commodity)的店
+- 找一个卖[羽绒服](commodity)的地方
+- 帮我找有卖[羽绒服](commodity)的商店
+- 哪里有商场可以买[羽绒服](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[聚会](commodity)啊
+- 哪里有卖[聚会](commodity)的店
+- 找一个卖[聚会](commodity)的地方
+- 帮我找有卖[聚会](commodity)的商店
+- 哪里有商场可以买[聚会](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[儿童](commodity)啊
+- 哪里有卖[儿童](commodity)的店
+- 找一个卖[儿童](commodity)的地方
+- 帮我找有卖[儿童](commodity)的商店
+- 哪里有商场可以买[儿童](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[综合训练鞋](commodity)啊
+- 哪里有卖[综合训练鞋](commodity)的店
+- 找一个卖[综合训练鞋](commodity)的地方
+- 帮我找有卖[综合训练鞋](commodity)的商店
+- 哪里有商场可以买[综合训练鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[卫浴安装服务](commodity)啊
+- 哪里有卖[卫浴安装服务](commodity)的店
+- 找一个卖[卫浴安装服务](commodity)的地方
+- 帮我找有卖[卫浴安装服务](commodity)的商店
+- 哪里有商场可以买[卫浴安装服务](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Skechers](commodity)啊
+- 哪里有卖[Skechers](commodity)的店
+- 找一个卖[Skechers](commodity)的地方
+- 帮我找有卖[Skechers](commodity)的商店
+- 哪里有商场可以买[Skechers](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[排气扇](commodity)啊
+- 哪里有卖[排气扇](commodity)的店
+- 找一个卖[排气扇](commodity)的地方
+- 帮我找有卖[排气扇](commodity)的商店
+- 哪里有商场可以买[排气扇](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[速溶咖啡](commodity)啊
+- 哪里有卖[速溶咖啡](commodity)的店
+- 找一个卖[速溶咖啡](commodity)的地方
+- 帮我找有卖[速溶咖啡](commodity)的商店
+- 哪里有商场可以买[速溶咖啡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[果盘](commodity)啊
+- 哪里有卖[果盘](commodity)的店
+- 找一个卖[果盘](commodity)的地方
+- 帮我找有卖[果盘](commodity)的商店
+- 哪里有商场可以买[果盘](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男士手拿包](commodity)啊
+- 哪里有卖[男士手拿包](commodity)的店
+- 找一个卖[男士手拿包](commodity)的地方
+- 帮我找有卖[男士手拿包](commodity)的商店
+- 哪里有商场可以买[男士手拿包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[中裤](commodity)啊
+- 哪里有卖[中裤](commodity)的店
+- 找一个卖[中裤](commodity)的地方
+- 帮我找有卖[中裤](commodity)的商店
+- 哪里有商场可以买[中裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[钙](commodity)啊
+- 哪里有卖[钙](commodity)的店
+- 找一个卖[钙](commodity)的地方
+- 帮我找有卖[钙](commodity)的商店
+- 哪里有商场可以买[钙](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[踏行车](commodity)啊
+- 哪里有卖[踏行车](commodity)的店
+- 找一个卖[踏行车](commodity)的地方
+- 帮我找有卖[踏行车](commodity)的商店
+- 哪里有商场可以买[踏行车](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电影票](commodity)啊
+- 哪里有卖[电影票](commodity)的店
+- 找一个卖[电影票](commodity)的地方
+- 帮我找有卖[电影票](commodity)的商店
+- 哪里有商场可以买[电影票](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他灯具](commodity)啊
+- 哪里有卖[其他灯具](commodity)的店
+- 找一个卖[其他灯具](commodity)的地方
+- 帮我找有卖[其他灯具](commodity)的商店
+- 哪里有商场可以买[其他灯具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[存储设备](commodity)啊
+- 哪里有卖[存储设备](commodity)的店
+- 找一个卖[存储设备](commodity)的地方
+- 帮我找有卖[存储设备](commodity)的商店
+- 哪里有商场可以买[存储设备](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[话筒](commodity)啊
+- 哪里有卖[话筒](commodity)的店
+- 找一个卖[话筒](commodity)的地方
+- 帮我找有卖[话筒](commodity)的商店
+- 哪里有商场可以买[话筒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[眼线](commodity)啊
+- 哪里有卖[眼线](commodity)的店
+- 找一个卖[眼线](commodity)的地方
+- 帮我找有卖[眼线](commodity)的商店
+- 哪里有商场可以买[眼线](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[尿布带](commodity)啊
+- 哪里有卖[尿布带](commodity)的店
+- 找一个卖[尿布带](commodity)的地方
+- 帮我找有卖[尿布带](commodity)的商店
+- 哪里有商场可以买[尿布带](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[隔离打底](commodity)啊
+- 哪里有卖[隔离打底](commodity)的店
+- 找一个卖[隔离打底](commodity)的地方
+- 帮我找有卖[隔离打底](commodity)的商店
+- 哪里有商场可以买[隔离打底](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[婴儿推车](commodity)啊
+- 哪里有卖[婴儿推车](commodity)的店
+- 找一个卖[婴儿推车](commodity)的地方
+- 帮我找有卖[婴儿推车](commodity)的商店
+- 哪里有商场可以买[婴儿推车](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[PT](commodity)啊
+- 哪里有卖[PT](commodity)的店
+- 找一个卖[PT](commodity)的地方
+- 帮我找有卖[PT](commodity)的商店
+- 哪里有商场可以买[PT](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手巾](commodity)啊
+- 哪里有卖[手巾](commodity)的店
+- 找一个卖[手巾](commodity)的地方
+- 帮我找有卖[手巾](commodity)的商店
+- 哪里有商场可以买[手巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[玉兰油](commodity)啊
+- 哪里有卖[玉兰油](commodity)的店
+- 找一个卖[玉兰油](commodity)的地方
+- 帮我找有卖[玉兰油](commodity)的商店
+- 哪里有商场可以买[玉兰油](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[床品定制](commodity)啊
+- 哪里有卖[床品定制](commodity)的店
+- 找一个卖[床品定制](commodity)的地方
+- 帮我找有卖[床品定制](commodity)的商店
+- 哪里有商场可以买[床品定制](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[宠物服装](commodity)啊
+- 哪里有卖[宠物服装](commodity)的店
+- 找一个卖[宠物服装](commodity)的地方
+- 帮我找有卖[宠物服装](commodity)的商店
+- 哪里有商场可以买[宠物服装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[彩妆盘](commodity)啊
+- 哪里有卖[彩妆盘](commodity)的店
+- 找一个卖[彩妆盘](commodity)的地方
+- 帮我找有卖[彩妆盘](commodity)的商店
+- 哪里有商场可以买[彩妆盘](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[浴巾](commodity)啊
+- 哪里有卖[浴巾](commodity)的店
+- 找一个卖[浴巾](commodity)的地方
+- 帮我找有卖[浴巾](commodity)的商店
+- 哪里有商场可以买[浴巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它玩具](commodity)啊
+- 哪里有卖[其它玩具](commodity)的店
+- 找一个卖[其它玩具](commodity)的地方
+- 帮我找有卖[其它玩具](commodity)的商店
+- 哪里有商场可以买[其它玩具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[球迷用品](commodity)啊
+- 哪里有卖[球迷用品](commodity)的店
+- 找一个卖[球迷用品](commodity)的地方
+- 帮我找有卖[球迷用品](commodity)的商店
+- 哪里有商场可以买[球迷用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[思缔龙](commodity)啊
+- 哪里有卖[思缔龙](commodity)的店
+- 找一个卖[思缔龙](commodity)的地方
+- 帮我找有卖[思缔龙](commodity)的商店
+- 哪里有商场可以买[思缔龙](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[布尿裤](commodity)啊
+- 哪里有卖[布尿裤](commodity)的店
+- 找一个卖[布尿裤](commodity)的地方
+- 帮我找有卖[布尿裤](commodity)的商店
+- 哪里有商场可以买[布尿裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外拖鞋](commodity)啊
+- 哪里有卖[户外拖鞋](commodity)的店
+- 找一个卖[户外拖鞋](commodity)的地方
+- 帮我找有卖[户外拖鞋](commodity)的商店
+- 哪里有商场可以买[户外拖鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[绘画](commodity)啊
+- 哪里有卖[绘画](commodity)的店
+- 找一个卖[绘画](commodity)的地方
+- 帮我找有卖[绘画](commodity)的商店
+- 哪里有商场可以买[绘画](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[汽车培训](commodity)啊
+- 哪里有卖[汽车培训](commodity)的店
+- 找一个卖[汽车培训](commodity)的地方
+- 帮我找有卖[汽车培训](commodity)的商店
+- 哪里有商场可以买[汽车培训](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[烛台](commodity)啊
+- 哪里有卖[烛台](commodity)的店
+- 找一个卖[烛台](commodity)的地方
+- 帮我找有卖[烛台](commodity)的商店
+- 哪里有商场可以买[烛台](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[传记](commodity)啊
+- 哪里有卖[传记](commodity)的店
+- 找一个卖[传记](commodity)的地方
+- 帮我找有卖[传记](commodity)的商店
+- 哪里有商场可以买[传记](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[遥控玩具](commodity)啊
+- 哪里有卖[遥控玩具](commodity)的店
+- 找一个卖[遥控玩具](commodity)的地方
+- 帮我找有卖[遥控玩具](commodity)的商店
+- 哪里有商场可以买[遥控玩具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[水产品](commodity)啊
+- 哪里有卖[水产品](commodity)的店
+- 找一个卖[水产品](commodity)的地方
+- 帮我找有卖[水产品](commodity)的商店
+- 哪里有商场可以买[水产品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[酒具](commodity)啊
+- 哪里有卖[酒具](commodity)的店
+- 找一个卖[酒具](commodity)的地方
+- 帮我找有卖[酒具](commodity)的商店
+- 哪里有商场可以买[酒具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[游戏币](commodity)啊
+- 哪里有卖[游戏币](commodity)的店
+- 找一个卖[游戏币](commodity)的地方
+- 帮我找有卖[游戏币](commodity)的商店
+- 哪里有商场可以买[游戏币](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[马桶套](commodity)啊
+- 哪里有卖[马桶套](commodity)的店
+- 找一个卖[马桶套](commodity)的地方
+- 帮我找有卖[马桶套](commodity)的商店
+- 哪里有商场可以买[马桶套](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[口腔护理](commodity)啊
+- 哪里有卖[口腔护理](commodity)的店
+- 找一个卖[口腔护理](commodity)的地方
+- 帮我找有卖[口腔护理](commodity)的商店
+- 哪里有商场可以买[口腔护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[子俊](commodity)啊
+- 哪里有卖[子俊](commodity)的店
+- 找一个卖[子俊](commodity)的地方
+- 帮我找有卖[子俊](commodity)的商店
+- 哪里有商场可以买[子俊](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[人本](commodity)啊
+- 哪里有卖[人本](commodity)的店
+- 找一个卖[人本](commodity)的地方
+- 帮我找有卖[人本](commodity)的商店
+- 哪里有商场可以买[人本](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[文化用品](commodity)啊
+- 哪里有卖[文化用品](commodity)的店
+- 找一个卖[文化用品](commodity)的地方
+- 帮我找有卖[文化用品](commodity)的商店
+- 哪里有商场可以买[文化用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[网球鞋](commodity)啊
+- 哪里有卖[网球鞋](commodity)的店
+- 找一个卖[网球鞋](commodity)的地方
+- 帮我找有卖[网球鞋](commodity)的商店
+- 哪里有商场可以买[网球鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[皮衣](commodity)啊
+- 哪里有卖[皮衣](commodity)的店
+- 找一个卖[皮衣](commodity)的地方
+- 帮我找有卖[皮衣](commodity)的商店
+- 哪里有商场可以买[皮衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他办公](commodity)啊
+- 哪里有卖[其他办公](commodity)的店
+- 找一个卖[其他办公](commodity)的地方
+- 帮我找有卖[其他办公](commodity)的商店
+- 哪里有商场可以买[其他办公](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[滑板车](commodity)啊
+- 哪里有卖[滑板车](commodity)的店
+- 找一个卖[滑板车](commodity)的地方
+- 帮我找有卖[滑板车](commodity)的商店
+- 哪里有商场可以买[滑板车](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鲜花](commodity)啊
+- 哪里有卖[鲜花](commodity)的店
+- 找一个卖[鲜花](commodity)的地方
+- 帮我找有卖[鲜花](commodity)的商店
+- 哪里有商场可以买[鲜花](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[风衣](commodity)啊
+- 哪里有卖[风衣](commodity)的店
+- 找一个卖[风衣](commodity)的地方
+- 帮我找有卖[风衣](commodity)的商店
+- 哪里有商场可以买[风衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[沙发类](commodity)啊
+- 哪里有卖[沙发类](commodity)的店
+- 找一个卖[沙发类](commodity)的地方
+- 帮我找有卖[沙发类](commodity)的商店
+- 哪里有商场可以买[沙发类](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[办公通讯](commodity)啊
+- 哪里有卖[办公通讯](commodity)的店
+- 找一个卖[办公通讯](commodity)的地方
+- 帮我找有卖[办公通讯](commodity)的商店
+- 哪里有商场可以买[办公通讯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[风水](commodity)啊
+- 哪里有卖[风水](commodity)的店
+- 找一个卖[风水](commodity)的地方
+- 帮我找有卖[风水](commodity)的商店
+- 哪里有商场可以买[风水](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[珀莱雅](commodity)啊
+- 哪里有卖[珀莱雅](commodity)的店
+- 找一个卖[珀莱雅](commodity)的地方
+- 帮我找有卖[珀莱雅](commodity)的商店
+- 哪里有商场可以买[珀莱雅](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[热裤](commodity)啊
+- 哪里有卖[热裤](commodity)的店
+- 找一个卖[热裤](commodity)的地方
+- 帮我找有卖[热裤](commodity)的商店
+- 哪里有商场可以买[热裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[益生菌](commodity)啊
+- 哪里有卖[益生菌](commodity)的店
+- 找一个卖[益生菌](commodity)的地方
+- 帮我找有卖[益生菌](commodity)的商店
+- 哪里有商场可以买[益生菌](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[美术用品](commodity)啊
+- 哪里有卖[美术用品](commodity)的店
+- 找一个卖[美术用品](commodity)的地方
+- 帮我找有卖[美术用品](commodity)的商店
+- 哪里有商场可以买[美术用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[仪表仪器](commodity)啊
+- 哪里有卖[仪表仪器](commodity)的店
+- 找一个卖[仪表仪器](commodity)的地方
+- 帮我找有卖[仪表仪器](commodity)的商店
+- 哪里有商场可以买[仪表仪器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[百雀羚](commodity)啊
+- 哪里有卖[百雀羚](commodity)的店
+- 找一个卖[百雀羚](commodity)的地方
+- 帮我找有卖[百雀羚](commodity)的商店
+- 哪里有商场可以买[百雀羚](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[干货](commodity)啊
+- 哪里有卖[干货](commodity)的店
+- 找一个卖[干货](commodity)的地方
+- 帮我找有卖[干货](commodity)的商店
+- 哪里有商场可以买[干货](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电子玩具](commodity)啊
+- 哪里有卖[电子玩具](commodity)的店
+- 找一个卖[电子玩具](commodity)的地方
+- 帮我找有卖[电子玩具](commodity)的商店
+- 哪里有商场可以买[电子玩具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[洗洁精](commodity)啊
+- 哪里有卖[洗洁精](commodity)的店
+- 找一个卖[洗洁精](commodity)的地方
+- 帮我找有卖[洗洁精](commodity)的商店
+- 哪里有商场可以买[洗洁精](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[靴](commodity)啊
+- 哪里有卖[靴](commodity)的店
+- 找一个卖[靴](commodity)的地方
+- 帮我找有卖[靴](commodity)的商店
+- 哪里有商场可以买[靴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[宠物食品](commodity)啊
+- 哪里有卖[宠物食品](commodity)的店
+- 找一个卖[宠物食品](commodity)的地方
+- 帮我找有卖[宠物食品](commodity)的商店
+- 哪里有商场可以买[宠物食品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[咖啡](commodity)啊
+- 哪里有卖[咖啡](commodity)的店
+- 找一个卖[咖啡](commodity)的地方
+- 帮我找有卖[咖啡](commodity)的商店
+- 哪里有商场可以买[咖啡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其它乐器](commodity)啊
+- 哪里有卖[其它乐器](commodity)的店
+- 找一个卖[其它乐器](commodity)的地方
+- 帮我找有卖[其它乐器](commodity)的商店
+- 哪里有商场可以买[其它乐器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手机](commodity)啊
+- 哪里有卖[手机](commodity)的店
+- 找一个卖[手机](commodity)的地方
+- 帮我找有卖[手机](commodity)的商店
+- 哪里有商场可以买[手机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[绿植](commodity)啊
+- 哪里有卖[绿植](commodity)的店
+- 找一个卖[绿植](commodity)的地方
+- 帮我找有卖[绿植](commodity)的商店
+- 哪里有商场可以买[绿植](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Agsdon](commodity)啊
+- 哪里有卖[Agsdon](commodity)的店
+- 找一个卖[Agsdon](commodity)的地方
+- 帮我找有卖[Agsdon](commodity)的商店
+- 哪里有商场可以买[Agsdon](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Lilbetter](commodity)啊
+- 哪里有卖[Lilbetter](commodity)的店
+- 找一个卖[Lilbetter](commodity)的地方
+- 帮我找有卖[Lilbetter](commodity)的商店
+- 哪里有商场可以买[Lilbetter](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[足球鞋](commodity)啊
+- 哪里有卖[足球鞋](commodity)的店
+- 找一个卖[足球鞋](commodity)的地方
+- 帮我找有卖[足球鞋](commodity)的商店
+- 哪里有商场可以买[足球鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动拖鞋](commodity)啊
+- 哪里有卖[运动拖鞋](commodity)的店
+- 找一个卖[运动拖鞋](commodity)的地方
+- 帮我找有卖[运动拖鞋](commodity)的商店
+- 哪里有商场可以买[运动拖鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[图形图像软件](commodity)啊
+- 哪里有卖[图形图像软件](commodity)的店
+- 找一个卖[图形图像软件](commodity)的地方
+- 帮我找有卖[图形图像软件](commodity)的商店
+- 哪里有商场可以买[图形图像软件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电话机](commodity)啊
+- 哪里有卖[电话机](commodity)的店
+- 找一个卖[电话机](commodity)的地方
+- 帮我找有卖[电话机](commodity)的商店
+- 哪里有商场可以买[电话机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[果汁](commodity)啊
+- 哪里有卖[果汁](commodity)的店
+- 找一个卖[果汁](commodity)的地方
+- 帮我找有卖[果汁](commodity)的商店
+- 哪里有商场可以买[果汁](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电脑](commodity)啊
+- 哪里有卖[电脑](commodity)的店
+- 找一个卖[电脑](commodity)的地方
+- 帮我找有卖[电脑](commodity)的商店
+- 哪里有商场可以买[电脑](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外家具](commodity)啊
+- 哪里有卖[户外家具](commodity)的店
+- 找一个卖[户外家具](commodity)的地方
+- 帮我找有卖[户外家具](commodity)的商店
+- 哪里有商场可以买[户外家具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[车载电器](commodity)啊
+- 哪里有卖[车载电器](commodity)的店
+- 找一个卖[车载电器](commodity)的地方
+- 帮我找有卖[车载电器](commodity)的商店
+- 哪里有商场可以买[车载电器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[MP4配件](commodity)啊
+- 哪里有卖[MP4配件](commodity)的店
+- 找一个卖[MP4配件](commodity)的地方
+- 帮我找有卖[MP4配件](commodity)的商店
+- 哪里有商场可以买[MP4配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[医疗用品](commodity)啊
+- 哪里有卖[医疗用品](commodity)的店
+- 找一个卖[医疗用品](commodity)的地方
+- 帮我找有卖[医疗用品](commodity)的商店
+- 哪里有商场可以买[医疗用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[刮痧用品](commodity)啊
+- 哪里有卖[刮痧用品](commodity)的店
+- 找一个卖[刮痧用品](commodity)的地方
+- 帮我找有卖[刮痧用品](commodity)的商店
+- 哪里有商场可以买[刮痧用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[饮料](commodity)啊
+- 哪里有卖[饮料](commodity)的店
+- 找一个卖[饮料](commodity)的地方
+- 帮我找有卖[饮料](commodity)的商店
+- 哪里有商场可以买[饮料](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[进口糖果](commodity)啊
+- 哪里有卖[进口糖果](commodity)的店
+- 找一个卖[进口糖果](commodity)的地方
+- 帮我找有卖[进口糖果](commodity)的商店
+- 哪里有商场可以买[进口糖果](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[抱枕](commodity)啊
+- 哪里有卖[抱枕](commodity)的店
+- 找一个卖[抱枕](commodity)的地方
+- 帮我找有卖[抱枕](commodity)的商店
+- 哪里有商场可以买[抱枕](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[数码相机](commodity)啊
+- 哪里有卖[数码相机](commodity)的店
+- 找一个卖[数码相机](commodity)的地方
+- 帮我找有卖[数码相机](commodity)的商店
+- 哪里有商场可以买[数码相机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[蜡烛](commodity)啊
+- 哪里有卖[蜡烛](commodity)的店
+- 找一个卖[蜡烛](commodity)的地方
+- 帮我找有卖[蜡烛](commodity)的商店
+- 哪里有商场可以买[蜡烛](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[肉肠](commodity)啊
+- 哪里有卖[肉肠](commodity)的店
+- 找一个卖[肉肠](commodity)的地方
+- 帮我找有卖[肉肠](commodity)的商店
+- 哪里有商场可以买[肉肠](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电源](commodity)啊
+- 哪里有卖[电源](commodity)的店
+- 找一个卖[电源](commodity)的地方
+- 帮我找有卖[电源](commodity)的商店
+- 哪里有商场可以买[电源](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[攀岩鞋](commodity)啊
+- 哪里有卖[攀岩鞋](commodity)的店
+- 找一个卖[攀岩鞋](commodity)的地方
+- 帮我找有卖[攀岩鞋](commodity)的商店
+- 哪里有商场可以买[攀岩鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[太平鸟](commodity)啊
+- 哪里有卖[太平鸟](commodity)的店
+- 找一个卖[太平鸟](commodity)的地方
+- 帮我找有卖[太平鸟](commodity)的商店
+- 哪里有商场可以买[太平鸟](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[散热设备](commodity)啊
+- 哪里有卖[散热设备](commodity)的店
+- 找一个卖[散热设备](commodity)的地方
+- 帮我找有卖[散热设备](commodity)的商店
+- 哪里有商场可以买[散热设备](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[DUSTO](commodity)啊
+- 哪里有卖[DUSTO](commodity)的店
+- 找一个卖[DUSTO](commodity)的地方
+- 帮我找有卖[DUSTO](commodity)的商店
+- 哪里有商场可以买[DUSTO](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[程序](commodity)啊
+- 哪里有卖[程序](commodity)的店
+- 找一个卖[程序](commodity)的地方
+- 帮我找有卖[程序](commodity)的商店
+- 哪里有商场可以买[程序](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[墨粉](commodity)啊
+- 哪里有卖[墨粉](commodity)的店
+- 找一个卖[墨粉](commodity)的地方
+- 帮我找有卖[墨粉](commodity)的商店
+- 哪里有商场可以买[墨粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[锅刷](commodity)啊
+- 哪里有卖[锅刷](commodity)的店
+- 找一个卖[锅刷](commodity)的地方
+- 帮我找有卖[锅刷](commodity)的商店
+- 哪里有商场可以买[锅刷](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[坐垫](commodity)啊
+- 哪里有卖[坐垫](commodity)的店
+- 找一个卖[坐垫](commodity)的地方
+- 帮我找有卖[坐垫](commodity)的商店
+- 哪里有商场可以买[坐垫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[绘图测量](commodity)啊
+- 哪里有卖[绘图测量](commodity)的店
+- 找一个卖[绘图测量](commodity)的地方
+- 帮我找有卖[绘图测量](commodity)的商店
+- 哪里有商场可以买[绘图测量](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[按摩券](commodity)啊
+- 哪里有卖[按摩券](commodity)的店
+- 找一个卖[按摩券](commodity)的地方
+- 帮我找有卖[按摩券](commodity)的商店
+- 哪里有商场可以买[按摩券](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[骑行](commodity)啊
+- 哪里有卖[骑行](commodity)的店
+- 找一个卖[骑行](commodity)的地方
+- 帮我找有卖[骑行](commodity)的商店
+- 哪里有商场可以买[骑行](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[清洗用品](commodity)啊
+- 哪里有卖[清洗用品](commodity)的店
+- 找一个卖[清洗用品](commodity)的地方
+- 帮我找有卖[清洗用品](commodity)的商店
+- 哪里有商场可以买[清洗用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[移动硬盘](commodity)啊
+- 哪里有卖[移动硬盘](commodity)的店
+- 找一个卖[移动硬盘](commodity)的地方
+- 帮我找有卖[移动硬盘](commodity)的商店
+- 哪里有商场可以买[移动硬盘](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[食品](commodity)啊
+- 哪里有卖[食品](commodity)的店
+- 找一个卖[食品](commodity)的地方
+- 帮我找有卖[食品](commodity)的商店
+- 哪里有商场可以买[食品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[生活影视](commodity)啊
+- 哪里有卖[生活影视](commodity)的店
+- 找一个卖[生活影视](commodity)的地方
+- 帮我找有卖[生活影视](commodity)的商店
+- 哪里有商场可以买[生活影视](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[犬主粮](commodity)啊
+- 哪里有卖[犬主粮](commodity)的店
+- 找一个卖[犬主粮](commodity)的地方
+- 帮我找有卖[犬主粮](commodity)的商店
+- 哪里有商场可以买[犬主粮](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[L'OREAL](commodity)啊
+- 哪里有卖[L'OREAL](commodity)的店
+- 找一个卖[L'OREAL](commodity)的地方
+- 帮我找有卖[L'OREAL](commodity)的商店
+- 哪里有商场可以买[L'OREAL](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手环](commodity)啊
+- 哪里有卖[手环](commodity)的店
+- 找一个卖[手环](commodity)的地方
+- 帮我找有卖[手环](commodity)的商店
+- 哪里有商场可以买[手环](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[户外服装](commodity)啊
+- 哪里有卖[户外服装](commodity)的店
+- 找一个卖[户外服装](commodity)的地方
+- 帮我找有卖[户外服装](commodity)的商店
+- 哪里有商场可以买[户外服装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[科技类图书](commodity)啊
+- 哪里有卖[科技类图书](commodity)的店
+- 找一个卖[科技类图书](commodity)的地方
+- 帮我找有卖[科技类图书](commodity)的商店
+- 哪里有商场可以买[科技类图书](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[防尘罩](commodity)啊
+- 哪里有卖[防尘罩](commodity)的店
+- 找一个卖[防尘罩](commodity)的地方
+- 帮我找有卖[防尘罩](commodity)的商店
+- 哪里有商场可以买[防尘罩](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[动漫周边](commodity)啊
+- 哪里有卖[动漫周边](commodity)的店
+- 找一个卖[动漫周边](commodity)的地方
+- 帮我找有卖[动漫周边](commodity)的商店
+- 哪里有商场可以买[动漫周边](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[欧诗漫](commodity)啊
+- 哪里有卖[欧诗漫](commodity)的店
+- 找一个卖[欧诗漫](commodity)的地方
+- 帮我找有卖[欧诗漫](commodity)的商店
+- 哪里有商场可以买[欧诗漫](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[速食品](commodity)啊
+- 哪里有卖[速食品](commodity)的店
+- 找一个卖[速食品](commodity)的地方
+- 帮我找有卖[速食品](commodity)的商店
+- 哪里有商场可以买[速食品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[布丁](commodity)啊
+- 哪里有卖[布丁](commodity)的店
+- 找一个卖[布丁](commodity)的地方
+- 帮我找有卖[布丁](commodity)的商店
+- 哪里有商场可以买[布丁](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[眼镜](commodity)啊
+- 哪里有卖[眼镜](commodity)的店
+- 找一个卖[眼镜](commodity)的地方
+- 帮我找有卖[眼镜](commodity)的商店
+- 哪里有商场可以买[眼镜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[各类贴纸](commodity)啊
+- 哪里有卖[各类贴纸](commodity)的店
+- 找一个卖[各类贴纸](commodity)的地方
+- 帮我找有卖[各类贴纸](commodity)的商店
+- 哪里有商场可以买[各类贴纸](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[皮革护理](commodity)啊
+- 哪里有卖[皮革护理](commodity)的店
+- 找一个卖[皮革护理](commodity)的地方
+- 帮我找有卖[皮革护理](commodity)的商店
+- 哪里有商场可以买[皮革护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[瓷砖](commodity)啊
+- 哪里有卖[瓷砖](commodity)的店
+- 找一个卖[瓷砖](commodity)的地方
+- 帮我找有卖[瓷砖](commodity)的商店
+- 哪里有商场可以买[瓷砖](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[餐巾](commodity)啊
+- 哪里有卖[餐巾](commodity)的店
+- 找一个卖[餐巾](commodity)的地方
+- 帮我找有卖[餐巾](commodity)的商店
+- 哪里有商场可以买[餐巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[知浩](commodity)啊
+- 哪里有卖[知浩](commodity)的店
+- 找一个卖[知浩](commodity)的地方
+- 帮我找有卖[知浩](commodity)的商店
+- 哪里有商场可以买[知浩](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[益智玩具](commodity)啊
+- 哪里有卖[益智玩具](commodity)的店
+- 找一个卖[益智玩具](commodity)的地方
+- 帮我找有卖[益智玩具](commodity)的商店
+- 哪里有商场可以买[益智玩具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[套](commodity)啊
+- 哪里有卖[套](commodity)的店
+- 找一个卖[套](commodity)的地方
+- 帮我找有卖[套](commodity)的商店
+- 哪里有商场可以买[套](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[助行](commodity)啊
+- 哪里有卖[助行](commodity)的店
+- 找一个卖[助行](commodity)的地方
+- 帮我找有卖[助行](commodity)的商店
+- 哪里有商场可以买[助行](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[美容美发](commodity)啊
+- 哪里有卖[美容美发](commodity)的店
+- 找一个卖[美容美发](commodity)的地方
+- 帮我找有卖[美容美发](commodity)的商店
+- 哪里有商场可以买[美容美发](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[围巾](commodity)啊
+- 哪里有卖[围巾](commodity)的店
+- 找一个卖[围巾](commodity)的地方
+- 帮我找有卖[围巾](commodity)的商店
+- 哪里有商场可以买[围巾](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电动车](commodity)啊
+- 哪里有卖[电动车](commodity)的店
+- 找一个卖[电动车](commodity)的地方
+- 帮我找有卖[电动车](commodity)的商店
+- 哪里有商场可以买[电动车](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[DVD](commodity)啊
+- 哪里有卖[DVD](commodity)的店
+- 找一个卖[DVD](commodity)的地方
+- 帮我找有卖[DVD](commodity)的商店
+- 哪里有商场可以买[DVD](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[儿童家具](commodity)啊
+- 哪里有卖[儿童家具](commodity)的店
+- 找一个卖[儿童家具](commodity)的地方
+- 帮我找有卖[儿童家具](commodity)的商店
+- 哪里有商场可以买[儿童家具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[数码贴膜](commodity)啊
+- 哪里有卖[数码贴膜](commodity)的店
+- 找一个卖[数码贴膜](commodity)的地方
+- 帮我找有卖[数码贴膜](commodity)的商店
+- 哪里有商场可以买[数码贴膜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[旅行包](commodity)啊
+- 哪里有卖[旅行包](commodity)的店
+- 找一个卖[旅行包](commodity)的地方
+- 帮我找有卖[旅行包](commodity)的商店
+- 哪里有商场可以买[旅行包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[儿童椅](commodity)啊
+- 哪里有卖[儿童椅](commodity)的店
+- 找一个卖[儿童椅](commodity)的地方
+- 帮我找有卖[儿童椅](commodity)的商店
+- 哪里有商场可以买[儿童椅](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[牙刷](commodity)啊
+- 哪里有卖[牙刷](commodity)的店
+- 找一个卖[牙刷](commodity)的地方
+- 帮我找有卖[牙刷](commodity)的商店
+- 哪里有商场可以买[牙刷](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[汽车外饰](commodity)啊
+- 哪里有卖[汽车外饰](commodity)的店
+- 找一个卖[汽车外饰](commodity)的地方
+- 帮我找有卖[汽车外饰](commodity)的商店
+- 哪里有商场可以买[汽车外饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[半身裙](commodity)啊
+- 哪里有卖[半身裙](commodity)的店
+- 找一个卖[半身裙](commodity)的地方
+- 帮我找有卖[半身裙](commodity)的商店
+- 哪里有商场可以买[半身裙](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[真空即食](commodity)啊
+- 哪里有卖[真空即食](commodity)的店
+- 找一个卖[真空即食](commodity)的地方
+- 帮我找有卖[真空即食](commodity)的商店
+- 哪里有商场可以买[真空即食](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[影音电器配件](commodity)啊
+- 哪里有卖[影音电器配件](commodity)的店
+- 找一个卖[影音电器配件](commodity)的地方
+- 帮我找有卖[影音电器配件](commodity)的商店
+- 哪里有商场可以买[影音电器配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[管理](commodity)啊
+- 哪里有卖[管理](commodity)的店
+- 找一个卖[管理](commodity)的地方
+- 帮我找有卖[管理](commodity)的商店
+- 哪里有商场可以买[管理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[西装](commodity)啊
+- 哪里有卖[西装](commodity)的店
+- 找一个卖[西装](commodity)的地方
+- 帮我找有卖[西装](commodity)的商店
+- 哪里有商场可以买[西装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[狗日用品](commodity)啊
+- 哪里有卖[狗日用品](commodity)的店
+- 找一个卖[狗日用品](commodity)的地方
+- 帮我找有卖[狗日用品](commodity)的商店
+- 哪里有商场可以买[狗日用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[丝袜](commodity)啊
+- 哪里有卖[丝袜](commodity)的店
+- 找一个卖[丝袜](commodity)的地方
+- 帮我找有卖[丝袜](commodity)的商店
+- 哪里有商场可以买[丝袜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[辅件](commodity)啊
+- 哪里有卖[辅件](commodity)的店
+- 找一个卖[辅件](commodity)的地方
+- 帮我找有卖[辅件](commodity)的商店
+- 哪里有商场可以买[辅件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电子词典](commodity)啊
+- 哪里有卖[电子词典](commodity)的店
+- 找一个卖[电子词典](commodity)的地方
+- 帮我找有卖[电子词典](commodity)的商店
+- 哪里有商场可以买[电子词典](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[乔丹](commodity)啊
+- 哪里有卖[乔丹](commodity)的店
+- 找一个卖[乔丹](commodity)的地方
+- 帮我找有卖[乔丹](commodity)的商店
+- 哪里有商场可以买[乔丹](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[语音视频设备](commodity)啊
+- 哪里有卖[语音视频设备](commodity)的店
+- 找一个卖[语音视频设备](commodity)的地方
+- 帮我找有卖[语音视频设备](commodity)的商店
+- 哪里有商场可以买[语音视频设备](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[皂盒](commodity)啊
+- 哪里有卖[皂盒](commodity)的店
+- 找一个卖[皂盒](commodity)的地方
+- 帮我找有卖[皂盒](commodity)的商店
+- 哪里有商场可以买[皂盒](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[花花公子](commodity)啊
+- 哪里有卖[花花公子](commodity)的店
+- 找一个卖[花花公子](commodity)的地方
+- 帮我找有卖[花花公子](commodity)的商店
+- 哪里有商场可以买[花花公子](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[tkz](commodity)啊
+- 哪里有卖[tkz](commodity)的店
+- 找一个卖[tkz](commodity)的地方
+- 帮我找有卖[tkz](commodity)的商店
+- 哪里有商场可以买[tkz](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[除尘掸](commodity)啊
+- 哪里有卖[除尘掸](commodity)的店
+- 找一个卖[除尘掸](commodity)的地方
+- 帮我找有卖[除尘掸](commodity)的商店
+- 哪里有商场可以买[除尘掸](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[酱类](commodity)啊
+- 哪里有卖[酱类](commodity)的店
+- 找一个卖[酱类](commodity)的地方
+- 帮我找有卖[酱类](commodity)的商店
+- 哪里有商场可以买[酱类](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[欧美流行](commodity)啊
+- 哪里有卖[欧美流行](commodity)的店
+- 找一个卖[欧美流行](commodity)的地方
+- 帮我找有卖[欧美流行](commodity)的商店
+- 哪里有商场可以买[欧美流行](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[战狼世家](commodity)啊
+- 哪里有卖[战狼世家](commodity)的店
+- 找一个卖[战狼世家](commodity)的地方
+- 帮我找有卖[战狼世家](commodity)的商店
+- 哪里有商场可以买[战狼世家](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[鼻毛修剪器](commodity)啊
+- 哪里有卖[鼻毛修剪器](commodity)的店
+- 找一个卖[鼻毛修剪器](commodity)的地方
+- 帮我找有卖[鼻毛修剪器](commodity)的商店
+- 哪里有商场可以买[鼻毛修剪器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[磨脚器](commodity)啊
+- 哪里有卖[磨脚器](commodity)的店
+- 找一个卖[磨脚器](commodity)的地方
+- 帮我找有卖[磨脚器](commodity)的商店
+- 哪里有商场可以买[磨脚器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[生肉](commodity)啊
+- 哪里有卖[生肉](commodity)的店
+- 找一个卖[生肉](commodity)的地方
+- 帮我找有卖[生肉](commodity)的商店
+- 哪里有商场可以买[生肉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[防盗](commodity)啊
+- 哪里有卖[防盗](commodity)的店
+- 找一个卖[防盗](commodity)的地方
+- 帮我找有卖[防盗](commodity)的商店
+- 哪里有商场可以买[防盗](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[多士炉](commodity)啊
+- 哪里有卖[多士炉](commodity)的店
+- 找一个卖[多士炉](commodity)的地方
+- 帮我找有卖[多士炉](commodity)的商店
+- 哪里有商场可以买[多士炉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[配饰](commodity)啊
+- 哪里有卖[配饰](commodity)的店
+- 找一个卖[配饰](commodity)的地方
+- 帮我找有卖[配饰](commodity)的商店
+- 哪里有商场可以买[配饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[传真机](commodity)啊
+- 哪里有卖[传真机](commodity)的店
+- 找一个卖[传真机](commodity)的地方
+- 帮我找有卖[传真机](commodity)的商店
+- 哪里有商场可以买[传真机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[旱冰鞋](commodity)啊
+- 哪里有卖[旱冰鞋](commodity)的店
+- 找一个卖[旱冰鞋](commodity)的地方
+- 帮我找有卖[旱冰鞋](commodity)的商店
+- 哪里有商场可以买[旱冰鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[女士双肩包](commodity)啊
+- 哪里有卖[女士双肩包](commodity)的店
+- 找一个卖[女士双肩包](commodity)的地方
+- 帮我找有卖[女士双肩包](commodity)的商店
+- 哪里有商场可以买[女士双肩包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[瑜伽包](commodity)啊
+- 哪里有卖[瑜伽包](commodity)的店
+- 找一个卖[瑜伽包](commodity)的地方
+- 帮我找有卖[瑜伽包](commodity)的商店
+- 哪里有商场可以买[瑜伽包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[净水器](commodity)啊
+- 哪里有卖[净水器](commodity)的店
+- 找一个卖[净水器](commodity)的地方
+- 帮我找有卖[净水器](commodity)的商店
+- 哪里有商场可以买[净水器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[雕刻](commodity)啊
+- 哪里有卖[雕刻](commodity)的店
+- 找一个卖[雕刻](commodity)的地方
+- 帮我找有卖[雕刻](commodity)的商店
+- 哪里有商场可以买[雕刻](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电熨斗](commodity)啊
+- 哪里有卖[电熨斗](commodity)的店
+- 找一个卖[电熨斗](commodity)的地方
+- 帮我找有卖[电熨斗](commodity)的商店
+- 哪里有商场可以买[电熨斗](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[经济](commodity)啊
+- 哪里有卖[经济](commodity)的店
+- 找一个卖[经济](commodity)的地方
+- 帮我找有卖[经济](commodity)的商店
+- 哪里有商场可以买[经济](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[UOOHE](commodity)啊
+- 哪里有卖[UOOHE](commodity)的店
+- 找一个卖[UOOHE](commodity)的地方
+- 帮我找有卖[UOOHE](commodity)的商店
+- 哪里有商场可以买[UOOHE](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[舞台服装](commodity)啊
+- 哪里有卖[舞台服装](commodity)的店
+- 找一个卖[舞台服装](commodity)的地方
+- 帮我找有卖[舞台服装](commodity)的商店
+- 哪里有商场可以买[舞台服装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手动工具](commodity)啊
+- 哪里有卖[手动工具](commodity)的店
+- 找一个卖[手动工具](commodity)的地方
+- 帮我找有卖[手动工具](commodity)的商店
+- 哪里有商场可以买[手动工具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[中继器](commodity)啊
+- 哪里有卖[中继器](commodity)的店
+- 找一个卖[中继器](commodity)的地方
+- 帮我找有卖[中继器](commodity)的商店
+- 哪里有商场可以买[中继器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电视](commodity)啊
+- 哪里有卖[电视](commodity)的店
+- 找一个卖[电视](commodity)的地方
+- 帮我找有卖[电视](commodity)的商店
+- 哪里有商场可以买[电视](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[雨衣](commodity)啊
+- 哪里有卖[雨衣](commodity)的店
+- 找一个卖[雨衣](commodity)的地方
+- 帮我找有卖[雨衣](commodity)的商店
+- 哪里有商场可以买[雨衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[蜜粉](commodity)啊
+- 哪里有卖[蜜粉](commodity)的店
+- 找一个卖[蜜粉](commodity)的地方
+- 帮我找有卖[蜜粉](commodity)的商店
+- 哪里有商场可以买[蜜粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[奶瓶](commodity)啊
+- 哪里有卖[奶瓶](commodity)的店
+- 找一个卖[奶瓶](commodity)的地方
+- 帮我找有卖[奶瓶](commodity)的商店
+- 哪里有商场可以买[奶瓶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[卡](commodity)啊
+- 哪里有卖[卡](commodity)的店
+- 找一个卖[卡](commodity)的地方
+- 帮我找有卖[卡](commodity)的商店
+- 哪里有商场可以买[卡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[人文社科类图书](commodity)啊
+- 哪里有卖[人文社科类图书](commodity)的店
+- 找一个卖[人文社科类图书](commodity)的地方
+- 帮我找有卖[人文社科类图书](commodity)的商店
+- 哪里有商场可以买[人文社科类图书](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[水上用品](commodity)啊
+- 哪里有卖[水上用品](commodity)的店
+- 找一个卖[水上用品](commodity)的地方
+- 帮我找有卖[水上用品](commodity)的商店
+- 哪里有商场可以买[水上用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[施工保护](commodity)啊
+- 哪里有卖[施工保护](commodity)的店
+- 找一个卖[施工保护](commodity)的地方
+- 帮我找有卖[施工保护](commodity)的商店
+- 哪里有商场可以买[施工保护](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[家具](commodity)啊
+- 哪里有卖[家具](commodity)的店
+- 找一个卖[家具](commodity)的地方
+- 帮我找有卖[家具](commodity)的商店
+- 哪里有商场可以买[家具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[剃须刀](commodity)啊
+- 哪里有卖[剃须刀](commodity)的店
+- 找一个卖[剃须刀](commodity)的地方
+- 帮我找有卖[剃须刀](commodity)的商店
+- 哪里有商场可以买[剃须刀](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[地暖安装](commodity)啊
+- 哪里有卖[地暖安装](commodity)的店
+- 找一个卖[地暖安装](commodity)的地方
+- 帮我找有卖[地暖安装](commodity)的商店
+- 哪里有商场可以买[地暖安装](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[汽车用品](commodity)啊
+- 哪里有卖[汽车用品](commodity)的店
+- 找一个卖[汽车用品](commodity)的地方
+- 帮我找有卖[汽车用品](commodity)的商店
+- 哪里有商场可以买[汽车用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[汽车防护用品](commodity)啊
+- 哪里有卖[汽车防护用品](commodity)的店
+- 找一个卖[汽车防护用品](commodity)的地方
+- 帮我找有卖[汽车防护用品](commodity)的商店
+- 哪里有商场可以买[汽车防护用品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[搅拌](commodity)啊
+- 哪里有卖[搅拌](commodity)的店
+- 找一个卖[搅拌](commodity)的地方
+- 帮我找有卖[搅拌](commodity)的商店
+- 哪里有商场可以买[搅拌](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[益智](commodity)啊
+- 哪里有卖[益智](commodity)的店
+- 找一个卖[益智](commodity)的地方
+- 帮我找有卖[益智](commodity)的商店
+- 哪里有商场可以买[益智](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[彪马](commodity)啊
+- 哪里有卖[彪马](commodity)的店
+- 找一个卖[彪马](commodity)的地方
+- 帮我找有卖[彪马](commodity)的商店
+- 哪里有商场可以买[彪马](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[洗衣粉](commodity)啊
+- 哪里有卖[洗衣粉](commodity)的店
+- 找一个卖[洗衣粉](commodity)的地方
+- 帮我找有卖[洗衣粉](commodity)的商店
+- 哪里有商场可以买[洗衣粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他厨房家电](commodity)啊
+- 哪里有卖[其他厨房家电](commodity)的店
+- 找一个卖[其他厨房家电](commodity)的地方
+- 帮我找有卖[其他厨房家电](commodity)的商店
+- 哪里有商场可以买[其他厨房家电](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[身体按摩](commodity)啊
+- 哪里有卖[身体按摩](commodity)的店
+- 找一个卖[身体按摩](commodity)的地方
+- 帮我找有卖[身体按摩](commodity)的商店
+- 哪里有商场可以买[身体按摩](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[布线箱](commodity)啊
+- 哪里有卖[布线箱](commodity)的店
+- 找一个卖[布线箱](commodity)的地方
+- 帮我找有卖[布线箱](commodity)的商店
+- 哪里有商场可以买[布线箱](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[数据线](commodity)啊
+- 哪里有卖[数据线](commodity)的店
+- 找一个卖[数据线](commodity)的地方
+- 帮我找有卖[数据线](commodity)的商店
+- 哪里有商场可以买[数据线](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[租赁](commodity)啊
+- 哪里有卖[租赁](commodity)的店
+- 找一个卖[租赁](commodity)的地方
+- 帮我找有卖[租赁](commodity)的商店
+- 哪里有商场可以买[租赁](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[短裤](commodity)啊
+- 哪里有卖[短裤](commodity)的店
+- 找一个卖[短裤](commodity)的地方
+- 帮我找有卖[短裤](commodity)的商店
+- 哪里有商场可以买[短裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[速干裤](commodity)啊
+- 哪里有卖[速干裤](commodity)的店
+- 找一个卖[速干裤](commodity)的地方
+- 帮我找有卖[速干裤](commodity)的商店
+- 哪里有商场可以买[速干裤](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[保险柜](commodity)啊
+- 哪里有卖[保险柜](commodity)的店
+- 找一个卖[保险柜](commodity)的地方
+- 帮我找有卖[保险柜](commodity)的商店
+- 哪里有商场可以买[保险柜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电脑音箱](commodity)啊
+- 哪里有卖[电脑音箱](commodity)的店
+- 找一个卖[电脑音箱](commodity)的地方
+- 帮我找有卖[电脑音箱](commodity)的商店
+- 哪里有商场可以买[电脑音箱](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[窗帘](commodity)啊
+- 哪里有卖[窗帘](commodity)的店
+- 找一个卖[窗帘](commodity)的地方
+- 帮我找有卖[窗帘](commodity)的商店
+- 哪里有商场可以买[窗帘](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[公文包](commodity)啊
+- 哪里有卖[公文包](commodity)的店
+- 找一个卖[公文包](commodity)的地方
+- 帮我找有卖[公文包](commodity)的商店
+- 哪里有商场可以买[公文包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[童鞋](commodity)啊
+- 哪里有卖[童鞋](commodity)的店
+- 找一个卖[童鞋](commodity)的地方
+- 帮我找有卖[童鞋](commodity)的商店
+- 哪里有商场可以买[童鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[徒步鞋](commodity)啊
+- 哪里有卖[徒步鞋](commodity)的店
+- 找一个卖[徒步鞋](commodity)的地方
+- 帮我找有卖[徒步鞋](commodity)的商店
+- 哪里有商场可以买[徒步鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[内增高鞋](commodity)啊
+- 哪里有卖[内增高鞋](commodity)的店
+- 找一个卖[内增高鞋](commodity)的地方
+- 帮我找有卖[内增高鞋](commodity)的商店
+- 哪里有商场可以买[内增高鞋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[U盘](commodity)啊
+- 哪里有卖[U盘](commodity)的店
+- 找一个卖[U盘](commodity)的地方
+- 帮我找有卖[U盘](commodity)的商店
+- 哪里有商场可以买[U盘](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[显卡](commodity)啊
+- 哪里有卖[显卡](commodity)的店
+- 找一个卖[显卡](commodity)的地方
+- 帮我找有卖[显卡](commodity)的商店
+- 哪里有商场可以买[显卡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[摇杆](commodity)啊
+- 哪里有卖[摇杆](commodity)的店
+- 找一个卖[摇杆](commodity)的地方
+- 帮我找有卖[摇杆](commodity)的商店
+- 哪里有商场可以买[摇杆](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[派对](commodity)啊
+- 哪里有卖[派对](commodity)的店
+- 找一个卖[派对](commodity)的地方
+- 帮我找有卖[派对](commodity)的商店
+- 哪里有商场可以买[派对](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[报警](commodity)啊
+- 哪里有卖[报警](commodity)的店
+- 找一个卖[报警](commodity)的地方
+- 帮我找有卖[报警](commodity)的商店
+- 哪里有商场可以买[报警](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[跆拳道](commodity)啊
+- 哪里有卖[跆拳道](commodity)的店
+- 找一个卖[跆拳道](commodity)的地方
+- 帮我找有卖[跆拳道](commodity)的商店
+- 哪里有商场可以买[跆拳道](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[猫零食](commodity)啊
+- 哪里有卖[猫零食](commodity)的店
+- 找一个卖[猫零食](commodity)的地方
+- 帮我找有卖[猫零食](commodity)的商店
+- 哪里有商场可以买[猫零食](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[蔬果汁](commodity)啊
+- 哪里有卖[蔬果汁](commodity)的店
+- 找一个卖[蔬果汁](commodity)的地方
+- 帮我找有卖[蔬果汁](commodity)的商店
+- 哪里有商场可以买[蔬果汁](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[搏击](commodity)啊
+- 哪里有卖[搏击](commodity)的店
+- 找一个卖[搏击](commodity)的地方
+- 帮我找有卖[搏击](commodity)的商店
+- 哪里有商场可以买[搏击](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[睫毛膏](commodity)啊
+- 哪里有卖[睫毛膏](commodity)的店
+- 找一个卖[睫毛膏](commodity)的地方
+- 帮我找有卖[睫毛膏](commodity)的商店
+- 哪里有商场可以买[睫毛膏](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[护理](commodity)啊
+- 哪里有卖[护理](commodity)的店
+- 找一个卖[护理](commodity)的地方
+- 帮我找有卖[护理](commodity)的商店
+- 哪里有商场可以买[护理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[军事](commodity)啊
+- 哪里有卖[军事](commodity)的店
+- 找一个卖[军事](commodity)的地方
+- 帮我找有卖[军事](commodity)的商店
+- 哪里有商场可以买[军事](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[游戏软件](commodity)啊
+- 哪里有卖[游戏软件](commodity)的店
+- 找一个卖[游戏软件](commodity)的地方
+- 帮我找有卖[游戏软件](commodity)的商店
+- 哪里有商场可以买[游戏软件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[Franic](commodity)啊
+- 哪里有卖[Franic](commodity)的店
+- 找一个卖[Franic](commodity)的地方
+- 帮我找有卖[Franic](commodity)的商店
+- 哪里有商场可以买[Franic](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[消毒液](commodity)啊
+- 哪里有卖[消毒液](commodity)的店
+- 找一个卖[消毒液](commodity)的地方
+- 帮我找有卖[消毒液](commodity)的商店
+- 哪里有商场可以买[消毒液](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[垂钓服](commodity)啊
+- 哪里有卖[垂钓服](commodity)的店
+- 找一个卖[垂钓服](commodity)的地方
+- 帮我找有卖[垂钓服](commodity)的商店
+- 哪里有商场可以买[垂钓服](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[奢姿](commodity)啊
+- 哪里有卖[奢姿](commodity)的店
+- 找一个卖[奢姿](commodity)的地方
+- 帮我找有卖[奢姿](commodity)的商店
+- 哪里有商场可以买[奢姿](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[毛巾被](commodity)啊
+- 哪里有卖[毛巾被](commodity)的店
+- 找一个卖[毛巾被](commodity)的地方
+- 帮我找有卖[毛巾被](commodity)的商店
+- 哪里有商场可以买[毛巾被](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[硬盘](commodity)啊
+- 哪里有卖[硬盘](commodity)的店
+- 找一个卖[硬盘](commodity)的地方
+- 帮我找有卖[硬盘](commodity)的商店
+- 哪里有商场可以买[硬盘](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[眉部彩妆](commodity)啊
+- 哪里有卖[眉部彩妆](commodity)的店
+- 找一个卖[眉部彩妆](commodity)的地方
+- 帮我找有卖[眉部彩妆](commodity)的商店
+- 哪里有商场可以买[眉部彩妆](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[泳镜](commodity)啊
+- 哪里有卖[泳镜](commodity)的店
+- 找一个卖[泳镜](commodity)的地方
+- 帮我找有卖[泳镜](commodity)的商店
+- 哪里有商场可以买[泳镜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[西洋管](commodity)啊
+- 哪里有卖[西洋管](commodity)的店
+- 找一个卖[西洋管](commodity)的地方
+- 帮我找有卖[西洋管](commodity)的商店
+- 哪里有商场可以买[西洋管](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[KTV](commodity)啊
+- 哪里有卖[KTV](commodity)的店
+- 找一个卖[KTV](commodity)的地方
+- 帮我找有卖[KTV](commodity)的商店
+- 哪里有商场可以买[KTV](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[集线器](commodity)啊
+- 哪里有卖[集线器](commodity)的店
+- 找一个卖[集线器](commodity)的地方
+- 帮我找有卖[集线器](commodity)的商店
+- 哪里有商场可以买[集线器](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[水果粉](commodity)啊
+- 哪里有卖[水果粉](commodity)的店
+- 找一个卖[水果粉](commodity)的地方
+- 帮我找有卖[水果粉](commodity)的商店
+- 哪里有商场可以买[水果粉](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[进口食品](commodity)啊
+- 哪里有卖[进口食品](commodity)的店
+- 找一个卖[进口食品](commodity)的地方
+- 帮我找有卖[进口食品](commodity)的商店
+- 哪里有商场可以买[进口食品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[美发护发](commodity)啊
+- 哪里有卖[美发护发](commodity)的店
+- 找一个卖[美发护发](commodity)的地方
+- 帮我找有卖[美发护发](commodity)的商店
+- 哪里有商场可以买[美发护发](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[La Babite](commodity)啊
+- 哪里有卖[La Babite](commodity)的店
+- 找一个卖[La Babite](commodity)的地方
+- 帮我找有卖[La Babite](commodity)的商店
+- 哪里有商场可以买[La Babite](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[米糊](commodity)啊
+- 哪里有卖[米糊](commodity)的店
+- 找一个卖[米糊](commodity)的地方
+- 帮我找有卖[米糊](commodity)的商店
+- 哪里有商场可以买[米糊](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[首饰](commodity)啊
+- 哪里有卖[首饰](commodity)的店
+- 找一个卖[首饰](commodity)的地方
+- 帮我找有卖[首饰](commodity)的商店
+- 哪里有商场可以买[首饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[组装机](commodity)啊
+- 哪里有卖[组装机](commodity)的店
+- 找一个卖[组装机](commodity)的地方
+- 帮我找有卖[组装机](commodity)的商店
+- 哪里有商场可以买[组装机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[专题片](commodity)啊
+- 哪里有卖[专题片](commodity)的店
+- 找一个卖[专题片](commodity)的地方
+- 帮我找有卖[专题片](commodity)的商店
+- 哪里有商场可以买[专题片](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[情趣家具](commodity)啊
+- 哪里有卖[情趣家具](commodity)的店
+- 找一个卖[情趣家具](commodity)的地方
+- 帮我找有卖[情趣家具](commodity)的商店
+- 哪里有商场可以买[情趣家具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[医学](commodity)啊
+- 哪里有卖[医学](commodity)的店
+- 找一个卖[医学](commodity)的地方
+- 帮我找有卖[医学](commodity)的商店
+- 哪里有商场可以买[医学](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[彩妆](commodity)啊
+- 哪里有卖[彩妆](commodity)的店
+- 找一个卖[彩妆](commodity)的地方
+- 帮我找有卖[彩妆](commodity)的商店
+- 哪里有商场可以买[彩妆](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[环球](commodity)啊
+- 哪里有卖[环球](commodity)的店
+- 找一个卖[环球](commodity)的地方
+- 帮我找有卖[环球](commodity)的商店
+- 哪里有商场可以买[环球](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电脑包](commodity)啊
+- 哪里有卖[电脑包](commodity)的店
+- 找一个卖[电脑包](commodity)的地方
+- 帮我找有卖[电脑包](commodity)的商店
+- 哪里有商场可以买[电脑包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[酸奶机](commodity)啊
+- 哪里有卖[酸奶机](commodity)的店
+- 找一个卖[酸奶机](commodity)的地方
+- 帮我找有卖[酸奶机](commodity)的商店
+- 哪里有商场可以买[酸奶机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[洗脸机](commodity)啊
+- 哪里有卖[洗脸机](commodity)的店
+- 找一个卖[洗脸机](commodity)的地方
+- 帮我找有卖[洗脸机](commodity)的商店
+- 哪里有商场可以买[洗脸机](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[炒货](commodity)啊
+- 哪里有卖[炒货](commodity)的店
+- 找一个卖[炒货](commodity)的地方
+- 帮我找有卖[炒货](commodity)的商店
+- 哪里有商场可以买[炒货](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[沙](commodity)啊
+- 哪里有卖[沙](commodity)的店
+- 找一个卖[沙](commodity)的地方
+- 帮我找有卖[沙](commodity)的商店
+- 哪里有商场可以买[沙](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[沐浴露](commodity)啊
+- 哪里有卖[沐浴露](commodity)的店
+- 找一个卖[沐浴露](commodity)的地方
+- 帮我找有卖[沐浴露](commodity)的商店
+- 哪里有商场可以买[沐浴露](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[高山靴](commodity)啊
+- 哪里有卖[高山靴](commodity)的店
+- 找一个卖[高山靴](commodity)的地方
+- 帮我找有卖[高山靴](commodity)的商店
+- 哪里有商场可以买[高山靴](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[唇蜜](commodity)啊
+- 哪里有卖[唇蜜](commodity)的店
+- 找一个卖[唇蜜](commodity)的地方
+- 帮我找有卖[唇蜜](commodity)的商店
+- 哪里有商场可以买[唇蜜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[iPad配件](commodity)啊
+- 哪里有卖[iPad配件](commodity)的店
+- 找一个卖[iPad配件](commodity)的地方
+- 帮我找有卖[iPad配件](commodity)的商店
+- 哪里有商场可以买[iPad配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[耳饰](commodity)啊
+- 哪里有卖[耳饰](commodity)的店
+- 找一个卖[耳饰](commodity)的地方
+- 帮我找有卖[耳饰](commodity)的商店
+- 哪里有商场可以买[耳饰](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[米](commodity)啊
+- 哪里有卖[米](commodity)的店
+- 找一个卖[米](commodity)的地方
+- 帮我找有卖[米](commodity)的商店
+- 哪里有商场可以买[米](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[情趣内衣](commodity)啊
+- 哪里有卖[情趣内衣](commodity)的店
+- 找一个卖[情趣内衣](commodity)的地方
+- 帮我找有卖[情趣内衣](commodity)的商店
+- 哪里有商场可以买[情趣内衣](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电纸书](commodity)啊
+- 哪里有卖[电纸书](commodity)的店
+- 找一个卖[电纸书](commodity)的地方
+- 帮我找有卖[电纸书](commodity)的商店
+- 哪里有商场可以买[电纸书](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他随身视听](commodity)啊
+- 哪里有卖[其他随身视听](commodity)的店
+- 找一个卖[其他随身视听](commodity)的地方
+- 帮我找有卖[其他随身视听](commodity)的商店
+- 哪里有商场可以买[其他随身视听](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[水路管线](commodity)啊
+- 哪里有卖[水路管线](commodity)的店
+- 找一个卖[水路管线](commodity)的地方
+- 帮我找有卖[水路管线](commodity)的商店
+- 哪里有商场可以买[水路管线](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[中餐](commodity)啊
+- 哪里有卖[中餐](commodity)的店
+- 找一个卖[中餐](commodity)的地方
+- 帮我找有卖[中餐](commodity)的商店
+- 哪里有商场可以买[中餐](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[进口蜜饯](commodity)啊
+- 哪里有卖[进口蜜饯](commodity)的店
+- 找一个卖[进口蜜饯](commodity)的地方
+- 帮我找有卖[进口蜜饯](commodity)的商店
+- 哪里有商场可以买[进口蜜饯](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[其他专项收藏](commodity)啊
+- 哪里有卖[其他专项收藏](commodity)的店
+- 找一个卖[其他专项收藏](commodity)的地方
+- 帮我找有卖[其他专项收藏](commodity)的商店
+- 哪里有商场可以买[其他专项收藏](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[命理](commodity)啊
+- 哪里有卖[命理](commodity)的店
+- 找一个卖[命理](commodity)的地方
+- 帮我找有卖[命理](commodity)的商店
+- 哪里有商场可以买[命理](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[保鲜袋](commodity)啊
+- 哪里有卖[保鲜袋](commodity)的店
+- 找一个卖[保鲜袋](commodity)的地方
+- 帮我找有卖[保鲜袋](commodity)的商店
+- 哪里有商场可以买[保鲜袋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[电视卡](commodity)啊
+- 哪里有卖[电视卡](commodity)的店
+- 找一个卖[电视卡](commodity)的地方
+- 帮我找有卖[电视卡](commodity)的商店
+- 哪里有商场可以买[电视卡](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[进口图书](commodity)啊
+- 哪里有卖[进口图书](commodity)的店
+- 找一个卖[进口图书](commodity)的地方
+- 帮我找有卖[进口图书](commodity)的商店
+- 哪里有商场可以买[进口图书](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[直发膏](commodity)啊
+- 哪里有卖[直发膏](commodity)的店
+- 找一个卖[直发膏](commodity)的地方
+- 帮我找有卖[直发膏](commodity)的商店
+- 哪里有商场可以买[直发膏](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[女士腰包](commodity)啊
+- 哪里有卖[女士腰包](commodity)的店
+- 找一个卖[女士腰包](commodity)的地方
+- 帮我找有卖[女士腰包](commodity)的商店
+- 哪里有商场可以买[女士腰包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[章](commodity)啊
+- 哪里有卖[章](commodity)的店
+- 找一个卖[章](commodity)的地方
+- 帮我找有卖[章](commodity)的商店
+- 哪里有商场可以买[章](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[烫衣板](commodity)啊
+- 哪里有卖[烫衣板](commodity)的店
+- 找一个卖[烫衣板](commodity)的地方
+- 帮我找有卖[烫衣板](commodity)的商店
+- 哪里有商场可以买[烫衣板](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[婴儿营养品](commodity)啊
+- 哪里有卖[婴儿营养品](commodity)的店
+- 找一个卖[婴儿营养品](commodity)的地方
+- 帮我找有卖[婴儿营养品](commodity)的商店
+- 哪里有商场可以买[婴儿营养品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[运动户外](commodity)啊
+- 哪里有卖[运动户外](commodity)的店
+- 找一个卖[运动户外](commodity)的地方
+- 帮我找有卖[运动户外](commodity)的商店
+- 哪里有商场可以买[运动户外](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[垃圾袋](commodity)啊
+- 哪里有卖[垃圾袋](commodity)的店
+- 找一个卖[垃圾袋](commodity)的地方
+- 帮我找有卖[垃圾袋](commodity)的商店
+- 哪里有商场可以买[垃圾袋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[安全椅](commodity)啊
+- 哪里有卖[安全椅](commodity)的店
+- 找一个卖[安全椅](commodity)的地方
+- 帮我找有卖[安全椅](commodity)的商店
+- 哪里有商场可以买[安全椅](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[男包](commodity)啊
+- 哪里有卖[男包](commodity)的店
+- 找一个卖[男包](commodity)的地方
+- 帮我找有卖[男包](commodity)的商店
+- 哪里有商场可以买[男包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[狗梳理美容](commodity)啊
+- 哪里有卖[狗梳理美容](commodity)的店
+- 找一个卖[狗梳理美容](commodity)的地方
+- 帮我找有卖[狗梳理美容](commodity)的商店
+- 哪里有商场可以买[狗梳理美容](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[气动工具](commodity)啊
+- 哪里有卖[气动工具](commodity)的店
+- 找一个卖[气动工具](commodity)的地方
+- 帮我找有卖[气动工具](commodity)的商店
+- 哪里有商场可以买[气动工具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[相机包](commodity)啊
+- 哪里有卖[相机包](commodity)的店
+- 找一个卖[相机包](commodity)的地方
+- 帮我找有卖[相机包](commodity)的商店
+- 哪里有商场可以买[相机包](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[胎心仪](commodity)啊
+- 哪里有卖[胎心仪](commodity)的店
+- 找一个卖[胎心仪](commodity)的地方
+- 帮我找有卖[胎心仪](commodity)的商店
+- 哪里有商场可以买[胎心仪](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[工艺饰品](commodity)啊
+- 哪里有卖[工艺饰品](commodity)的店
+- 找一个卖[工艺饰品](commodity)的地方
+- 帮我找有卖[工艺饰品](commodity)的商店
+- 哪里有商场可以买[工艺饰品](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[精油芳疗](commodity)啊
+- 哪里有卖[精油芳疗](commodity)的店
+- 找一个卖[精油芳疗](commodity)的地方
+- 帮我找有卖[精油芳疗](commodity)的商店
+- 哪里有商场可以买[精油芳疗](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[一次性餐具](commodity)啊
+- 哪里有卖[一次性餐具](commodity)的店
+- 找一个卖[一次性餐具](commodity)的地方
+- 帮我找有卖[一次性餐具](commodity)的商店
+- 哪里有商场可以买[一次性餐具](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[阿胶](commodity)啊
+- 哪里有卖[阿胶](commodity)的店
+- 找一个卖[阿胶](commodity)的地方
+- 帮我找有卖[阿胶](commodity)的商店
+- 哪里有商场可以买[阿胶](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[迷你音响](commodity)啊
+- 哪里有卖[迷你音响](commodity)的店
+- 找一个卖[迷你音响](commodity)的地方
+- 帮我找有卖[迷你音响](commodity)的商店
+- 哪里有商场可以买[迷你音响](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[压缩袋](commodity)啊
+- 哪里有卖[压缩袋](commodity)的店
+- 找一个卖[压缩袋](commodity)的地方
+- 帮我找有卖[压缩袋](commodity)的商店
+- 哪里有商场可以买[压缩袋](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[戏水](commodity)啊
+- 哪里有卖[戏水](commodity)的店
+- 找一个卖[戏水](commodity)的地方
+- 帮我找有卖[戏水](commodity)的商店
+- 哪里有商场可以买[戏水](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[手机配件](commodity)啊
+- 哪里有卖[手机配件](commodity)的店
+- 找一个卖[手机配件](commodity)的地方
+- 帮我找有卖[手机配件](commodity)的商店
+- 哪里有商场可以买[手机配件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[猫咪](commodity)啊
+- 哪里有卖[猫咪](commodity)的店
+- 找一个卖[猫咪](commodity)的地方
+- 帮我找有卖[猫咪](commodity)的商店
+- 哪里有商场可以买[猫咪](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[bobowaltz](commodity)啊
+- 哪里有卖[bobowaltz](commodity)的店
+- 找一个卖[bobowaltz](commodity)的地方
+- 帮我找有卖[bobowaltz](commodity)的商店
+- 哪里有商场可以买[bobowaltz](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[软件](commodity)啊
+- 哪里有卖[软件](commodity)的店
+- 找一个卖[软件](commodity)的地方
+- 帮我找有卖[软件](commodity)的商店
+- 哪里有商场可以买[软件](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[购物车](commodity)啊
+- 哪里有卖[购物车](commodity)的店
+- 找一个卖[购物车](commodity)的地方
+- 帮我找有卖[购物车](commodity)的商店
+- 哪里有商场可以买[购物车](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西- 我想买个[蜂蜜](commodity)啊
+- 哪里有卖[蜂蜜](commodity)的店
+- 找一个卖[蜂蜜](commodity)的地方
+- 帮我找有卖[蜂蜜](commodity)的商店
+- 哪里有商场可以买[蜂蜜](commodity)
+- 附近有什么买东西地方吗
+- 我想买一些好玩的东西

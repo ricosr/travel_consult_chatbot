@@ -1,0 +1,3 @@
+stanfordcorenlp
+rasa_core
+rasa_nlu[tensorflow]

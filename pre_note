@@ -13,6 +13,8 @@ LTP提供最基本的三种实体类型人名、地名、机构名的识别
 
 
 
-食物词库https://github.com/fighting41love/funNLP/blob/master/data/%E9%A3%9F%E7%89%A9%E8%AF%8D%E5%BA%93/THUOCL_food.txt
-交通词库https://github.com/NLPIR-team/NLPIR/tree/master/NLPIR%20SDK/DeepClassifier/test/%E8%AE%AD%E7%BB%83%E8%AF%AD%E6%96%99/%E4%BA%A4%E9%80%9A
-酒店评论，餐馆评论，商品评论https://github.com/SophonPlus/ChineseNlpCorpus
+食物词库 https://github.com/fighting41love/funNLP/blob/master/data/%E9%A3%9F%E7%89%A9%E8%AF%8D%E5%BA%93/THUOCL_food.txt
+交通词库 https://github.com/NLPIR-team/NLPIR/tree/master/NLPIR%20SDK/DeepClassifier/test/%E8%AE%AD%E7%BB%83%E8%AF%AD%E6%96%99/%E4%BA%A4%E9%80%9A
+酒店评论，餐馆评论，商品评论 https://github.com/SophonPlus/ChineseNlpCorpus
+
+汉语问路话语研究 http://www.ryedu.net/kjwy/gli/200809/9707.html
