@@ -70,3 +70,11 @@ stanford-corenlp-full-2018-02-27/LICENSE.txt
 stanford-corenlp-full-2018-02-27/LIBRARY-LICENSES
 stanford-corenlp-full-2018-02-27/CoreNLP-to-HTML.xsl
 data/food/food_train_data_json
+.idea/encodings.xml
+data/traffic/北京市的一些地名 - 副本.txt
+data/traffic/北京市旅游景点大全.doc
+data/traffic/北京地名街道名(2).doc
+data/traffic/clean_data.py
+data/traffic/beijing_street.txt
+data/traffic/beijing_spots
+data/traffic/Scenic_spot
