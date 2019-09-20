@@ -13,9 +13,9 @@ def create_food_data(term_file, output_file):
         #                                     end2=start2+len(food_term), end3=start3+len(food_term),
         #                                     end_0=start_0+len(food_term), end_1=start_1+len(food_term),
         #                                     end_2=start_2+len(food_term))
-        temp_result += food_template.format(food=food_term).strip()
+        temp_result += food_template.format(food=food_term).strip() + '\n'
     with open(output_file, 'w', encoding="utf-8") as fpw:
-        fpw.write("## intent:search_food")
+        fpw.write("## intent:search_food\n")
         fpw.write(temp_result)
 
 create_food_data("food_data", "food_train_data.md")

@@ -5,3 +5,17 @@
 .idea/workspace.xml
 .idea/misc.xml
 .idea/travel_dialogue.iml
+/data/hotel/temp_result
+NLG/consult/__pycache__/
+NLU/consult/__pycache__/
+__pycache__/
+data/food/__pycache__/
+data/hotel/__pycache__/
+data/hotel/temp.py
+data/hotel/temp_data
+data/hotel/temp_result
+data/shopping/__pycache__/
+local
+slots/__pycache__/
+stanford-corenlp-full-2018-02-27.zip
+test.py
