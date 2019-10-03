@@ -2,6 +2,8 @@
 
 import time
 
+# not mandatory: 0
+
 dinning_slot = {
     "restaurant": None,  # 0
     "food": 0,           # 1

@@ -32,7 +32,7 @@ def control():
     while True:
         customer_utterance = input(">>>")    # TODO: temp
         if not current_intent:
-            intent = intent_model.get_intent(customer_utterance)
+            intent, entities = intent_model.get_intent(customer_utterance)
             current_intent = intent
         # if intent and intent not in current_intent_slot_dict:
         #     current_intent_slot_dict[intent] = ''
@@ -57,7 +57,7 @@ def control():
 
         collection_name = db_collection_config[current_intent]
 
-        out_content, state = handle_function(slot_config[current_intent], customer_utterance, intent_state_tracker_dict[current_intent], db_obj, collection_name)
+        out_content, state = handle_function(slot_config[current_intent], customer_utterance, intent_state_tracker_dict[current_intent], db_obj, collection_name, entities)
         # intent_state_tracker_dict[intent] = state_no
         # current_intent_slot_dict[current_intent] = current_slot
         # current_intent = intent

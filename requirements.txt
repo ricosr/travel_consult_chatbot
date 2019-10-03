@@ -1,4 +1,11 @@
-stanfordcorenlp
+tensorflow
 rasa
 pymongo
 nltk
+common
+dual
+tight
+data
+prox
+paddle
+paddlepaddle
