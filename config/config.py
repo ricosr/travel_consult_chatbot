@@ -3,15 +3,17 @@
 from consult.dinning import dinning_handle
 from slots.consult_slot import dinning_slot
 
-database_address = ""
-database_name = ""
+database_address = "mongodb://super_sr:comppolyuhk@209.97.166.185:27017/admin"
+database_name = "Travel_DB"
 
-intent_config = {
-    '1b': dinning_handle
+intent_model_name = "models1"
+
+handle_config = {
+    'search_food': dinning_handle
 }
 
 slot_config = {
-    '1b': dinning_slot
+    'search_food': dinning_slot
 }
 
 # slot_state_config = {
@@ -19,5 +21,5 @@ slot_config = {
 # }
 
 db_collection_config = {
-    '1b': "restaurant"
+    'search_food': "restaurant"
 }

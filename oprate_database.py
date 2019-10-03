@@ -3,7 +3,6 @@
 # from config.config import database_address, database_name
 
 import copy
-
 import pymongo
 
 
