@@ -18,5 +18,8 @@ class Intent:
                 for term in terms_ls:
                     if term in utterance:
                         return intent, False
-        return intent, intent_dict["entities"][0]
+        for entity in intent_dict["entities"]:
+            if entity["entity"] == "food":
+                intent = "search_food"
+        return intent, intent_dict["entities"]
 
