@@ -22,6 +22,6 @@ consult_traffic_slot = {
     "departure": None,
     "destination": None,
     "vehicle": None,
-    "departure_time": time.strftime("%Y%m%d_%H%M%S",time.localtime(time.time()))
+    "departure_time": time.strftime("%Y%m%d_%H%M%S", time.localtime(time.time()))
 }
 

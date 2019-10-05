@@ -30,7 +30,7 @@ def judge_confirm_each_slot(state_tracker_obj, last_slot_state, current_slot, ye
 
 def final_confirm(ie_values_dict, current_slot, state_tracker_obj, last_slot_state, yes_no, db_obj, collection_name):
     if yes_no == "positive" and last_slot_state == "done":
-        result_ls = db_obj.read_db(collection_name, current_slot)
+        result_ls = db_obj.search_db(collection_name, current_slot)
         state_tracker_obj.update_last_slot_state("done")
         return nlg_recommend_restaurant(result_ls, last_slot_state)
     if yes_no == "negative" and last_slot_state == "done":
@@ -55,7 +55,7 @@ def change_slot(state_tracker_obj, current_slot, ie_values_dict, last_slot_state
             #     state_tracker_obj.update_last_slot_state(last_slot_state)
             #     return response_utterance
     if yes_no == "negative" and last_slot_state == "change":
-        result_ls = db_obj.read_db(collection_name, current_slot)
+        result_ls = db_obj.search_db(collection_name, current_slot)
         return nlg_recommend_restaurant(result_ls, last_slot_state)
 
 

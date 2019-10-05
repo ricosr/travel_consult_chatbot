@@ -1,20 +1,62 @@
 # -*- coding:utf-8 -*-
 
 from NLU.consult import food_nlu
-from NLU.common import yes_or_no_nlu
+from NLU.common import confirm_nlu
 from NLU.common import give_up_nlu
 
 from NLG.consult import food_nlg
-from NLG.common import yes_or_no_nlg
+from NLG.common import confirm_nlg
 from NLG.common import give_up_nlg
+
+from slots.consult_slot import consult_food_slot
 
 
 def consult_food_handle(current_slot, customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name):
-    last_slot_state = state_tracker_obj.get_last_slot_state()
 
-    if not last_slot_state:
+    def common_food_flow(current_slot, customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name):
         give_up_state = give_up_nlu.whether_give_up(customer_utterance)
-        if not give_up_state:
-            return give_up_nlg.robot_response_give_up(), "stop"
+        if give_up_state:
+            state_tracker_obj.update_last_slot_state("stop")
+            return give_up_nlg.response_give_up(), "stop"
+        else:
+            ie_slot_result = food_nlu.ie_all_search_food(customer_utterance, lac, entities)
+            state_tracker_obj.update_all_state(ie_slot_result)
+
+            slot_state_dict = state_tracker_obj.judge_each_slot_state(consult_food_slot.keys())
+            if True not in slot_state_dict.values():
+                state_tracker_obj.update_last_slot_state("ask")
+                return food_nlg.ask_food_restaurant(), "ask"
+            else:
+                search_restaurants_results = db_obj.search_db(collection_name, state_tracker_obj.get_all_confident_slot_values())  # TODO
+                state_tracker_obj.update_last_slot_state("confirm")
+                return food_nlg.response_restaurant_list(search_restaurants_results), "confirm"  # TODO
+
+    last_slot_state = state_tracker_obj.get_last_slot_state()
+    if last_slot_state is not "confirm":
+        common_food_flow(current_slot, customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name)
     else:
-        ie_slot_result = food_nlu.ie_all_search_food(customer_utterance, lac, entities)
+        confirm_result = confirm_nlu.judge_confirm(customer_utterance)  # TODO
+        if confirm_result is "yes":
+            state_tracker_obj.update_last_slot_state("stop")
+            return confirm_nlg.response_yes(), "stop"
+        if confirm_result is "no":
+            state_tracker_obj.update_last_slot_state("ask")
+            return confirm_nlg.response_no(), "ask"
+        if confirm_result is "stop":
+            state_tracker_obj.update_last_slot_state("stop")
+            return confirm_nlg.response_give_up(), "stop"
+        if confirm_result is "change":
+            common_food_flow(current_slot, customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name)
+        if confirm_result is "nothing":
+            state_tracker_obj.update_last_slot_state("confirm")
+            return confirm_nlg.response_nothing(), "confirm"
+
+
+
+
+
+
+
+
+
+
