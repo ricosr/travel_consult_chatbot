@@ -7,5 +7,5 @@ response_sentences = [
 ]
 
 
-def robot_response_give_up():
+def response_give_up():
     return choice(response_sentences)
