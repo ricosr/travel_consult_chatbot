@@ -64,7 +64,7 @@ def control():
         # current_intent_slot_dict[current_intent] = current_slot
         # current_intent = intent
         print(out_content)    # TODO: temp
-        if state == "done":
+        if state == "stop":
             current_intent = ''
 
 

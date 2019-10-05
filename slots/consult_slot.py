@@ -12,13 +12,13 @@ dinning_slot = {
 }
 # dinning_slot_state = ["restaurant", "food", "area", "price", "done", "change"]
 
-food_slot = {
+consult_food_slot = {
     "food": None,
     "restaurant": None,
     "location": 0
 }
 
-traffic_slot = {
+consult_traffic_slot = {
     "departure": None,
     "destination": None,
     "vehicle": None,

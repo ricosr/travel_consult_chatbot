@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-from slots.consult_slot import food_slot
+from slots.consult_slot import consult_food_slot
 
 
 food_term_tag = ["n", "nr", "nz", "PER"]
@@ -10,7 +10,7 @@ location_term_tag = ["LOC", "ns", "f"]
 
 
 def judge_all_entities(ie_values_dict):
-    slot_keys = food_slot.keys()
+    slot_keys = consult_food_slot.keys()
     for ie_key in ie_values_dict.items():
         if ie_key not in slot_keys:
             return False
