@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import copy
+import paddlehub as hub
 
 from intent import judge_intent
 from state_tracker import State
@@ -21,6 +21,7 @@ def distribute_task():    # TODO
 
 
 def control():
+    lac = hub.Module(name="lac")
     db_obj = Database(database_address, database_name)
     intent_model = judge_intent.Intent(intent_model_name)
     print("<<<Can I help you?")
@@ -30,6 +31,7 @@ def control():
     intent_state_tracker_dict = {}
     state_no = None
     while True:
+        entities = None
         customer_utterance = input(">>>")    # TODO: temp
         if not current_intent:
             intent, entities = intent_model.get_intent(customer_utterance)
@@ -57,7 +59,7 @@ def control():
 
         collection_name = db_collection_config[current_intent]
 
-        out_content, state = handle_function(slot_config[current_intent], customer_utterance, intent_state_tracker_dict[current_intent], db_obj, collection_name, entities)
+        out_content, state = handle_function(slot_config[current_intent], customer_utterance, intent_state_tracker_dict[current_intent], entities, lac, db_obj, collection_name)
         # intent_state_tracker_dict[intent] = state_no
         # current_intent_slot_dict[current_intent] = current_slot
         # current_intent = intent

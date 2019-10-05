@@ -9,7 +9,7 @@ restaurant_term_tag = ["ORG", "an", "nt", "s", "nw"]
 location_term_tag = ["LOC", "ns", "f"]
 
 
-def ie_all_entities(ie_values_dict):
+def judge_all_entities(ie_values_dict):
     slot_keys = food_slot.keys()
     for ie_key in ie_values_dict.items():
         if ie_key not in slot_keys:
@@ -23,7 +23,7 @@ def paddle_lac(text, lac):
     return lac_result_dict
 
 
-def search_food_ie_all(customer_utterance, lac, entities):
+def ie_all_search_food(customer_utterance, lac, entities):
     ie_values_dict = {}
     lac_result_dict = paddle_lac(customer_utterance, lac)
     return_key = False   # if extract value, it is True
@@ -41,7 +41,7 @@ def search_food_ie_all(customer_utterance, lac, entities):
                     if lac_result_dict["tag"][tag_index] in location_term_tag:
                         ie_values_dict["location"] = entity["value"]
                         return_key = True
-    if not ie_all_entities(ie_values_dict):
+    if not judge_all_entities(ie_values_dict):
         for tag_index in range(len(lac_result_dict["tag"])):
             if lac_result_dict["tag"][tag_index] in food_term_tag:
                 if "v" in lac_result_dict["tag"][: tag_index] or "vd" in lac_result_dict["tag"][: tag_index] or "vn" in lac_result_dict["tag"][: tag_index]:
