@@ -36,6 +36,20 @@ class State:
         else:
             return None
 
+    def get_confident_slot_value(self, slot_state):
+        if slot_state in self.state_dict and self.get_confidence(slot_state) == 1:
+            return self.state_dict[slot_state]["slot_value"]
+        else:
+            return None
+
+    def get_all_confident_slot_values(self):
+        confident_slot_dict = {}
+        if self.get_state():
+            for slot_key, value_dict in self.get_state().items():
+                if self.get_confidence(slot_key) == 1:
+                    confident_slot_dict[slot_key] = value_dict["slot_value"]
+        return confident_slot_dict
+
     def update_all_state(self, ie_values_dict):
         if ie_values_dict:
             for k, v in ie_values_dict.items():

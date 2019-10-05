@@ -20,7 +20,7 @@ class Database:
         posts = self.db_opt[collection_name]
         posts.insert(dict_obj)
 
-    def read_db(self, collection_name, query_dict):
+    def search_db(self, collection_name, query_dict):
         temp_query_dict = copy.deepcopy(query_dict)
         for k, v in query_dict.items():
             if not v or v == 'no' or v == 0:
@@ -36,7 +36,7 @@ class Database:
 
 # db_obj.write_db({"restaurant": "yoshinoya", "food": "rice", "area": "far", "price": "cheap"}, "restaurant")
 # db_obj.write_db({"restaurant": "abcd", "food": "hotpot", "area": "near", "price": "expensive"}, "restaurant")
-# print(db_obj.read_db("restaurant", {"restaurant":"kfc"}))
+# print(db_obj.search_db("restaurant", {"restaurant":"kfc"}))
 
 
 
