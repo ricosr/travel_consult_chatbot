@@ -25,10 +25,16 @@ class State:
         return self.state_dict
 
     def get_slot_value(self, slot_state):
-        return self.state_dict[slot_state]["slot_value"]
+        if slot_state in self.state_dict:
+            return self.state_dict[slot_state]["slot_value"]
+        else:
+            return None
 
     def get_confidence(self, slot_state):
-        return self.state_dict[slot_state]["confidence"]
+        if slot_state in self.state_dict:
+            return self.state_dict[slot_state]["confidence"]
+        else:
+            return None
 
     def update_all_state(self, ie_values_dict):
         if ie_values_dict:
@@ -64,10 +70,7 @@ class State:
                 confirm_key_ls.append(slot_state)
         return confirm_key_ls
 
-    def judge_dialogue_state(self, slot_keys):
-        for slot_key in slot_keys:
-            if slot_key not in self.state_dict:
-                return False
+    def judge_dialogue_state(self):
         if self.state_dict:
             for slot_state, value_dict in self.state_dict.items():
                 if value_dict["slot_value"] is not None and value_dict["slot_value"] != 0 and value_dict["confidence"] == 1:
@@ -77,6 +80,16 @@ class State:
             return True   # all slots are OK
         else:
             return False
+
+    def judge_each_slot_state(self, slot_keys):
+        result_dict = {}
+        for slot_key in slot_keys:
+            if slot_key in self.state_dict:
+                if self.get_slot_value(slot_key) and self.get_confidence(slot_key) == 1:
+                    result_dict[slot_key] = True
+            else:
+                result_dict[slot_key] = False
+        return result_dict
 
     # def get_none_slot(self, current_slot):
 
