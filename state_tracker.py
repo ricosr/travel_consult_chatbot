@@ -34,14 +34,20 @@ class State:
         if ie_values_dict:
             for k, v in ie_values_dict.items():
                 if v and v != 0:
-                    if k in self.get_state():
-                        if self.get_slot_value(k) == v:
-                            self.update_confidence(k, 1)
-                        else:
-                            self.update_slot_value(k, v)
-                            self.update_confidence(k, 0.5)
-                    else:
-                        self.add_one_state(k, v, 0.5)
+                    self.add_one_state(k, v, 1)
+
+    # def update_all_state(self, ie_values_dict):
+    #     if ie_values_dict:
+    #         for k, v in ie_values_dict.items():
+    #             if v and v != 0:
+    #                 if k in self.get_state():
+    #                     if self.get_slot_value(k) == v:
+    #                         self.update_confidence(k, 1)
+    #                     else:
+    #                         self.update_slot_value(k, v)
+    #                         self.update_confidence(k, 0.5)
+    #                 else:
+    #                     self.add_one_state(k, v, 0.5)
 
     def get_current_slot(self, current_slot):
         if self.get_state():
@@ -58,7 +64,10 @@ class State:
                 confirm_key_ls.append(slot_state)
         return confirm_key_ls
 
-    def judge_dialogue_state(self):
+    def judge_dialogue_state(self, slot_keys):
+        for slot_key in slot_keys:
+            if slot_key not in self.state_dict:
+                return False
         if self.state_dict:
             for slot_state, value_dict in self.state_dict.items():
                 if value_dict["slot_value"] is not None and value_dict["slot_value"] != 0 and value_dict["confidence"] == 1:
