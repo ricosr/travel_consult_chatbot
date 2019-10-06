@@ -2,6 +2,7 @@
 
 
 from slots.consult_slot import consult_food_slot
+from NLU.common import confirm_nlu
 
 
 food_term_tag = ["n", "nr", "nz", "PER"]
@@ -26,54 +27,58 @@ def paddle_lac(text, lac):
 def ie_all_search_food(customer_utterance, lac, entities):
     ie_values_dict = {}
     lac_result_dict = paddle_lac(customer_utterance, lac)
-    return_key = False   # if extract value, it is True
     if entities:
         for entity in entities:
             if entity["entity"] == "food":
                 ie_values_dict["food"] = entity["value"]
-                return_key = True
             if entity["entity"] == "position2" or entity["entity"] == "position1":
                 entity_lac_results = paddle_lac(entity["value"], lac)
                 for tag_index in range(len(entity_lac_results["tag"])):
                     if lac_result_dict["tag"][tag_index] in restaurant_term_tag:
                         ie_values_dict["restaurant"] = entity["value"]
-                        return_key = True
                     if lac_result_dict["tag"][tag_index] in location_term_tag:
                         ie_values_dict["location"] = entity["value"]
-                        return_key = True
     if not judge_all_entities(ie_values_dict):
         for tag_index in range(len(lac_result_dict["tag"])):
             if lac_result_dict["tag"][tag_index] in food_term_tag:
                 if "v" in lac_result_dict["tag"][: tag_index] or "vd" in lac_result_dict["tag"][: tag_index] or "vn" in lac_result_dict["tag"][: tag_index]:
                     ie_values_dict["food"] = lac_result_dict["word"][tag_index]
-                    return_key = True
             if lac_result_dict["tag"][tag_index] in restaurant_term_tag:
                 ie_values_dict["restaurant"] = lac_result_dict["word"][tag_index]
-                return_key = True
             if lac_result_dict["tag"][tag_index] in location_term_tag:
                 ie_values_dict["location"] = lac_result_dict["word"][tag_index]
-                return_key = True
     return ie_values_dict
 
 
-def ie_food(customer_utterance, lac, entities):
-    lac_result_dict = paddle_lac(customer_utterance, lac)
-    for tag_index in range(len(lac_result_dict["tag"])):
-        if lac_result_dict["tag"][tag_index] in food_term_tag:
-            if "v" in lac_result_dict["tag"][: tag_index] or "vd" in lac_result_dict["tag"][: tag_index] or "vn" in lac_result_dict["tag"][: tag_index]:
-                return lac_result_dict["word"][tag_index]
+# def ie_food(customer_utterance, lac, entities):
+#     lac_result_dict = paddle_lac(customer_utterance, lac)
+#     for tag_index in range(len(lac_result_dict["tag"])):
+#         if lac_result_dict["tag"][tag_index] in food_term_tag:
+#             if "v" in lac_result_dict["tag"][: tag_index] or "vd" in lac_result_dict["tag"][: tag_index] or "vn" in lac_result_dict["tag"][: tag_index]:
+#                 return lac_result_dict["word"][tag_index]
+#
+#
+# def ie_restaurant(customer_utterance, lac, entities):
+#     lac_result_dict = paddle_lac(customer_utterance, lac)
+#     for tag_index in range(len(lac_result_dict["tag"])):
+#         if lac_result_dict["tag"][tag_index] in restaurant_term_tag:
+#             return lac_result_dict["word"][tag_index]
+#
+#
+# def ie_location(customer_utterance, lac, entities):
+#     lac_result_dict = paddle_lac(customer_utterance, lac)
+#     for tag_index in range(len(lac_result_dict["tag"])):
+#         if lac_result_dict["tag"][tag_index] in location_term_tag:
+#             return lac_result_dict["word"][tag_index]
+
+def confirm_search_food(customer_utterance, lac, intent_model):
+    intent, entities = intent_model.get_intent(customer_utterance)
+    ie_slot_result = ie_all_search_food(customer_utterance, lac, entities)
+    if ie_slot_result:
+        return "change", ie_slot_result
+    confirm_state = confirm_nlu.judge_confirm_classification(customer_utterance)
+    return confirm_state, None
 
 
-def ie_restaurant(customer_utterance, lac, entities):
-    lac_result_dict = paddle_lac(customer_utterance, lac)
-    for tag_index in range(len(lac_result_dict["tag"])):
-        if lac_result_dict["tag"][tag_index] in restaurant_term_tag:
-            return lac_result_dict["word"][tag_index]
 
-
-def ie_location(customer_utterance, lac, entities):
-    lac_result_dict = paddle_lac(customer_utterance, lac)
-    for tag_index in range(len(lac_result_dict["tag"])):
-        if lac_result_dict["tag"][tag_index] in location_term_tag:
-            return lac_result_dict["word"][tag_index]
 

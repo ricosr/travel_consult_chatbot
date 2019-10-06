@@ -13,7 +13,7 @@ class Intent:
         intent_dict = self.interpreter.parse(utterance)
         intent = intent_dict["intent"]["name"]
         confidence = intent_dict["intent"]["confidence"]
-        if confidence < 0.7:
+        if confidence < 0.8:
             for intent, terms_ls in intent_terms_dict.items():
                 for term in terms_ls:
                     if term in utterance:
