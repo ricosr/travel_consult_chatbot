@@ -2,6 +2,8 @@
                                                       https://github.com/PaddlePaddle/PaddleHub/blob/release/v1.1.0/demo/lac/lac_demo.py
                                                       https://www.paddlepaddle.org.cn/hubdetail?name=lac&en_category=LexicalAnalysis
                                                       https://github.com/PaddlePaddle/models/tree/develop/PaddleNLP/lexical_analysis
+         hub install lac==1.1.1
+
 Stanford NER:  named (PERSON, LOCATION, ORGANIZATION, MISC), numerical (MONEY, NUMBER, ORDINAL, PERCENT), and temporal (DATE, TIME, DURATION, SET)
                名字包括：人名、地名、机构名、MISC；数字：钱、数字、序号、百分比；时间：日期，时间、持续序列、集合等实体
                https://stanfordnlp.github.io/CoreNLP/ner.html
