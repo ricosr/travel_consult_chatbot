@@ -71,14 +71,11 @@ def ie_all_search_food(customer_utterance, lac, entities):
 #         if lac_result_dict["tag"][tag_index] in location_term_tag:
 #             return lac_result_dict["word"][tag_index]
 
-def confirm_search_food(customer_utterance, lac, intent_model, senta_gru, confirm_interp_model):
+def confirm_search_food(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter):
     intent, entities = intent_model.get_intent(customer_utterance)
     ie_slot_result = ie_all_search_food(customer_utterance, lac, entities)
     if ie_slot_result:
         return "change", ie_slot_result
-    confirm_state = confirm_nlu.judge_confirm_classification(customer_utterance, senta_gru, confirm_interp_model)
+    confirm_state = confirm_nlu.judge_confirm_classification(customer_utterance, senta_gru, confirm_interpreter)
     return confirm_state, None
-
-
-
 
