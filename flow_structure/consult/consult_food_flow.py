@@ -1,7 +1,8 @@
 # -*- coding:utf-8 -*-
 
+# intent: search_food
+
 from NLU.consult import food_nlu
-from NLU.common import confirm_nlu
 from NLU.common import give_up_nlu
 
 from NLG.consult import food_nlg
@@ -44,7 +45,7 @@ def consult_food_handle(current_slot, customer_utterance, state_tracker_obj, ent
             return confirm_nlg.response_yes(), "stop"
         if confirm_state is "no":
             state_tracker_obj.update_last_slot_state("ask")
-            return confirm_nlg.response_no(), "ask"
+            return confirm_nlg.response_no("search_food"), "ask"
         if confirm_state is "stop":
             state_tracker_obj.update_last_slot_state("stop")
             return confirm_nlg.response_give_up(), "stop"

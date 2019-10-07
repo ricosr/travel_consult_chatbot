@@ -10,11 +10,11 @@ def response_yes():
     return choice(yes_sentences)
 
 
-def response_no():
-    no_response = [
-        "请问您还有别的要求吗？吃的其他的？换一个餐厅？还是有地点的要求？"
-    ]
-    return choice(no_response)
+def response_no(intent):
+    no_response_dict = {
+        "search_food":["请问您还有别的要求吗？吃的其他的？换一个餐厅？还是有地点的要求？"]
+    }
+    return choice(no_response_dict[intent])
 
 
 def response_give_up():
