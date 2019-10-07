@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 
 import paddlehub as hub
+from rasa.nlu.model import Interpreter
 
 from intent import judge_intent
 from state_tracker import State
-from config.config import handle_config, slot_config, database_address, database_name, db_collection_config, intent_model_name
+from config.config import handle_config, slot_config, database_address, database_name, db_collection_config, intent_model_name, confirm_model_name
 from oprate_database import Database
 
 
@@ -24,6 +25,8 @@ def control():
     lac = hub.Module(name="lac")
     db_obj = Database(database_address, database_name)
     intent_model = judge_intent.Intent(intent_model_name)
+    confirm_interp_model = Interpreter.load("intent/{}/nlu".format(confirm_model_name))
+    senta_gru = hub.Module(name="senta_gru")
     print("<<<Can I help you?")
     current_intent = ''
     # just_sentence = False
@@ -59,7 +62,7 @@ def control():
 
         collection_name = db_collection_config[current_intent]
 
-        out_content, state = handle_function(slot_config[current_intent], customer_utterance, intent_state_tracker_dict[current_intent], entities, lac, intent_model, db_obj, collection_name)
+        out_content, state = handle_function(slot_config[current_intent], customer_utterance, intent_state_tracker_dict[current_intent], entities, lac, intent_model, senta_gru, confirm_interp_model, db_obj, collection_name)
         # intent_state_tracker_dict[intent] = state_no
         # current_intent_slot_dict[current_intent] = current_slot
         # current_intent = intent
