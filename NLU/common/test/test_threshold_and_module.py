@@ -2,6 +2,7 @@
 
 import paddlehub as hub
 
+
 def cal_sum(result_dict):
     tmp_sum={}
     for key, ls in result_dict.items():
