@@ -1,0 +1,1 @@
+{"dtype": "<U16", "py/object": "numpy.ndarray", "values": ["search_commodity", "search_food", "search_hotel", "search_traffic"]}
