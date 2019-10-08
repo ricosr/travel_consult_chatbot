@@ -23,7 +23,8 @@ def distribute_task():    # TODO
 
 def control():
     lac = hub.Module(name="lac")
-    db_obj = Database(database_address, database_name)
+    # db_obj = Database(database_address, database_name)    # TODO: database
+    db_obj = ''
     intent_model = judge_intent.Intent(intent_model_name)
     confirm_interpreter = Interpreter.load("intent/{}/nlu".format(confirm_model_name))
     senta_gru = hub.Module(name="senta_gru")
@@ -39,6 +40,8 @@ def control():
         if not current_intent:
             intent, entities = intent_model.get_intent(customer_utterance)
             current_intent = intent
+        else:
+            intent, entities = intent_model.get_intent(customer_utterance)
         # if intent and intent not in current_intent_slot_dict:
         #     current_intent_slot_dict[intent] = ''
 

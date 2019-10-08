@@ -7,7 +7,7 @@ from intent_temrs import intent_terms_dict
 
 class Intent:
     def __init__(self, model_name='models1'):
-        self.interpreter = Interpreter.load("{}/nlu".format(model_name))
+        self.interpreter = Interpreter.load("intent/{}/nlu".format(model_name))
         self.threshold = 0.7   # TODO: need to test
 
     def get_intent(self, utterance):

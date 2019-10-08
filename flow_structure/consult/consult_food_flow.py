@@ -31,7 +31,8 @@ def consult_food_handle(customer_utterance, state_tracker_obj, entities, lac, in
                 state_tracker_obj.update_last_slot_state("ask")
                 return food_nlg.ask_food_restaurant(), "ask"
             else:
-                search_restaurants_results = db_obj.search_db(collection_name, state_tracker_obj.get_all_confident_slot_values())  # TODO
+                # search_restaurants_results = db_obj.search_db(collection_name, state_tracker_obj.get_all_confident_slot_values())  # TODO: database
+                search_restaurants_results = ''
                 state_tracker_obj.update_last_slot_state("confirm")
                 return food_nlg.response_restaurant_list(search_restaurants_results), "confirm"  # TODO
 
