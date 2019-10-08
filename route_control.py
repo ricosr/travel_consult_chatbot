@@ -62,12 +62,12 @@ def control():
 
         collection_name = db_collection_config[current_intent]
 
-        out_content, state = handle_function(slot_config[current_intent], customer_utterance, intent_state_tracker_dict[current_intent], entities, lac, intent_model, senta_gru, confirm_interpreter, db_obj, collection_name)
+        out_content, state = handle_function(customer_utterance, intent_state_tracker_dict[current_intent], entities, lac, intent_model, senta_gru, confirm_interpreter, db_obj, collection_name)
         # intent_state_tracker_dict[intent] = state_no
         # current_intent_slot_dict[current_intent] = current_slot
         # current_intent = intent
         print(out_content)    # TODO: temp
-        if state == "stop":
+        if state == "stop" or state == "yes":
             current_intent = ''
 
 
