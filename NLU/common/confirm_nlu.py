@@ -18,10 +18,16 @@ def judge_confirm_classification(customer_utterance, senta_gru, confirm_interpre
     confidence = intent_dict["intent"]["confidence"]
 
     input_dict = {"text": customer_utterance}
-    result = senta_gru.sentiment_classify(data=input_dict)
+    result = senta_gru.sentiment_classify(data=input_dict)[0]
     positive_probs = result['positive_probs']
     negative_probs = result['negative_probs']
-    if intent is "yes":
+    print(6, intent, confidence, positive_probs, negative_probs)
+    print(type(str(intent)))
+    print(id(str(intent)))
+    print(id("yes"))
+    print(str(intent))
+    if str(intent) == "yes":
+        print("yyyyyyyyyyyyyyyyyyyy")
         if negative_probs > positive_probs:
             return "nothing"
         if confidence < yes_intent_threshold:
@@ -33,8 +39,9 @@ def judge_confirm_classification(customer_utterance, senta_gru, confirm_interpre
                         return intent
                 return "nothing"
         else:
+            print(intent)
             return intent
-    if intent is "no":
+    if intent == "no":
         if negative_probs < positive_probs:
             return "nothing"
         if confidence < no_intent_threshold:
@@ -47,7 +54,7 @@ def judge_confirm_classification(customer_utterance, senta_gru, confirm_interpre
                 return "nothing"
         else:
             return intent
-    if intent is "stop":
+    if intent == "stop":
         if negative_probs < positive_probs:
             return "nothing"
         if confidence < nothing_intent_threshold:
@@ -60,6 +67,6 @@ def judge_confirm_classification(customer_utterance, senta_gru, confirm_interpre
                 return "nothing"
         else:
             return intent
-    if intent is "nothing":
+    if intent == "nothing":
         return intent
 

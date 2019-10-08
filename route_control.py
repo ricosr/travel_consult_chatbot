@@ -28,7 +28,7 @@ def control():
     intent_model = judge_intent.Intent(intent_model_name)
     confirm_interpreter = Interpreter.load("intent/{}/nlu".format(confirm_model_name))
     senta_gru = hub.Module(name="senta_gru")
-    print("<<<Can I help you?")
+    print("<<<您想咨询什么？吃饭还是出行？")
     current_intent = ''
     # just_sentence = False
     # current_intent_slot_dict = {}
@@ -39,9 +39,11 @@ def control():
         customer_utterance = input(">>>")    # TODO: temp
         if not current_intent:
             intent, entities = intent_model.get_intent(customer_utterance)
+            print(entities)
             current_intent = intent
         else:
             intent, entities = intent_model.get_intent(customer_utterance)
+            print(2, entities)
         # if intent and intent not in current_intent_slot_dict:
         #     current_intent_slot_dict[intent] = ''
 

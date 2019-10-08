@@ -15,4 +15,4 @@ def response_restaurant_list(restaurant_list):   # TODO
         "123",
         "kfc"
     ]
-    return '\n'.join(restaurant_list)
+    return '\n'.join(restaurant_list) + '\n您觉得可以吗？'
