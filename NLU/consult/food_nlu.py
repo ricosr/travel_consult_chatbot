@@ -3,6 +3,7 @@
 
 from slots.consult_slot import consult_food_slot
 from NLU.common import confirm_nlu
+from nlu_key_terms import search_food_key_terms
 
 
 food_term_tag = ["n", "nz", "PER"]
@@ -46,12 +47,18 @@ def ie_all_search_food(customer_utterance, lac, entities):
         print(lac_result_dict["tag"])
         for tag_index in range(len(lac_result_dict["tag"])):
             if lac_result_dict["tag"][tag_index] in food_term_tag:
-                if "v" in lac_result_dict["tag"][: tag_index] or "vd" in lac_result_dict["tag"][: tag_index] or "vn" in lac_result_dict["tag"][: tag_index]:
-                    ie_values_dict["food"] = lac_result_dict["word"][tag_index]
+                for eat_term in search_food_key_terms["eat"]:
+                    # if "v" in lac_result_dict["tag"][: tag_index] or "vd" in lac_result_dict["tag"][: tag_index] or "vn" in lac_result_dict["tag"][: tag_index]:
+                    if eat_term in lac_result_dict["tag"][: tag_index]:
+                        ie_values_dict["food"] = lac_result_dict["word"][tag_index]
+                        break
+                continue
             if lac_result_dict["tag"][tag_index] in restaurant_term_tag:
                 ie_values_dict["restaurant"] = lac_result_dict["word"][tag_index]
+                continue
             if lac_result_dict["tag"][tag_index] in location_term_tag:
                 ie_values_dict["location"] = lac_result_dict["word"][tag_index]
+                continue
     print(4, ie_values_dict)
     return ie_values_dict
 
