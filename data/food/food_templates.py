@@ -33,7 +33,7 @@ food_template = """
 """
 
 food_template_ls1 = [
-"- 我想吃[{food}](food)啊",
+"- 我想吃[{food}](food)",
 "- 找个吃[{food}](food)的店",
 "- 这附近哪里有吃[{food}](food)的地方",
 "- 找个[{food}](food)馆子",

@@ -73,7 +73,12 @@ def control():
         # current_intent = intent
         print(out_content)    # TODO: temp
         if state == "stop" or state == "yes":
+            intent_state_tracker_dict.pop(current_intent)
             current_intent = ''
+            collection_name = ''
+
+
+
 
 
 control()

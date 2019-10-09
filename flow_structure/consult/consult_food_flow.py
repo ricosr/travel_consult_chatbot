@@ -38,7 +38,7 @@ def consult_food_handle(customer_utterance, state_tracker_obj, entities, lac, in
 
     last_slot_state = state_tracker_obj.get_last_slot_state()
     print(last_slot_state)
-    if last_slot_state is not "confirm":
+    if last_slot_state != "confirm":
         return common_food_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name)
     else:
         confirm_state, temp_entities = food_nlu.confirm_search_food(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter)
@@ -48,7 +48,7 @@ def consult_food_handle(customer_utterance, state_tracker_obj, entities, lac, in
             return confirm_nlg.response_yes(), "yes"
         if confirm_state == "no":
             state_tracker_obj.update_last_slot_state("ask")
-            return confirm_nlg.response_no("search_food"), "ask"
+            return confirm_nlg.response_no("search_food", state_tracker_obj.get_all_confident_slot_values()), "ask"
         if confirm_state == "stop":
             state_tracker_obj.update_last_slot_state("stop")
             return confirm_nlg.response_give_up(), "stop"

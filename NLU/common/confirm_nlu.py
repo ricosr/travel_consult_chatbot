@@ -22,12 +22,8 @@ def judge_confirm_classification(customer_utterance, senta_gru, confirm_interpre
     positive_probs = result['positive_probs']
     negative_probs = result['negative_probs']
     print(6, intent, confidence, positive_probs, negative_probs)
-    print(type(str(intent)))
-    print(id(str(intent)))
-    print(id("yes"))
-    print(str(intent))
+
     if str(intent) == "yes":
-        print("yyyyyyyyyyyyyyyyyyyy")
         if negative_probs > positive_probs:
             return "nothing"
         if confidence < yes_intent_threshold:
