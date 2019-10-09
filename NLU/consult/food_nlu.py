@@ -5,8 +5,8 @@ from slots.consult_slot import consult_food_slot
 from NLU.common import confirm_nlu
 
 
-food_term_tag = ["n", "nr", "nz", "PER"]
-restaurant_term_tag = ["ORG", "an", "nt", "s", "nw"]
+food_term_tag = ["n", "nz", "PER"]
+restaurant_term_tag = ["ORG", "an", "nt", "nr", "s", "nw"]
 location_term_tag = ["LOC", "ns", "f"]
 
 

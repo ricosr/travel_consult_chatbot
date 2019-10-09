@@ -14,11 +14,16 @@ class Intent:
         intent_dict = self.interpreter.parse(utterance)
         intent = intent_dict["intent"]["name"]
         confidence = intent_dict["intent"]["confidence"]
+        print(0, confidence)
+        for intent, terms_ls in intent_terms_dict.items():
+            for term in terms_ls:
+                if term in utterance:
+                    return intent, intent_dict["entities"]
         if confidence < self.threshold:
             for intent, terms_ls in intent_terms_dict.items():
                 for term in terms_ls:
                     if term in utterance:
-                        return intent, False
+                        return intent, intent_dict["entities"]
         for entity in intent_dict["entities"]:
             if entity["entity"] == "food":
                 intent = "search_food"
