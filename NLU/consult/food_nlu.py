@@ -6,7 +6,7 @@ from NLU.common import confirm_nlu
 from nlu_key_terms import search_food_key_terms
 
 
-food_term_tag = ["n", "nz", "PER"]
+food_term_tag = ["n", "nz", "PER", "ORG"]
 restaurant_term_tag = ["ORG", "an", "nt", "nr", "s", "nw"]
 location_term_tag = ["LOC", "ns", "f"]
 
@@ -52,6 +52,8 @@ def ie_all_search_food(customer_utterance, lac, entities):
                     if eat_term in lac_result_dict["tag"][: tag_index]:
                         ie_values_dict["food"] = lac_result_dict["word"][tag_index]
                         break
+                if lac_result_dict["tag"][tag_index] == "ORG":
+                    ie_values_dict["restaurant"] = lac_result_dict["word"][tag_index]
                 continue
             if lac_result_dict["tag"][tag_index] in restaurant_term_tag:
                 ie_values_dict["restaurant"] = lac_result_dict["word"][tag_index]
