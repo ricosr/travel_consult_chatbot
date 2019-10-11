@@ -14,11 +14,11 @@ def response_no(intent, confident_slot_values):
     show_current_msg = "您现在的需求是："
     if intent == "search_food":
         if "food" in confident_slot_values:
-            show_current_msg += "食物：{}".format(confident_slot_values["food"])
+            show_current_msg += "食物：{},".format(confident_slot_values["food"])
         if "restaurant" in confident_slot_values:
-            show_current_msg += "餐厅：{}".format(confident_slot_values["restaurant"])
+            show_current_msg += "餐厅：{},".format(confident_slot_values["restaurant"])
         if "location" in confident_slot_values:
-            show_current_msg += "地点：{}".format(confident_slot_values["location"])
+            show_current_msg += "地点：{},".format(confident_slot_values["location"])
     no_response_dict = {
         "search_food": ["\n请问您还有别的要求吗？吃的其他的？换一个餐厅？还是有地点的要求？"]
     }

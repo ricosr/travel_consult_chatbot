@@ -47,6 +47,12 @@ def ie_all_search_food(customer_utterance, lac, entities):
     if not judge_all_entities(ie_values_dict):
         print(judge_all_entities(ie_values_dict))
         print(lac_result_dict["tag"])
+        if len(lac_result_dict["tag"]) == 1 and lac_result_dict["tag"][0] in food_term_tag:
+            ie_values_dict["food"] = customer_utterance
+            return ie_values_dict
+        if len(lac_result_dict["tag"]) == 1 and lac_result_dict["tag"][0] in restaurant_term_tag:
+            ie_values_dict["restaurant"] = customer_utterance
+            return ie_values_dict
         for tag_index in range(len(lac_result_dict["tag"])):
             if lac_result_dict["tag"][tag_index] in food_term_tag:
                 for eat_term in search_food_key_terms["eat"]:
