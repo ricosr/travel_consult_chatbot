@@ -66,7 +66,7 @@ def nlg_confirm_each_slot(slot_key, slot_value):
                   "Again, i believe that you want price {}, ok?"]
     }
     confirm_sentence = choice(confirm_dict[slot_key])
-    return confirm_sentence.format(slot_value)    # temp TODO: random
+    return confirm_sentence.format(slot_value)
 
 
 def dinning_reply(state_tracker_obj, current_slot):
