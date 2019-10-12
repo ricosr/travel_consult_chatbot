@@ -26,7 +26,19 @@ def paddle_lac(text, lac):
 
 
 def ie_all_search_food(customer_utterance, lac, entities):
-    pass
+    ie_values_dict = {}
+    lac_result_dict = paddle_lac(customer_utterance, lac)
+    if entities:
+        for entity in entities:
+            if entity["entity"] == "departure":
+                ie_values_dict["departure"] = entity["value"]
+            if entity["entity"] == "destination":
+                ie_values_dict["destination"] = entity["value"]
+            if entity["entity"] == "hotel":
+                ie_values_dict["destination"] = entity["value"]
+    if not judge_all_entities(ie_values_dict):
+        pass
+
 
 
 def ie_departure_time(customer_utterance, lac, entities):
