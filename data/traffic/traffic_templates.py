@@ -26,6 +26,9 @@ traffic_template2 = """
 - 从[{departure}](departure)到[{destination}](destination)怎么走
 - 在[{departure}](departure)怎么去[{destination}](destination)
 - 我想从[{departure}](departure)去[{destination}](destination)怎么办
+- 从[{departure}](departure)到[{destination}](destination)[{vehicle}](vehicle)怎么走
+- 在[{departure}](departure)[{vehicle}](vehicle)怎么去[{destination}](destination)
+- 我想[{vehicle}](vehicle)从[{departure}](departure)去[{destination}](destination)怎么办
 """
 
 traffic_template_ls_1a = [
@@ -42,13 +45,19 @@ traffic_template_ls_1a = [
 "- 我想去[{destination}](destination)",
 "- 帮我找一条路去[{destination}](destination)",
 "- 坐什么能到[{destination}](destination)",
-"- 去[{destination}](destination)怎么坐车"
+"- 去[{destination}](destination)怎么坐车",
+"- [{vehicle}](vehicle)怎么去[{destination}](destination)",
+"- [{vehicle}](vehicle)到[{destination}](destination)怎么走",
+"- [{vehicle}](vehicle)去[{destination}](destination)"
 ]
 
 traffic_template_ls_1b = [
 "- 从[{departure}](departure)到[{destination}](destination)怎么走",
 "- 在[{departure}](departure)怎么去[{destination}](destination)",
-"- 我想从[{departure}](departure)去[{destination}](destination)怎么办"
+"- 我想从[{departure}](departure)去[{destination}](destination)怎么办",
+"- 从[{departure}](departure)到[{destination}](destination)[{vehicle}](vehicle)怎么走",
+"- 在[{departure}](departure)[{vehicle}](vehicle)怎么去[{destination}](destination)",
+"- 我想[{vehicle}](vehicle)从[{departure}](departure)去[{destination}](destination)怎么办"
 ]
 
 traffic_template_ls2 = [
