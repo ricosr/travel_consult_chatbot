@@ -35,7 +35,7 @@ def ie_all_search_food(customer_utterance, lac, entities):
         for entity in entities:
             if entity["entity"] == "food":
                 ie_values_dict["food"] = entity["value"]
-            if entity["entity"] == "position2" or entity["entity"] == "position1":
+            if entity["entity"] == "destination" or entity["entity"] == "departure":
                 entity_lac_results = paddle_lac(entity["value"], lac)
                 for tag_index in range(len(entity_lac_results["tag"])):
                     if lac_result_dict["tag"][tag_index] in restaurant_term_tag:

@@ -15,12 +15,12 @@ def create_traffic_data(term_file, output_file):
     terms_ls.extend(clean_traffic_data1(term_file))
     temp_result = ''
     for traffic_term in list(set(terms_ls)):
-        temp_result += traffic_template1.format(position=traffic_term).strip() + '\n'
+        temp_result += traffic_template1.format(destination=traffic_term).strip() + '\n'
 
     for i in range(len(terms_ls)):
         if i == len(terms_ls) - 1:
             break
-        temp_result += traffic_template2.format(position1=terms_ls[i], position2=terms_ls[i+1]).strip() + '\n'
+        temp_result += traffic_template2.format(departure=terms_ls[i], destination=terms_ls[i+1]).strip() + '\n'
 
     with open(output_file, 'w', encoding="utf-8") as fpw:
         fpw.write("## intent:search_traffic\n")
@@ -48,13 +48,13 @@ def create_traffic_data2(term_file, output_file, data_count):
     for traffic_template in traffic_ls_1a:
         if j == len(terms_ls):
             j = 0
-        temp_result += traffic_template.format(position=terms_ls[j]) + '\n'
+        temp_result += traffic_template.format(destination=terms_ls[j]) + '\n'
         j += 1
     j = 0
     for traffic_template in traffic_ls_1b:
         if j >= len(terms_ls):
             j = 0
-        temp_result += traffic_template.format(position1=terms_ls[j], position2=terms_ls[j+1]) + '\n'
+        temp_result += traffic_template.format(departure=terms_ls[j], destination=terms_ls[j+1]) + '\n'
         j += 2
     with open(output_file, 'w', encoding="utf-8") as fpw:
         fpw.write("## intent:search_traffic\n")
@@ -64,4 +64,4 @@ def create_traffic_data2(term_file, output_file, data_count):
             fpw2.write(term + '\n')
 
 # create_traffic_data("beijing_spots", "traffic_train_data.md")
-create_traffic_data2("beijing_spots", "traffic_train_data3.md", 1000)
+create_traffic_data2("beijing_spots", "traffic_train_data4.md", 2000)
