@@ -8,6 +8,7 @@ destination_term_tag = []
 vehicle_term_tag = []
 departure_time_term_tag = []
 
+# TODO: convert chinese number character into number
 
 def judge_all_entities(ie_values_dict):
     if not ie_values_dict:
@@ -36,10 +37,10 @@ def ie_all_search_food(customer_utterance, lac, entities):
                 ie_values_dict["destination"] = entity["value"]
             if entity["entity"] == "hotel":
                 ie_values_dict["destination"] = entity["value"]
+            if entity["entity"] == "vehicle":
+                ie_values_dict["vehicle"] = entity["value"]
     if not judge_all_entities(ie_values_dict):
         pass
-
-
 
 def ie_departure_time(customer_utterance, lac, entities):
     pass
