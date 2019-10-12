@@ -6,7 +6,8 @@ from food_templates import *
 def clean_food_data1(term_file):
     with open(term_file, 'r', encoding="utf-8") as fpr:
         terms_temp_ls = fpr.readlines()
-    terms_ls = [term.split(',')[0] for term in terms_temp_ls]
+    # terms_ls = [term.split(',')[0] for term in terms_temp_ls]
+    terms_ls = [term.strip() for term in terms_temp_ls]
     return terms_ls
 
 
@@ -23,14 +24,14 @@ def create_food_data(term_file, output_file):
     with open(output_file, 'w', encoding="utf-8") as fpw:
         fpw.write("## intent:search_food\n")
         fpw.write(temp_result)
-    with open("food_terms.txt", 'w', encoding="utf-8") as fpw2:
+    with open("food_terms1.txt", 'w', encoding="utf-8") as fpw2:
         for term in terms_ls:
             fpw2.write(term + '\n')
 
 
-def create_food_data2(term_file, output_file, data_count):
-    terms_ls = []
-    terms_ls.extend(clean_food_data1(term_file))
+def create_food_data2(terms_ls, output_file, data_count):
+    # terms_ls = []
+    # terms_ls.extend(clean_food_data1(term_file))
     len_ls1 = len(food_template_ls1)
     len_ls2 = len(food_template_ls2)
     count1 = int(data_count * len_ls1/(len_ls1+len_ls2))
@@ -54,8 +55,8 @@ def create_food_data2(term_file, output_file, data_count):
             fpw2.write(term + '\n')
 
 
-
+food_terms_ls = clean_food_data1("food_terms2.txt") + list(set(clean_food_data1("food_terms1.txt")))
 # create_food_data("food_data", "food_train_data.md")
-create_food_data2("food_data", "food_train_data3.md", 1000)
+create_food_data2(food_terms_ls, "food_train_data5.md", 3000)
 
 

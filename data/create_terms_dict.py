@@ -18,6 +18,7 @@ def generate_dict(origin_dict_path, supplement_terms):
     tmp_terms_ls = [term.split(' ')[0].strip() for term in terms_ls]
     new_terms = []
     for sup_term in supplement_terms:
+        sup_term = sup_term.replace(' ', '')
         if sup_term.strip() not in tmp_terms_ls:
             new_terms.append(sup_term.strip() + ' 3' + ' n' + '\n')
     terms_ls.extend(new_terms)
