@@ -26,9 +26,33 @@ def paddle_lac(text, lac):
     return lac_result_dict
 
 
-def convert_to_num(customer_utterance):    # TODO: convert chinese number character into number
-    num_dict = {"一": "1", "二": "2", "三": "3", "四": "4", "五": "5", "六": "6", "七": "7", "八": "8", "九": "9", "零": "0", "十": "10"}
-    return customer_utterance
+def convert_to_num(time_text):    # TODO: convert chinese number character into number
+    num_dict = {"一": "1", "二": "2", "两": "2", "三": "3", "四": "4", "五": "5", "六": "6", "七": "7", "八": "8", "九": "9", "零": "0", "十": "10"}
+    for time_mark in search_traffic_key_terms["time_mark"]:
+        time_text = time_text.replace(time_mark, '-').strip('-')
+    tmp_num_ls = time_text.split('-')
+    for index in range(len(tmp_num_ls)):
+        try:
+            int(tmp_num_ls[index])
+        except:
+            if '十' in tmp_num_ls[index]:
+                if tmp_num_ls[index][0] == '十':
+                    tmp_num = tmp_num_ls[index].replace('十', '1')
+                    if len(tmp_num_ls[index]) == 1:
+                        tmp_num += '0'
+                else:
+                    tmp_num = tmp_num_ls[index].replace('十', '')
+            else:
+                tmp_num = tmp_num_ls[index]
+            new_num = ''
+            for each_num in tmp_num:
+                if each_num in num_dict:
+                    new_num += num_dict[each_num]
+                else:
+                    new_num += each_num
+            tmp_num_ls[index] = new_num
+    return '-'.join(tmp_num_ls)
+
 
 
 def ie_all_search_food(customer_utterance, lac, entities):
@@ -95,3 +119,6 @@ def ie_all_search_food(customer_utterance, lac, entities):
 
 def ie_departure_time(customer_utterance, lac):
     pass
+
+
+print(convert_to_num("11.20"))
