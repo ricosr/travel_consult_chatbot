@@ -26,11 +26,19 @@ def paddle_lac(text, lac):
     return lac_result_dict
 
 
-def convert_to_num(time_text):    # TODO: convert chinese number character into number
-    num_dict = {"一": "1", "二": "2", "两": "2", "三": "3", "四": "4", "五": "5", "六": "6", "七": "7", "八": "8", "九": "9", "零": "0", "十": "10"}
+def convert_to_num(time_text):
+    num_dict = {"一": "1", "二": "2", "两": "2", "三": "3", "四": "4", "五": "5", "六": "6", "七": "7", "八": "8", "九": "9", "零": "0"}
     for time_mark in search_traffic_key_terms["time_mark"]:
         time_text = time_text.replace(time_mark, '-').strip('-')
     tmp_num_ls = time_text.split('-')
+    num_judge = True
+    for each_num in tmp_num_ls:
+        if each_num in num_dict:
+            num_judge = False
+            break
+    if num_judge is True:
+        return '-'.join(tmp_num_ls)
+
     for index in range(len(tmp_num_ls)):
         try:
             int(tmp_num_ls[index])
@@ -54,9 +62,9 @@ def convert_to_num(time_text):    # TODO: convert chinese number character into 
     return '-'.join(tmp_num_ls)
 
 
-
 def ie_all_search_food(customer_utterance, lac, entities):
-    customer_utterance_tmp = convert_to_num(customer_utterance)
+    customer_tmp_utterance = customer_utterance.replace('：', ':')
+    customer_utterance_tmp = convert_to_num(customer_tmp_utterance)
     ie_values_dict = {}
     lac_result_dict = paddle_lac(customer_utterance_tmp, lac)
     if entities:
@@ -77,7 +85,7 @@ def ie_all_search_food(customer_utterance, lac, entities):
                         break
     if not judge_all_entities(ie_values_dict):
         if len(lac_result_dict["tag"]) == 1 and lac_result_dict["tag"][0] in departure_destination_term_tag:
-            ie_values_dict["destination"] = customer_utterance
+            ie_values_dict["destination"] = customer_tmp_utterance
         for tag_index in range(len(lac_result_dict["tag"])):
             if lac_result_dict["tag"][tag_index] in departure_destination_term_tag:
                 departure_judge = True
@@ -114,11 +122,18 @@ def ie_all_search_food(customer_utterance, lac, entities):
                             break
                     if "vehicle" in ie_values_dict:
                         break
+                continue
+            if lac_result_dict["tag"][tag_index] in departure_time_term_tag:
+                ie_values_dict["departure_time"] = convert_to_num(lac_result_dict["word"][tag_index])
+
     return ie_values_dict
 
 
 def ie_departure_time(customer_utterance, lac):
-    pass
-
-
-print(convert_to_num("11.20"))
+    customer_tmp_utterance = customer_utterance.replace('：', ':')
+    customer_utterance_tmp = convert_to_num(customer_tmp_utterance)
+    lac_result_dict = paddle_lac(customer_utterance_tmp, lac)
+    for tag_index in range(len(lac_result_dict["tag"])):
+        if lac_result_dict["tag"][tag_index] in departure_time_term_tag:
+            return convert_to_num(lac_result_dict["word"][tag_index])
+    return False
