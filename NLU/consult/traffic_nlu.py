@@ -6,7 +6,7 @@ from nlu_key_terms import search_traffic_key_terms
 
 
 departure_destination_term_tag = ["LOC", "ORG", "PER", "ns", "nr", "nz", "f", "s", "nt", "nw"]
-vehicle_term_tag = ["n", "nz"]
+vehicle_term_tag = ["n", "nz", "v"]
 departure_time_term_tag = ["TIME", "m", "q", "t"]
 
 
@@ -27,6 +27,7 @@ def paddle_lac(text, lac):
 
 
 def convert_to_num(customer_utterance):    # TODO: convert chinese number character into number
+    num_dict = {"一": "1", "二": "2", "三": "3", "四": "4", "五": "5", "六": "6", "七": "7", "八": "8", "九": "9", "零": "0", "十": "10"}
     return customer_utterance
 
 
@@ -80,10 +81,17 @@ def ie_all_search_food(customer_utterance, lac, entities):
                             break
                     if destination_judge is True:
                         ie_values_dict["destination"] = lac_result_dict["word"][tag_index]
+                continue
             if lac_result_dict["tag"][tag_index] in vehicle_term_tag:
-                # TODO
-                pass
+                for vehicle, terms_ls in search_traffic_key_terms["vehicle_terms"].items():
+                    for term in terms_ls:
+                        if entity["value"] in term or term in entity["value"]:
+                            ie_values_dict["vehicle"] = vehicle
+                            break
+                    if "vehicle" in ie_values_dict:
+                        break
+    return ie_values_dict
 
 
-def ie_departure_time(customer_utterance, lac, entities):
+def ie_departure_time(customer_utterance, lac):
     pass
