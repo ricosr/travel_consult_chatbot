@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+import time
+
 from slots.consult_slot import consult_traffic_slot
 from NLU.common import confirm_nlu
 from nlu_key_terms import search_traffic_key_terms
@@ -27,6 +29,8 @@ def paddle_lac(text, lac):
 
 
 def convert_to_num(time_text):
+    if "现" in time_text:
+        return time.strftime("%H:%M", time.localtime(time.time()))
     num_dict = {"一": "1", "二": "2", "两": "2", "三": "3", "四": "4", "五": "5", "六": "6", "七": "7", "八": "8", "九": "9", "零": "0"}
     for time_mark in search_traffic_key_terms["time_mark"]:
         time_text = time_text.replace(time_mark, '-').strip('-')
@@ -42,7 +46,7 @@ def convert_to_num(time_text):
     for index in range(len(tmp_num_ls)):
         try:
             int(tmp_num_ls[index])
-        except:
+        except Exception as e:
             if '十' in tmp_num_ls[index]:
                 if tmp_num_ls[index][0] == '十':
                     tmp_num = tmp_num_ls[index].replace('十', '1')
@@ -64,9 +68,8 @@ def convert_to_num(time_text):
 
 def ie_all_search_food(customer_utterance, lac, entities):
     customer_tmp_utterance = customer_utterance.replace('：', ':')
-    customer_utterance_tmp = convert_to_num(customer_tmp_utterance)
     ie_values_dict = {}
-    lac_result_dict = paddle_lac(customer_utterance_tmp, lac)
+    lac_result_dict = paddle_lac(customer_tmp_utterance, lac)
     if entities:
         for entity in entities:
             if entity["entity"] == "departure":
@@ -131,8 +134,7 @@ def ie_all_search_food(customer_utterance, lac, entities):
 
 def ie_departure_time(customer_utterance, lac):
     customer_tmp_utterance = customer_utterance.replace('：', ':')
-    customer_utterance_tmp = convert_to_num(customer_tmp_utterance)
-    lac_result_dict = paddle_lac(customer_utterance_tmp, lac)
+    lac_result_dict = paddle_lac(customer_tmp_utterance, lac)
     for tag_index in range(len(lac_result_dict["tag"])):
         if lac_result_dict["tag"][tag_index] in departure_time_term_tag:
             return convert_to_num(lac_result_dict["word"][tag_index])

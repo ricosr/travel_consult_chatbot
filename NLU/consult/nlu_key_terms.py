@@ -20,5 +20,5 @@ search_traffic_key_terms = {
     },
 
     "ride_verb": {"bicycle": ["骑"], "drive": ["开"], "taxi": ["打"], "other": ["坐", "座", "乘", "搭"]},
-    "time_mark": ["点", "时", "分", ":", '.', '：']
+    "time_mark": ["点", "时", "分", "秒", ":", '.', '：']
 }
