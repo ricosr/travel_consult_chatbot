@@ -10,9 +10,11 @@ def ask_food_restaurant():  # TODO
     return choice(response_sentences)
 
 
-def response_restaurant_list(restaurant_list):   # TODO
+def response_restaurant_list(search_parameters):   # TODO
     restaurant_list = [   # temp
-        "123",
-        "kfc"
+        "餐厅1",
+        "餐厅2",
+        "餐厅3",
+        "餐厅4",
     ]
     return '\n'.join(restaurant_list) + '\n您觉得可以吗？'

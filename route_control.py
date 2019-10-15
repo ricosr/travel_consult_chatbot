@@ -77,8 +77,4 @@ def control():
             current_intent = ''
             collection_name = ''
 
-
-
-
-
 control()

@@ -8,7 +8,7 @@ from slots.consult_slot import dinning_slot, consult_food_slot, consult_traffic_
 database_address = "mongodb://xxx:xxxx@xxx.xxx.xxx.xxx:27017/admin"
 database_name = "Travel_DB"
 
-intent_model_name = "models4"
+intent_model_name = "models5"
 confirm_model_name = "confirm_model"
 
 handle_config = {
