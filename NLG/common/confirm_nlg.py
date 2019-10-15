@@ -12,6 +12,10 @@ def response_yes():
 
 def response_no(intent, confident_slot_values):
     show_current_msg = "您现在的需求是："
+    no_response_dict = {
+        "search_food": ["\n请问您还有别的要求吗？吃的其他的？换一个餐厅？还是有地点的要求？"],
+        "search_traffic": ["\n请问您还有别的要求吗？更换目的地？出发地？还是交通方式？"]
+    }
     if intent == "search_food":
         if "food" in confident_slot_values:
             show_current_msg += "食物：{},".format(confident_slot_values["food"])
@@ -19,9 +23,17 @@ def response_no(intent, confident_slot_values):
             show_current_msg += "餐厅：{},".format(confident_slot_values["restaurant"])
         if "location" in confident_slot_values:
             show_current_msg += "地点：{},".format(confident_slot_values["location"])
-    no_response_dict = {
-        "search_food": ["\n请问您还有别的要求吗？吃的其他的？换一个餐厅？还是有地点的要求？"]
-    }
+
+    if intent == "search_traffic":
+        if "departure" in confident_slot_values:
+            show_current_msg += "出发地：{},".format(confident_slot_values["departure"])
+        if "destination" in confident_slot_values:
+            show_current_msg += "目的地：{},".format(confident_slot_values["destination"])
+        if "vehicle" in confident_slot_values:
+            show_current_msg += "交通方式：{},".format(confident_slot_values["vehicle"])
+        if "departure_time" in confident_slot_values:
+            show_current_msg += "出发时间：{},".format(confident_slot_values["departure_time"])
+
     return show_current_msg + choice(no_response_dict[intent])
 
 
