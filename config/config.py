@@ -26,5 +26,6 @@ slot_config = {
 # }
 
 db_collection_config = {   # TODO: database is not done
-    'search_food': "restaurant"
+    'search_food': "restaurant",
+    'search_traffic': ""
 }

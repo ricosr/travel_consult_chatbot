@@ -87,7 +87,7 @@ def ie_all_search_traffic(customer_utterance, lac, entities):
                     if "vehicle" in ie_values_dict:
                         break
     if not judge_all_entities(ie_values_dict):
-        if len(lac_result_dict["tag"]) == 1 and lac_result_dict["tag"][0] in departure_destination_term_tag:
+        if len(lac_result_dict["tag"]) == 1 and lac_result_dict["tag"][0] in departure_destination_term_tag:   # TODO: need to improve
             ie_values_dict["destination"] = customer_tmp_utterance
         for tag_index in range(len(lac_result_dict["tag"])):
             if lac_result_dict["tag"][tag_index] in departure_destination_term_tag:
