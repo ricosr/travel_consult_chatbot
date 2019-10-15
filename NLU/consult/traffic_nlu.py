@@ -66,7 +66,7 @@ def convert_to_num(time_text):
     return '-'.join(tmp_num_ls)
 
 
-def ie_all_search_food(customer_utterance, lac, entities):
+def ie_all_search_traffic(customer_utterance, lac, entities):
     customer_tmp_utterance = customer_utterance.replace('：', ':')
     ie_values_dict = {}
     lac_result_dict = paddle_lac(customer_tmp_utterance, lac)
@@ -139,3 +139,13 @@ def ie_departure_time(customer_utterance, lac):
         if lac_result_dict["tag"][tag_index] in departure_time_term_tag:
             return convert_to_num(lac_result_dict["word"][tag_index])
     return False
+
+
+def confirm_search_traffic(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter):
+    intent, entities = intent_model.get_intent(customer_utterance)
+    ie_slot_result = ie_all_search_traffic(customer_utterance, lac, entities)
+    if ie_slot_result:
+        return "change", ie_slot_result
+    confirm_state = confirm_nlu.judge_confirm_classification(customer_utterance, senta_gru, confirm_interpreter)
+    print(confirm_state)
+    return confirm_state, None
