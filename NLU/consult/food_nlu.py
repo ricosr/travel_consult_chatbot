@@ -14,10 +14,13 @@ location_term_tag = ["LOC", "ns", "f"]
 def judge_all_entities(ie_values_dict):
     if not ie_values_dict:
         return False
-    slot_keys = consult_food_slot.keys()
-    for ie_key, v in ie_values_dict.items():
-        if ie_key not in slot_keys:
+    ie_keys = ie_values_dict.keys()
+    for slot_key in consult_food_slot.keys():
+        if slot_key not in ie_keys:
             return False
+    # for ie_key, v in ie_values_dict.items():
+    #     if ie_key not in slot_keys:
+    #         return False
     return True
 
 
