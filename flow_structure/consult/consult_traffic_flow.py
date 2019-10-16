@@ -20,10 +20,11 @@ def consult_traffic_handle(customer_utterance, state_tracker_obj, entities, lac,
             state_tracker_obj.update_last_slot_state("stop")
             return give_up_nlg.response_give_up(), "stop"
         else:
-            if state_tracker_obj.get_last_slot_state() is not"change":
+            if state_tracker_obj.get_last_slot_state() != "change":
                 ie_slot_result = traffic_nlu.ie_all_search_traffic(customer_utterance, lac, entities)
             else:
                 ie_slot_result = entities
+            print("update all", ie_slot_result)
             state_tracker_obj.update_all_state(ie_slot_result)
             slot_state_dict = state_tracker_obj.judge_each_slot_state(consult_traffic_slot.keys())
             # if True not in slot_state_dict.values():
@@ -40,13 +41,18 @@ def consult_traffic_handle(customer_utterance, state_tracker_obj, entities, lac,
                 state_tracker_obj.update_last_slot_state("ask")
                 return traffic_nlg.ask_vehicle(), "ask"
             else:
-                ie_time_result = traffic_nlu.ie_departure_time(customer_utterance, lac)
-                if ie_time_result:
-                    if state_tracker_obj.get_confident_slot_value("departure_time"):
-                        state_tracker_obj.add_one_state("departure_time", ie_slot_result, 1)
-                    else:
-                        state_tracker_obj.update_slot_value("departure_time", ie_slot_result)
-                        state_tracker_obj.update_confidence("departure_time", 1)
+                pass
+                # ie_time_result = traffic_nlu.ie_departure_time(customer_utterance, lac)
+                # if ie_time_result:
+                #     if state_tracker_obj.get_confident_slot_value("departure_time"):
+                #         state_tracker_obj.update_slot_value("departure_time", ie_slot_result)
+                #         state_tracker_obj.update_confidence("departure_time", 1)
+                #     else:
+                #         if state_tracker_obj.get_slot_value("departure_time") == ie_time_result:
+                #             state_tracker_obj.update_confidence("departure_time", 1)
+                #         else:
+                #             state_tracker_obj.add_one_state("departure_time", ie_slot_result, 1)
+
             # search_traffic_results = db_obj.search_db(collection_name, state_tracker_obj.get_all_confident_slot_values())  # TODO: database
             search_traffic_results = ''
             state_tracker_obj.update_last_slot_state("confirm")
