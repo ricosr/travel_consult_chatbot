@@ -54,21 +54,29 @@ def ie_all_search_food(customer_utterance, lac, entities):
             ie_values_dict["restaurant"] = customer_utterance
             return ie_values_dict
         for tag_index in range(len(lac_result_dict["tag"])):
-            if lac_result_dict["tag"][tag_index] in food_term_tag:
+            continue_key = False
+            if lac_result_dict["tag"][tag_index] in food_term_tag and "food" not in ie_values_dict:
                 for eat_term in search_food_key_terms["eat"]:
                     # if "v" in lac_result_dict["tag"][: tag_index] or "vd" in lac_result_dict["tag"][: tag_index] or "vn" in lac_result_dict["tag"][: tag_index]:
                     if eat_term in lac_result_dict["tag"][: tag_index]:
                         ie_values_dict["food"] = lac_result_dict["word"][tag_index]
+                        continue_key = True
                         break
                 if lac_result_dict["tag"][tag_index] == "ORG":
                     ie_values_dict["restaurant"] = lac_result_dict["word"][tag_index]
-                continue
-            if lac_result_dict["tag"][tag_index] in restaurant_term_tag:
+                    continue_key = True
+                if continue_key is True:
+                    continue
+            if lac_result_dict["tag"][tag_index] in restaurant_term_tag and "restaurant" not in ie_values_dict:
                 ie_values_dict["restaurant"] = lac_result_dict["word"][tag_index]
-                continue
-            if lac_result_dict["tag"][tag_index] in location_term_tag:
+                continue_key = True
+                if continue_key is True:
+                    continue
+            if lac_result_dict["tag"][tag_index] in location_term_tag and "location" not in ie_values_dict:
                 ie_values_dict["location"] = lac_result_dict["word"][tag_index]
-                continue
+                continue_key = True
+                if continue_key is True:
+                    continue
     print(4, ie_values_dict)
     return ie_values_dict
 
