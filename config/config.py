@@ -13,7 +13,7 @@ confirm_model_name = "confirm_model"
 
 handle_config = {
     'search_food': consult_food_handle,
-    'search_traffic': consult_food_handle
+    'search_traffic': consult_traffic_handle
 }
 
 slot_config = {
