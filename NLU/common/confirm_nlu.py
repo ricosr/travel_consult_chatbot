@@ -2,6 +2,8 @@
 
 from confirm_terms import confirm_terms_dict
 
+confidence_threshold = 0.5
+
 yes_intent_threshold = 0.6    # TODO: need to test
 no_intent_threshold = 0.6
 stop_intent_threshold = 0.6
@@ -22,6 +24,9 @@ def judge_confirm_classification(customer_utterance, senta_gru, confirm_interpre
     positive_probs = result['positive_probs']
     negative_probs = result['negative_probs']
     print(6, intent, confidence, positive_probs, negative_probs)
+
+    if confidence < confidence_threshold:
+        return "nothing"
 
     if str(intent) == "yes":
         if negative_probs > positive_probs:

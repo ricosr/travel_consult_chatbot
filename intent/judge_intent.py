@@ -27,5 +27,8 @@ class Intent:
         for entity in intent_dict["entities"]:
             if entity["entity"] == "food":
                 intent = "search_food"
+        for entity in intent_dict["entities"]:
+            if entity["entity"] == "departure" or entity["entity"] == "destination":
+                intent = "search_traffic"
         return intent, intent_dict["entities"]
 
