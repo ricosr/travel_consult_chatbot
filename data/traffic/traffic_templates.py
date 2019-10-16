@@ -32,9 +32,9 @@ traffic_template2 = """
 """
 
 traffic_template_ls_1a = [
+    "- [{departure}](departure)出发",
     "- 从[{departure}](departure)出发",
     "- 从[{departure}](departure)走",
-    "- 从[{departure}](departure)",
     "- 从[{departure}](departure)过去",
     "- 出发地是[{departure}](departure)",
     "- 出发是[{departure}](departure)",

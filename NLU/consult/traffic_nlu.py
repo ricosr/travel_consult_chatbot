@@ -7,7 +7,7 @@ from NLU.common import confirm_nlu
 from nlu_key_terms import search_traffic_key_terms
 
 
-departure_destination_term_tag = ["LOC", "ORG", "PER", "ns", "nr", "nz", "f", "s", "nt", "nw"]
+departure_destination_term_tag = ["LOC", "ORG", "PER", "ns", "nr", "nz", "f", "s", "nt", "nw"]  # n
 vehicle_term_tag = ["n", "nz", "v"]
 departure_time_term_tag = ["TIME", "t"]
 
@@ -89,14 +89,17 @@ def ie_all_search_traffic(customer_utterance, lac, entities):
     if entities:
         for entity in entities:
             if entity["entity"] == "departure" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_time:
-                print()
                 if entity["value"] in lac_result_dict["word"]:
                     if lac_result_dict["tag"][lac_result_dict["word"].index(entity["value"])] in departure_destination_term_tag:
                         ie_values_dict["departure"] = entity["value"]
+                else:
+                    ie_values_dict["departure"] = entity["value"]
             if entity["entity"] == "destination" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_time:
                 if entity["value"] in lac_result_dict["word"]:
                     if lac_result_dict["tag"][lac_result_dict["word"].index(entity["value"])] in departure_destination_term_tag:
                         ie_values_dict["destination"] = entity["value"]
+                else:
+                    ie_values_dict["departure"] = entity["value"]
             if entity["entity"] == "hotel" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_time:
                 if entity["value"] in lac_result_dict["word"]:
                     if lac_result_dict["tag"](lac_result_dict["word"].index(entity["value"])) in departure_destination_term_tag:
