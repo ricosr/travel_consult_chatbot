@@ -41,10 +41,10 @@ def ie_all_search_food(customer_utterance, lac, entities):
             if entity["entity"] == "destination" or entity["entity"] == "departure":
                 entity_lac_results = paddle_lac(entity["value"], lac)
                 for tag_index in range(len(entity_lac_results["tag"])):
-                    if lac_result_dict["tag"][tag_index] in restaurant_term_tag:
-                        ie_values_dict["restaurant"] = entity["value"]
                     if lac_result_dict["tag"][tag_index] in location_term_tag:
                         ie_values_dict["location"] = entity["value"]
+                    else:
+                        ie_values_dict["restaurant"] = entity["value"]
             if entity["entity"] == "hotel":
                 ie_values_dict["restaurant"] = entity["value"]
     if not judge_all_entities(ie_values_dict):

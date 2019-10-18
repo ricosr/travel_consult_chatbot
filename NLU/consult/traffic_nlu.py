@@ -68,7 +68,7 @@ def convert_to_num(time_text):
     return '-'.join(tmp_num_ls)
 
 
-def ie_all_search_traffic(customer_utterance, lac, entities):
+def ie_all_search_traffic(customer_utterance, lac, entities, ask_type=None):
     customer_tmp_utterance = customer_utterance.replace('：', ':').replace('-', ':').replace('.', ':')
     ie_values_dict = {}
     lac_result_dict = paddle_lac(customer_tmp_utterance, lac)
@@ -89,21 +89,30 @@ def ie_all_search_traffic(customer_utterance, lac, entities):
     if entities:
         for entity in entities:
             if entity["entity"] == "departure" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_time:
-                if entity["value"] in lac_result_dict["word"]:
-                    if lac_result_dict["tag"][lac_result_dict["word"].index(entity["value"])] in departure_destination_term_tag:
-                        ie_values_dict["departure"] = entity["value"]
+                # if entity["value"] in lac_result_dict["word"]:
+                #     if lac_result_dict["tag"][lac_result_dict["word"].index(entity["value"])] in departure_destination_term_tag:
+                #         ie_values_dict["departure"] = entity["value"]
+                # else:
+                if ask_type == "ask_dest":
+                    ie_values_dict["destination"] = entity["value"]
                 else:
                     ie_values_dict["departure"] = entity["value"]
             if entity["entity"] == "destination" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_time:
-                if entity["value"] in lac_result_dict["word"]:
-                    if lac_result_dict["tag"][lac_result_dict["word"].index(entity["value"])] in departure_destination_term_tag:
-                        ie_values_dict["destination"] = entity["value"]
-                else:
+                # if entity["value"] in lac_result_dict["word"]:
+                #     if lac_result_dict["tag"][lac_result_dict["word"].index(entity["value"])] in departure_destination_term_tag:
+                #         ie_values_dict["destination"] = entity["value"]
+                # else:
+                if ask_type == "ask_dept":
                     ie_values_dict["departure"] = entity["value"]
+                else:
+                    ie_values_dict["destination"] = entity["value"]
             if entity["entity"] == "hotel" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_time:
                 if entity["value"] in lac_result_dict["word"]:
                     if lac_result_dict["tag"](lac_result_dict["word"].index(entity["value"])) in departure_destination_term_tag:
-                        ie_values_dict["destination"] = entity["value"]
+                        if ask_type == "ask_dept":
+                            ie_values_dict["departure"] = entity["value"]
+                        else:
+                            ie_values_dict["destination"] = entity["value"]
             if entity["entity"] == "vehicle" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_time:
                 print(entity["entity"])
                 for vehicle, terms_ls in search_traffic_key_terms["vehicle_terms"].items():
@@ -114,8 +123,12 @@ def ie_all_search_traffic(customer_utterance, lac, entities):
                     if "vehicle" in ie_values_dict:
                         break
     if not judge_all_entities(ie_values_dict):
-        if len(lac_result_dict["tag"]) == 1 and lac_result_dict["tag"][0] in departure_destination_term_tag:   # TODO: need to improve
-            ie_values_dict["destination"] = customer_tmp_utterance
+        if len(lac_result_dict["tag"]) == 1 and lac_result_dict["tag"][0] in departure_destination_term_tag:
+            if ask_type == "ask_dept":
+                ie_values_dict["departure"] = customer_tmp_utterance
+            else:
+                ie_values_dict["destination"] = customer_tmp_utterance
+            return ie_values_dict
         temp_tag_point = 0
         for tag_index in range(len(lac_result_dict["tag"])):
             continue_key = False
@@ -145,6 +158,26 @@ def ie_all_search_traffic(customer_utterance, lac, entities):
                     ie_values_dict["destination"] = lac_result_dict["word"][tag_index]
                     continue_key = True
                     temp_tag_point = tag_index + 1
+                    tmp_tag_ls = lac_result_dict["tag"][tag_index + 1:]
+                    tmp_word_ls = lac_result_dict["word"][tag_index + 1:]
+                    for tag_i in range(len(tmp_tag_ls)):
+                        if tmp_tag_ls[tag_i] in departure_destination_term_tag or tmp_tag_ls[tag_i] == 'n':  # and "departure" not in ie_values_dict:  # TODO: rule is good? or rasa?
+                            ie_values_dict["destination"] += tmp_word_ls[tag_i]
+                            temp_tag_point += 1
+                        else:
+                            break
+                if ask_type == "ask_dept":
+                    ie_values_dict["departure"] = lac_result_dict["word"][tag_index]
+                    tmp_tag_ls = lac_result_dict["tag"][tag_index + 1:]
+                    tmp_word_ls = lac_result_dict["word"][tag_index + 1:]
+                    for tag_i in range(len(tmp_tag_ls)):
+                        if tmp_tag_ls[tag_i] in departure_destination_term_tag or tmp_tag_ls[tag_i] == 'n':  # and "departure" not in ie_values_dict:  # TODO: rule is good? or rasa?
+                            ie_values_dict["departure"] += tmp_word_ls[tag_i]
+                            temp_tag_point += 1
+                        else:
+                            break
+                if ask_type == "ask_dest":
+                    ie_values_dict["destination"] = lac_result_dict["word"][tag_index]
                     tmp_tag_ls = lac_result_dict["tag"][tag_index + 1:]
                     tmp_word_ls = lac_result_dict["word"][tag_index + 1:]
                     for tag_i in range(len(tmp_tag_ls)):
