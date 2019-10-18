@@ -39,6 +39,7 @@ traffic_template_ls_1a = [
     "- 出发地是[{departure}](departure)",
     "- 出发是[{departure}](departure)",
     "- 目的地是[{destination}](destination)",
+    "- 出发是[{departure}](departure), 目的地是[{destination}](destination)",
     "- [{destination}](destination)在哪边",
     "- [{destination}](destination)怎么过去啊",
     "- 到[{destination}](destination)怎么走啊",
