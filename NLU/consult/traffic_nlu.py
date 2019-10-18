@@ -120,39 +120,39 @@ def ie_all_search_traffic(customer_utterance, lac, entities):
         for tag_index in range(len(lac_result_dict["tag"])):
             continue_key = False
             if lac_result_dict["tag"][tag_index] in departure_destination_term_tag:
-                # departure_judge = True
                 if 'p' in lac_result_dict["tag"][temp_tag_point: tag_index]:
-                    p_index = lac_result_dict["tag"][temp_tag_point: tag_index+1].index('p')
-                    for tag in lac_result_dict["tag"][temp_tag_point: tag_index+1][p_index:]:
-                        if tag in departure_destination_term_tag:    # and "departure" not in ie_values_dict:  # TODO: rule is good? or rasa?
-                            ie_values_dict["departure"] = lac_result_dict["word"][tag_index]
-                            temp_tag_point = tag_index + 1
-                            continue_key = True
+                    ie_values_dict["departure"] = lac_result_dict["word"][tag_index]
+                    continue_key = True
+                    temp_tag_point = tag_index + 1
+                    tmp_tag_ls = lac_result_dict["tag"][tag_index+1:]
+                    tmp_word_ls = lac_result_dict["word"][tag_index+1:]
+                    for tag_i in range(len(tmp_tag_ls)):
+                        if tmp_tag_ls[tag_i] in departure_destination_term_tag or tmp_tag_ls[tag_i] == 'n':    # and "departure" not in ie_values_dict:  # TODO: rule is good? or rasa?
+                            ie_values_dict["departure"] += tmp_word_ls[tag_i]
+                            temp_tag_point += 1
+                        else:
                             break
-                    # if departure_judge is True:    # and "departure" not in ie_values_dict:
-                    #     ie_values_dict["departure"] = lac_result_dict["word"][tag_index]
-                    #     continue_key = True
                 else:
-                    # destination_judge = True
                     if 'v' in lac_result_dict["tag"][temp_tag_point: tag_index]:
-                        v_index = lac_result_dict["tag"][temp_tag_point: tag_index+1].index('v')
+                        v_index = lac_result_dict["tag"][temp_tag_point: tag_index].index('v')
                     elif "vd" in lac_result_dict["tag"][temp_tag_point: tag_index]:
-                        v_index = lac_result_dict["tag"][temp_tag_point: tag_index+1].index("vd")
+                        v_index = lac_result_dict["tag"][temp_tag_point: tag_index].index("vd")
                     elif "vn" in lac_result_dict["tag"][temp_tag_point: tag_index]:
-                        v_index = lac_result_dict["tag"][temp_tag_point: tag_index+1].index("vn")
+                        v_index = lac_result_dict["tag"][temp_tag_point: tag_index].index("vn")
                     else:
                         continue
                     print("des lac:", lac_result_dict["tag"][temp_tag_point: tag_index+1][v_index:])
-                    for tag in lac_result_dict["tag"][temp_tag_point: tag_index+1][v_index:]:
-                        if tag in departure_destination_term_tag:    # and "destination" not in ie_values_dict:  # TODO: rule is good? or rasa?
-                            ie_values_dict["destination"] = lac_result_dict["word"][tag_index]
-                            temp_tag_point = tag_index + 1
-                            continue_key = True
+                    ie_values_dict["destination"] = lac_result_dict["word"][tag_index]
+                    continue_key = True
+                    temp_tag_point = tag_index + 1
+                    tmp_tag_ls = lac_result_dict["tag"][tag_index + 1:]
+                    tmp_word_ls = lac_result_dict["word"][tag_index + 1:]
+                    for tag_i in range(len(tmp_tag_ls)):
+                        if tmp_tag_ls[tag_i] in departure_destination_term_tag or tmp_tag_ls[tag_i] == 'n':  # and "departure" not in ie_values_dict:  # TODO: rule is good? or rasa?
+                            ie_values_dict["destination"] += tmp_word_ls[tag_i]
+                            temp_tag_point += 1
+                        else:
                             break
-                    #
-                    # if destination_judge is True:    # and "destination" not in ie_values_dict:
-                    #     ie_values_dict["destination"] = lac_result_dict["word"][tag_index]
-                    #     continue_key = True
                 if continue_key is True:
                     continue
             if lac_result_dict["tag"][tag_index] in vehicle_term_tag:
