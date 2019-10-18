@@ -1,6 +1,6 @@
-<mxfile modified="2019-10-18T18:24:33.964Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="HrpilNb3vy6hVPO3W4-x" version="12.1.3" type="github" pages="1">
+<mxfile modified="2019-10-18T18:41:29.244Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="6YCppKcZtrEdmZKIm0u2" version="12.1.3" type="github" pages="1">
   <diagram id="6r8ebwQPKGLBiBFQONnZ" name="Page-1">
-    <mxGraphModel dx="1280" dy="1595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1097" dy="1486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -10,8 +10,8 @@
         <mxCell id="vndDen_A82_FgcWnEU_Y-1" value="&lt;span style=&quot;font-size: 14px&quot;&gt;start&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="588" y="-99.98147583007812" width="100" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="vndDen_A82_FgcWnEU_Y-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;aim: make a traffic plan and book ticket&lt;/b&gt;&lt;br&gt;1. departure (mandatory)&lt;br&gt;2. destination (mandatory)&lt;br&gt;3. vehicle (mandatory)&lt;br&gt;4. departure date (mandatory)&lt;br&gt;5. name (mandatory)&lt;br&gt;6. ID (mandatory)&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="164" y="-70" width="270" height="91" as="geometry"/>
+        <mxCell id="vndDen_A82_FgcWnEU_Y-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;aim: make a traffic plan and book ticket&lt;/b&gt;&lt;br&gt;1. departure (mandatory)&lt;br&gt;2. destination (mandatory)&lt;br&gt;3. vehicle (mandatory)&lt;br&gt;4. departure date (mandatory)&lt;br&gt;5. name (mandatory)&lt;br&gt;6. ID (mandatory)&lt;br&gt;7. solution no&amp;nbsp;(mandatory)&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="164" y="-70" width="270" height="110" as="geometry"/>
         </mxCell>
         <mxCell id="vndDen_A82_FgcWnEU_Y-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vndDen_A82_FgcWnEU_Y-3" target="vndDen_A82_FgcWnEU_Y-5" edge="1">
           <mxGeometry relative="1" as="geometry"/>
@@ -137,7 +137,7 @@
         <mxCell id="vndDen_A82_FgcWnEU_Y-37" value="&lt;span style=&quot;font-size: 14px ; white-space: normal&quot;&gt;user: confirm and &lt;br&gt;select one&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="546" y="898.2345377604165" width="180" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="vndDen_A82_FgcWnEU_Y-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vndDen_A82_FgcWnEU_Y-40" target="vndDen_A82_FgcWnEU_Y-43" edge="1">
+        <mxCell id="vndDen_A82_FgcWnEU_Y-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vndDen_A82_FgcWnEU_Y-40" target="ZlfuMa2-yeJI-Y9UWcC_-1" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="f19TXx5zY4OCxn9IoFhB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.955;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="vndDen_A82_FgcWnEU_Y-40" target="f19TXx5zY4OCxn9IoFhB-19" edge="1">
@@ -148,7 +148,7 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vndDen_A82_FgcWnEU_Y-40" value="&lt;font style=&quot;font-size: 14px&quot;&gt;book and select?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="vndDen_A82_FgcWnEU_Y-40" value="&lt;font style=&quot;font-size: 14px&quot;&gt;select?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="558" y="1077" width="157" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="f19TXx5zY4OCxn9IoFhB-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vndDen_A82_FgcWnEU_Y-42" target="vndDen_A82_FgcWnEU_Y-50" edge="1">
@@ -177,8 +177,10 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="f19TXx5zY4OCxn9IoFhB-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vndDen_A82_FgcWnEU_Y-43" target="vndDen_A82_FgcWnEU_Y-82" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="f19TXx5zY4OCxn9IoFhB-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vndDen_A82_FgcWnEU_Y-43" target="vndDen_A82_FgcWnEU_Y-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="978.7142857142858" y="1391.1428571428573" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="f19TXx5zY4OCxn9IoFhB-42" value="all is done" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="f19TXx5zY4OCxn9IoFhB-41" vertex="1" connectable="0">
           <mxGeometry x="-0.4641" relative="1" as="geometry">
@@ -289,9 +291,9 @@
             <mxPoint x="232.5" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="n2Iilo3OYamWraCBPrWy-10" value="ok" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="vndDen_A82_FgcWnEU_Y-70">
+        <mxCell id="n2Iilo3OYamWraCBPrWy-10" value="yes" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="vndDen_A82_FgcWnEU_Y-70" vertex="1" connectable="0">
           <mxGeometry x="-0.9808" y="-5" relative="1" as="geometry">
-            <mxPoint x="-52" y="33" as="offset"/>
+            <mxPoint x="-51.5" y="23" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="vndDen_A82_FgcWnEU_Y-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vndDen_A82_FgcWnEU_Y-40" target="n2Iilo3OYamWraCBPrWy-7" edge="1">
@@ -315,12 +317,6 @@
             </Array>
             <mxPoint as="offset"/>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="vndDen_A82_FgcWnEU_Y-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vndDen_A82_FgcWnEU_Y-82" target="vndDen_A82_FgcWnEU_Y-54" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="vndDen_A82_FgcWnEU_Y-82" value="&lt;font style=&quot;font-size: 14px&quot;&gt;search traffic solutions by 1 and 2 and 3 and 4 and 5 and 6&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="907" y="1390.5" width="144" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="vndDen_A82_FgcWnEU_Y-84" value="&lt;font style=&quot;font-size: 14px&quot;&gt;extract values and fill slots&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="236" y="1214.5" width="144" height="50" as="geometry"/>
@@ -392,25 +388,25 @@
         <mxCell id="f19TXx5zY4OCxn9IoFhB-45" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&amp;nbsp; &amp;nbsp;robot:give example answers(yes or no or change)&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="1647" width="182" height="53" as="geometry"/>
         </mxCell>
-        <mxCell id="n2Iilo3OYamWraCBPrWy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n2Iilo3OYamWraCBPrWy-1" target="vndDen_A82_FgcWnEU_Y-32">
+        <mxCell id="n2Iilo3OYamWraCBPrWy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n2Iilo3OYamWraCBPrWy-1" target="vndDen_A82_FgcWnEU_Y-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="638" y="770" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="n2Iilo3OYamWraCBPrWy-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;search traffic solutions by 1 and 2 and 3 and 4&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="n2Iilo3OYamWraCBPrWy-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;search traffic solutions by 1 and 2 and 3 and 4&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="563.5" y="690" width="144" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="n2Iilo3OYamWraCBPrWy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n2Iilo3OYamWraCBPrWy-5" target="vndDen_A82_FgcWnEU_Y-5">
+        <mxCell id="n2Iilo3OYamWraCBPrWy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n2Iilo3OYamWraCBPrWy-5" target="vndDen_A82_FgcWnEU_Y-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1331" y="94"/>
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="n2Iilo3OYamWraCBPrWy-5" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&amp;nbsp; &amp;nbsp;robot:show current &lt;br&gt;slots and query new &lt;br&gt;book demands&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="n2Iilo3OYamWraCBPrWy-5" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&amp;nbsp; &amp;nbsp;robot:show current &lt;br&gt;slots and query new &lt;br&gt;book demands&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1240.5" y="1507.5" width="182" height="53" as="geometry"/>
         </mxCell>
-        <mxCell id="n2Iilo3OYamWraCBPrWy-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n2Iilo3OYamWraCBPrWy-7" target="vndDen_A82_FgcWnEU_Y-5">
+        <mxCell id="n2Iilo3OYamWraCBPrWy-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n2Iilo3OYamWraCBPrWy-7" target="vndDen_A82_FgcWnEU_Y-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="110" as="targetPoint"/>
             <Array as="points">
@@ -419,8 +415,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="n2Iilo3OYamWraCBPrWy-7" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&amp;nbsp; &amp;nbsp;robot:show current &lt;br&gt;slots and query new &lt;br&gt;book demands&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="n2Iilo3OYamWraCBPrWy-7" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&amp;nbsp; &amp;nbsp;robot:show current &lt;br&gt;slots and query new &lt;br&gt;book demands&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="151.5" y="962" width="182" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZlfuMa2-yeJI-Y9UWcC_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZlfuMa2-yeJI-Y9UWcC_-1" target="vndDen_A82_FgcWnEU_Y-43">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZlfuMa2-yeJI-Y9UWcC_-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;fill slot 7&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="1178" width="144" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
