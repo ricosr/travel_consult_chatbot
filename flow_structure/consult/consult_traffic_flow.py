@@ -21,7 +21,12 @@ def consult_traffic_handle(customer_utterance, state_tracker_obj, entities, lac,
             return give_up_nlg.response_give_up(), "stop"
         else:
             if state_tracker_obj.get_last_slot_state() != "change":
-                ie_slot_result = traffic_nlu.ie_all_search_traffic(customer_utterance, lac, entities)
+                if state_tracker_obj.get_last_slot_state() == "ask_dept":
+                    ie_slot_result = traffic_nlu.ie_all_search_traffic(customer_utterance, lac, entities, "ask_dept")
+                elif state_tracker_obj.get_last_slot_state() == "ask_dest":
+                    ie_slot_result = traffic_nlu.ie_all_search_traffic(customer_utterance, lac, entities, "ask_dest")
+                else:
+                    ie_slot_result = traffic_nlu.ie_all_search_traffic(customer_utterance, lac, entities)
             else:
                 ie_slot_result = entities
             print("update all", ie_slot_result)
@@ -32,11 +37,11 @@ def consult_traffic_handle(customer_utterance, state_tracker_obj, entities, lac,
                 state_tracker_obj.update_last_slot_state("ask")
                 return traffic_nlg.ask_depart_dest_vehicle(), "ask"
             elif slot_state_dict["departure"] is False:
-                state_tracker_obj.update_last_slot_state("ask")
-                return traffic_nlg.ask_depart(), "ask"
+                state_tracker_obj.update_last_slot_state("ask_dept")
+                return traffic_nlg.ask_depart(), "ask_dept"
             elif slot_state_dict["destination"] is False:
-                state_tracker_obj.update_last_slot_state("ask")
-                return traffic_nlg.ask_dest(), "ask"
+                state_tracker_obj.update_last_slot_state("ask_dest")
+                return traffic_nlg.ask_dest(), "ask_dest"
             elif slot_state_dict["vehicle"] is False:
                 state_tracker_obj.update_last_slot_state("ask")
                 return traffic_nlg.ask_vehicle(), "ask"
