@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import time
-
 # not mandatory: 0
 
 dinning_slot = {
