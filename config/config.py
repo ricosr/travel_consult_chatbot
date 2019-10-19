@@ -29,3 +29,5 @@ db_collection_config = {   # TODO: database is not done
     'search_food': "restaurant",
     'search_traffic': ""
 }
+
+plan_intent_ls = ["plan_book"]    # TODO: "plan_scenic", "plan_hotel"

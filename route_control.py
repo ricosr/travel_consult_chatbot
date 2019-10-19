@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
 
+import copy
+
 import paddlehub as hub
 from rasa.nlu.model import Interpreter
-import gevent
-import zmq.green as zmq
 
 from intent import judge_intent
 from state_tracker import State
-from config.config import handle_config, slot_config, database_address, database_name, db_collection_config, intent_model_name, confirm_model_name
+from config.config import handle_config, plan_intent_ls, database_address, database_name, db_collection_config, intent_model_name, confirm_model_name
 from oprate_database import Database
+from NLG.plan.plan_start_nlg import ask_start_plan
 
 
 class Consult:
@@ -28,7 +29,7 @@ class Consult:
             if utterance.strip() == "exit1":
                 break
             answer = self.get_answer(utterance, "123456")
-            print(answer)
+            print("<<<{}".format(answer))
 
     def get_answer(self, customer_utterance, user_id):
         if user_id not in self.user_dict:
@@ -53,14 +54,69 @@ class Consult:
         out_content, state = handle_function(customer_utterance, self.user_dict[user_id]["intent_state_tracker_dict"][current_intent], entities, self.lac, self.intent_model, self.senta_gru, self.confirm_interpreter, self.db_obj, collection_name)
 
         if state == "stop" or state == "yes":
-            self.user_dict[user_id]["intent_state_tracker_dict"].pop(current_intent)
-            self.user_dict[user_id]["current_intent"] = ''
+            # self.user_dict[user_id]["intent_state_tracker_dict"].pop(current_intent)
+            # self.user_dict[user_id]["current_intent"] = ''
+            self.user_dict.pop(user_id)
 
         return out_content
 
-control_obj = Consult()
-control_obj.start_cmd()
+# control_obj = Consult()
+# control_obj.start_cmd()
 
+
+class Plan:
+    def __init__(self):
+        self.lac = hub.Module(name="lac")
+        self.confirm_interpreter = Interpreter.load("intent/{}/nlu".format(confirm_model_name))
+        self.senta_gru = hub.Module(name="senta_gru")
+        # self.db_obj = Database(database_address, database_name)    # TODO: database
+        self.db_obj = ''
+        self.rasa_model = judge_intent.Intent(intent_model_name)
+        self.user_dict = {}
+
+    def start_cmd(self):
+        print("<<<请您回答我的问题，以便给你做出规划，谢谢！")
+        while True:
+            utterance = input(">>>")
+            if utterance.strip() == "exit1":
+                break
+            answer = self.get_answer(utterance, "123456")
+            print("<<<{}".format(answer))
+
+    def get_answer(self, customer_utterance, user_id):
+        if user_id not in self.user_dict:
+            self.user_dict[user_id] = {"current_intent": '', "intent_state_tracker_dict": {}, "intent_ls": copy.copy(plan_intent_ls)}
+        else:
+            current_intent = self.user_dict[user_id]["current_intent"]
+            if not current_intent:
+                self.user_dict[user_id]["current_intent"] = self.user_dict[user_id]["intent_ls"][0]
+                current_intent = self.user_dict[user_id]["current_intent"]
+                return ask_start_plan(current_intent)
+
+            handle_function = handle_config[current_intent]
+            if current_intent not in self.user_dict[user_id]["intent_state_tracker_dict"]:
+                self.user_dict[user_id]["intent_state_tracker_dict"][current_intent] = State(None)
+
+            collection_name = db_collection_config[current_intent]
+
+            out_content, state = handle_function(customer_utterance,
+                                                 self.user_dict[user_id]["intent_state_tracker_dict"][current_intent],
+                                                 current_intent, self.lac, self.rasa_model, self.senta_gru,
+                                                 self.confirm_interpreter, self.db_obj, collection_name)
+
+            if state == "stop" or state == "yes":
+                self.user_dict[user_id]["intent_state_tracker_dict"].pop(current_intent)
+                self.user_dict[user_id]["current_intent"] = ''
+                self.user_dict[user_id]["intent_ls"].remove(current_intent)
+                # TODO: self.db_obj.write_records
+
+            if not self.user_dict[user_id]["intent_ls"]:
+                self.user_dict.pop(user_id)
+
+            return out_content
+
+# control_obj = Consult()
+# control_obj.start_cmd()
 
 # def control():
 #     lac = hub.Module(name="lac")

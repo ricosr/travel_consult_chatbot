@@ -7,3 +7,5 @@ def ask_start_plan(intent):
     if intent == "plan_book":
         response_sentences = ["请问告诉我您的出发地，目的地，交通方式和出发日期\n例如：从北京去上海，飞机"]
         return choice(response_sentences)
+    # TODO: add others
+
