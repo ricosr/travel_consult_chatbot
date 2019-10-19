@@ -11,7 +11,6 @@ from config.config import handle_config, slot_config, database_address, database
 from oprate_database import Database
 
 
-
 class Consult:
     def __init__(self):
         self.lac = hub.Module(name="lac")
@@ -23,19 +22,19 @@ class Consult:
         self.user_dict = {}
 
     def start_cmd(self):
+        print("<<<您想咨询什么？吃饭还是出行？")
         while True:
             utterance = input(">>>")
             if utterance.strip() == "exit1":
                 break
-            answer, score = self.get_answer(utterance)
-            print("<<<{}:{}".format(answer, score))
+            answer = self.get_answer(utterance, "123456")
+            print(answer)
 
     def get_answer(self, customer_utterance, user_id):
         if user_id not in self.user_dict:
             self.user_dict[user_id] = {"current_intent": '', "intent_state_tracker_dict": {}}
 
         current_intent = self.user_dict[user_id]["current_intent"]
-        # intent_state_tracker_dict = self.user_dict[user_id]["intent_state_tracker_dict"]
         if not current_intent:
             intent, entities = self.intent_model.get_intent(customer_utterance)
             print(intent, entities)
@@ -59,7 +58,8 @@ class Consult:
 
         return out_content
 
-
+control_obj = Consult()
+control_obj.start_cmd()
 
 
 # def control():
@@ -75,7 +75,7 @@ class Consult:
 #     state_no = None
 #     while True:
 #         entities = None
-#         customer_utterance = input(">>>")    # TODO: temp
+#         customer_utterance = input(">>>")
 #         if not current_intent:
 #             intent, entities = intent_model.get_intent(customer_utterance)
 #             print(intent, entities)
@@ -92,7 +92,7 @@ class Consult:
 #
 #         out_content, state = handle_function(customer_utterance, intent_state_tracker_dict[current_intent], entities, lac, intent_model, senta_gru, confirm_interpreter, db_obj, collection_name)
 #
-#         print(out_content)    # TODO: temp
+#         print(out_content)
 #         if state == "stop" or state == "yes":
 #             intent_state_tracker_dict.pop(current_intent)
 #             current_intent = ''

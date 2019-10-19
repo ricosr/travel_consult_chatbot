@@ -17,9 +17,9 @@ def server():
     while True:
         msg = socket.recv()
         msg = str(msg, encoding="utf-8")
-        reply = agent.get_answer(msg, "123456")
+        reply = agent.get_answer(msg, "123456")    # TODO: temp
         # print("server:{}".format(reply))
-        socket.send_string(reply)  # fixing for recv-send pair
+        socket.send_string(reply)
 
 publisher = gevent.spawn(server)
 gevent.joinall([publisher])
