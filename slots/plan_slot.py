@@ -2,7 +2,7 @@
 
 # not mandatory: 0
 
-plan_book_slot = {
+plan_ticket_slot = {
     "departure": None,
     "destination": None,
     "vehicle": None,
