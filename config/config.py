@@ -13,12 +13,14 @@ confirm_model_name = "confirm_model"
 
 handle_config = {
     'search_food': consult_food_handle,
-    'search_traffic': consult_traffic_handle
+    'search_traffic': consult_traffic_handle,
+    'plan_book': plan_book_handle
 }
 
 slot_config = {
     'search_food': consult_food_slot,
-    'search_traffic': consult_traffic_slot
+    'search_traffic': consult_traffic_slot,
+    'plan_book': plan_book_slot
 }
 
 # slot_state_config = {
@@ -27,7 +29,8 @@ slot_config = {
 
 db_collection_config = {   # TODO: database is not done
     'search_food': "restaurant",
-    'search_traffic': ""
+    'search_traffic': "",
+    'plan_book': ""
 }
 
 plan_intent_ls = ["plan_book"]    # TODO: "plan_scenic", "plan_hotel"
