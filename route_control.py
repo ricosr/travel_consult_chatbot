@@ -71,7 +71,7 @@ class Plan:
         self.senta_gru = hub.Module(name="senta_gru")
         # self.db_obj = Database(database_address, database_name)    # TODO: database
         self.db_obj = ''
-        self.rasa_model = judge_intent.Intent(intent_model_name)
+        self.intent_model = judge_intent.Intent(intent_model_name)
         self.user_dict = {}
 
     def start_cmd(self):
@@ -93,6 +93,7 @@ class Plan:
                 current_intent = self.user_dict[user_id]["current_intent"]
                 return ask_start_plan(current_intent)
 
+            intent, entities = self.intent_model.get_intent(customer_utterance)
             handle_function = handle_config[current_intent]
             if current_intent not in self.user_dict[user_id]["intent_state_tracker_dict"]:
                 self.user_dict[user_id]["intent_state_tracker_dict"][current_intent] = State(None)
@@ -101,7 +102,7 @@ class Plan:
 
             out_content, state = handle_function(customer_utterance,
                                                  self.user_dict[user_id]["intent_state_tracker_dict"][current_intent],
-                                                 current_intent, self.lac, self.rasa_model, self.senta_gru,
+                                                 current_intent, self.lac, entities, self.senta_gru,
                                                  self.confirm_interpreter, self.db_obj, collection_name)
 
             if state == "stop" or state == "yes":

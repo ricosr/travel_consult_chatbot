@@ -4,7 +4,7 @@ import time
 
 from slots.consult_slot import consult_traffic_slot
 from NLU.common import confirm_nlu
-from nlu_key_terms import consult_traffic_key_terms
+from consult_nlu_key_terms import consult_traffic_key_terms
 
 
 departure_destination_term_tag = ["LOC", "ORG", "PER", "ns", "nr", "nz", "f", "s", "nt", "nw"]  # n
@@ -30,7 +30,7 @@ def paddle_lac(text, lac):
 
 def convert_to_num(time_text):
     if "现" in time_text:
-        return time.strftime("%H:%M", time.localtime(time.time()))
+        return time.strftime("%H-%M", time.localtime(time.time()))
     num_dict = {"一": "1", "二": "2", "两": "2", "三": "3", "四": "4", "五": "5", "六": "6", "七": "7", "八": "8", "九": "9", "零": "0"}
     for time_mark in consult_traffic_key_terms["time_mark"]:
         time_text = time_text.replace(time_mark, '-').strip('-')
