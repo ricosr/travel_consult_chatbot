@@ -22,7 +22,7 @@ def create_food_data(term_file, output_file):
         #                                     end_2=start_2+len(food_term))
         temp_result += food_template.format(food=food_term).strip() + '\n'
     with open(output_file, 'w', encoding="utf-8") as fpw:
-        fpw.write("## intent:search_food\n")
+        fpw.write("## intent:consult_food\n")
         fpw.write(temp_result)
     with open("food_terms1.txt", 'w', encoding="utf-8") as fpw2:
         for term in terms_ls:
@@ -48,7 +48,7 @@ def create_food_data2(terms_ls, output_file, data_count):
         temp_result += food_template.format(food=terms_ls[j]) + '\n'
         j += 1
     with open(output_file, 'w', encoding="utf-8") as fpw:
-        fpw.write("## intent:search_food\n")
+        fpw.write("## intent:consult_food\n")
         fpw.write(temp_result)
     with open("food_terms.txt", 'w', encoding="utf-8") as fpw2:
         for term in terms_ls:
@@ -57,6 +57,6 @@ def create_food_data2(terms_ls, output_file, data_count):
 
 food_terms_ls = clean_food_data1("food_terms2.txt") + list(set(clean_food_data1("food_terms1.txt")))
 # create_food_data("food_data", "food_train_data.md")
-create_food_data2(food_terms_ls, "food_train_data5.md", 3000)
+create_food_data2(food_terms_ls, "food_train_data7.md", 6000)
 
 

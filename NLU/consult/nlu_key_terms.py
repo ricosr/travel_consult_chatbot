@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
 
-search_food_key_terms = {
+consult_food_key_terms = {
     "eat": ["吃", "喝", "尝", "品", "试", "饮"]
 }
 
 
-search_traffic_key_terms = {
+consult_traffic_key_terms = {
     "vehicle_terms": {
         "打车": ["打车", "打的", "的士", "出租车", "计程车"],
         "驾车": ["开车", "驾车", "私家车"],

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# intent: search_traffic
+# intent: consult_traffic
 
 from NLU.consult import traffic_nlu
 from NLU.common import give_up_nlu
@@ -22,11 +22,11 @@ def consult_traffic_handle(customer_utterance, state_tracker_obj, entities, lac,
         else:
             if state_tracker_obj.get_last_slot_state() != "change":
                 if state_tracker_obj.get_last_slot_state() == "ask_dept":
-                    ie_slot_result = traffic_nlu.ie_all_search_traffic(customer_utterance, lac, entities, "ask_dept")
+                    ie_slot_result = traffic_nlu.ie_all_consult_traffic(customer_utterance, lac, entities, "ask_dept")
                 elif state_tracker_obj.get_last_slot_state() == "ask_dest":
-                    ie_slot_result = traffic_nlu.ie_all_search_traffic(customer_utterance, lac, entities, "ask_dest")
+                    ie_slot_result = traffic_nlu.ie_all_consult_traffic(customer_utterance, lac, entities, "ask_dest")
                 else:
-                    ie_slot_result = traffic_nlu.ie_all_search_traffic(customer_utterance, lac, entities)
+                    ie_slot_result = traffic_nlu.ie_all_consult_traffic(customer_utterance, lac, entities)
             else:
                 ie_slot_result = entities
             print("update all", ie_slot_result)
@@ -67,14 +67,14 @@ def consult_traffic_handle(customer_utterance, state_tracker_obj, entities, lac,
     if last_slot_state != "confirm":
         return common_traffic_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name)
     else:
-        confirm_state, temp_entities = traffic_nlu.confirm_search_traffic(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter)
+        confirm_state, temp_entities = traffic_nlu.confirm_consult_traffic(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter)
         print(5, confirm_state, temp_entities)
         if confirm_state == "yes":
             state_tracker_obj.update_last_slot_state("stop")
             return confirm_nlg.response_yes(), "yes"
         if confirm_state == "no":
             state_tracker_obj.update_last_slot_state("ask")
-            return confirm_nlg.response_no("search_traffic", state_tracker_obj.get_all_confident_slot_values()), "ask"
+            return confirm_nlg.response_no("consult_traffic", state_tracker_obj.get_all_confident_slot_values()), "ask"
         if confirm_state == "stop":
             state_tracker_obj.update_last_slot_state("stop")
             return confirm_nlg.response_give_up(), "stop"

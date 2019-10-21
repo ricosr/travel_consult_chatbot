@@ -23,7 +23,7 @@ def create_traffic_data(term_file, output_file):
         temp_result += traffic_template2.format(departure=terms_ls[i], destination=terms_ls[i+1]).strip() + '\n'
 
     with open(output_file, 'w', encoding="utf-8") as fpw:
-        fpw.write("## intent:search_traffic\n")
+        fpw.write("## intent:consult_traffic\n")
         fpw.write(temp_result)
     with open("traffic_terms.txt", 'w', encoding="utf-8") as fpw2:
         for term in terms_ls:
@@ -66,11 +66,11 @@ def create_traffic_data2(term_file, vehicle_terms, output_file, data_count):
         i += 1
         j += 2
     with open(output_file, 'w', encoding="utf-8") as fpw:
-        fpw.write("## intent:search_traffic\n")
+        fpw.write("## intent:consult_traffic\n")
         fpw.write(temp_result)
     with open("traffic_terms.txt", 'w', encoding="utf-8") as fpw2:
         for term in terms_ls+vehicle_terms:
             fpw2.write(term + '\n')
 
 # create_traffic_data("beijing_spots", "traffic_train_data.md")
-create_traffic_data2("beijing_spots", "vehicle", "traffic_train_data5.md", 2000)
+create_traffic_data2("beijing_spots", "vehicle", "traffic_train_data7.md", 6000)

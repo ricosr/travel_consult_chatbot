@@ -7,7 +7,7 @@ plan_ticket_slot = {
     "destination": None,
     "vehicle": None,
     "departure_date": None,
-    "name":None,
-    "ID":None,
+    "name": None,
+    "ID": None,
     "solution_no": None
 }

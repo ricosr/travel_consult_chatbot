@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# intent: search_food
+# intent: consult_food
 
 from NLU.consult import food_nlu
 from NLU.common import give_up_nlu
@@ -21,7 +21,7 @@ def consult_food_handle(customer_utterance, state_tracker_obj, entities, lac, in
             return give_up_nlg.response_give_up(), "stop"
         else:
             if state_tracker_obj.get_last_slot_state() is not"change":
-                ie_slot_result = food_nlu.ie_all_search_food(customer_utterance, lac, entities)
+                ie_slot_result = food_nlu.ie_all_consult_food(customer_utterance, lac, entities)
             else:
                 ie_slot_result = entities
             state_tracker_obj.update_all_state(ie_slot_result)
@@ -42,14 +42,14 @@ def consult_food_handle(customer_utterance, state_tracker_obj, entities, lac, in
     if last_slot_state != "confirm":
         return common_food_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name)
     else:
-        confirm_state, temp_entities = food_nlu.confirm_search_food(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter)
+        confirm_state, temp_entities = food_nlu.confirm_consult_food(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter)
         print(5, confirm_state, temp_entities)
         if confirm_state == "yes":
             state_tracker_obj.update_last_slot_state("stop")
             return confirm_nlg.response_yes(), "yes"
         if confirm_state == "no":
             state_tracker_obj.update_last_slot_state("ask")
-            return confirm_nlg.response_no("search_food", state_tracker_obj.get_all_confident_slot_values()), "ask"
+            return confirm_nlg.response_no("consult_food", state_tracker_obj.get_all_confident_slot_values()), "ask"
         if confirm_state == "stop":
             state_tracker_obj.update_last_slot_state("stop")
             return confirm_nlg.response_give_up(), "stop"

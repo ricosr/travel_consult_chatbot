@@ -13,10 +13,10 @@ def response_yes():
 def response_no(intent, confident_slot_values):
     show_current_msg = "您现在的需求是："
     no_response_dict = {
-        "search_food": ["\n请问您还有别的要求吗？吃的其他的？换一个餐厅？还是有地点的要求？"],
-        "search_traffic": ["\n请问您还有别的要求吗？更换目的地？出发地？还是交通方式？"]
+        "consult_food": ["\n请问您还有别的要求吗？吃的其他的？换一个餐厅？还是有地点的要求？"],
+        "consult_traffic": ["\n请问您还有别的要求吗？更换目的地？出发地？还是交通方式？"]
     }
-    if intent == "search_food":
+    if intent == "consult_food":
         if "food" in confident_slot_values:
             show_current_msg += "食物：{},".format(confident_slot_values["food"])
         if "restaurant" in confident_slot_values:
@@ -24,7 +24,7 @@ def response_no(intent, confident_slot_values):
         if "location" in confident_slot_values:
             show_current_msg += "地点：{},".format(confident_slot_values["location"])
 
-    if intent == "search_traffic":
+    if intent == "consult_traffic":
         if "departure" in confident_slot_values:
             show_current_msg += "出发地：{},".format(confident_slot_values["departure"])
         if "destination" in confident_slot_values:

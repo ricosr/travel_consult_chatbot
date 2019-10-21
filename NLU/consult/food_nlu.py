@@ -3,7 +3,7 @@
 
 from slots.consult_slot import consult_food_slot
 from NLU.common import confirm_nlu
-from nlu_key_terms import search_food_key_terms
+from nlu_key_terms import consult_food_key_terms
 
 
 food_term_tag = ["n", "nz", "PER", "ORG"]
@@ -30,7 +30,7 @@ def paddle_lac(text, lac):
     return lac_result_dict
 
 
-def ie_all_search_food(customer_utterance, lac, entities):
+def ie_all_consult_food(customer_utterance, lac, entities):
     ie_values_dict = {}
     lac_result_dict = paddle_lac(customer_utterance, lac)
     print(3, entities)
@@ -59,7 +59,7 @@ def ie_all_search_food(customer_utterance, lac, entities):
         for tag_index in range(len(lac_result_dict["tag"])):
             continue_key = False
             if lac_result_dict["tag"][tag_index] in food_term_tag and "food" not in ie_values_dict:
-                for eat_term in search_food_key_terms["eat"]:
+                for eat_term in consult_food_key_terms["eat"]:
                     # if "v" in lac_result_dict["tag"][: tag_index] or "vd" in lac_result_dict["tag"][: tag_index] or "vn" in lac_result_dict["tag"][: tag_index]:
                     if eat_term in lac_result_dict["tag"][: tag_index]:
                         ie_values_dict["food"] = lac_result_dict["word"][tag_index]
@@ -105,9 +105,9 @@ def ie_all_search_food(customer_utterance, lac, entities):
 #         if lac_result_dict["tag"][tag_index] in location_term_tag:
 #             return lac_result_dict["word"][tag_index]
 
-def confirm_search_food(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter):
+def confirm_consult_food(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter):
     intent, entities = intent_model.get_intent(customer_utterance)
-    ie_slot_result = ie_all_search_food(customer_utterance, lac, entities)
+    ie_slot_result = ie_all_consult_food(customer_utterance, lac, entities)
     if ie_slot_result:
         return "change", ie_slot_result
     confirm_state = confirm_nlu.judge_confirm_classification(customer_utterance, senta_gru, confirm_interpreter)

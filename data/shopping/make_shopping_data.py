@@ -27,7 +27,7 @@ def create_shopping_data(term_file, term_file2, output_file):
     for commodity_term in list(set(terms_ls)):
         temp_result += commodity_template.format(commodity=commodity_term).strip() + '\n'
     with open(output_file, 'w', encoding="utf-8") as fpw:
-        fpw.write("## intent:search_commodity\n")
+        fpw.write("## intent:consult_commodity\n")
         fpw.write(temp_result)
     with open("shopping_terms.txt", 'w', encoding="utf-8") as fpw2:
         for term in terms_ls:
@@ -54,7 +54,7 @@ def create_shopping_data2(term_file, term_file2, output_file, data_count):
         temp_result += commodity_template.format(commodity=terms_ls[j]) + '\n'
         j += 1
     with open(output_file, 'w', encoding="utf-8") as fpw:
-        fpw.write("## intent:search_commodity\n")
+        fpw.write("## intent:consult_commodity\n")
         fpw.write(temp_result)
     with open("shopping_terms.txt", 'w', encoding="utf-8") as fpw2:
         for term in terms_ls:
@@ -62,4 +62,5 @@ def create_shopping_data2(term_file, term_file2, output_file, data_count):
 
 
 # create_shopping_data("categories.csv", "brands", "shopping_train_data.md")
-create_shopping_data2("categories.csv", "brands", "shopping_train_data3.md", 1000)
+create_shopping_data2("categories.csv", "brands", "shopping_train_data7.md", 3000)
+

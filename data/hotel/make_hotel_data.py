@@ -17,7 +17,7 @@ def create_hotel_data(term_file, output_file):
     for hotel_term in list(set(terms_ls)):
         temp_result += hotel_template.format(hotel=hotel_term).strip() + '\n'
     with open(output_file, 'w', encoding="utf-8") as fpw:
-        fpw.write("## intent:search_hotel\n")
+        fpw.write("## intent:consult_hotel\n")
         fpw.write(temp_result)
     with open("hotel_terms.txt", 'w', encoding="utf-8") as fpw2:
         for term in terms_ls:
@@ -42,7 +42,7 @@ def create_hotel_data2(term_file, output_file, data_count):
         temp_result += hotel_template.format(hotel=terms_ls[j]) + '\n'
         j += 1
     with open(output_file, 'w', encoding="utf-8") as fpw:
-        fpw.write("## intent:search_hotel\n")
+        fpw.write("## intent:consult_hotel\n")
         fpw.write(temp_result)
     with open("hotel_terms.txt", 'w', encoding="utf-8") as fpw2:
         for term in terms_ls:
@@ -50,4 +50,4 @@ def create_hotel_data2(term_file, output_file, data_count):
 
 # create_hotel_data("hotel_ls", "hotel_train_data.md")
 
-create_hotel_data2("hotel_ls", "hotel_train_data3.md", 1000)
+create_hotel_data2("hotel_ls", "hotel_train_data7.md", 3000)

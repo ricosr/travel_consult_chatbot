@@ -4,7 +4,7 @@ import time
 
 from slots.consult_slot import consult_traffic_slot
 from NLU.common import confirm_nlu
-from nlu_key_terms import search_traffic_key_terms
+from nlu_key_terms import consult_traffic_key_terms
 
 
 departure_destination_term_tag = ["LOC", "ORG", "PER", "ns", "nr", "nz", "f", "s", "nt", "nw"]  # n
@@ -32,7 +32,7 @@ def convert_to_num(time_text):
     if "现" in time_text:
         return time.strftime("%H:%M", time.localtime(time.time()))
     num_dict = {"一": "1", "二": "2", "两": "2", "三": "3", "四": "4", "五": "5", "六": "6", "七": "7", "八": "8", "九": "9", "零": "0"}
-    for time_mark in search_traffic_key_terms["time_mark"]:
+    for time_mark in consult_traffic_key_terms["time_mark"]:
         time_text = time_text.replace(time_mark, '-').strip('-')
     tmp_num_ls = time_text.split('-')
     num_judge = True
@@ -68,7 +68,7 @@ def convert_to_num(time_text):
     return '-'.join(tmp_num_ls)
 
 
-def ie_all_search_traffic(customer_utterance, lac, entities, ask_type=None):
+def ie_all_consult_traffic(customer_utterance, lac, entities, ask_type=None):
     customer_tmp_utterance = customer_utterance.replace('：', ':').replace('-', ':').replace('.', ':')
     ie_values_dict = {}
     lac_result_dict = paddle_lac(customer_tmp_utterance, lac)
@@ -115,7 +115,7 @@ def ie_all_search_traffic(customer_utterance, lac, entities, ask_type=None):
                             ie_values_dict["destination"] = entity["value"]
             if entity["entity"] == "vehicle" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_time:
                 print(entity["entity"])
-                for vehicle, terms_ls in search_traffic_key_terms["vehicle_terms"].items():
+                for vehicle, terms_ls in consult_traffic_key_terms["vehicle_terms"].items():
                     for term in terms_ls:
                         if entity["value"] in term or term in entity["value"]:
                             ie_values_dict["vehicle"] = vehicle
@@ -189,7 +189,7 @@ def ie_all_search_traffic(customer_utterance, lac, entities, ask_type=None):
                 if continue_key is True:
                     continue
             if lac_result_dict["tag"][tag_index] in vehicle_term_tag:
-                for vehicle, terms_ls in search_traffic_key_terms["vehicle_terms"].items():
+                for vehicle, terms_ls in consult_traffic_key_terms["vehicle_terms"].items():
                     for term in terms_ls:
                         if lac_result_dict["word"][tag_index] in term or term in lac_result_dict["word"][tag_index] and "vehicle" not in ie_values_dict:
                             ie_values_dict["vehicle"] = vehicle
@@ -224,9 +224,9 @@ def ie_all_search_traffic(customer_utterance, lac, entities, ask_type=None):
 #     return False
 
 
-def confirm_search_traffic(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter):
+def confirm_consult_traffic(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter):
     intent, entities = intent_model.get_intent(customer_utterance)
-    ie_slot_result = ie_all_search_traffic(customer_utterance, lac, entities)
+    ie_slot_result = ie_all_consult_traffic(customer_utterance, lac, entities)
     if ie_slot_result:
         return "change", ie_slot_result
     confirm_state = confirm_nlu.judge_confirm_classification(customer_utterance, senta_gru, confirm_interpreter)
