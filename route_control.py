@@ -102,7 +102,7 @@ class Plan:
 
             out_content, state = handle_function(customer_utterance,
                                                  self.user_dict[user_id]["intent_state_tracker_dict"][current_intent],
-                                                 current_intent, self.lac, entities, self.senta_gru,
+                                                 entities, self.lac, self.intent_model, self.senta_gru,
                                                  self.confirm_interpreter, self.db_obj, collection_name)
 
             if state == "stop" or state == "yes":
