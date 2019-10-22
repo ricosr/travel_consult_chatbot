@@ -34,7 +34,7 @@ def convert_to_num(date_text):
     if "现" in date_text or "今" in date_text:
         return datetime.datetime.now().strftime("%Y-%m-%d")
     if "明" in date_text:
-        return (datetime.datetime.now()+datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+        return (datetime.datetime.now() + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
     if "后天" in date_text:
         return (datetime.datetime.now() + datetime.timedelta(days=2)).strftime("%Y-%m-%d")
     if "大后天" in date_text:
@@ -73,6 +73,8 @@ def convert_to_num(date_text):
                     new_num += each_num
             tmp_num_ls[index] = new_num
     print('-'.join(tmp_num_ls))
+    if len(tmp_num_ls) == 2:
+        return datetime.datetime.now().strftime("%Y-") + '-'.join(tmp_num_ls)
     return '-'.join(tmp_num_ls)
 
 
@@ -236,7 +238,7 @@ def ie_name_ID(customer_utterance, lac):
 
 
 def ie_solution_no(customer_utterance, no_list):
-    pass
+    return 1
 
 
 def confirm_plan_ticket(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter):
