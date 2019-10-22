@@ -14,7 +14,8 @@ def response_no(intent, confident_slot_values):
     show_current_msg = "您现在的需求是："
     no_response_dict = {
         "consult_food": ["\n请问您还有别的要求吗？吃的其他的？换一个餐厅？还是有地点的要求？"],
-        "consult_traffic": ["\n请问您还有别的要求吗？更换目的地？出发地？还是交通方式？"]
+        "consult_traffic": ["\n请问您还有别的要求吗？更换目的地？出发地？还是交通方式？"],
+        "plan_ticket": ["\n请问您还有别的要求吗？更换出发城市？目的城市？交通方式？还是出发日期？"]
     }
     if intent == "consult_food":
         if "food" in confident_slot_values:
@@ -33,6 +34,23 @@ def response_no(intent, confident_slot_values):
             show_current_msg += "交通方式：{},".format(confident_slot_values["vehicle"])
         if "departure_time" in confident_slot_values:
             show_current_msg += "出发时间：{},".format(confident_slot_values["departure_time"])
+
+    if intent == "plan_ticket":
+        if "departure" in confident_slot_values:
+            show_current_msg += "出发城市：{},".format(confident_slot_values["departure"])
+        if "destination" in confident_slot_values:
+            show_current_msg += "目的城市：{},".format(confident_slot_values["destination"])
+        if "vehicle" in confident_slot_values:
+            show_current_msg += "交通方式：{},".format(confident_slot_values["vehicle"])
+        if "departure_time" in confident_slot_values:
+            show_current_msg += "出发日期：{},".format(confident_slot_values["departure_date"])
+        if "name " in confident_slot_values:
+            show_current_msg += "姓名：{},".format(confident_slot_values["name"])
+        if "ID" in confident_slot_values:
+            show_current_msg += "身份证号：{},".format(confident_slot_values["ID"])
+        if "solution_no" in confident_slot_values:
+            show_current_msg += "出行班次：{},".format(confident_slot_values["solution_no"])
+
 
     return show_current_msg + choice(no_response_dict[intent])
 

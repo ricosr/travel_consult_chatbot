@@ -3,9 +3,9 @@
 from random import choice
 
 
-def ask_depart_dest_vehicle():  # TODO
+def ask_depart_dest_vehicle_date():  # TODO
     response_sentences = [
-        "请问你的出发城市，目的城市，计划乘坐什么交通工具？\n例如：坐飞机从北京去上海"
+        "请问你的出发时间，出发城市，目的城市，计划乘坐什么交通工具？\n例如：8月8号坐飞机从北京去上海"
     ]
     return choice(response_sentences)
 
@@ -31,11 +31,11 @@ def ask_vehicle():
     return choice(response_sentences)
 
 
-# def response_traffic_list(search_parameters):   # TODO
-#     traffic_solutions = [   # temp
-#         "线路1",
-#         "线路2",
-#         "线路3",
-#         "线路4"
-#     ]
-#     return '\n'.join(traffic_solutions) + '\n您觉得可以吗？'
+def response_traffic_list(search_traffic_results):   # TODO
+    ticket_solutions = [   # temp
+        "1. 线路1",
+        "2. 线路2",
+        "3. 线路3",
+        "4. 线路4"
+    ]
+    return '\n'.join(ticket_solutions) + '\n请您选择一个方案的编号（1,2,3...）'
