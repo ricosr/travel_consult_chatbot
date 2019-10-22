@@ -80,42 +80,42 @@ def convert_to_num(date_text):
 
 def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
     customer_tmp_utterance = customer_utterance.replace('：', ':').replace('-', ':').replace('.', ':')
-    ie_values_dict = {}
+    # ie_values_dict = {}
     lac_result_dict = paddle_lac(customer_tmp_utterance, lac)
     print("traffic nlu lac", lac_result_dict)
-    departure_time = ''
+    ie_values_dict = ie_name_ID(customer_tmp_utterance, lac)
+    departure_date = ''
     for tag_index in range(len(lac_result_dict["tag"])):
         if lac_result_dict["tag"][tag_index] in departure_time_term_tag:
             print("time1", lac_result_dict["word"][tag_index])
-            departure_time = lac_result_dict["word"][tag_index]
+            departure_date = lac_result_dict["word"][tag_index]
             try:
                 if lac_result_dict["tag"][tag_index+1] == 'm':
-                    departure_time += lac_result_dict["word"][tag_index+1]
+                    departure_date += lac_result_dict["word"][tag_index+1]
             except Exception as e:
                 pass
-            ie_values_dict["departure_time"] = convert_to_num(departure_time)
+            ie_values_dict["departure_time"] = convert_to_num(departure_date)
             break
-
     if entities:
         for entity in entities:
-            if entity["entity"] == "departure" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_time:
+            if entity["entity"] == "departure" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_date:
                 if ask_type == "ask_dest":
                     ie_values_dict["destination"] = entity["value"]
                 else:
                     ie_values_dict["departure"] = entity["value"]
-            if entity["entity"] == "destination" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_time:
+            if entity["entity"] == "destination" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_date:
                 if ask_type == "ask_dept":
                     ie_values_dict["departure"] = entity["value"]
                 else:
                     ie_values_dict["destination"] = entity["value"]
-            if entity["entity"] == "hotel" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_time:
+            if entity["entity"] == "hotel" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_date:
                 if entity["value"] in lac_result_dict["word"]:
                     if lac_result_dict["tag"](lac_result_dict["word"].index(entity["value"])) in departure_destination_term_tag:
                         if ask_type == "ask_dept":
                             ie_values_dict["departure"] = entity["value"]
                         else:
                             ie_values_dict["destination"] = entity["value"]
-            if entity["entity"] == "vehicle" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_time:
+            if entity["entity"] == "vehicle" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_date:
                 print(entity["entity"])
                 for vehicle, terms_ls in plan_ticket_key_terms["vehicle_terms"].items():
                     for term in terms_ls:
@@ -203,13 +203,13 @@ def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
                     continue
             if lac_result_dict["tag"][tag_index] in departure_time_term_tag:
                 print("time2", lac_result_dict["word"][tag_index])
-                departure_time = lac_result_dict["word"][tag_index]
+                departure_date = lac_result_dict["word"][tag_index]
                 try:
                     if lac_result_dict["tag"][tag_index + 1] == 'm':
-                        departure_time += lac_result_dict["word"][tag_index + 1]
+                        departure_date += lac_result_dict["word"][tag_index + 1]
                 except Exception as e:
                     pass
-                ie_values_dict["departure_time"] = convert_to_num(departure_time)
+                ie_values_dict["departure_date"] = convert_to_num(departure_date)
                 continue_key = True
                 if continue_key is True:
                     continue
@@ -234,11 +234,27 @@ def ie_name_ID(customer_utterance, lac):
         if lac_result_dict["tag"][tag_index] in name_term_tag:
             ie_values_dict["name"] = lac_result_dict["word"][tag_index]
             break
-    return ie_values_dict
+    return ie_values_dict   # must return a dict !!!
 
 
-def ie_solution_no(customer_utterance, no_list):
-    return 1
+def ie_solution_no(customer_utterance, solution_no_list):   # TODO: temp method
+    for solution_no in solution_no_list:
+        if solution_no in customer_utterance:
+            return solution_no
+    return False
+
+
+def select_plan_ticket(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter, solutions):
+    solution_no = ie_solution_no(customer_utterance, solutions.keys())
+    if solution_no:
+        return "select_done", solution_no
+    intent, entities = intent_model.get_intent(customer_utterance)
+    ie_slot_result = ie_all_plan_ticket(customer_utterance, lac, entities)
+    if ie_slot_result:
+        return "change", ie_slot_result
+    confirm_state = confirm_nlu.judge_confirm_classification(customer_utterance, senta_gru, confirm_interpreter)
+    print(confirm_state)
+    return confirm_state, None
 
 
 def confirm_plan_ticket(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter):
