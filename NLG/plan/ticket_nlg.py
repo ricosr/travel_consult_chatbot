@@ -39,3 +39,37 @@ def response_traffic_list(search_traffic_results):   # TODO
         "4. 线路4"
     ]
     return '\n'.join(ticket_solutions) + '\n请您选择一个方案的编号（1,2,3...）'
+
+
+def ask_name_ID():
+    response_sentences = [
+        "请问您的姓名和身份证号？\n例如：我叫李小明，身份证号码是110101199101010001"
+    ]
+    return choice(response_sentences)
+
+
+def ask_name():
+    response_sentences = [
+        "请问您的姓名是什么？\n例如：我叫李小明"
+    ]
+    return choice(response_sentences)
+
+
+def ask_ID():
+    response_sentences = [
+        "请问您的身份证号码？\n例如：我的身份证号码是110101199101010001"
+    ]
+    return choice(response_sentences)
+
+
+def confirm_ticket_info(confident_slot_values):
+    show_current_msg = ''
+    show_current_msg += "出发城市：{},\n".format(confident_slot_values["departure"])
+    show_current_msg += "目的城市：{},\n".format(confident_slot_values["destination"])
+    show_current_msg += "交通方式：{},\n".format(confident_slot_values["vehicle"])
+    show_current_msg += "出发日期：{},\n".format(confident_slot_values["departure_date"])
+    show_current_msg += "姓名：{},\n".format(confident_slot_values["name"])
+    show_current_msg += "身份证号：{},\n".format(confident_slot_values["ID"])
+    show_current_msg += "订票序号：{},\n".format(confident_slot_values["solution_no"])
+
+    return "请确认票面信息:\n" + show_current_msg

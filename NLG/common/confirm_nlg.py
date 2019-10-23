@@ -37,20 +37,19 @@ def response_no(intent, confident_slot_values):
 
     if intent == "plan_ticket":
         if "departure" in confident_slot_values:
-            show_current_msg += "出发城市：{},".format(confident_slot_values["departure"])
+            show_current_msg += "出发城市：{},\n".format(confident_slot_values["departure"])
         if "destination" in confident_slot_values:
-            show_current_msg += "目的城市：{},".format(confident_slot_values["destination"])
+            show_current_msg += "目的城市：{},\n".format(confident_slot_values["destination"])
         if "vehicle" in confident_slot_values:
-            show_current_msg += "交通方式：{},".format(confident_slot_values["vehicle"])
+            show_current_msg += "交通方式：{},\n".format(confident_slot_values["vehicle"])
         if "departure_time" in confident_slot_values:
-            show_current_msg += "出发日期：{},".format(confident_slot_values["departure_date"])
+            show_current_msg += "出发日期：{},\n".format(confident_slot_values["departure_date"])
         if "name " in confident_slot_values:
-            show_current_msg += "姓名：{},".format(confident_slot_values["name"])
+            show_current_msg += "姓名：{},\n".format(confident_slot_values["name"])
         if "ID" in confident_slot_values:
-            show_current_msg += "身份证号：{},".format(confident_slot_values["ID"])
+            show_current_msg += "身份证号：{},\n".format(confident_slot_values["ID"])
         if "solution_no" in confident_slot_values:
-            show_current_msg += "出行班次：{},".format(confident_slot_values["solution_no"])
-
+            show_current_msg += "订票序号：{},\n".format(confident_slot_values["solution_no"])
 
     return show_current_msg + choice(no_response_dict[intent])
 
