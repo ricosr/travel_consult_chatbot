@@ -50,21 +50,34 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
                 search_ticket_dict_results = {}    # TODO
                 state_tracker_obj.add_one_state("solutions", search_ticket_dict_results, 1)
             state_tracker_obj.update_last_slot_state("confirm_select")
-            return ticket_nlg.response_traffic_list(search_ticket_dict_results), "confirm"
+            return ticket_nlg.response_traffic_list(search_ticket_dict_results), "confirm_select"
 
-    def common_personal_info():   # TODO
-        pass
+    def common_personal_info_flow(customer_utterance, state_tracker_obj, lac):
+        temp_ie_slot_result = ticket_nlu.ie_name_ID(customer_utterance, lac)
+        state_tracker_obj.update_all_state(temp_ie_slot_result)
+        slot_state_dict = state_tracker_obj.judge_each_slot_state(plan_ticket_slot.keys())
+        if slot_state_dict["name"] is False and slot_state_dict["ID"] is False:
+            state_tracker_obj.update_last_slot_state("perinfo_ask")
+            return ticket_nlg.ask_name_ID(), "perinfo_ask"
+        elif slot_state_dict["name"] is False:
+            state_tracker_obj.update_last_slot_state("perinfo_ask")
+            return ticket_nlg.ask_name(), "perinfo_ask"
+        elif slot_state_dict["ID"] is False:
+            state_tracker_obj.update_last_slot_state("perinfo_ask")
+            return ticket_nlg.ask_ID(), "perinfo_ask"
+        else:
+            return ticket_nlg.confirm_ticket_info(state_tracker_obj.get_all_confident_slot_values()), "confirm_ticket"
 
     last_slot_state = state_tracker_obj.get_last_slot_state()
     if last_slot_state == "select_done":
-        return common_personal_info()  # TODO: slot 5 and 6
+        return common_personal_info_flow(customer_utterance, state_tracker_obj, lac)
     elif last_slot_state == "confirm_select":
         confirm_state, temp_entities = ticket_nlu.select_plan_ticket(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter, state_tracker_obj.get_confident_slot_value("solutions"))
         print(5, confirm_state, temp_entities)
         if confirm_state == "select_done":
             state_tracker_obj.update_last_slot_state("select_done")
             state_tracker_obj.add_one_state("solution_no", temp_entities, 1)
-            return common_personal_info()  # TODO
+            return common_personal_info_flow(customer_utterance, state_tracker_obj, lac)  # TODO
         if confirm_state == "no":
             state_tracker_obj.update_last_slot_state("ask")
             return confirm_nlg.response_no("plan_ticket", state_tracker_obj.get_all_confident_slot_values()), "ask"
@@ -78,6 +91,27 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
             state_tracker_obj.update_last_slot_state("confirm")
             return confirm_nlg.response_nothing(), "confirm"
     elif last_slot_state == "confirm_ticket":
-        pass
+        confirm_state, temp_entities = ticket_nlu.confirm_plan_ticket(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter)
+        print(5, confirm_state, temp_entities)
+        if confirm_state == "yes":
+            state_tracker_obj.update_last_slot_state("stop")
+            return confirm_nlg.response_yes(), "yes"
+        if confirm_state == "no":
+            state_tracker_obj.update_last_slot_state("ask")
+            return confirm_nlg.response_no("plan_ticket", state_tracker_obj.get_all_confident_slot_values()), "ask"
+        if confirm_state == "stop":
+            state_tracker_obj.update_last_slot_state("stop")
+            return confirm_nlg.response_give_up(), "stop"
+        if confirm_state == "change":
+            state_tracker_obj.update_last_slot_state("change")
+            if len(set(list(temp_entities.keys())+["name", "ID"])) <= 2:
+                return common_personal_info_flow(customer_utterance, state_tracker_obj, lac)
+            else:
+                return common_ticket_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name)
+        if confirm_state == "nothing":
+            state_tracker_obj.update_last_slot_state("confirm")
+            return confirm_nlg.response_nothing(), "confirm"
+    elif last_slot_state[:7] == "perinfo":
+        common_personal_info_flow(customer_utterance, state_tracker_obj, lac)  # TODO
     else:
          return common_ticket_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name)
