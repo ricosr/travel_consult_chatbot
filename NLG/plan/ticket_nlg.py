@@ -32,13 +32,10 @@ def ask_vehicle():
 
 
 def response_traffic_list(search_traffic_results):   # TODO
-    ticket_solutions = [   # temp
-        "1. 线路1",
-        "2. 线路2",
-        "3. 线路3",
-        "4. 线路4"
-    ]
-    return '\n'.join(ticket_solutions) + '\n请您选择一个方案的编号（1,2,3...）'
+    response_text = ''
+    for solution_no, solution in search_traffic_results.items():
+        response_text += "{}: {}\n".format(solution_no, solution)
+    return '\n' + response_text + '\n请您选择一个方案的编号（1,2,3...）'
 
 
 def ask_name_ID():
@@ -72,4 +69,4 @@ def confirm_ticket_info(confident_slot_values):
     show_current_msg += "身份证号：{},\n".format(confident_slot_values["ID"])
     show_current_msg += "订票序号：{},\n".format(confident_slot_values["solution_no"])
 
-    return "请确认票面信息:\n" + show_current_msg
+    return "\n请确认票面信息:\n" + show_current_msg + "\n是否确认？"
