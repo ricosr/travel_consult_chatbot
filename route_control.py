@@ -84,40 +84,41 @@ class Plan:
             print("<<<{}".format(answer))
 
     def get_answer(self, customer_utterance, user_id):
+        current_intent = ''
         if user_id not in self.user_dict:
             self.user_dict[user_id] = {"current_intent": '', "intent_state_tracker_dict": {}, "intent_ls": copy.copy(plan_intent_ls)}
         else:
             current_intent = self.user_dict[user_id]["current_intent"]
-            if not current_intent:
-                self.user_dict[user_id]["current_intent"] = self.user_dict[user_id]["intent_ls"][0]
-                current_intent = self.user_dict[user_id]["current_intent"]
-                return ask_start_plan(current_intent)
+        if not current_intent:
+            self.user_dict[user_id]["current_intent"] = self.user_dict[user_id]["intent_ls"][0]
+            current_intent = self.user_dict[user_id]["current_intent"]
+            return ask_start_plan(current_intent)
 
-            intent, entities = self.intent_model.get_intent(customer_utterance)
-            handle_function = handle_config[current_intent]
-            if current_intent not in self.user_dict[user_id]["intent_state_tracker_dict"]:
-                self.user_dict[user_id]["intent_state_tracker_dict"][current_intent] = State(None)
+        intent, entities = self.intent_model.get_intent(customer_utterance)
+        handle_function = handle_config[current_intent]
+        if current_intent not in self.user_dict[user_id]["intent_state_tracker_dict"]:
+            self.user_dict[user_id]["intent_state_tracker_dict"][current_intent] = State(None)
 
-            collection_name = db_collection_config[current_intent]
+        collection_name = db_collection_config[current_intent]
 
-            out_content, state = handle_function(customer_utterance,
-                                                 self.user_dict[user_id]["intent_state_tracker_dict"][current_intent],
-                                                 entities, self.lac, self.intent_model, self.senta_gru,
-                                                 self.confirm_interpreter, self.db_obj, collection_name)
+        out_content, state = handle_function(customer_utterance,
+                                             self.user_dict[user_id]["intent_state_tracker_dict"][current_intent],
+                                             entities, self.lac, self.intent_model, self.senta_gru,
+                                             self.confirm_interpreter, self.db_obj, collection_name)
 
-            if state == "stop" or state == "yes":
-                self.user_dict[user_id]["intent_state_tracker_dict"].pop(current_intent)
-                self.user_dict[user_id]["current_intent"] = ''
-                self.user_dict[user_id]["intent_ls"].remove(current_intent)
-                # TODO: self.db_obj.write_records
+        if state == "stop" or state == "yes":
+            self.user_dict[user_id]["intent_state_tracker_dict"].pop(current_intent)
+            self.user_dict[user_id]["current_intent"] = ''
+            self.user_dict[user_id]["intent_ls"].remove(current_intent)
+            # TODO: self.db_obj.write_records
 
-            if not self.user_dict[user_id]["intent_ls"]:
-                self.user_dict.pop(user_id)
+        if not self.user_dict[user_id]["intent_ls"]:
+            self.user_dict.pop(user_id)
 
-            return out_content
+        return out_content
 
-# control_obj = Consult()
-# control_obj.start_cmd()
+plan_obj = Plan()
+plan_obj.start_cmd()
 
 # def control():
 #     lac = hub.Module(name="lac")
