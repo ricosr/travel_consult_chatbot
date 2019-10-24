@@ -50,6 +50,8 @@ def convert_to_num(date_text):
                 num_judge = False
                 break
     if num_judge is True:
+        if len(tmp_num_ls) == 2:
+            return datetime.datetime.now().strftime("%Y-") + '-'.join(tmp_num_ls)
         return '-'.join(tmp_num_ls)
 
     for index in range(len(tmp_num_ls)):
@@ -94,7 +96,7 @@ def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
                     departure_date += lac_result_dict["word"][tag_index+1]
             except Exception as e:
                 pass
-            ie_values_dict["departure_time"] = convert_to_num(departure_date)
+            ie_values_dict["departure_date"] = convert_to_num(departure_date)
             break
     if entities:
         for entity in entities:
@@ -219,14 +221,16 @@ def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
 
 def ie_name_ID(customer_utterance, lac):
     ie_values_dict = {}
-    ID18_pattern = re.compile(r"^[1-9]\d{5}(18|19|([23]\d))\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]$", re.I)
-    ID15_pattern = re.compile(r"^[1-9]\d{5}\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{2}$", re.I)
+    ID18_pattern = re.compile(r"[1-9]\d{5}(18|19|([23]\d))\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]", re.I)
+    ID15_pattern = re.compile(r"[1-9]\d{5}\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{2}", re.I)
     re_ID18 = ID18_pattern.search(customer_utterance)
     if re_ID18:
+        print("ID18", re_ID18.group())
         ie_values_dict["ID"] = re_ID18.group(0)
     else:
         re_ID15 = ID15_pattern.search(customer_utterance)
         if re_ID15:
+            print("ID15", re_ID15.group())
             ie_values_dict["ID"] = re_ID15.group(0)
 
     lac_result_dict = paddle_lac(customer_utterance, lac)
@@ -234,12 +238,13 @@ def ie_name_ID(customer_utterance, lac):
         if lac_result_dict["tag"][tag_index] in name_term_tag:
             ie_values_dict["name"] = lac_result_dict["word"][tag_index]
             break
+    print("ID and name", ie_values_dict)
     return ie_values_dict   # must return a dict !!!
 
 
 def ie_solution_no(customer_utterance, solution_no_list):   # TODO: temp method
     for solution_no in solution_no_list:
-        if solution_no in customer_utterance:
+        if str(solution_no) in customer_utterance:
             return solution_no
     return False
 
