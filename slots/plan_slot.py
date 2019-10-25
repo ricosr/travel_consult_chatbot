@@ -11,3 +11,9 @@ plan_ticket_slot = {
     "ID": None,
     "solution_no": None
 }
+
+plan_scenic_spot_slot = {
+    "city": None,
+    "days": None,
+    "scheme_no": None
+}
