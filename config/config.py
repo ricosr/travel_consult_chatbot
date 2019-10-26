@@ -10,8 +10,8 @@ from slots.plan_slot import plan_ticket_slot
 database_address = "mongodb://xxx:xxxx@xxx.xxx.xxx.xxx:27017/admin"
 database_name = "Travel_DB"
 
-intent_model_name = "models5"
-confirm_model_name = "confirm_model"
+intent_model_name = "models6"
+confirm_model_name = "confirm_model2"
 
 handle_config = {
     'consult_food': consult_food_handle,
