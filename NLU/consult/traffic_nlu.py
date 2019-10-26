@@ -31,7 +31,7 @@ def paddle_lac(text, lac):
 def convert_to_num(time_text):
     if "现" in time_text:
         return time.strftime("%H-%M", time.localtime(time.time()))
-    num_dict = {"一": "1", "二": "2", "两": "2", "三": "3", "四": "4", "五": "5", "六": "6", "七": "7", "八": "8", "九": "9", "零": "0"}
+    num_dict = {"一": "1", "二": "2", "两": "2", "三": "3", "四": "4", "五": "5", "六": "6", "七": "7", "八": "8", "九": "9", "零": "0", "十":''}
     for time_mark in consult_traffic_key_terms["time_mark"]:
         time_text = time_text.replace(time_mark, '-').strip('-')
     tmp_num_ls = time_text.split('-')
@@ -48,11 +48,15 @@ def convert_to_num(time_text):
         try:
             int(tmp_num_ls[index])
         except Exception as e:
+            tmp_num = ''
             if '十' in tmp_num_ls[index]:
                 if tmp_num_ls[index][0] == '十':
                     tmp_num = tmp_num_ls[index].replace('十', '1')
                     if len(tmp_num_ls[index]) == 1:
                         tmp_num += '0'
+                elif len(tmp_num_ls[index]) > 1:
+                    if tmp_num_ls[index][1] == '十':
+                        tmp_num = tmp_num_ls[index].replace('十', '0')
                 else:
                     tmp_num = tmp_num_ls[index].replace('十', '')
             else:

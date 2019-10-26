@@ -39,10 +39,11 @@ def convert_to_num(date_text):
         return (datetime.datetime.now() + datetime.timedelta(days=2)).strftime("%Y-%m-%d")
     if "大后天" in date_text:
         return (datetime.datetime.now() + datetime.timedelta(days=3)).strftime("%Y-%m-%d")
-    num_dict = {"一": "1", "二": "2", "两": "2", "三": "3", "四": "4", "五": "5", "六": "6", "七": "7", "八": "8", "九": "9", "零": "0"}
+    num_dict = {"一": "1", "二": "2", "两": "2", "三": "3", "四": "4", "五": "5", "六": "6", "七": "7", "八": "8", "九": "9", "零": "0", "十":''}
     for time_mark in plan_ticket_key_terms["date_mark"]:
         date_text = date_text.replace(time_mark, '-').strip('-')
     tmp_num_ls = date_text.split('-')
+    print("tmp_num_ls", tmp_num_ls)
     num_judge = True
     for each_num in tmp_num_ls:
         for key in num_dict:
@@ -58,11 +59,15 @@ def convert_to_num(date_text):
         try:
             int(tmp_num_ls[index])
         except Exception as e:
+            tmp_num = ''
             if '十' in tmp_num_ls[index]:
                 if tmp_num_ls[index][0] == '十':
                     tmp_num = tmp_num_ls[index].replace('十', '1')
                     if len(tmp_num_ls[index]) == 1:
                         tmp_num += '0'
+                elif len(tmp_num_ls[index]) > 1:
+                    if tmp_num_ls[index][1] == '十':
+                        tmp_num = tmp_num_ls[index].replace('十', '0')
                 else:
                     tmp_num = tmp_num_ls[index].replace('十', '')
             else:
