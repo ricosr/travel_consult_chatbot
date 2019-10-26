@@ -45,6 +45,9 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
             elif slot_state_dict["vehicle"] is False:
                 state_tracker_obj.update_last_slot_state("ask")
                 return ticket_nlg.ask_vehicle(), "ask"
+            elif slot_state_dict["departure_date"] is False:
+                state_tracker_obj.update_last_slot_state("ask")
+                return ticket_nlg.ask_departure_date(), "ask"
             else:
                 # search_ticket_dict_results = db_obj.search_db(collection_name, state_tracker_obj.get_all_confident_slot_values())  # TODO: database
                 search_ticket_dict_results = {
