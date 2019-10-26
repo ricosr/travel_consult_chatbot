@@ -126,17 +126,18 @@ def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
                 print(entity["entity"])
                 for vehicle, terms_ls in plan_ticket_key_terms["vehicle_terms"].items():
                     for term in terms_ls:
-                        if entity["value"] in term or term in entity["value"]:
+                        if (entity["value"] in term or term in entity["value"]) and len(customer_utterance) > 1:
                             ie_values_dict["vehicle"] = vehicle
                             break
                     if "vehicle" in ie_values_dict:
                         break
+    print("entities done:", ie_values_dict)
     if not judge_all_entities(ie_values_dict):
         if len(lac_result_dict["tag"]) == 1 and lac_result_dict["tag"][0] in departure_destination_term_tag:
             if ask_type == "ask_dept":
                 ie_values_dict["departure"] = customer_tmp_utterance
-            else:
-                ie_values_dict["destination"] = customer_tmp_utterance
+            # else:
+            #     ie_values_dict["destination"] = customer_tmp_utterance
             return ie_values_dict
         temp_tag_point = 0
         for tag_index in range(len(lac_result_dict["tag"])):
@@ -161,6 +162,7 @@ def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
                         v_index = lac_result_dict["tag"][temp_tag_point: tag_index].index("vd")
                     elif "vn" in lac_result_dict["tag"][temp_tag_point: tag_index]:
                         v_index = lac_result_dict["tag"][temp_tag_point: tag_index].index("vn")
+                    # elif ""
                     else:
                         continue
                     print("des lac:", lac_result_dict["tag"][temp_tag_point: tag_index+1][v_index:])
