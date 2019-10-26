@@ -33,14 +33,15 @@ traffic_template2 = """
 
 traffic_template_ls_1a = [
     "- 目的地是[{destination}](destination)",
+    "- 目的城市是[{destination}](destination)",
+    "- 目标是[{destination}](destination)"
     "- [{destination}](destination)在哪边",
     "- [{destination}](destination)怎么过去啊",
     "- 到[{destination}](destination)怎么走啊",
-    "- 这能到[{destination}](destination)",
+    "- 这能到[{destination}](destination)吗",
     "- 请问[{destination}](destination)怎么走",
     "- 那个[{destination}](destination)在什么地方",
     "- 你知道[{destination}](destination)在哪儿吗",
-    "- 到[{destination}](destination)怎么走",
     "- 我想去[{destination}](destination)",
     "- 帮我找一条路去[{destination}](destination)",
     "- 坐什么能到[{destination}](destination)",
@@ -51,6 +52,8 @@ traffic_template_ls_1a = [
 ]
 
 traffic_template_ls_1b = [
+    "- [{departure}](departure)到[{destination}](destination)",
+    "- [{departure}](departure)去[{destination}](destination)",
     "- 出发是[{departure}](departure), 目的地是[{destination}](destination)",
     "- 从[{departure}](departure)到[{destination}](destination)怎么走",
     "- 在[{departure}](departure)怎么去[{destination}](destination)",
@@ -66,7 +69,8 @@ traffic_template_ls_1c = [
     "- 从[{departure}](departure)走",
     "- 从[{departure}](departure)过去",
     "- 出发地是[{departure}](departure)",
-    "- 出发是[{departure}](departure)"
+    "- 出发是[{departure}](departure)",
+    "- 出发城市是[{departure}](departure)"
 ]
 
 traffic_template_ls2 = [
