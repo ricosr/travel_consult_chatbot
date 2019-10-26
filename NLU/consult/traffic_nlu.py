@@ -121,7 +121,7 @@ def ie_all_consult_traffic(customer_utterance, lac, entities, ask_type=None):
                 print(entity["entity"])
                 for vehicle, terms_ls in consult_traffic_key_terms["vehicle_terms"].items():
                     for term in terms_ls:
-                        if entity["value"] in term or term in entity["value"]:
+                        if (entity["value"] in term or term in entity["value"]) and len(customer_utterance) > 1:
                             ie_values_dict["vehicle"] = vehicle
                             break
                     if "vehicle" in ie_values_dict:
