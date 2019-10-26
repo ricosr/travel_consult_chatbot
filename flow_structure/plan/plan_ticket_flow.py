@@ -63,6 +63,10 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
             return ticket_nlg.response_traffic_list(search_ticket_dict_results), "confirm_select"
 
     def common_personal_info_flow(customer_utterance, state_tracker_obj, lac):
+        give_up_state = give_up_nlu.whether_give_up(customer_utterance, senta_gru, confirm_interpreter)
+        if give_up_state:
+            state_tracker_obj.update_last_slot_state("stop")
+            return give_up_nlg.response_give_up(), "stop"
         temp_ie_slot_result = ticket_nlu.ie_name_ID(customer_utterance, lac)
         state_tracker_obj.update_all_state(temp_ie_slot_result)
         slot_state_dict = state_tracker_obj.judge_each_slot_state(plan_ticket_slot.keys())
@@ -119,7 +123,7 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
             if len(set(list(temp_entities.keys())+["name", "ID"])) <= 2:
                 return common_personal_info_flow(customer_utterance, state_tracker_obj, lac)
             else:
-                return common_ticket_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name)
+                return common_ticket_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
         if confirm_state == "nothing":
             state_tracker_obj.update_last_slot_state("confirm_ticket")
             return confirm_nlg.response_nothing(), "confirm_ticket"
