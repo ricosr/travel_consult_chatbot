@@ -164,20 +164,22 @@ def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
                         v_index = lac_result_dict["tag"][temp_tag_point: tag_index].index("vn")
                     # elif ""
                     else:
-                        continue
-                    print("des lac:", lac_result_dict["tag"][temp_tag_point: tag_index+1][v_index:])
-                    ie_values_dict["destination"] = lac_result_dict["word"][tag_index]
-                    continue_key = True
-                    temp_tag_point = tag_index + 1
-                    tmp_tag_ls = lac_result_dict["tag"][tag_index + 1:]
-                    tmp_word_ls = lac_result_dict["word"][tag_index + 1:]
-                    for tag_i in range(len(tmp_tag_ls)):
-                        if tmp_tag_ls[tag_i] in departure_destination_term_tag or tmp_tag_ls[tag_i] == 'n':  # and "departure" not in ie_values_dict:  # TODO: rule is good? or rasa?
-                            ie_values_dict["destination"] += tmp_word_ls[tag_i]
-                            temp_tag_point += 1
-                        else:
-                            break
+                        v_index = False
+                    if v_index:
+                        print("des lac:", lac_result_dict["tag"][temp_tag_point: tag_index+1][v_index:])
+                        ie_values_dict["destination"] = lac_result_dict["word"][tag_index]
+                        continue_key = True
+                        temp_tag_point = tag_index + 1
+                        tmp_tag_ls = lac_result_dict["tag"][tag_index + 1:]
+                        tmp_word_ls = lac_result_dict["word"][tag_index + 1:]
+                        for tag_i in range(len(tmp_tag_ls)):
+                            if tmp_tag_ls[tag_i] in departure_destination_term_tag or tmp_tag_ls[tag_i] == 'n':  # and "departure" not in ie_values_dict:  # TODO: rule is good? or rasa?
+                                ie_values_dict["destination"] += tmp_word_ls[tag_i]
+                                temp_tag_point += 1
+                            else:
+                                break
                 if ask_type == "ask_dept":
+                    print("ask_dept", lac_result_dict["word"][tag_index])
                     ie_values_dict["departure"] = lac_result_dict["word"][tag_index]
                     tmp_tag_ls = lac_result_dict["tag"][tag_index + 1:]
                     tmp_word_ls = lac_result_dict["word"][tag_index + 1:]
@@ -187,6 +189,8 @@ def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
                             temp_tag_point += 1
                         else:
                             break
+                    print("end ask_dept", ie_values_dict)
+                    break
                 if ask_type == "ask_dest":
                     ie_values_dict["destination"] = lac_result_dict["word"][tag_index]
                     tmp_tag_ls = lac_result_dict["tag"][tag_index + 1:]
@@ -197,6 +201,7 @@ def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
                             temp_tag_point += 1
                         else:
                             break
+                    break
                 if continue_key is True:
                     continue
             if lac_result_dict["tag"][tag_index] in vehicle_term_tag:
