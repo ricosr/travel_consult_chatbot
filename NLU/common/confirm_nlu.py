@@ -29,8 +29,8 @@ def judge_confirm_classification(customer_utterance, senta_gru, confirm_interpre
         return "nothing"
 
     if str(intent) == "yes":
-        if negative_probs > positive_probs:
-            return "nothing"
+        # if negative_probs > positive_probs:
+        #     return "nothing"
         if confidence < yes_intent_threshold:
             if positive_probs > yes_positive_threshold:
                 return intent
@@ -43,8 +43,8 @@ def judge_confirm_classification(customer_utterance, senta_gru, confirm_interpre
             print(intent)
             return intent
     if intent == "no":
-        if negative_probs < positive_probs:
-            return "nothing"
+        # if negative_probs < positive_probs:
+        #     return "nothing"
         if confidence < no_intent_threshold:
             if negative_probs > no_negative_threshold:
                 return intent
@@ -56,8 +56,8 @@ def judge_confirm_classification(customer_utterance, senta_gru, confirm_interpre
         else:
             return intent
     if intent == "stop":
-        if negative_probs < positive_probs:
-            return "nothing"
+        # if negative_probs < positive_probs:
+        #     return "nothing"
         if confidence < nothing_intent_threshold:
             if negative_probs > nothing_negative_threshold:
                 return intent
