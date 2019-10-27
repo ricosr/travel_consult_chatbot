@@ -207,7 +207,8 @@ def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
             if lac_result_dict["tag"][tag_index] in vehicle_term_tag:
                 for vehicle, terms_ls in plan_ticket_key_terms["vehicle_terms"].items():
                     for term in terms_ls:
-                        if lac_result_dict["word"][tag_index] in term or term in lac_result_dict["word"][tag_index] and "vehicle" not in ie_values_dict:
+                        if (lac_result_dict["word"][tag_index] in term or term in lac_result_dict["word"][tag_index]) and "vehicle" not in ie_values_dict and len(customer_utterance) > 1:
+                            print("utterance length:", len(customer_utterance))
                             ie_values_dict["vehicle"] = vehicle
                             continue_key = True
                             break
