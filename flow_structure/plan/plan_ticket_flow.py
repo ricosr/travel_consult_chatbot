@@ -105,7 +105,9 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
             return common_ticket_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
         if confirm_state == "nothing" or confirm_state == "yes":
             state_tracker_obj.update_last_slot_state("confirm")
-            return confirm_nlg.response_nothing(), "confirm"
+            # return confirm_nlg.response_nothing(), "confirm"
+            search_ticket_dict_results = state_tracker_obj.get_confident_slot_value("solutions")
+            return ticket_nlg.response_traffic_list(search_ticket_dict_results), "confirm"
     elif last_slot_state == "confirm_ticket":
         confirm_state, temp_entities = ticket_nlu.confirm_plan_ticket(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter)
         print(5, confirm_state, temp_entities)
