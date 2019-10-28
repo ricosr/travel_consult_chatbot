@@ -87,7 +87,6 @@ def convert_to_num(date_text):
 
 def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
     customer_tmp_utterance = customer_utterance.replace('：', ':').replace('-', ':').replace('.', ':')
-    # ie_values_dict = {}
     lac_result_dict = paddle_lac(customer_tmp_utterance, lac)
     print("traffic nlu lac", lac_result_dict)
     ie_values_dict = ie_name_ID(customer_tmp_utterance, lac)
@@ -106,15 +105,41 @@ def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
     if entities:
         for entity in entities:
             if entity["entity"] == "departure" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_date:
+                loc_key = False
+                tmp_loc_tag = ''
+                if entity["value"] in lac_result_dict["word"]:
+                    loc_key = True
+                    tmp_loc_tag = lac_result_dict["tag"][lac_result_dict["word"].index(entity["value"])]
                 if ask_type == "ask_dest":
-                    ie_values_dict["destination"] = entity["value"]
+                    if loc_key is True:
+                        if tmp_loc_tag in departure_destination_term_tag + ['n']:
+                            ie_values_dict["destination"] = entity["value"]
+                    # else:
+                    #     ie_values_dict["destination"] = entity["value"]
                 else:
-                    ie_values_dict["departure"] = entity["value"]
+                    if loc_key is True:
+                        if tmp_loc_tag in departure_destination_term_tag + ['n']:
+                            ie_values_dict["departure"] = entity["value"]
+                    # else:
+                    #     ie_values_dict["departure"] = entity["value"]
             if entity["entity"] == "destination" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_date:
+                loc_key = False
+                tmp_loc_tag = ''
+                if entity["value"] in lac_result_dict["word"]:
+                    loc_key = True
+                    tmp_loc_tag = lac_result_dict["tag"][lac_result_dict["word"].index(entity["value"])]
                 if ask_type == "ask_dept":
-                    ie_values_dict["departure"] = entity["value"]
+                    if loc_key is True:
+                        if tmp_loc_tag in departure_destination_term_tag + ['n']:
+                            ie_values_dict["departure"] = entity["value"]
+                    # else:
+                    #     ie_values_dict["departure"] = entity["value"]
                 else:
-                    ie_values_dict["destination"] = entity["value"]
+                    if loc_key is True:
+                        if tmp_loc_tag in departure_destination_term_tag + ['n']:
+                            ie_values_dict["destination"] = entity["value"]
+                    # else:
+                    #     ie_values_dict["destination"] = entity["value"]
             if entity["entity"] == "hotel" and entity["value"].replace('：', ':').replace('-', ':').replace('.', ':') not in departure_date:
                 if entity["value"] in lac_result_dict["word"]:
                     if lac_result_dict["tag"](lac_result_dict["word"].index(entity["value"])) in departure_destination_term_tag:
