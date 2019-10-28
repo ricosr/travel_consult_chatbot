@@ -11,7 +11,7 @@ def response_yes():
 
 
 def response_no(intent, confident_slot_values):
-    show_current_msg = "您现在的需求是："
+    show_current_msg = "您现在的需求是：\n"
     no_response_dict = {
         "consult_food": ["\n请问您还有别的要求吗？吃的其他的？换一个餐厅？还是有地点的要求？"],
         "consult_traffic": ["\n请问您还有别的要求吗？更换目的地？出发地？还是交通方式？"],
@@ -63,6 +63,6 @@ def response_give_up():
 
 def response_nothing():
     stop_sentences = [
-        "请告诉我 可以 或 不可以，您也可以更改需求，谢谢！"
+        "请告诉我 可以 或 不可以，或者直接输入 新的需求，谢谢！"
     ]
     return choice(stop_sentences)

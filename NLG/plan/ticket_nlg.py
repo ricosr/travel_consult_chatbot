@@ -42,7 +42,7 @@ def response_traffic_list(search_traffic_results):   # TODO
     response_text = ''
     for solution_no, solution in search_traffic_results.items():
         response_text += "{}: {}\n".format(solution_no, solution)
-    return '\n' + response_text + '\n请您选择一个方案的编号（1,2,3...）'
+    return '\n' + response_text + '\n请您在以上方案中选择一个方案的编号（输入 1,2,3...）'
 
 
 def ask_name_ID():
