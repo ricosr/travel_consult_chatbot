@@ -1,4 +1,4 @@
-<mxfile modified="2019-10-23T14:45:47.002Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="otqf_PTLmiKbRzjM227o" version="12.1.4" type="github" pages="1">
+<mxfile modified="2019-10-28T06:47:10.731Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="u0OHjGtCw7bCt0XwbbFT" version="12.1.7" type="github" pages="1">
   <diagram id="6r8ebwQPKGLBiBFQONnZ" name="Page-1">
     <mxGraphModel dx="904" dy="1369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -140,12 +140,18 @@
         <mxCell id="vndDen_A82_FgcWnEU_Y-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vndDen_A82_FgcWnEU_Y-40" target="ZlfuMa2-yeJI-Y9UWcC_-1" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="f19TXx5zY4OCxn9IoFhB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.955;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="vndDen_A82_FgcWnEU_Y-40" target="f19TXx5zY4OCxn9IoFhB-19" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="f19TXx5zY4OCxn9IoFhB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.955;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="vndDen_A82_FgcWnEU_Y-40" target="vndDen_A82_FgcWnEU_Y-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="908.9411764705883" y="954.5294117647059" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="930" y="1107"/>
+              <mxPoint x="930" y="929"/>
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="f19TXx5zY4OCxn9IoFhB-21" value="no certain answer" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="f19TXx5zY4OCxn9IoFhB-20" vertex="1" connectable="0">
           <mxGeometry x="-0.3377" relative="1" as="geometry">
-            <mxPoint as="offset"/>
+            <mxPoint x="15" y="-92.5" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="vndDen_A82_FgcWnEU_Y-40" value="&lt;font style=&quot;font-size: 14px&quot;&gt;select?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -360,12 +366,6 @@
         <mxCell id="f19TXx5zY4OCxn9IoFhB-13" value="&lt;span style=&quot;font-size: 14px ; white-space: normal&quot;&gt;&amp;nbsp; &amp;nbsp;robot: ask and give examples &lt;br&gt;to user&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="242" y="290" width="180" height="58" as="geometry"/>
         </mxCell>
-        <mxCell id="f19TXx5zY4OCxn9IoFhB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="f19TXx5zY4OCxn9IoFhB-19" target="vndDen_A82_FgcWnEU_Y-37" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="f19TXx5zY4OCxn9IoFhB-19" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&amp;nbsp; &amp;nbsp;robot:give example answers&lt;br&gt;(select a number)&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="817.5" y="902" width="182" height="53" as="geometry"/>
-        </mxCell>
         <mxCell id="f19TXx5zY4OCxn9IoFhB-24" value="&lt;font style=&quot;font-size: 14px&quot;&gt;stop&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="258" y="1076.7701631433824" width="100" height="60" as="geometry"/>
         </mxCell>
@@ -440,10 +440,10 @@
         <mxCell id="8qUp4hz3IpJ9676Ca-v3-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;only exist slot 5 or 6 ?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1133.5" y="1214.5" width="157" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="hVzL59oLVLgbHV7sCubN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hVzL59oLVLgbHV7sCubN-1" target="vndDen_A82_FgcWnEU_Y-43">
+        <mxCell id="hVzL59oLVLgbHV7sCubN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hVzL59oLVLgbHV7sCubN-1" target="vndDen_A82_FgcWnEU_Y-43" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="hVzL59oLVLgbHV7sCubN-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;extract values and fill slots&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hVzL59oLVLgbHV7sCubN-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;extract values and fill slots&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="839" y="1219.5" width="144" height="50" as="geometry"/>
         </mxCell>
       </root>
