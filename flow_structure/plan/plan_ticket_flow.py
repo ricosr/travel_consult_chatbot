@@ -60,7 +60,7 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
                 print("start to select solution")
             state_tracker_obj.update_last_slot_state("confirm_select")
             print("common last state", state_tracker_obj.get_last_slot_state())
-            return ticket_nlg.response_traffic_list(search_ticket_dict_results), "confirm_select"
+            return ticket_nlg.response_solution_list(search_ticket_dict_results), "confirm_select"
 
     def common_personal_info_flow(customer_utterance, state_tracker_obj, lac):
         give_up_state = give_up_nlu.whether_give_up(customer_utterance, senta_gru, confirm_interpreter)
@@ -107,7 +107,7 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
             state_tracker_obj.update_last_slot_state("confirm")
             # return confirm_nlg.response_nothing(), "confirm"
             search_ticket_dict_results = state_tracker_obj.get_confident_slot_value("solutions")
-            return ticket_nlg.response_traffic_list(search_ticket_dict_results), "confirm"
+            return ticket_nlg.response_solution_list(search_ticket_dict_results), "confirm"
     elif last_slot_state == "confirm_ticket":
         confirm_state, temp_entities = ticket_nlu.confirm_plan_ticket(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter)
         print(5, confirm_state, temp_entities)

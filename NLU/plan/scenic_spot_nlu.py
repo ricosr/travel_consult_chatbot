@@ -43,7 +43,7 @@ def normalize_num(utterance):
     return utterance
 
 
-def ie_all_plan_scenic_spot(customer_utterance, lac, entities, ask_type=None):
+def ie_all_plan_scenic_spot(customer_utterance, lac, entities):
     lac_result_dict = paddle_lac(customer_utterance, lac)
     ie_values_dict = {}
     for tag_index in range(len(lac_result_dict["tag"])):
@@ -68,17 +68,17 @@ def ie_all_plan_scenic_spot(customer_utterance, lac, entities, ask_type=None):
     return ie_values_dict
 
 
-def ie_scheme_no(customer_utterance, solution_no_list):   # TODO: temp method
-    for solution_no in solution_no_list:
-        if str(solution_no) in customer_utterance:
-            return solution_no
+def ie_scheme_no(customer_utterance, scheme_no_list):   # TODO: temp method
+    for scheme_no in scheme_no_list:
+        if str(scheme_no) in customer_utterance:
+            return scheme_no
     return False
 
 
-def confirm_plan_scenic_spot(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter, solutions):
-    solution_no = ie_scheme_no(customer_utterance, solutions.keys())
-    if solution_no:
-        return "yes", solution_no
+def confirm_plan_scenic_spot(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter, schemes):
+    scheme_no = ie_scheme_no(customer_utterance, schemes.keys())
+    if scheme_no:
+        return "yes", scheme_no
     intent, entities = intent_model.get_intent(customer_utterance)
     ie_slot_result = ie_all_plan_scenic_spot(customer_utterance, lac, entities)
     if ie_slot_result:
