@@ -15,7 +15,8 @@ def response_no(intent, confident_slot_values):
     no_response_dict = {
         "consult_food": ["\n请问您还有别的要求吗？吃的其他的？换一个餐厅？还是有地点的要求？"],
         "consult_traffic": ["\n请问您还有别的要求吗？更换目的地？出发地？还是交通方式？"],
-        "plan_ticket": ["\n请问您还有别的要求吗？更换出发城市？目的城市？交通方式？还是出发日期？"]
+        "plan_ticket": ["\n请问您还有别的要求吗？更换出发城市？目的城市？交通方式？还是出发日期？"],
+        "plan_scenic_spot": ["\n请问您还有别的需求吗？更换旅游城市？还是调整旅游天数？"]
     }
     if intent == "consult_food":
         if "food" in confident_slot_values:
@@ -51,6 +52,11 @@ def response_no(intent, confident_slot_values):
         if "solution_no" in confident_slot_values:
             show_current_msg += "订票序号：{},\n".format(confident_slot_values["solution_no"])
 
+    if intent == "plan_scenic_spot":
+        if "city" in confident_slot_values:
+            show_current_msg += "旅游城市：{},\n".format(confident_slot_values["departure"])
+        if "days" in confident_slot_values:
+            show_current_msg += "旅游天数：{},\n".format(confident_slot_values["destination"])
     return show_current_msg + choice(no_response_dict[intent])
 
 
