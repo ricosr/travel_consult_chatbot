@@ -14,7 +14,7 @@ from slots.plan_slot import plan_ticket_slot
 
 def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, intent_model, senta_gru, confirm_interpreter, db_obj, collection_name):
 
-    def common_ticket_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name):
+    def ie_ticket_info_state_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name):
         give_up_state = give_up_nlu.whether_give_up(customer_utterance, senta_gru, confirm_interpreter)
         if give_up_state:
             state_tracker_obj.update_last_slot_state("stop")
@@ -62,7 +62,7 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
             print("common last state", state_tracker_obj.get_last_slot_state())
             return ticket_nlg.response_solution_list(search_ticket_dict_results), "confirm_select"
 
-    def common_personal_info_flow(customer_utterance, state_tracker_obj, lac):
+    def ie_personal_info_state_flow(customer_utterance, state_tracker_obj, lac):
         give_up_state = give_up_nlu.whether_give_up(customer_utterance, senta_gru, confirm_interpreter)
         if give_up_state:
             state_tracker_obj.update_last_slot_state("stop")
@@ -86,14 +86,14 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
     last_slot_state = state_tracker_obj.get_last_slot_state()
     print("last_slot_state:", last_slot_state)
     if last_slot_state == "select_done":
-        return common_personal_info_flow(customer_utterance, state_tracker_obj, lac)
+        return ie_personal_info_state_flow(customer_utterance, state_tracker_obj, lac)
     elif last_slot_state == "confirm_select":
         confirm_state, temp_entities = ticket_nlu.select_plan_ticket(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter, state_tracker_obj.get_confident_slot_value("solutions"))
         print(5, confirm_state, temp_entities)
         if confirm_state == "select_done":
             state_tracker_obj.update_last_slot_state("select_done")
             state_tracker_obj.add_one_state("solution_no", temp_entities, 1)
-            return common_personal_info_flow(customer_utterance, state_tracker_obj, lac)  # TODO
+            return ie_personal_info_state_flow(customer_utterance, state_tracker_obj, lac)  # TODO
         if confirm_state == "no":
             state_tracker_obj.update_last_slot_state("ask")
             return confirm_nlg.response_no("plan_ticket", state_tracker_obj.get_all_confident_slot_values()), "ask"
@@ -102,7 +102,7 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
             return confirm_nlg.response_give_up(), "stop"
         if confirm_state == "change":
             state_tracker_obj.update_last_slot_state("change")
-            return common_ticket_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
+            return ie_ticket_info_state_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
         if confirm_state == "nothing" or confirm_state == "yes":
             state_tracker_obj.update_last_slot_state("confirm")
             # return confirm_nlg.response_nothing(), "confirm"
@@ -123,9 +123,9 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
         if confirm_state == "change":
             state_tracker_obj.update_last_slot_state("change")
             if len(set(list(temp_entities.keys())+["name", "ID"])) <= 2:
-                return common_personal_info_flow(customer_utterance, state_tracker_obj, lac)
+                return ie_personal_info_state_flow(customer_utterance, state_tracker_obj, lac)
             else:
-                return common_ticket_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
+                return ie_ticket_info_state_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
         if confirm_state == "nothing":
             state_tracker_obj.update_last_slot_state("confirm_ticket")
             return confirm_nlg.response_nothing("plan_ticket"), "confirm_ticket"
@@ -135,6 +135,6 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
     else:
         if last_slot_state:
             if last_slot_state[:7] == "perinfo":
-                return common_personal_info_flow(customer_utterance, state_tracker_obj, lac)  # TODO
+                return ie_personal_info_state_flow(customer_utterance, state_tracker_obj, lac)  # TODO
         print("else......")
-        return common_ticket_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name)
+        return ie_ticket_info_state_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name)

@@ -14,7 +14,7 @@ from slots.plan_slot import plan_scenic_spot_slot
 
 def plan_scenic_spot_handle(customer_utterance, state_tracker_obj, entities, lac, intent_model, senta_gru, confirm_interpreter, db_obj, collection_name):
 
-    def common_scenic_spot_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name):
+    def ie_scenic_spot_state_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name):
         give_up_state = give_up_nlu.whether_give_up(customer_utterance, senta_gru, confirm_interpreter)
         if give_up_state:
             state_tracker_obj.update_last_slot_state("stop")
@@ -60,7 +60,7 @@ def plan_scenic_spot_handle(customer_utterance, state_tracker_obj, entities, lac
     last_slot_state = state_tracker_obj.get_last_slot_state()
     print("last_slot_state:", last_slot_state)
     if last_slot_state != "confirm_select":
-        return common_scenic_spot_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name)
+        return ie_scenic_spot_state_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name)
     else:
         confirm_state, temp_entities = scenic_spot_nlu.confirm_plan_scenic_spot(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter, state_tracker_obj.get_confident_slot_value("schemes"))
         print(5, confirm_state, temp_entities)
@@ -75,7 +75,7 @@ def plan_scenic_spot_handle(customer_utterance, state_tracker_obj, entities, lac
             return confirm_nlg.response_give_up(), "stop"
         if confirm_state == "change":
             state_tracker_obj.update_last_slot_state("change")
-            return common_scenic_spot_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
+            return ie_scenic_spot_state_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
         if confirm_state == "nothing":
             state_tracker_obj.update_last_slot_state("confirm_select")
             return confirm_nlg.response_nothing("plan_scenic_spot"), "confirm_select"

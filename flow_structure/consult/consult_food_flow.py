@@ -14,7 +14,7 @@ from slots.consult_slot import consult_food_slot
 
 def consult_food_handle(customer_utterance, state_tracker_obj, entities, lac, intent_model, senta_gru, confirm_interpreter, db_obj, collection_name):
 
-    def common_food_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name):
+    def ie_food_state_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name):
         give_up_state = give_up_nlu.whether_give_up(customer_utterance, senta_gru, confirm_interpreter)
         if give_up_state:
             state_tracker_obj.update_last_slot_state("stop")
@@ -40,7 +40,7 @@ def consult_food_handle(customer_utterance, state_tracker_obj, entities, lac, in
     last_slot_state = state_tracker_obj.get_last_slot_state()
     print(last_slot_state)
     if last_slot_state != "confirm":
-        return common_food_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name)
+        return ie_food_state_flow(customer_utterance, state_tracker_obj, entities, lac, db_obj, collection_name)
     else:
         confirm_state, temp_entities = food_nlu.confirm_consult_food(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter)
         print(5, confirm_state, temp_entities)
@@ -55,7 +55,7 @@ def consult_food_handle(customer_utterance, state_tracker_obj, entities, lac, in
             return confirm_nlg.response_give_up(), "stop"
         if confirm_state == "change":
             state_tracker_obj.update_last_slot_state("change")
-            return common_food_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
+            return ie_food_state_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
         if confirm_state == "nothing":
             state_tracker_obj.update_last_slot_state("confirm")
             return confirm_nlg.response_nothing("consult_food"), "confirm"
