@@ -27,7 +27,7 @@ def paddle_lac(text, lac):
     return lac_result_dict
 
 
-def normalize_num(utterance):
+def ie_days(utterance):
     large_num = ['十', '百', '千', '万']
     for num in large_num:
         if num in utterance:
@@ -38,9 +38,18 @@ def normalize_num(utterance):
             utterance = utterance.replace(key, value)
     re_pattern = re.compile("[0-9]+")
     re_result = re_pattern.search(utterance)
-    if int(re_result.group(0)) > 7:
+    if re_result:
+        tmp_num = re_result.group(0)
+        if int(tmp_num) > 7:
+            return False
+        if utterance[utterance.index(re_result.group(0))+len(tmp_num)] == "周":
+            if int(tmp_num) > 1:
+                return False
+            if int(tmp_num) == 1:
+                return 7
+        return tmp_num
+    else:
         return False
-    return utterance
 
 
 def ie_all_plan_scenic_spot(customer_utterance, lac, entities):
@@ -51,7 +60,7 @@ def ie_all_plan_scenic_spot(customer_utterance, lac, entities):
             ie_values_dict["city"] = lac_result_dict["word"][tag_index]
             continue
         if lac_result_dict["tag"][tag_index] in departure_time_term_tag:
-            nor_num = normalize_num(lac_result_dict["word"][tag_index])
+            nor_num = ie_days(lac_result_dict["word"][tag_index])
             if nor_num:
                 ie_values_dict["days"] = nor_num
     if not judge_all_entities(ie_values_dict):
