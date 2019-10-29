@@ -18,7 +18,7 @@ handle_config = {
     'consult_food': consult_food_handle,
     'consult_traffic': consult_traffic_handle,
     'plan_ticket': plan_ticket_handle,
-    'plan_scenic_spot':plan_scenic_spot_handle
+    'plan_scenic_spot': plan_scenic_spot_handle
 }
 
 slot_config = {
@@ -39,4 +39,4 @@ db_collection_config = {   # TODO: database is not done
     "plan_scenic_spot": ""
 }
 
-plan_intent_ls = ["plan_scenic_spot"]    # TODO: "plan_ticket", "plan_hotel"
+plan_intent_ls = ["plan_ticket"]    # TODO: "plan_scenic_spot", "plan_hotel"
