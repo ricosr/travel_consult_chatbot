@@ -31,7 +31,7 @@ def ask_vehicle():
     return choice(response_sentences)
 
 
-def response_traffic_list(search_parameters):   # TODO
+def response_traffic_list(search_traffic_results):   # TODO
     traffic_solutions = [   # temp
         "线路1",
         "线路2",
