@@ -78,4 +78,4 @@ def plan_scenic_spot_handle(customer_utterance, state_tracker_obj, entities, lac
             return common_scenic_spot_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
         if confirm_state == "nothing":
             state_tracker_obj.update_last_slot_state("confirm_select")
-            return confirm_nlg.response_nothing(), "confirm_select"
+            return confirm_nlg.response_nothing("plan_scenic_spot"), "confirm_select"

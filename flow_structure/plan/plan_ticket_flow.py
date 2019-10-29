@@ -128,7 +128,7 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
                 return common_ticket_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
         if confirm_state == "nothing":
             state_tracker_obj.update_last_slot_state("confirm_ticket")
-            return confirm_nlg.response_nothing(), "confirm_ticket"
+            return confirm_nlg.response_nothing("plan_ticket"), "confirm_ticket"
     # elif last_slot_state:
     #     if last_slot_state[:7] == "perinfo":
     #         return common_personal_info_flow(customer_utterance, state_tracker_obj, lac)  # TODO

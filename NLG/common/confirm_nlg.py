@@ -67,8 +67,25 @@ def response_give_up():
     return choice(stop_sentences)
 
 
-def response_nothing():
-    stop_sentences = [
-        "请告诉我 可以 或 不可以，或者直接输入 新的需求，谢谢！"
-    ]
+def response_nothing(intent):
+    if intent == "consult_food":
+        stop_sentences = [
+            "请告诉我 可以 或 不可以，或者直接输入 新的需求，谢谢！"
+        ]
+    elif intent == "consult_traffic":
+        stop_sentences = [
+            "请告诉我 可以 或 不可以，或者直接输入 新的需求，谢谢！"
+        ]
+    elif intent == "plan_ticket":
+        stop_sentences = [
+            "请告诉我 可以 或 不可以，或者直接输入 新的需求，谢谢！"
+        ]
+    elif intent == "plan_scenic_spot":
+        stop_sentences = [
+            "请输入一个方案编号，例如：1或2...，谢谢！"
+        ]
+    else:
+        stop_sentences = [
+            "请告诉我 可以 或 不可以，或者直接输入 新的需求，谢谢！"
+        ]
     return choice(stop_sentences)

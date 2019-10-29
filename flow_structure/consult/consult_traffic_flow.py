@@ -83,4 +83,4 @@ def consult_traffic_handle(customer_utterance, state_tracker_obj, entities, lac,
             return common_traffic_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
         if confirm_state == "nothing":
             state_tracker_obj.update_last_slot_state("confirm")
-            return confirm_nlg.response_nothing(), "confirm"
+            return confirm_nlg.response_nothing("consult_traffic"), "confirm"
