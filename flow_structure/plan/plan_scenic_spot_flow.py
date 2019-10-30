@@ -24,6 +24,7 @@ def plan_scenic_spot_handle(customer_utterance, state_tracker_obj, entities, lac
                 ie_slot_result = scenic_spot_nlu.ie_all_plan_scenic_spot(customer_utterance, lac, entities)
             else:
                 ie_slot_result = entities
+            print("ie_slot_result:", ie_slot_result)
             state_tracker_obj.update_all_state(ie_slot_result)
 
             slot_state_dict = state_tracker_obj.judge_each_slot_state(plan_scenic_spot_slot.keys())

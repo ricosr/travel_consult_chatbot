@@ -54,9 +54,9 @@ def response_no(intent, confident_slot_values):
 
     if intent == "plan_scenic_spot":
         if "city" in confident_slot_values:
-            show_current_msg += "旅游城市：{},\n".format(confident_slot_values["departure"])
+            show_current_msg += "旅游城市：{},\n".format(confident_slot_values["city"])
         if "days" in confident_slot_values:
-            show_current_msg += "旅游天数：{},\n".format(confident_slot_values["destination"])
+            show_current_msg += "旅游天数：{},\n".format(confident_slot_values["days"])
     return show_current_msg + choice(no_response_dict[intent])
 
 
