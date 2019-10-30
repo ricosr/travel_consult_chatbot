@@ -5,7 +5,7 @@ import requests
 
 def weather(city_name, day):
     # try:
-        weather_info = requests.get('https://www.tianqiapi.com/api/?version=v1&city={}'.format(city_name))
+        weather_info = requests.get('https://www.tianqiapi.com/api/?version=v1&city={}&appid=93387335&appsecret=zf6zUTCj'.format(city_name))
         weather_info.encoding = weather_info.apparent_encoding
         # print(weather_info.json())
         weather_dict = extract_info(weather_info.json())
@@ -15,7 +15,7 @@ def weather(city_name, day):
 
 
 def extract_info(json_info):
-    # print(json_info)
+    print(json_info)
     weather_dict = {}
     exp_judge = False
     two_win = False
@@ -74,7 +74,7 @@ def extract_info(json_info):
     return weather_dict
 
 
-def handle(city_name, day):
+def request_weather_interface(city_name, day):
     # city_name = "香港"
     # day = 0
     # day_key_word = {"今": 0, "明": 1, "后": 2}
@@ -84,10 +84,10 @@ def handle(city_name, day):
     # for day_key, day_val in day_key_word.items():
     #     if day_key in message:
     #         day = day_val
-    reply = weather(city_name, day)
+    reply = weather(city_name, day-1)
     return reply if reply else '不会自己去看天气预报啊'
 
 
 # if __name__ == '__main__':
 #     # import load_cities
-#     print(handle("今天北京天气", "北京"))
+#     print(request_weather_interface("今天北京天气", "北京"))
