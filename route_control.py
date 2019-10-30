@@ -10,6 +10,7 @@ from state_tracker import State
 from config.config import handle_config, plan_intent_ls, database_address, database_name, db_collection_config, intent_model_name, confirm_model_name
 from oprate_database import Database
 from NLG.plan.plan_start_nlg import ask_start_plan
+from NLU.consult.weather_nlu import load_city
 
 
 class Consult:
@@ -20,10 +21,11 @@ class Consult:
         # self.db_obj = Database(database_address, database_name)    # TODO: database
         self.db_obj = ''
         self.intent_model = judge_intent.Intent(intent_model_name)
+        self.city_ls = load_city("static/city.json")
         self.user_dict = {}
 
     def start_cmd(self):
-        print("<<<您想咨询什么？吃饭还是出行？")
+        print("<<<您想咨询什么？吃饭？出行？天气？")
         while True:
             utterance = input(">>>")
             if utterance.strip() == "exit1":
@@ -49,7 +51,10 @@ class Consult:
         if current_intent not in self.user_dict[user_id]["intent_state_tracker_dict"]:
             self.user_dict[user_id]["intent_state_tracker_dict"][current_intent] = State(None)
 
-        collection_name = db_collection_config[current_intent]
+        if current_intent == "consult_weather":
+            collection_name = self.city_ls
+        else:
+            collection_name = db_collection_config[current_intent]
 
         out_content, state = handle_function(customer_utterance, self.user_dict[user_id]["intent_state_tracker_dict"][current_intent], entities, self.lac, self.intent_model, self.senta_gru, self.confirm_interpreter, self.db_obj, collection_name)
 
@@ -60,8 +65,8 @@ class Consult:
 
         return out_content
 
-# control_obj = Consult()
-# control_obj.start_cmd()
+control_obj = Consult()
+control_obj.start_cmd()
 
 
 class Plan:
@@ -117,8 +122,8 @@ class Plan:
 
         return out_content
 
-plan_obj = Plan()
-plan_obj.start_cmd()
+# plan_obj = Plan()
+# plan_obj.start_cmd()
 
 # def control():
 #     lac = hub.Module(name="lac")
