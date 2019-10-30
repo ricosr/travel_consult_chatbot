@@ -1,2 +1,7 @@
-不
-万科城西门公交站出发
+
+要不要把rule和rasa换顺序，traffic以rule为准，ticket以rasa为准
+
+plan改成选择，不强制按顺序
+
+
+
