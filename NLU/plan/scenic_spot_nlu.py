@@ -7,7 +7,7 @@ from NLU.common import confirm_nlu
 # from plan_nlu_key_terms import plan_ticket_key_terms
 
 
-city_term_tag = ["LOC", "ORG", "PER", "ns", "nr", "nz", "f", "s", "nt", "nw"]  # n
+city_term_tag = ["LOC", "ORG", "ns", "nr", "nz", "f", "s", "nt", "nw"]  # n
 departure_time_term_tag = ["m", "q", "TIME", "t"]
 
 
