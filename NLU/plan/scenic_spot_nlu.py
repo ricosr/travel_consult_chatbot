@@ -40,13 +40,15 @@ def ie_days(utterance):
     re_result = re_pattern.search(utterance)
     if re_result:
         tmp_num = re_result.group(0)
+        print("num:", num)
         if int(tmp_num) > 7:
             return False
-        if utterance[utterance.index(re_result.group(0))+len(tmp_num)] == "周":
-            if int(tmp_num) > 1:
-                return False
-            if int(tmp_num) == 1:
-                return 7
+        if len(utterance) > utterance.index(re_result.group(0))+len(tmp_num):
+            if utterance[utterance.index(re_result.group(0))+len(tmp_num)] == "周":
+                if int(tmp_num) > 1:
+                    return False
+                if int(tmp_num) == 1:
+                    return 7
         return tmp_num
     else:
         return False
@@ -54,6 +56,7 @@ def ie_days(utterance):
 
 def ie_all_plan_scenic_spot(customer_utterance, lac, entities):
     lac_result_dict = paddle_lac(customer_utterance, lac)
+    print("lac_result_dict:", lac_result_dict)
     ie_values_dict = {}
     for tag_index in range(len(lac_result_dict["tag"])):
         if lac_result_dict["tag"][tag_index] in city_term_tag:
@@ -65,15 +68,21 @@ def ie_all_plan_scenic_spot(customer_utterance, lac, entities):
                 ie_values_dict["days"] = nor_num
     if not judge_all_entities(ie_values_dict):
         if entities:
+            print("entities:", entities)
             if "city" not in ie_values_dict:
-                for entity_index in entities:
+                for entity_index in range(len(entities)):
                     if entities[entity_index]["entity"] == "destination":
-                        ie_values_dict["city"] = entities[entity_index]["value"]
+                        tmp_ie_city = paddle_lac(entities[entity_index]["value"], lac)
+                        for tag_index in range(len(tmp_ie_city["tag"])):
+                            if tmp_ie_city["tag"][tag_index] in city_term_tag:
+                                ie_values_dict["city"] = tmp_ie_city["word"][tag_index]
             if "city" not in ie_values_dict:
-                for entity_index in entities:
+                for entity_index in range(len(entities)):
                     if entities[entity_index]["entity"] == "departure":
-                        ie_values_dict["city"] = entities[entity_index]["value"]
-
+                        tmp_ie_city = paddle_lac(entities[entity_index]["value"], lac)
+                        for tag_index in range(len(tmp_ie_city["tag"])):
+                            if tmp_ie_city["tag"][tag_index] in city_term_tag:
+                                ie_values_dict["city"] = tmp_ie_city["word"][tag_index]
     return ie_values_dict
 
 
