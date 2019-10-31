@@ -37,8 +37,8 @@ class Client:
         client = gevent.spawn(self.client)
         gevent.joinall([client])
 
-    def get_response(self, utterance, client_no, msgid):
-        self.socket.send_string(utterance)
+    def get_response(self, utterance, client_no, msgid, from_user_name):
+        self.socket.send_string(utterance + "@---@" + from_user_name)
         reply = self.socket.recv()
 
         if reply:
