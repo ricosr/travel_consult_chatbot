@@ -60,7 +60,7 @@ def load_clients(consult_ip, plan_ip):
 
 
 def select_consult_client():
-    i = random.randint(0, 19)
+    i = random.randint(0, CONSULT_CLIENT_NUM-1)
     while True:
         if i == CONSULT_CLIENT_NUM:
             i = 0
@@ -74,7 +74,7 @@ def select_consult_client():
 
 
 def select_plan_client():
-    i = random.randint(0, 19)
+    i = random.randint(0, PLAN_CLIENT_NUM-1)
     while True:
         if i == PLAN_CLIENT_NUM:
             i = 0
