@@ -1,12 +1,8 @@
 # -*- coding:utf-8 -*-
-import urllib.request
-import re
+
 import logging
-import pickle
 import traceback
 from random import choice
-import copy
-
 
 from gevent.pywsgi import WSGIServer
 from gevent import monkey
@@ -15,11 +11,11 @@ import falcon
 from wechatpy.utils import check_signature
 from wechatpy.exceptions import InvalidSignatureException
 from wechatpy import parse_message
-from wechatpy.replies import TextReply, ImageReply
+from wechatpy.replies import TextReply
 
 
 from rule_based_common_nlg import rule_response
-from request_client import Client, load_clients, select_consult_client, select_plan_client
+from request_client import load_clients, select_consult_client, select_plan_client
 from util.translate_l import translate
 from util.language import punctuation_ls
 
@@ -70,9 +66,7 @@ class Connect:
             if language == 'en':
                 input_language_zh = False
                 inputTxt = translate(inputTxt, 'en')
-            replyTxt, reply_type = self.getReply(inputTxt, input_language_zh, msg.id, from_user_name)
-            if "@@##$$@@" not in replyTxt and replyTxt and reply_type == "chat":
-                self.cache_dict[inputTxt] = replyTxt
+            replyTxt, reply_type = self.getReply(inputTxt, msg.id, input_language_zh)
             reply = TextReply(content=replyTxt, message=msg)
             xml = reply.render()
             resp.body = (xml)
@@ -88,17 +82,18 @@ class Connect:
         from_user_name = msg_para_ls[from_user_name_index].split(',')[1].strip('\'')
         return from_user_name
 
-    def getReply(self, text, input_language_zh, msg_id, from_user_name):
+    def getReply(self, utterance, msg_id, input_language_zh):
         default_reply = ["什么什么什么？没听懂", "我没理解你的意思，可以具体一点吗？", "主人，你在讲啥子嘛？", "我太笨，你能换个说法吗？"]
-        city_name = ''
-        k = 0
         try:
-            response_msg = rule_response(text)
+            response_msg = rule_response(utterance)
             if not response_msg:
-                client_obj, cli_no = select_consult_client()    # TODO: how to select for different taskes
+                client_obj, client_no = select_consult_client()    # TODO: how to select for different tasks
+                response_msg = client_obj.get_response(utterance, client_no, msg_id)
             logging.info(response_msg + "none")
+            if input_language_zh is False and self.judge_language(response_msg) == "zh":
+                response_msg = translate(response_msg, 'zh')
             if response_msg:
-                return response_msg
+                return response_msg, "norm"
             else:
                 logging.info(response_msg + "none")
                 return choice(default_reply), "none"
