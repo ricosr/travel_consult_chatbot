@@ -28,6 +28,7 @@ class Connect:
     def __init__(self, consult_ip, plan_ip, wechat_token):
         load_clients(consult_ip, plan_ip)
         self.wechat_token = wechat_token
+        self.user_state = {}
 
     def judge_language(self, message):
         for each_char in message:
@@ -87,6 +88,16 @@ class Connect:
         try:
             response_msg = rule_response(utterance)
             if not response_msg:
+                if utterance == "咨询":   # TODO
+                    # recoder user consult state
+                    return "请提问..."
+                if utterance == "规划":
+                    # recoder user plan state
+                    return "请选择1,2,3.。。"
+                if utterance == "订票":
+                    pass
+                if utterance == "攻略":
+                    pass
                 client_obj, client_no = select_consult_client()    # TODO: how to select for different tasks
                 response_msg = client_obj.get_response(utterance, client_no, msg_id, from_user_name)
             logging.info(response_msg + "none")

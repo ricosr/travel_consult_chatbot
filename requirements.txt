@@ -10,3 +10,8 @@ prox
 paddle
 paddlepaddle
 gevent
+wechatpy[pycrypto]
+falcon
+requests
+waitress
+zmp
