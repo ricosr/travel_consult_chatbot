@@ -88,18 +88,21 @@ class Connect:
         try:
             response_msg = rule_response(utterance)
             if not response_msg:
-                if utterance == "咨询":   # TODO
-                    # recoder user consult state
-                    return "请提问..."
-                if utterance == "规划":
-                    # recoder user plan state
-                    return "请选择1,2,3.。。"
+                if utterance == "咨询":
+                    self.user_state[from_user_name] = "consult"
+                    return "请输入关于美食，交通或天气的咨询问题。"
+                # if utterance == "规划":
+                #     return "请输入 订票 或 攻略"
                 if utterance == "订票":
-                    pass
-                if utterance == "攻略":
-                    pass
-                client_obj, client_no = select_consult_client()    # TODO: how to select for different tasks
-                response_msg = client_obj.get_response(utterance, client_no, msg_id, from_user_name)
+                    self.user_state[from_user_name] = "plan_ticket"
+                    pass   # TODO
+                if utterance == "景点":
+                    self.user_state[from_user_name] = "plan_scenic_spot"
+                    pass    # TODO
+                if from_user_name in self.user_state:
+                    if self.user_state[from_user_name] == "consult":
+                        client_obj, client_no = select_consult_client()    # TODO: how to select for different tasks
+                        response_msg = client_obj.get_response(utterance, client_no, msg_id, from_user_name)
             logging.info(response_msg + "none")
             if input_language_zh is False and self.judge_language(response_msg) == "zh":
                 response_msg = translate(response_msg, 'zh')
