@@ -1,9 +1,15 @@
 
 要不要把rule和rasa换顺序，traffic以rule为准，ticket以rasa为准
 
-plan改成选择，不强制按顺序
 
 用户活动计时器
 
 繁体字
 
+去除print
+
+去除rule里影响intent的规则
+
+一个礼拜
+
+最后状态 yes stop
