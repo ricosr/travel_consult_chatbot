@@ -40,7 +40,6 @@ class Client:
     def get_response(self, utterance, client_no, msgid, from_user_name):
         self.socket.send_string(utterance + "@---@" + from_user_name)
         reply = self.socket.recv()
-
         if reply:
             response = str(reply, encoding="utf-8")
         if Client.msg_id != msgid:    # for timeout

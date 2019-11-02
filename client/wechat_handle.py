@@ -18,6 +18,7 @@ from rule_based_common_nlg import rule_response
 from request_client import load_clients, select_consult_client, select_plan_client
 from util.translate_l import translate
 from util.language import punctuation_ls
+from NLG.plan.plan_start_nlg import ask_start_plan
 
 
 logging.basicConfig(filename='logger.log', level=logging.INFO)
@@ -85,34 +86,50 @@ class Connect:
 
     def getReply(self, utterance, msg_id, input_language_zh, from_user_name):
         default_reply = ["什么什么什么？没听懂", "我没理解你的意思，可以具体一点吗？", "主人，你在讲啥子嘛？", "我太笨，你能换个说法吗？"]
+        state = ''
         try:
             response_msg = rule_response(utterance)
             if not response_msg:
                 if utterance == "咨询":
                     self.user_state[from_user_name] = "consult"
-                    return "请输入关于美食，交通或天气的咨询问题。"
+                    response_msg = "请输入关于美食，交通或天气的咨询问题。"
                 # if utterance == "规划":
                 #     return "请输入 订票 或 攻略"
                 if utterance == "订票":
                     self.user_state[from_user_name] = "plan_ticket"
-                    pass   # TODO
+                    response_msg = ask_start_plan("plan_ticket")
                 if utterance == "景点":
                     self.user_state[from_user_name] = "plan_scenic_spot"
-                    pass    # TODO
+                    response_msg = ask_start_plan("plan_scenic_spot")
                 if from_user_name in self.user_state:
                     if self.user_state[from_user_name] == "consult":
                         client_obj, client_no = select_consult_client()    # TODO: how to select for different tasks
-                        response_msg = client_obj.get_response(utterance, client_no, msg_id, from_user_name)
-            logging.info(response_msg + "none")
+                        response_msg, state = client_obj.get_response(utterance, client_no, msg_id, from_user_name).split("@---@")
+                    if self.user_state[from_user_name] == "plan_ticket":
+                        client_obj, client_no = select_plan_client()
+                        utterance = utterance + "@---@" + "plan_ticket"
+                        response_msg, state = client_obj.get_response(utterance, client_no, msg_id, from_user_name).split("@---@")
+                    if self.user_state[from_user_name] == "plan_scenic_spot":
+                        utterance = utterance + "@---@" + "plan_scenic_spot"
+                        client_obj, client_no = select_plan_client()
+                        response_msg, state = client_obj.get_response(utterance, client_no, msg_id, from_user_name).split("@---@")
+                else:
+                    response_msg = "请输入 咨询 订票 景点，谢谢！"
             if input_language_zh is False and self.judge_language(response_msg) == "zh":
                 response_msg = translate(response_msg, 'zh')
             if response_msg:
+                if state == "stop" or state == "yes":
+                    self.user_state.pop(from_user_name)
                 return response_msg, "norm"
             else:
                 logging.info(response_msg + "none")
+                if state == "stop" or state == "yes":
+                    self.user_state.pop(from_user_name)
                 return choice(default_reply), "none"
         except Exception as e:
             logging.error(traceback.format_exc())
+            if state == "stop" or state == "yes":
+                self.user_state.pop(from_user_name)
             return choice(default_reply), "err"
 
 
