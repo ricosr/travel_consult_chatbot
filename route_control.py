@@ -92,11 +92,13 @@ class Plan:
         current_intent = ''
         if user_id not in self.user_dict:
             if plan_intent:
-                self.user_dict[user_id] = {"current_intent": '', "intent_state_tracker_dict": {}, "plan_intent": plan_intent}
+                self.user_dict[user_id] = {"current_intent": plan_intent, "intent_state_tracker_dict": {}, "plan_intent": ''}
+                current_intent = self.user_dict[user_id]["current_intent"]
             else:
                 self.user_dict[user_id] = {"current_intent": '', "intent_state_tracker_dict": {}, "plan_intent": copy.copy(plan_intent_ls)}
         else:
             current_intent = self.user_dict[user_id]["current_intent"]
+
         if not current_intent:
             self.user_dict[user_id]["current_intent"] = self.user_dict[user_id]["plan_intent"][0]
             current_intent = self.user_dict[user_id]["current_intent"]
@@ -104,8 +106,13 @@ class Plan:
 
         intent, entities = self.intent_model.get_intent(customer_utterance)
         handle_function = handle_config[current_intent]
-        if current_intent not in self.user_dict[user_id]["intent_state_tracker_dict"]:
-            self.user_dict[user_id]["intent_state_tracker_dict"][current_intent] = State(None)
+
+        if plan_intent:
+            if plan_intent not in self.user_dict[user_id]["intent_state_tracker_dict"]:
+                self.user_dict[user_id]["intent_state_tracker_dict"][current_intent] = State(None)
+        else:
+            if current_intent not in self.user_dict[user_id]["intent_state_tracker_dict"]:
+                self.user_dict[user_id]["intent_state_tracker_dict"][current_intent] = State(None)
 
         collection_name = db_collection_config[current_intent]
 
@@ -115,15 +122,19 @@ class Plan:
                                              self.confirm_interpreter, self.db_obj, collection_name)
 
         if state == "stop" or state == "yes":
-            self.user_dict[user_id]["intent_state_tracker_dict"].pop(current_intent)
-            self.user_dict[user_id]["current_intent"] = ''
-            self.user_dict[user_id]["plan_intent"].remove(current_intent)
+            print("ffffffffffffffffff", state)
+            self.user_dict.pop(user_id)
+            # self.user_dict[user_id]["intent_state_tracker_dict"].pop(current_intent)
+            # self.user_dict[user_id]["current_intent"] = ''
+            # if not plan_intent:
+            #     self.user_dict[user_id]["plan_intent"].remove(current_intent)
             # TODO: self.db_obj.write_records
 
-        if not self.user_dict[user_id]["plan_intent"]:
-            self.user_dict.pop(user_id)
+        # if not plan_intent:
+        #     if not self.user_dict[user_id]["plan_intent"]:
+        #         self.user_dict.pop(user_id)
 
-        return out_content
+        return out_content + "@---@" + state
 
 # plan_obj = Plan()
 # plan_obj.start_cmd()
