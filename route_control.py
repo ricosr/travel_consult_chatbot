@@ -63,7 +63,7 @@ class Consult:
             # self.user_dict[user_id]["current_intent"] = ''
             self.user_dict.pop(user_id)
 
-        return out_content
+        return out_content + "@---@" + state
 
 # control_obj = Consult()
 # control_obj.start_cmd()
@@ -85,17 +85,20 @@ class Plan:
             utterance = input(">>>")
             if utterance.strip() == "exit1":
                 break
-            answer = self.get_answer(utterance, "123456")
+            answer = self.get_answer(utterance, "", "123456")
             print("<<<{}".format(answer))
 
-    def get_answer(self, customer_utterance, user_id):
+    def get_answer(self, customer_utterance, plan_intent, user_id):
         current_intent = ''
         if user_id not in self.user_dict:
-            self.user_dict[user_id] = {"current_intent": '', "intent_state_tracker_dict": {}, "intent_ls": copy.copy(plan_intent_ls)}
+            if plan_intent:
+                self.user_dict[user_id] = {"current_intent": '', "intent_state_tracker_dict": {}, "plan_intent": plan_intent}
+            else:
+                self.user_dict[user_id] = {"current_intent": '', "intent_state_tracker_dict": {}, "plan_intent": copy.copy(plan_intent_ls)}
         else:
             current_intent = self.user_dict[user_id]["current_intent"]
         if not current_intent:
-            self.user_dict[user_id]["current_intent"] = self.user_dict[user_id]["intent_ls"][0]
+            self.user_dict[user_id]["current_intent"] = self.user_dict[user_id]["plan_intent"][0]
             current_intent = self.user_dict[user_id]["current_intent"]
             return ask_start_plan(current_intent)
 
@@ -114,10 +117,10 @@ class Plan:
         if state == "stop" or state == "yes":
             self.user_dict[user_id]["intent_state_tracker_dict"].pop(current_intent)
             self.user_dict[user_id]["current_intent"] = ''
-            self.user_dict[user_id]["intent_ls"].remove(current_intent)
+            self.user_dict[user_id]["plan_intent"].remove(current_intent)
             # TODO: self.db_obj.write_records
 
-        if not self.user_dict[user_id]["intent_ls"]:
+        if not self.user_dict[user_id]["plan_intent"]:
             self.user_dict.pop(user_id)
 
         return out_content

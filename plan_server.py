@@ -17,8 +17,8 @@ def server():
     while True:
         recv_msg = socket.recv()
         recv_msg = str(recv_msg, encoding="utf-8")
-        msg, user_id = recv_msg.split("@---@")
-        reply = agent.get_answer(msg, user_id)
+        msg, plan_intent, user_id = recv_msg.split("@---@")
+        reply = agent.get_answer(msg, plan_intent, user_id)
         # print("server:{}".format(reply))
         socket.send_string(reply)
 
