@@ -25,8 +25,9 @@ class Client:
     def __init__(self, server_ip):
         self.context = zmq.Context()
         # self.utterance = None
-        self.start_client()
         self.connect_ip = server_ip     #"tcp://127.0.0.1:10086"
+        self.start_client()
+        # print("connect ipipipipipip", self.connect_ip)
 
     def client(self):
         self.socket = self.context.socket(zmq.REQ)
@@ -52,10 +53,13 @@ class Client:
 
 
 def load_clients(consult_ip, plan_ip):
+    # print(consult_ip, plan_ip)
     for i in range(CONSULT_CLIENT_NUM):
         CONSULT_CLIENT_DICT[i] = Client(consult_ip)
     for i in range(PLAN_CLIENT_NUM):
         PLAN_CLIENT_DICT[i] = Client(plan_ip)
+    # print(list(CONSULT_CLIENT_DICT.keys()))
+    # print(list(PLAN_CLIENT_DICT.keys()))
 
 
 def select_consult_client():
