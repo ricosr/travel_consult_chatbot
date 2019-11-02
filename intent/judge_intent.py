@@ -2,7 +2,7 @@
 
 from rasa.nlu.model import Interpreter
 
-from intent_temrs import intent_terms_dict
+from intent.intent_temrs import intent_terms_dict
 
 
 class Intent:

@@ -4,7 +4,7 @@ import time
 
 from slots.consult_slot import consult_traffic_slot
 from NLU.common import confirm_nlu
-from consult_nlu_key_terms import consult_traffic_key_terms
+from NLU.consult.consult_nlu_key_terms import consult_traffic_key_terms
 
 
 departure_destination_term_tag = ["LOC", "ORG", "PER", "ns", "nr", "nz", "f", "s", "nt", "nw"]  # n

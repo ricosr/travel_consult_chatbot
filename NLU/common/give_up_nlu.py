@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-from confirm_nlu import judge_confirm_classification
+from NLU.common.confirm_nlu import judge_confirm_classification
 
 nothing_intent_threshold = 0.6
 nothing_negative_threshold = 0.61

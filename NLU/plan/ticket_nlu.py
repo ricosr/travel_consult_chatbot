@@ -5,7 +5,7 @@ import re
 
 from slots.plan_slot import plan_ticket_slot
 from NLU.common import confirm_nlu
-from plan_nlu_key_terms import plan_ticket_key_terms
+from NLU.plan.plan_nlu_key_terms import plan_ticket_key_terms
 
 
 departure_destination_term_tag = ["LOC", "ORG", "ns", "nr", "nz", "f", "s", "nt", "nw"]  # n

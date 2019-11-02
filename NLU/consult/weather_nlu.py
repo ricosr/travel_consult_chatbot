@@ -3,7 +3,7 @@
 import json
 
 from NLU.common import confirm_nlu
-from consult_nlu_key_terms import consult_weather_key_terms
+from NLU.consult.consult_nlu_key_terms import consult_weather_key_terms
 
 
 def load_city(city_file):

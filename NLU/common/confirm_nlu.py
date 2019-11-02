@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-from confirm_terms import confirm_terms_dict
+from NLU.common.confirm_terms import confirm_terms_dict
 
 confidence_threshold = 0.5
 
