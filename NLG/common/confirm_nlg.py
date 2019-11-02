@@ -50,7 +50,7 @@ def response_no(intent, confident_slot_values):
             show_current_msg += "目的城市：{},\n".format(confident_slot_values["destination"])
         if "vehicle" in confident_slot_values:
             show_current_msg += "交通方式：{},\n".format(confident_slot_values["vehicle"])
-        if "departure_time" in confident_slot_values:
+        if "departure_date" in confident_slot_values:
             show_current_msg += "出发日期：{},\n".format(confident_slot_values["departure_date"])
         if "name " in confident_slot_values:
             show_current_msg += "姓名：{},\n".format(confident_slot_values["name"])

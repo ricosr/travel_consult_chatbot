@@ -38,7 +38,7 @@ class Client:
         client = gevent.spawn(self.client)
         gevent.joinall([client])
 
-    def get_response(self, utterance, client_no, msgid, from_user_name):
+    def get_response(self, utterance, client_no, msgid, from_user_name, work_type):
         self.socket.send_string(utterance + "@---@" + from_user_name)
         reply = self.socket.recv()
         if reply:
@@ -47,7 +47,11 @@ class Client:
             Client.msg_id = msgid
             while True:
                 if response:
-                    CONSULT_CLIENT_BUSY.remove(int(client_no))
+                    print("remove client no:", client_no)
+                    if work_type == "consult":
+                        CONSULT_CLIENT_BUSY.remove(int(client_no))
+                    if work_type == "plan":
+                        PLAN_CLIENT_BUSY.remove(int(client_no))
                     return response
         time.sleep(WAITE_TIME)
 
