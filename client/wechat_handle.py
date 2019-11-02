@@ -18,7 +18,7 @@ from rule_based_common_nlg import rule_response
 from request_client import load_clients, select_consult_client, select_plan_client
 from util.translate_l import translate
 from util.language import punctuation_ls
-from NLG.plan.plan_start_nlg import ask_start_plan
+from plan_start_nlg import ask_start_plan
 
 
 logging.basicConfig(filename='logger.log', level=logging.INFO)
@@ -60,8 +60,8 @@ class Connect:
         msg = parse_message(xml)
         from_user_name = self.extract_from_username(msg)
         input_language_zh = True
-        if len(self.cache_dict) > 200:
-            self.cache_dict = {}
+        # if len(self.cache_dict) > 200:
+        #     self.cache_dict = {}
         if msg.type == 'text':
             inputTxt = msg.content
             language = self.judge_language(inputTxt)
@@ -136,7 +136,7 @@ class Connect:
 if __name__ == '__main__':
     consult_ip = "tcp://127.0.0.1:10086"
     plan_ip = "tcp://127.0.0.1:10010"
-    wechat_token = "1234567"
+    wechat_token = "53275921"
     app = falcon.API()
     app.add_route('/', Connect(consult_ip, plan_ip, wechat_token))
     server = WSGIServer(('0.0.0.0', 80), app)
