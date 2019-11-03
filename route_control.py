@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 
 import copy
+import time
 
 import paddlehub as hub
 from rasa.nlu.model import Interpreter
 
 from intent import judge_intent
 from state_tracker import State
-from config.config import handle_config, plan_intent_ls, database_address, database_name, db_collection_config, intent_model_name, confirm_model_name
+from config.config import handle_config, plan_intent_ls, database_address, database_name, db_collection_config, intent_model_name, confirm_model_name, time_out
 from oprate_database import Database
 from NLG.plan.plan_start_nlg import ask_start_plan
 from NLU.consult.weather_nlu import load_city
@@ -23,6 +24,7 @@ class Consult:
         self.intent_model = judge_intent.Intent(intent_model_name)
         self.city_ls = load_city("static/city.json")
         self.user_dict = {}
+        self.user_timeout_recoder = {}
 
     def start_cmd(self):
         print("<<<您想咨询什么？吃饭？出行？天气？")
@@ -34,8 +36,14 @@ class Consult:
             print("<<<{}".format(answer))
 
     def get_answer(self, customer_utterance, user_id):
+        if user_id in self.user_dict:
+            if int(time.time()) - self.user_timeout_recoder[user_id] > time_out:
+                self.user_dict.pop(user_id)
+            else:
+                self.user_timeout_recoder[user_id] = int(time.time())
         if user_id not in self.user_dict:
             self.user_dict[user_id] = {"current_intent": '', "intent_state_tracker_dict": {}}
+            self.user_timeout_recoder[user_id] = int(time.time())
 
         current_intent = self.user_dict[user_id]["current_intent"]
         if not current_intent:
@@ -58,7 +66,7 @@ class Consult:
 
         out_content, state = handle_function(customer_utterance, self.user_dict[user_id]["intent_state_tracker_dict"][current_intent], entities, self.lac, self.intent_model, self.senta_gru, self.confirm_interpreter, self.db_obj, collection_name)
 
-        if state == "stop" or state == "yes":
+        if state == "stop":
             # self.user_dict[user_id]["intent_state_tracker_dict"].pop(current_intent)
             # self.user_dict[user_id]["current_intent"] = ''
             self.user_dict.pop(user_id)
@@ -78,6 +86,7 @@ class Plan:
         self.db_obj = ''
         self.intent_model = judge_intent.Intent(intent_model_name)
         self.user_dict = {}
+        self.user_timeout_recoder = {}
 
     def start_cmd(self):
         print("<<<请您回答我的问题，以便给你做出规划，谢谢！")
@@ -90,14 +99,21 @@ class Plan:
 
     def get_answer(self, customer_utterance, plan_intent, user_id):
         current_intent = ''
+        if user_id in self.user_dict:
+            if int(time.time()) - self.user_timeout_recoder[user_id] > time_out:
+                self.user_dict.pop(user_id)
+            else:
+                self.user_timeout_recoder[user_id] = int(time.time())
         if user_id not in self.user_dict:
             if plan_intent:
                 self.user_dict[user_id] = {"current_intent": plan_intent, "intent_state_tracker_dict": {}, "plan_intent": ''}
                 current_intent = self.user_dict[user_id]["current_intent"]
-            else:
+                self.user_timeout_recoder[user_id] = int(time.time())
+            else:  # for start_cmd
                 self.user_dict[user_id] = {"current_intent": '', "intent_state_tracker_dict": {}, "plan_intent": copy.copy(plan_intent_ls)}
         else:
             current_intent = self.user_dict[user_id]["current_intent"]
+            self.user_timeout_recoder[user_id] = int(time.time())
 
         if not current_intent:
             self.user_dict[user_id]["current_intent"] = self.user_dict[user_id]["plan_intent"][0]
@@ -121,7 +137,7 @@ class Plan:
                                              entities, self.lac, self.intent_model, self.senta_gru,
                                              self.confirm_interpreter, self.db_obj, collection_name)
 
-        if state == "stop" or state == "yes":
+        if state == "stop":
             print("ffffffffffffffffff", state)
             self.user_dict.pop(user_id)
             # self.user_dict[user_id]["intent_state_tracker_dict"].pop(current_intent)
@@ -136,8 +152,8 @@ class Plan:
 
         return out_content + "@---@" + state
 
-# plan_obj = Plan()
-# plan_obj.start_cmd()
+plan_obj = Plan()
+plan_obj.start_cmd()
 
 # def control():
 #     lac = hub.Module(name="lac")
