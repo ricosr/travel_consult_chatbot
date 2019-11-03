@@ -3,6 +3,7 @@
 import logging
 import traceback
 from random import choice
+import time
 
 from gevent.pywsgi import WSGIServer
 from gevent import monkey
@@ -24,12 +25,14 @@ from plan_start_nlg import ask_start_plan
 logging.basicConfig(filename='logger.log', level=logging.INFO)
 logging.debug('debug message')
 
+TIME_OUT = 60
 
 class Connect:
     def __init__(self, consult_ip, plan_ip, wechat_token):
         load_clients(consult_ip, plan_ip)
         self.wechat_token = wechat_token
         self.user_state = {}
+        self.user_timeout_recorder = {}
 
     def judge_language(self, message):
         for each_char in message:
@@ -94,6 +97,9 @@ class Connect:
                 print(utterance)
                 print(self.user_state)
                 if from_user_name in self.user_state:
+                    if int(time.time()) - self.user_timeout_recorder[from_user_name] > TIME_OUT:
+                        self.user_state.pop(from_user_name)
+                if from_user_name in self.user_state:
                     if self.user_state[from_user_name] == "consult":
                         client_obj, client_no = select_consult_client()    # TODO: how to select for different tasks
                         response_msg, state = client_obj.get_response(utterance, client_no, msg_id, from_user_name, "consult").split("@---@")
@@ -108,31 +114,34 @@ class Connect:
                         response_msg, state = client_obj.get_response(utterance, client_no, msg_id, from_user_name, "plan").split("@---@")
                 else:
                     if utterance == "咨询":
+                        self.user_timeout_recorder[from_user_name] = int(time.time())
                         self.user_state[from_user_name] = "consult"
                         response_msg = "请输入关于美食，交通或天气的咨询问题。"
                     # if utterance == "规划":
                     #     return "请输入 订票 或 攻略"
                     if utterance == "订票":
+                        self.user_timeout_recorder[from_user_name] = int(time.time())
                         self.user_state[from_user_name] = "plan_ticket"
                         response_msg = ask_start_plan("plan_ticket")
                     if utterance == "景点":
+                        self.user_timeout_recorder[from_user_name] = int(time.time())
                         self.user_state[from_user_name] = "plan_scenic_spot"
                         response_msg = ask_start_plan("plan_scenic_spot")
                     # response_msg = "请输入 咨询 订票 景点，谢谢！"
             if input_language_zh is False and self.judge_language(response_msg) == "zh":
                 response_msg = translate(response_msg, 'zh')
             if response_msg:
-                if state == "stop" or state == "yes":
+                if state == "stop":
                     self.user_state.pop(from_user_name)
                 return response_msg, "norm"
             else:
                 logging.info(response_msg + "none")
-                if state == "stop" or state == "yes":
+                if state == "stop":
                     self.user_state.pop(from_user_name)
                 return choice(default_reply), "none"
         except Exception as e:
             logging.error(traceback.format_exc())
-            if state == "stop" or state == "yes":
+            if state == "stop":
                 self.user_state.pop(from_user_name)
             return choice(default_reply), "err"
 
