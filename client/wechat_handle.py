@@ -99,6 +99,8 @@ class Connect:
                 if from_user_name in self.user_state:
                     if int(time.time()) - self.user_timeout_recorder[from_user_name] > TIME_OUT:
                         self.user_state.pop(from_user_name)
+                    else:
+                        self.user_timeout_recorder[from_user_name] = int(time.time())
                 if from_user_name in self.user_state:
                     if self.user_state[from_user_name] == "consult":
                         client_obj, client_no = select_consult_client()    # TODO: how to select for different tasks
@@ -113,18 +115,16 @@ class Connect:
                         client_obj, client_no = select_plan_client()
                         response_msg, state = client_obj.get_response(utterance, client_no, msg_id, from_user_name, "plan").split("@---@")
                 else:
+                    self.user_timeout_recorder[from_user_name] = int(time.time())
                     if utterance == "咨询":
-                        self.user_timeout_recorder[from_user_name] = int(time.time())
                         self.user_state[from_user_name] = "consult"
                         response_msg = "请输入关于美食，交通或天气的咨询问题。"
                     # if utterance == "规划":
                     #     return "请输入 订票 或 攻略"
                     if utterance == "订票":
-                        self.user_timeout_recorder[from_user_name] = int(time.time())
                         self.user_state[from_user_name] = "plan_ticket"
                         response_msg = ask_start_plan("plan_ticket")
                     if utterance == "景点":
-                        self.user_timeout_recorder[from_user_name] = int(time.time())
                         self.user_state[from_user_name] = "plan_scenic_spot"
                         response_msg = ask_start_plan("plan_scenic_spot")
                     # response_msg = "请输入 咨询 订票 景点，谢谢！"

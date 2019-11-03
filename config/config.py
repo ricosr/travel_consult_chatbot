@@ -8,6 +8,7 @@ from flow_structure.plan.plan_scenic_spot_flow import plan_scenic_spot_handle
 from slots.consult_slot import consult_food_slot, consult_traffic_slot, consult_weather_slot
 from slots.plan_slot import plan_ticket_slot, plan_scenic_spot_slot
 
+time_out = 60
 
 database_address = "mongodb://xxx:xxxx@xxx.xxx.xxx.xxx:27017/admin"
 database_name = "Travel_DB"
