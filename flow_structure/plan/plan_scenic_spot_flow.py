@@ -51,13 +51,7 @@ def plan_scenic_spot_handle(customer_utterance, state_tracker_obj, entities, lac
                 print("common last state", state_tracker_obj.get_last_slot_state())
                 return scenic_spot_nlg.response_scheme_list(search_scheme_dict_results), "confirm_select"
 
-    def common_personal_info_flow(customer_utterance, state_tracker_obj, lac):
-        give_up_state = give_up_nlu.whether_give_up(customer_utterance, senta_gru, confirm_interpreter)
-        if give_up_state:
-            state_tracker_obj.update_last_slot_state("stop")
-            return give_up_nlg.response_give_up(), "stop"
-        pass
-
+    customer_utterance = customer_utterance.replace("个礼拜", "周").replace("礼拜", "周")
     last_slot_state = state_tracker_obj.get_last_slot_state()
     print("last_slot_state:", last_slot_state)
     if last_slot_state != "confirm_select":

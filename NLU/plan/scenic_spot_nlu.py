@@ -8,7 +8,7 @@ from NLU.common import confirm_nlu
 
 
 city_term_tag = ["LOC", "ORG", "ns", "nr", "nz", "f", "s", "nt", "nw"]  # n
-departure_time_term_tag = ["m", "q", "TIME", "t"]
+time_term_tag = ["m", "q", "TIME", "t"]
 
 
 def judge_all_entities(ie_values_dict):
@@ -40,7 +40,7 @@ def ie_days(utterance):
     re_result = re_pattern.search(utterance)
     if re_result:
         tmp_num = re_result.group(0)
-        print("num:", num)
+        print("tmp num:", tmp_num)
         if int(tmp_num) > 7:
             return False
         if len(utterance) > utterance.index(re_result.group(0))+len(tmp_num):
@@ -62,10 +62,12 @@ def ie_all_plan_scenic_spot(customer_utterance, lac, entities):
         if lac_result_dict["tag"][tag_index] in city_term_tag:
             ie_values_dict["city"] = lac_result_dict["word"][tag_index]
             continue
-        if lac_result_dict["tag"][tag_index] in departure_time_term_tag:
+        if lac_result_dict["tag"][tag_index] in time_term_tag:
             nor_num = ie_days(lac_result_dict["word"][tag_index])
-            if nor_num:
-                ie_values_dict["days"] = nor_num
+            # if nor_num:
+            ie_values_dict["days"] = nor_num
+            print("ie_values_dict days", ie_values_dict)
+    print("ie_values_dict1:", ie_values_dict)
     if not judge_all_entities(ie_values_dict):
         if entities:
             print("entities:", entities)
@@ -83,6 +85,7 @@ def ie_all_plan_scenic_spot(customer_utterance, lac, entities):
                         for tag_index in range(len(tmp_ie_city["tag"])):
                             if tmp_ie_city["tag"][tag_index] in city_term_tag:
                                 ie_values_dict["city"] = tmp_ie_city["word"][tag_index]
+    print("ie_values_dict2:", ie_values_dict)
     return ie_values_dict
 
 
