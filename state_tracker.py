@@ -37,7 +37,7 @@ class State:
             return None
 
     def get_confident_slot_value(self, slot_state):
-        if slot_state in self.state_dict and self.get_confidence(slot_state) == 1:
+        if slot_state in self.state_dict and self.get_confidence(slot_state) == 1 and self.state_dict[slot_state]["slot_value"]:
             return self.state_dict[slot_state]["slot_value"]
         else:
             return None
@@ -46,7 +46,7 @@ class State:
         confident_slot_dict = {}
         if self.get_state():
             for slot_key, value_dict in self.get_state().items():
-                if self.get_confidence(slot_key) == 1:
+                if self.get_confidence(slot_key) == 1 and value_dict["slot_value"]:
                     confident_slot_dict[slot_key] = value_dict["slot_value"]
         return confident_slot_dict
 
