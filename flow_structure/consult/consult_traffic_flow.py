@@ -71,7 +71,7 @@ def consult_traffic_handle(customer_utterance, state_tracker_obj, entities, lac,
         print(5, confirm_state, temp_entities)
         if confirm_state == "yes":
             state_tracker_obj.update_last_slot_state("stop")
-            return confirm_nlg.response_yes(), "yes"
+            return confirm_nlg.response_yes(), "stop"
         if confirm_state == "no":
             state_tracker_obj.update_last_slot_state("ask")
             return confirm_nlg.response_no("consult_traffic", state_tracker_obj.get_all_confident_slot_values()), "ask"
