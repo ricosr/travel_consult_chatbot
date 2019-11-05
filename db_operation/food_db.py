@@ -81,9 +81,3 @@ def search_consult_food(query_dic, mycol):
         return None
 
 
-# from db_operation.oprate_database import Database
-# db_obj = Database("mongodb://super:123456@54.167.49.72:27017/admin", "travel_dialogue")
-# mycol = db_obj.get_db_conn()["food"]
-# print(search_consult_food({"food": "海底捞"}, mycol))
-
-
