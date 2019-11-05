@@ -10,6 +10,7 @@ from NLG.common import confirm_nlg
 from NLG.common import give_up_nlg
 
 from slots.consult_slot import consult_food_slot
+from db_operation.food_db import search_consult_food
 
 
 def consult_food_handle(customer_utterance, state_tracker_obj, entities, lac, intent_model, senta_gru, confirm_interpreter, db_obj, collection_name):
@@ -31,9 +32,9 @@ def consult_food_handle(customer_utterance, state_tracker_obj, entities, lac, in
                 state_tracker_obj.update_last_slot_state("ask")
                 return food_nlg.ask_food_restaurant(), "ask"
             else:
-                # search_restaurants_results = db_obj.search_db(collection_name, state_tracker_obj.get_all_confident_slot_values())  # TODO: database
-                print(state_tracker_obj.get_all_confident_slot_values())
-                search_restaurants_results = ''
+                search_restaurants_results = search_consult_food(state_tracker_obj.get_all_confident_slot_values(), db_obj.get_db_conn()[collection_name])
+                # print(state_tracker_obj.get_all_confident_slot_values())
+                # search_restaurants_results = ''
                 state_tracker_obj.update_last_slot_state("confirm")
                 return food_nlg.response_restaurant_list(search_restaurants_results), "confirm"
 
