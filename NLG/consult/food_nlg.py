@@ -10,11 +10,16 @@ def ask_food_restaurant():  # TODO
     return choice(response_sentences)
 
 
-def response_restaurant_list(search_parameters):   # TODO
-    restaurant_list = [   # temp
-        "餐厅1",
-        "餐厅2",
-        "餐厅3",
-        "餐厅4",
-    ]
-    return '\n'.join(restaurant_list) + '\n您觉得可以吗？'
+def response_restaurant_list(restaurant_list):   # TODO
+    if restaurant_list:
+        result_ls = []
+        for restaurant in restaurant_list:
+            tmp_result = ''
+            for key, info in restaurant.items():
+                if key == "_id":
+                    continue
+                tmp_result += "{}: {}\n".format(key, info)
+            result_ls.append(tmp_result)
+        return '\n\n'.join(restaurant_list) + '\n\n您觉得可以吗？'
+    else:
+        return "抱歉，按照您的要求没有查询到结果，请重新输入新的查询条件，或者结束对话，谢谢！"
