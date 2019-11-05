@@ -81,8 +81,7 @@ class Plan:
         self.lac = hub.Module(name="lac")
         self.confirm_interpreter = Interpreter.load("intent/{}/nlu".format(confirm_model_name))
         self.senta_gru = hub.Module(name="senta_gru")
-        # self.db_conn = Database(database_address, database_name)    # TODO: database
-        self.db_obj = ''
+        self.db_obj = Database(database_address, database_name)
         self.intent_model = judge_intent.Intent(intent_model_name)
         self.user_dict = {}
         self.user_timeout_recoder = {}
@@ -110,6 +109,7 @@ class Plan:
                 self.user_timeout_recoder[user_id] = int(time.time())
             else:  # for start_cmd
                 self.user_dict[user_id] = {"current_intent": '', "intent_state_tracker_dict": {}, "plan_intent": copy.copy(plan_intent_ls)}
+                self.user_timeout_recoder[user_id] = int(time.time())
         else:
             current_intent = self.user_dict[user_id]["current_intent"]
             self.user_timeout_recoder[user_id] = int(time.time())
@@ -151,43 +151,5 @@ class Plan:
 
         return out_content + "@---@" + state
 
-plan_obj = Plan()
-plan_obj.start_cmd()
-
-# def control():
-#     lac = hub.Module(name="lac")
-#     # db_conn = Database(database_address, database_name)    # TODO: database
-#     db_conn = ''
-#     intent_model = judge_intent.Intent(intent_model_name)
-#     confirm_interpreter = Interpreter.load("intent/{}/nlu".format(confirm_model_name))
-#     senta_gru = hub.Module(name="senta_gru")
-#     print("<<<您想咨询什么？吃饭还是出行？")
-#     current_intent = ''
-#     intent_state_tracker_dict = {}
-#     state_no = None
-#     while True:
-#         entities = None
-#         customer_utterance = input(">>>")
-#         if not current_intent:
-#             intent, entities = intent_model.get_intent(customer_utterance)
-#             print(intent, entities)
-#             current_intent = intent
-#         else:
-#             intent, entities = intent_model.get_intent(customer_utterance)
-#             print(2, entities)
-#         handle_function = handle_config[current_intent]
-#
-#         if current_intent not in intent_state_tracker_dict:
-#             intent_state_tracker_dict[current_intent] = State(None)
-#
-#         collection_name = db_collection_config[current_intent]
-#
-#         out_content, state = handle_function(customer_utterance, intent_state_tracker_dict[current_intent], entities, lac, intent_model, senta_gru, confirm_interpreter, db_conn, collection_name)
-#
-#         print(out_content)
-#         if state == "stop" or state == "yes":
-#             intent_state_tracker_dict.pop(current_intent)
-#             current_intent = ''
-#             collection_name = ''
-#
-# control()
+# plan_obj = Plan()
+# plan_obj.start_cmd()
