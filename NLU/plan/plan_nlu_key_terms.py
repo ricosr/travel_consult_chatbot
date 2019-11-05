@@ -17,3 +17,9 @@ plan_ticket_key_terms = {
     "ride_verb": {"bicycle": ["骑"], "drive": ["开"], "taxi": ["打"], "other": ["坐", "座", "乘", "搭"]},
     "date_mark": ["年", "月", "日", "号", ":", '.', '：']
 }
+
+plan_scenic_spot_key_terms = {
+    "admin_unit1": ["国", "省", "市", "县", "区", "镇", "乡", "村", "屯"],
+    "admin_unit2": ["直辖", "自治", "特别行政"],
+    "admin_unit3": ["州"]
+}
