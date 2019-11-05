@@ -2,7 +2,6 @@
 
 import pymongo
 
-# mycol = mydb["food"]
 
 def search_loc(loc):
     return {"$or": [{"详细地址": {"$regex": ".*" + loc + ".*"}}, {"所属片区": {"$regex": ".*" + loc + ".*"}}]}
@@ -65,7 +64,7 @@ def based_on_loc_rest_food(loc, rest, food, mycol):
 # based_on_loc_rest_food("朝阳","全聚德","鸭脖")
 
 
-def classify(query_dic, mycol):
+def search_consult_food(query_dic, mycol):
     if "food" in query_dic and "restaurant" in query_dic and "location" in query_dic:
         return based_on_loc_rest_food(query_dic["location"], query_dic["restaurant"], query_dic["food"], mycol)
     elif "food" in query_dic and "restaurant" in query_dic:
