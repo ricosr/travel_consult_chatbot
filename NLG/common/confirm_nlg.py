@@ -89,7 +89,7 @@ def response_nothing(intent):
         ]
     elif intent == "plan_scenic_spot":
         stop_sentences = [
-            "请输入一个方案编号，例如：1或2...，谢谢！"
+            "请输入一个方案编号，例如：0,1,2或3...，谢谢！"
         ]
     else:
         stop_sentences = [
