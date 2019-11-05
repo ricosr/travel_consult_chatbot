@@ -9,7 +9,7 @@ from rasa.nlu.model import Interpreter
 from intent import judge_intent
 from state_tracker import State
 from config.config import handle_config, plan_intent_ls, database_address, database_name, db_collection_config, intent_model_name, confirm_model_name, time_out
-from oprate_database import Database
+from db_operation.oprate_database import Database
 from NLG.plan.plan_start_nlg import ask_start_plan
 from NLU.consult.weather_nlu import load_city
 
@@ -19,8 +19,7 @@ class Consult:
         self.lac = hub.Module(name="lac")
         self.confirm_interpreter = Interpreter.load("intent/{}/nlu".format(confirm_model_name))
         self.senta_gru = hub.Module(name="senta_gru")
-        # self.db_obj = Database(database_address, database_name)    # TODO: database
-        self.db_obj = ''
+        self.db_obj = Database(database_address, database_name)
         self.intent_model = judge_intent.Intent(intent_model_name)
         self.city_ls = load_city("static/city.json")
         self.user_dict = {}
@@ -82,7 +81,7 @@ class Plan:
         self.lac = hub.Module(name="lac")
         self.confirm_interpreter = Interpreter.load("intent/{}/nlu".format(confirm_model_name))
         self.senta_gru = hub.Module(name="senta_gru")
-        # self.db_obj = Database(database_address, database_name)    # TODO: database
+        # self.db_conn = Database(database_address, database_name)    # TODO: database
         self.db_obj = ''
         self.intent_model = judge_intent.Intent(intent_model_name)
         self.user_dict = {}
@@ -144,7 +143,7 @@ class Plan:
             # self.user_dict[user_id]["current_intent"] = ''
             # if not plan_intent:
             #     self.user_dict[user_id]["plan_intent"].remove(current_intent)
-            # TODO: self.db_obj.write_records
+            # TODO: self.db_conn.write_records
 
         # if not plan_intent:
         #     if not self.user_dict[user_id]["plan_intent"]:
@@ -157,8 +156,8 @@ plan_obj.start_cmd()
 
 # def control():
 #     lac = hub.Module(name="lac")
-#     # db_obj = Database(database_address, database_name)    # TODO: database
-#     db_obj = ''
+#     # db_conn = Database(database_address, database_name)    # TODO: database
+#     db_conn = ''
 #     intent_model = judge_intent.Intent(intent_model_name)
 #     confirm_interpreter = Interpreter.load("intent/{}/nlu".format(confirm_model_name))
 #     senta_gru = hub.Module(name="senta_gru")
@@ -183,7 +182,7 @@ plan_obj.start_cmd()
 #
 #         collection_name = db_collection_config[current_intent]
 #
-#         out_content, state = handle_function(customer_utterance, intent_state_tracker_dict[current_intent], entities, lac, intent_model, senta_gru, confirm_interpreter, db_obj, collection_name)
+#         out_content, state = handle_function(customer_utterance, intent_state_tracker_dict[current_intent], entities, lac, intent_model, senta_gru, confirm_interpreter, db_conn, collection_name)
 #
 #         print(out_content)
 #         if state == "stop" or state == "yes":

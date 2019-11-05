@@ -11,7 +11,7 @@ from slots.plan_slot import plan_ticket_slot, plan_scenic_spot_slot
 time_out = 60
 
 database_address = "mongodb://xxx:xxxx@xxx.xxx.xxx.xxx:27017/admin"
-database_name = "Travel_DB"
+database_name = "travel_dialogue"
 
 intent_model_name = "models8"
 confirm_model_name = "confirm_model6"
@@ -37,11 +37,11 @@ slot_config = {
 # }
 
 db_collection_config = {   # TODO: database is not done
-    'consult_food': "restaurant",
+    'consult_food': "food",
     'consult_traffic': "",
     'consult_weather': "",
-    'plan_ticket': "",
-    "plan_scenic_spot": ""
+    'plan_ticket': "ticket",
+    "plan_scenic_spot": "scenic_spot_scheme"
 }
 
 plan_intent_ls = ["plan_scenic_spot"]    # TODO: "plan_ticket", "plan_hotel"
