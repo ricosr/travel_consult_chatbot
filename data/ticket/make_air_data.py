@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+import random
+import time
+
 airports = {
     "北京": ["北京首都国际机场", "北京大兴国际机场"],
     "上海": ["上海虹桥国际机场", "上海浦东国际机场"],
@@ -224,7 +227,74 @@ airports = {
 }
 
 airlines = ["中国南方航空", "吉祥航空", "奥凯航空", "九元航空", "长龙航空", "东方航空", "中国国际航空", "深圳航空", "海南航空",
-            "春秋航空", "上海航空", "西部航空", "重庆航空", "西藏航空", "中国联合航空", "云南祥鹏航空", "云南英安航空",
-            "厦门航空", "天津航空", "山东航空", "四川航空", "华夏航空", "长城航空", "成都航空", "北京首都航空"]
+            "春秋航空", "上海航空", "西部航空", "重庆航空", "西藏航空", "中国联合航空", "云南祥鹏航空", "厦门航空", "天津航空",
+            "山东航空", "四川航空", "华夏航空", "长城航空", "成都航空", "北京首都航空"]
 
-ticket_templates = "{{departure:{depart}, destination:{dest}\t{airline}\t{}}}"
+airlines_key = {
+    "中国南方航空": "CZ",
+    "吉祥航空": "HO",
+    "奥凯航空": "BK",
+    "九元航空": "AQ",
+    "长龙航空": "GJ",
+    "东方航空": "MU",
+    "中国国际航空": "CA",
+    "深圳航空": "ZH",
+    "海南航空": "HU",
+    "春秋航空": "9C",
+    "上海航空": "FM",
+    "西部航空": "PN",
+    "重庆航空": "OQ",
+    "西藏航空": "TV",
+    "中国联合航空": "KN",
+    "云南祥鹏航空": "8L",
+    "厦门航空": "MF",
+    "天津航空": "GS",
+    "山东航空": "SC",
+    "四川航空": "3U",
+    "华夏航空": "G5",
+    "长城航空": "IJ",
+    "成都航空": "EU",
+    "北京首都航空": "JD",
+}
+
+
+def make_air_ticket(departure, destination, departure_date, solution_count):
+    tmp_depart_airport = ''
+    tmp_dest_airport = ''
+    solution_dict = {}
+    ticket_template = "{departure_date}:\n{airline} {air_no}, {depart}-{depart_time} ---> {dest}-{dest_time}, ￥{fee}"
+    for i in range(solution_count):
+        tmp_airline = random.choice(airlines)
+        tmp_airline_no = airlines_key[tmp_airline] + str(random.randint(1000,9999))
+        if departure in airports:
+            tmp_depart_airport = random.choice(airports[departure])
+        else:
+            for city in airports.items():
+                if city in departure:
+                    tmp_depart_airport = random.choice(airports[city])
+                    break
+        if destination in airports:
+            tmp_dest_airport = random.choice(airports[destination])
+        else:
+            for city in airports.items():
+                if city in destination:
+                    tmp_dest_airport = random.choice(airports[city])
+                    break
+        if not tmp_depart_airport or not tmp_dest_airport:
+            return False
+        depart_hour = random.randint(0, 20)
+        depart_min = random.randint(0, 59)
+        depart_time = "{}:{}".format(depart_hour, depart_min)
+        dest_hour = depart_hour + random.choice([2,3])
+        dest_min = random.randint(0, 59)
+        dest_time = "{}:{}".format(dest_hour, dest_min)
+        tmp_fee = random.randint(500, 1800)
+        solution_dict[i] = ticket_template.format(departure_date=departure_date,airline=tmp_airline, air_no=tmp_airline_no,
+                                                  depart=tmp_depart_airport, depart_time=depart_time,
+                                                  dest=tmp_dest_airport, dest_time = dest_time, fee=tmp_fee)
+    return solution_dict
+
+# print(make_air_ticket("北京", "深圳", "12-12", 10))
+
+
+
