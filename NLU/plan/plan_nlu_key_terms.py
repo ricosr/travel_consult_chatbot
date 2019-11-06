@@ -19,7 +19,7 @@ plan_ticket_key_terms = {
 }
 
 plan_scenic_spot_key_terms = {
-    "admin_unit1": ["国", "省", "市", "县", "区", "镇", "乡", "村", "屯"],
+    "admin_unit1": ["国", "省", "市", "盟", "县", "旗", "区", "镇", "乡", "村", "屯"],
     "admin_unit2": ["直辖", "自治", "特别行政"],
     "admin_unit3": ["州"]
 }
