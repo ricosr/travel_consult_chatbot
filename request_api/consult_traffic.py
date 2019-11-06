@@ -17,17 +17,18 @@ def get_lng_lat(address):
 
 
 def get_bus_route(o1, o2, d1, d2):
-    url = "http://api.map.baidu.com/directionlite/v1/transit?origin={},{}&destination={},{}&ak={}".format(o1, o2, d1, d2, ak)
+    url = "http://api.map.baidu.com/direction/v2/transit?origin={},{}&destination={},{}&ak={}".format(o1, o2, d1, d2, ak)
+    # http://api.map.baidu.com/direction/v2/transit?origin={},{}&destination={},{}&ak={}
     req = urlopen(url)
     response = req.read().decode()
     result_dict = json.loads(response)
-    oute_result_dict = {}
+    route_result_dict = {}
     for index in range(len(result_dict["result"]["routes"])):
         tmp_route = ''
         for each_step in result_dict["result"]["routes"][index]["steps"]:
-            tmp_route += each_step[0]["instruction"] + "-->"
-        oute_result_dict[index] = tmp_route + "到达目的地"
-    return oute_result_dict
+            tmp_route += each_step[0]["instructions"] + "-->"
+        route_result_dict[index] = tmp_route + "到达目的地"
+    return route_result_dict
 
 
 def get_walk_route(o1, o2, d1, d2):
@@ -79,8 +80,9 @@ def get_traffic_route_interface(search_para_dict):
         destination = search_para_dict["departure"]
         departure = search_para_dict["destination"]
         vehicle = search_para_dict["vehicle"]
-        o = get_lng_lat(destination)
-        d = get_lng_lat(departure)
+        o = get_lng_lat(departure)
+        d = get_lng_lat(destination)
+        print(o, d)
         if vehicle in ["打车", "驾车", "摩托车"]:
             return get_drive_route(o[0], o[1], d[0], d[1])
         elif vehicle in ["公交", "客车"]:
@@ -94,3 +96,4 @@ def get_traffic_route_interface(search_para_dict):
     except Exception as e:
         return {0: "抱歉，这个路线我查不到"}
 
+# print(get_traffic_route_interface({'departure': '深圳中海日辉台公交站', 'destination': '深圳坂田地铁站', 'vehicle': '公交'}))

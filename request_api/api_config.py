@@ -1,4 +1,4 @@
-weather_appid = "93387335"
-weather_appsecret = "zf6zUTCj"
+weather_appid = "12345678"
+weather_appsecret = "abcdefg"
 
-baidu_map_ak = "oixHksUv5RGSHiIA68rmdaL8gw7EV9BH"
+baidu_map_ak = "dfjkal;fjalskf;as"
