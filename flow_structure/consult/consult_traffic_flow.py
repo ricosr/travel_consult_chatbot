@@ -10,6 +10,7 @@ from NLG.common import confirm_nlg
 from NLG.common import give_up_nlg
 
 from slots.consult_slot import consult_traffic_slot
+from request_api.consult_traffic import get_traffic_route_interface
 
 
 def consult_traffic_handle(customer_utterance, state_tracker_obj, entities, lac, intent_model, senta_gru, confirm_interpreter, db_obj, collection_name):
@@ -58,8 +59,8 @@ def consult_traffic_handle(customer_utterance, state_tracker_obj, entities, lac,
                 #         else:
                 #             state_tracker_obj.add_one_state("departure_time", ie_slot_result, 1)
 
-            # search_traffic_results = db_obj.search_db(collection_name, state_tracker_obj.get_all_confident_slot_values())  # TODO: database
-            search_traffic_results = ''
+            # search_traffic_results = db_conn.search_db(collection_name, state_tracker_obj.get_all_confident_slot_values())
+            search_traffic_results = get_traffic_route_interface(state_tracker_obj.get_all_confident_slot_values())
             state_tracker_obj.update_last_slot_state("confirm")
             return traffic_nlg.response_traffic_list(search_traffic_results), "confirm"
 
