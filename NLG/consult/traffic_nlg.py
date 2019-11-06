@@ -31,11 +31,8 @@ def ask_vehicle():
     return choice(response_sentences)
 
 
-def response_traffic_list(search_traffic_results):   # TODO
-    traffic_solutions = [   # temp
-        "线路1",
-        "线路2",
-        "线路3",
-        "线路4"
-    ]
+def response_traffic_list(search_traffic_results):
+    traffic_solutions = []
+    for key, route in search_traffic_results.items():
+        traffic_solutions.append("{}: {}".format(key, route))
     return '\n'.join(traffic_solutions) + '\n您觉得可以吗？'
