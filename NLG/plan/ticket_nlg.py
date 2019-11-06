@@ -42,7 +42,7 @@ def response_solution_list(search_solution_results):   # TODO
     response_text = ''
     for solution_no, solution in search_solution_results.items():
         response_text += "{}: {}\n".format(solution_no, solution)
-    return '\n' + response_text + '\n请您在以上方案中选择一个方案的编号（输入 1,2,3...）'
+    return '\n' + response_text + '\n请您在以上方案中选择一个方案的编号（输入 0,1,2,3...）'
 
 
 def ask_name_ID():

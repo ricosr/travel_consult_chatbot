@@ -49,13 +49,15 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
                 state_tracker_obj.update_last_slot_state("ask")
                 return ticket_nlg.ask_departure_date(), "ask"
             else:
-                # search_ticket_dict_results = db_obj.search_db(collection_name, state_tracker_obj.get_all_confident_slot_values())  # TODO: database
-                search_ticket_dict_results = {
-                    1: "线路1",
-                    2: "线路2",
-                    3: "线路3",
-                    4: "线路4"
-                 }    # TODO
+                # search_ticket_dict_results = db_conn.search_db(collection_name, state_tracker_obj.get_all_confident_slot_values())  # TODO: database
+                from data.ticket.make_ticket_data import search_ticket_interface
+                # search_ticket_dict_results = {
+                #     1: "线路1",
+                #     2: "线路2",
+                #     3: "线路3",
+                #     4: "线路4"
+                #  }    # TODO
+                search_ticket_dict_results = search_ticket_interface(state_tracker_obj.get_all_confident_slot_values(), 5)
                 state_tracker_obj.add_one_state("solutions", search_ticket_dict_results, 1)
                 print("start to select solution")
             state_tracker_obj.update_last_slot_state("confirm_select")

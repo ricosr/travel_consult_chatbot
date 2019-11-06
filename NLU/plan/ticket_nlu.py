@@ -12,6 +12,7 @@ departure_destination_term_tag = ["LOC", "ORG", "ns", "nr", "nz", "f", "s", "nt"
 vehicle_term_tag = ["n", "nz", "v"]
 departure_time_term_tag = ["TIME", "t"]
 name_term_tag = ["PER", "nr"]
+num_term_tag = ["m", "q", "TIME", "t"]
 
 
 def judge_all_entities(ie_values_dict):
@@ -280,7 +281,28 @@ def ie_name_ID(customer_utterance, lac):
     return ie_values_dict   # must return a dict !!!
 
 
-def ie_solution_no(customer_utterance, solution_no_list):   # TODO: temp method
+# def ie_solution_no(customer_utterance, solution_no_list):
+#     for solution_no in solution_no_list:
+#         if str(solution_no) in customer_utterance:
+#             return solution_no
+#     return False
+
+def ie_solution_no(customer_utterance, solution_no_list, lac):
+    exist_num = False
+    lac_result_dict = paddle_lac(customer_utterance, lac)
+    for tag_index in range(len(lac_result_dict["tag"])):
+        if lac_result_dict["tag"][tag_index] in departure_time_term_tag:
+            return False
+        if lac_result_dict["tag"][tag_index] in num_term_tag:
+            try:
+                if 0 <= int(lac_result_dict["word"][tag_index]) < 100:
+                    exist_num = True
+                if int(lac_result_dict["word"][tag_index]) in solution_no_list:
+                    return int(lac_result_dict["word"][tag_index])
+            except Exception as e:
+                continue
+    if exist_num is True:
+        return "overflow"
     for solution_no in solution_no_list:
         if str(solution_no) in customer_utterance:
             return solution_no
@@ -288,8 +310,10 @@ def ie_solution_no(customer_utterance, solution_no_list):   # TODO: temp method
 
 
 def select_plan_ticket(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter, solutions):
-    solution_no = ie_solution_no(customer_utterance, solutions.keys())
+    solution_no = ie_solution_no(customer_utterance, solutions.keys(), lac)
     if solution_no:
+        if solution_no == "overflow":
+            return "nothing", None
         return "select_done", solution_no
     intent, entities = intent_model.get_intent(customer_utterance)
     ie_slot_result = ie_all_plan_ticket(customer_utterance, lac, entities)
