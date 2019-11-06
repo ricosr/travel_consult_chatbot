@@ -126,7 +126,8 @@ def ie_all_consult_traffic(customer_utterance, lac, entities, ask_type=None):
                             break
                     if "vehicle" in ie_values_dict:
                         break
-    if not judge_all_entities(ie_values_dict):
+    # if not judge_all_entities(ie_values_dict):
+    if True:    # TODO: exchange rule and rasa
         if len(lac_result_dict["tag"]) == 1 and lac_result_dict["tag"][0] in departure_destination_term_tag:
             if ask_type == "ask_dept":
                 ie_values_dict["departure"] = customer_tmp_utterance
@@ -137,7 +138,8 @@ def ie_all_consult_traffic(customer_utterance, lac, entities, ask_type=None):
         for tag_index in range(len(lac_result_dict["tag"])):
             continue_key = False
             if lac_result_dict["tag"][tag_index] in departure_destination_term_tag:
-                if 'p' in lac_result_dict["tag"][temp_tag_point: tag_index]:
+                print(lac_result_dict["tag"][tag_index])
+                if 'p' in lac_result_dict["tag"][temp_tag_point: tag_index] or tag_index == 0:
                     ie_values_dict["departure"] = lac_result_dict["word"][tag_index]
                     continue_key = True
                     temp_tag_point = tag_index + 1
@@ -150,15 +152,16 @@ def ie_all_consult_traffic(customer_utterance, lac, entities, ask_type=None):
                         else:
                             break
                 else:
+                    print(lac_result_dict["tag"][temp_tag_point: tag_index])
                     if 'v' in lac_result_dict["tag"][temp_tag_point: tag_index]:
-                        v_index = lac_result_dict["tag"][temp_tag_point: tag_index].index('v')
+                        v_index = lac_result_dict["tag"][temp_tag_point:tag_index].index('v')
                     elif "vd" in lac_result_dict["tag"][temp_tag_point: tag_index]:
                         v_index = lac_result_dict["tag"][temp_tag_point: tag_index].index("vd")
                     elif "vn" in lac_result_dict["tag"][temp_tag_point: tag_index]:
                         v_index = lac_result_dict["tag"][temp_tag_point: tag_index].index("vn")
                     else:
                         v_index = False
-                    if v_index:
+                    if v_index is not False:
                         print("des lac:", lac_result_dict["tag"][temp_tag_point: tag_index+1][v_index:])
                         ie_values_dict["destination"] = lac_result_dict["word"][tag_index]
                         continue_key = True

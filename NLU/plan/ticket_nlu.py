@@ -168,7 +168,7 @@ def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
         temp_tag_point = 0
         for tag_index in range(len(lac_result_dict["tag"])):
             continue_key = False
-            if lac_result_dict["tag"][tag_index] in departure_destination_term_tag:
+            if lac_result_dict["tag"][tag_index] in departure_destination_term_tag or tag_index == 0:
                 if 'p' in lac_result_dict["tag"][temp_tag_point: tag_index]:
                     ie_values_dict["departure"] = lac_result_dict["word"][tag_index]
                     continue_key = True
@@ -191,7 +191,7 @@ def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
                     # elif ""
                     else:
                         v_index = False
-                    if v_index:
+                    if v_index is not False:
                         print("des lac:", lac_result_dict["tag"][temp_tag_point: tag_index+1][v_index:])
                         ie_values_dict["destination"] = lac_result_dict["word"][tag_index]
                         continue_key = True
