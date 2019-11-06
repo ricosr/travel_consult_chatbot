@@ -317,7 +317,6 @@ def make_train_ticket(departure, destination, departure_date, solution_count):
 print(make_train_ticket("深圳", "北京", "12-12", 10))
 
 
-
 def search_ticket_interface(search_dict, count):
     departure = search_dict["departure"]
     destination = search_dict["destination"]
@@ -326,6 +325,8 @@ def search_ticket_interface(search_dict, count):
 
     if vehicle == "飞机":
         return make_air_ticket(departure, destination, departure_date, count)
+    if vehicle == "火车":
+        return make_train_ticket(departure, destination, departure_date, count)
 
 
 
