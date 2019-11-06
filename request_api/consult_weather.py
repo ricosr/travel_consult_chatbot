@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 
 import requests
+from request_api.api_config import weather_appid, weather_appsecret
 
 
 def weather(city_name, day):
     # try:
-        weather_info = requests.get('https://www.tianqiapi.com/api/?version=v1&city={}&appid=12345678&appsecret=abcdefg'.format(city_name))
+        weather_info = requests.get('https://www.tianqiapi.com/api/?version=v1&city={}&appid={}&appsecret={}'.format(city_name, weather_appid, weather_appsecret))
         weather_info.encoding = weather_info.apparent_encoding
         # print(weather_info.json())
         weather_dict = extract_info(weather_info.json())

@@ -3,7 +3,7 @@
 import json
 from urllib.request import urlopen, quote
 
-from config.config import baidu_map_ak as ak
+from request_api.api_config import baidu_map_ak as ak
 
 
 def get_lng_lat(address):
@@ -75,19 +75,22 @@ def get_drive_route(o1, o2, d1, d2):
 
 
 def get_traffic_route_interface(search_para_dict):
-    destination = search_para_dict["departure"]
-    departure = search_para_dict["destination"]
-    vehicle = search_para_dict["vehicle"]
-    o = get_lng_lat(destination)
-    d = get_lng_lat(departure)
-    if vehicle in ["打车", "驾车", "摩托车"]:
-        return get_drive_route(o[0], o[1], d[0], d[1])
-    elif vehicle in ["公交", "客车"]:
-        return get_bus_route(o[0], o[1], d[0], d[1])
-    elif vehicle == "步行":
-        return get_walk_route(o[0], o[1], d[0], d[1])
-    elif vehicle == "骑行":
-        return get_ride_route(o[0], o[1], d[0], d[1])
-    else:
+    try:
+        destination = search_para_dict["departure"]
+        departure = search_para_dict["destination"]
+        vehicle = search_para_dict["vehicle"]
+        o = get_lng_lat(destination)
+        d = get_lng_lat(departure)
+        if vehicle in ["打车", "驾车", "摩托车"]:
+            return get_drive_route(o[0], o[1], d[0], d[1])
+        elif vehicle in ["公交", "客车"]:
+            return get_bus_route(o[0], o[1], d[0], d[1])
+        elif vehicle == "步行":
+            return get_walk_route(o[0], o[1], d[0], d[1])
+        elif vehicle == "骑行":
+            return get_ride_route(o[0], o[1], d[0], d[1])
+        else:
+            return {0: "抱歉，这个路线我查不到"}
+    except Exception as e:
         return {0: "抱歉，这个路线我查不到"}
 
