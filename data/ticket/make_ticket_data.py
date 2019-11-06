@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import random
-import time
 
 airports = {
     "北京": ["北京首都国际机场", "北京大兴国际机场"],
@@ -295,6 +294,41 @@ def make_air_ticket(departure, destination, departure_date, solution_count):
     return solution_dict
 
 # print(make_air_ticket("北京", "深圳", "12-12", 10))
+
+
+def make_train_ticket(departure, destination, departure_date, solution_count):
+    station_words = ["东站", "西站", "南站", "北站", "站"]
+    train_type = ['K', 'T', 'G', 'D', 'Z']
+    solution_dict = {}
+    ticket_template = "出发:{departure_date}-{depart_time}, 车次:{train_no}\n{depart} ---> {dest}, 全程:{time_cost}小时, 硬座:{sit_fee}RMB, 卧铺:{lay_fee}RMB"
+    for i in range(solution_count):
+        departure_station = departure + random.choice(station_words)
+        destination_station = destination + random.choice(station_words)
+        train_no = random.choice(train_type) + str(random.randint(10, 999))
+        depart_hour = random.randint(0, 20)
+        depart_min = random.randint(0, 59)
+        depart_time = "{}:{}".format(depart_hour, depart_min)
+        time_cost = random.randint(3, 30)
+        tmp_sit_fee = random.randint(100, 1000)
+        tmp_lay_fee = tmp_sit_fee + 300
+        solution_dict[i] = ticket_template.format(departure_date=departure_date, depart_time=depart_time, train_no=train_no, depart=departure_station,
+                                                  dest=destination_station, time_cost=time_cost, sit_fee=tmp_sit_fee, lay_fee=tmp_lay_fee)
+    return solution_dict
+print(make_train_ticket("深圳", "北京", "12-12", 10))
+
+
+
+def search_ticket_interface(search_dict, count):
+    departure = search_dict["departure"]
+    destination = search_dict["destination"]
+    departure_date = search_dict["departure_date"]
+    vehicle = search_dict["vehicle"]
+
+    if vehicle == "飞机":
+        return make_air_ticket(departure, destination, departure_date, count)
+
+
+
 
 
 
