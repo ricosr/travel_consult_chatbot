@@ -32,6 +32,8 @@ def ask_vehicle():
 
 
 def response_traffic_list(search_traffic_results):
+    if not search_traffic_results:
+        return "抱歉，这个路线我查不到"
     traffic_solutions = []
     for key, route in search_traffic_results.items():
         traffic_solutions.append("{}: {}".format(key, route))
