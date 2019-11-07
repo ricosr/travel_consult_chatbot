@@ -62,7 +62,7 @@ def consult_traffic_handle(customer_utterance, state_tracker_obj, entities, lac,
             # search_traffic_results = db_conn.search_db(collection_name, state_tracker_obj.get_all_confident_slot_values())
             search_traffic_results = get_traffic_route_interface(state_tracker_obj.get_all_confident_slot_values())
             state_tracker_obj.update_last_slot_state("confirm")
-            return traffic_nlg.response_traffic_list(search_traffic_results), "confirm"
+            return traffic_nlg.response_traffic_list(search_traffic_results, state_tracker_obj.get_all_confident_slot_values()), "confirm"
 
     last_slot_state = state_tracker_obj.get_last_slot_state()
     if last_slot_state != "confirm":

@@ -24,5 +24,13 @@ def ask_date():
     return choice(response_sentences)
 
 
-def response_weather_result(weather_info):   # TODO: must
+def response_weather_result(weather_info, slot_dict):   # TODO: must
+    if not weather_info:
+        current_slot_values = ''
+        if "city" in slot_dict:
+            current_slot_values += "您选择的城市:{}\n".format(slot_dict["city"])
+        if "date" in slot_dict:
+            day_key_word = {1: "今天", 2: "明天", 3: "后天"}
+            current_slot_values += "您选择的日期:{}\n".format(day_key_word[slot_dict["date"]])
+        return current_slot_values + "对不起，按照您的要求我没有查询到天气。"
     return weather_info

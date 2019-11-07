@@ -41,7 +41,7 @@ def consult_weather_handle(customer_utterance, state_tracker_obj, entities, lac,
                 print(state_tracker_obj.get_all_confident_slot_values())
                 state_tracker_obj.update_last_slot_state("confirm")
                 weather_result = request_weather_interface(state_tracker_obj.get_confident_slot_value("city"), state_tracker_obj.get_confident_slot_value("date"))
-                return weather_nlg.response_weather_result(weather_result), "confirm"
+                return weather_nlg.response_weather_result(weather_result, state_tracker_obj.get_all_confident_slot_values()), "confirm"
 
     last_slot_state = state_tracker_obj.get_last_slot_state()
     print(last_slot_state)

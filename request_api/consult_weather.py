@@ -86,7 +86,7 @@ def request_weather_interface(city_name, day):
     #     if day_key in message:
     #         day = day_val
     reply = weather(city_name, day-1)
-    return reply if reply else '不会自己去看天气预报啊'
+    return reply if reply else False
 
 
 # if __name__ == '__main__':

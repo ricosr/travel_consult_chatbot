@@ -10,7 +10,7 @@ def ask_food_restaurant():  # TODO
     return choice(response_sentences)
 
 
-def response_restaurant_list(restaurant_list):   # TODO
+def response_restaurant_list(restaurant_list, slot_dict):   # TODO
     if restaurant_list:
         result_ls = []
         for restaurant in restaurant_list:
@@ -22,4 +22,11 @@ def response_restaurant_list(restaurant_list):   # TODO
             result_ls.append(tmp_result)
         return '\n\n'.join(restaurant_list) + '\n\n您觉得可以吗？'
     else:
-        return "抱歉，按照您的要求没有查询到结果，请重新输入新的查询条件，或者结束对话，谢谢！"
+        current_slot_values = ''
+        if "food" in slot_dict:
+            current_slot_values += "您选择的食物:{}\n".format(slot_dict["food"])
+        if "restaurant" in slot_dict:
+            current_slot_values += "您选择的餐厅:{}\n".format(slot_dict["restaurant"])
+        if "location" in slot_dict:
+            current_slot_values += "您选择的地点:{}\n".format(slot_dict["location"])
+        return current_slot_values + "抱歉，按照您的要求没有查询到结果，请重新输入新的查询条件，或者结束对话，谢谢！"
