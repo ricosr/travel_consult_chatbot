@@ -2,10 +2,7 @@
 要不要把rule和rasa换顺序，traffic以rule为准，ticket以rasa为准
 
 
-用户活动计时器
-
 繁体字
 
 去除print
 
-查不到的给出用户现在信息

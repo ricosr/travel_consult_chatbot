@@ -38,11 +38,27 @@ def ask_departure_date():
     return choice(response_sentences)
 
 
-def response_solution_list(search_solution_results):   # TODO
-    response_text = ''
-    for solution_no, solution in search_solution_results.items():
-        response_text += "{}: {}\n".format(solution_no, solution)
-    return '\n' + response_text + '\n请您在以上方案中选择一个方案的编号（输入 0,1,2,3...）'
+def response_solution_list(search_solution_results, slot_dict):
+    if search_solution_results:
+        response_text = ''
+        for solution_no, solution in search_solution_results.items():
+            response_text += "{}: {}\n".format(solution_no, solution)
+        return '\n' + response_text + '\n请您在以上方案中选择一个方案的编号（输入 0,1,2,3...）'
+    else:
+        current_slot_values = ''
+        if "departure" in slot_dict:
+            current_slot_values += "您选择的出发城市:{}\n".format(slot_dict["departure"])
+        if "destination" in slot_dict:
+            current_slot_values += "您选择的目的城市:{}\n".format(slot_dict["destination"])
+        if "vehicle" in slot_dict:
+            current_slot_values += "您选择的出行方式:{}\n".format(slot_dict["vehicle"])
+        if "departure_date" in slot_dict:
+            current_slot_values += "您选择的出行日期:{}\n".format(slot_dict["departure_date"])
+        if "name" in slot_dict:
+            current_slot_values += "您的姓名:{}\n".format(slot_dict["name"])
+        if "ID" in slot_dict:
+            current_slot_values += "您的身份证号码:{}\n".format(slot_dict["ID"])
+        return current_slot_values + "抱歉，按照您的要求，我没有查询到结果。"
 
 
 def ask_name_ID():
