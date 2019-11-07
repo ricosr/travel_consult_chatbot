@@ -19,6 +19,7 @@ from rule_based_common_nlg import rule_response
 from request_client import load_clients, select_consult_client, select_plan_client
 from util.translate_l import translate
 from util.language import punctuation_ls
+from util.langconv import Converter
 from plan_start_nlg import ask_start_plan
 
 
@@ -71,8 +72,11 @@ class Connect:
             if language == 'en':
                 input_language_zh = False
                 inputTxt = translate(inputTxt, 'en')
+            inputTxt = Converter('zh-hans').convert(inputTxt)
             replyTxt, reply_type = self.getReply(inputTxt, msg.id, input_language_zh, from_user_name)
             print("reply_type:", reply_type)
+            if language != 'en':
+                replyTxt = Converter('zh-hant').convert(replyTxt)
             reply = TextReply(content=replyTxt, message=msg)
             xml = reply.render()
             resp.body = (xml)
