@@ -28,7 +28,7 @@ def response_scheme_list(search_sheme_results, slot_dict):
     if search_sheme_results:
         response_text = ''
         for scheme_no, scheme in search_sheme_results.items():
-            response_text += "{}:\n{}\n\n".format(scheme_no, scheme)
+            response_text += "{}:\n{}\n\n".format(scheme_no+1, scheme)
         return '\n' + response_text + '\n请您在以上方案中选择一个方案的编号（输入 0,1,2,3...）'
     else:
         current_slot_values = ''

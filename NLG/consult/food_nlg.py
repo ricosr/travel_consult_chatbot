@@ -20,7 +20,7 @@ def response_restaurant_list(restaurant_list, slot_dict):   # TODO
                     continue
                 tmp_result += "{}: {}\n".format(key, info)
             result_ls.append(tmp_result)
-        return '\n\n'.join(restaurant_list) + '\n\n您觉得可以吗？'
+        return '\n\n'.join(result_ls) + '\n\n您觉得可以吗？'
     else:
         current_slot_values = ''
         if "food" in slot_dict:
