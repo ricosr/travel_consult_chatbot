@@ -11,7 +11,7 @@ except:
     pass
 
 try:
-    from zh_wiki import zh2Hant, zh2Hans
+    from util.zh_wiki import zh2Hant, zh2Hans
 except ImportError:
     from zhtools.zh_wiki import zh2Hant, zh2Hans
 
