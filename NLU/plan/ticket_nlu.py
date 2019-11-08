@@ -311,11 +311,12 @@ def ie_solution_no(customer_utterance, solution_no_list, lac):
 
 
 def select_plan_ticket(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter, solutions):
-    solution_no = ie_solution_no(customer_utterance, solutions.keys(), lac)
-    if solution_no:
-        if solution_no == "overflow":
-            return "nothing", None
-        return "select_done", solution_no
+    if solutions:
+        solution_no = ie_solution_no(customer_utterance, solutions.keys(), lac)
+        if solution_no:
+            if solution_no == "overflow":
+                return "nothing", None
+            return "select_done", solution_no
     intent, entities = intent_model.get_intent(customer_utterance)
     ie_slot_result = ie_all_plan_ticket(customer_utterance, lac, entities)
     if ie_slot_result:
