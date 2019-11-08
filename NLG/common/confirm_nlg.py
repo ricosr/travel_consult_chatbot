@@ -15,7 +15,7 @@ def response_no(intent, confident_slot_values):
     no_response_dict = {
         "consult_food": ["\n请问您还有别的要求吗？吃的其他的？换一个餐厅？还是有地点的要求？"],
         "consult_traffic": ["\n请问您还有别的要求吗？更换目的地？出发地？还是交通方式？"],
-        "consult_weather": ["\n请问您还有别的要求吗？更换查询城市？还是查询时间？"],
+        "consult_weather": ["\n请问您还有别的要求吗？更换查询城市？还是查询时间（今天，明天，后天）？"],
         "plan_ticket": ["\n请问您还有别的要求吗？更换出发城市？目的城市？交通方式？还是出发日期？"],
         "plan_scenic_spot": ["\n请问您还有别的需求吗？更换旅游城市？还是调整旅游天数？"]
     }
@@ -39,9 +39,15 @@ def response_no(intent, confident_slot_values):
 
     if intent == "consult_weather":
         if "city" in confident_slot_values:
-            show_current_msg += "旅游城市：{},\n".format(confident_slot_values["city"])
+            show_current_msg += "查询城市：{},\n".format(confident_slot_values["city"])
         if "date" in confident_slot_values:
-            show_current_msg += "旅游天数：{},\n".format(confident_slot_values["date"])
+            if confident_slot_values["date"] == 1:
+                date = "今天"
+            if confident_slot_values["date"] == 2:
+                date = "明天"
+            if confident_slot_values["date"] == 3:
+                date = "后天"
+            show_current_msg += "查询哪天：{},\n".format(date)
 
     if intent == "plan_ticket":
         if "departure" in confident_slot_values:

@@ -32,5 +32,5 @@ def response_weather_result(weather_info, slot_dict):   # TODO: must
         if "date" in slot_dict:
             day_key_word = {1: "今天", 2: "明天", 3: "后天"}
             current_slot_values += "您选择的日期:{}\n".format(day_key_word[slot_dict["date"]])
-        return current_slot_values + "对不起，按照您的要求我没有查询到天气。"
+        return current_slot_values + "对不起，按照您的要求我没有查询到天气。（我只支持今天，明天和后天的三天查询）"
     return weather_info
