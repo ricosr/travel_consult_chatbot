@@ -49,14 +49,13 @@ class Connect:
         query_string = req.query_string
         query_list = query_string.split('&')
         b = {}
-        for i in query_list:
-            b[i.split('=')[0]] = i.split('=')[1]
-
         try:
+            for i in query_list:
+                b[i.split('=')[0]] = i.split('=')[1]
             check_signature(token=self.wechat_token, signature=b['signature'], timestamp=b['timestamp'], nonce=b['nonce'])
             resp.body = (b['echostr'])
-        except InvalidSignatureException:
-            pass
+        except Exception as e:
+            logging.error(traceback.format_exc())
         resp.status = falcon.HTTP_200
 
     def on_post(self, req, resp):
@@ -107,7 +106,7 @@ class Connect:
                         self.user_timeout_recorder[from_user_name] = int(time.time())
                 if from_user_name in self.user_state:
                     if self.user_state[from_user_name] == "consult":
-                        client_obj, client_no = select_consult_client()    # TODO: how to select for different tasks
+                        client_obj, client_no = select_consult_client()
                         response_msg, state = client_obj.get_response(utterance, client_no, msg_id, from_user_name, "consult").split("@---@")
                     if self.user_state[from_user_name] == "plan_ticket":
                         client_obj, client_no = select_plan_client()
