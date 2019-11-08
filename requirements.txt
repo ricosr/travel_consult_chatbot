@@ -1,4 +1,4 @@
-tensorflow
+tensorflow==1.14.0
 rasa
 pymongo
 nltk
@@ -7,11 +7,19 @@ dual
 tight
 data
 prox
-paddle
 paddlepaddle
+paddlehub
 gevent
 wechatpy[pycrypto]
 falcon
 requests
 waitress
-zmp
+zmq
+common
+dual
+tight
+data
+prox
+jieba
+falcon
+pymongo
