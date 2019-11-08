@@ -50,13 +50,13 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
                 return ticket_nlg.ask_departure_date(), "ask"
             else:
                 # search_ticket_dict_results = db_conn.search_db(collection_name, state_tracker_obj.get_all_confident_slot_values())  # TODO: database
-                from data.ticket.make_ticket_data import search_ticket_interface
                 # search_ticket_dict_results = {
                 #     1: "线路1",
                 #     2: "线路2",
                 #     3: "线路3",
                 #     4: "线路4"
                 #  }    # TODO
+                from make_data.ticket.make_ticket_data import search_ticket_interface
                 search_ticket_dict_results = search_ticket_interface(state_tracker_obj.get_all_confident_slot_values(), 5)
                 state_tracker_obj.add_one_state("solutions", search_ticket_dict_results, 1)
                 print("start to select solution")
@@ -106,10 +106,10 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
             state_tracker_obj.update_last_slot_state("change")
             return ie_ticket_info_state_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
         if confirm_state == "nothing" or confirm_state == "yes":
-            state_tracker_obj.update_last_slot_state("confirm")
+            state_tracker_obj.update_last_slot_state("confirm_select")
             # return confirm_nlg.response_nothing(), "confirm"
             search_ticket_dict_results = state_tracker_obj.get_confident_slot_value("solutions")
-            return ticket_nlg.response_solution_list(search_ticket_dict_results), "confirm"
+            return ticket_nlg.response_solution_list(search_ticket_dict_results, state_tracker_obj.get_all_confident_slot_values()), "confirm_select"
     elif last_slot_state == "confirm_ticket":
         confirm_state, temp_entities = ticket_nlu.confirm_plan_ticket(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter)
         print(5, confirm_state, temp_entities)
