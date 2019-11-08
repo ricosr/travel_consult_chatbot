@@ -77,8 +77,8 @@ def get_drive_route(o1, o2, d1, d2):
 
 def get_traffic_route_interface(search_para_dict):
     try:
-        destination = search_para_dict["departure"]
-        departure = search_para_dict["destination"]
+        departure = search_para_dict["departure"]
+        destination = search_para_dict["destination"]
         vehicle = search_para_dict["vehicle"]
         o = get_lng_lat(departure)
         d = get_lng_lat(destination)
