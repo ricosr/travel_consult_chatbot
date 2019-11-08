@@ -39,8 +39,10 @@ class Client:
         gevent.joinall([client])
 
     def get_response(self, utterance, client_no, msgid, from_user_name, work_type):
+        print("get_response", utterance, client_no, msgid, from_user_name, work_type)
         self.socket.send_string(utterance + "@---@" + from_user_name)
         reply = self.socket.recv()
+        print("reply:", reply)
         if reply:
             response = str(reply, encoding="utf-8")
         if Client.msg_id != msgid:    # for timeout
