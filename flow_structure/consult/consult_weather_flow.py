@@ -55,7 +55,7 @@ def consult_weather_handle(customer_utterance, state_tracker_obj, entities, lac,
             return confirm_nlg.response_yes(), "stop"
         if confirm_state == "no":
             state_tracker_obj.update_last_slot_state("ask")
-            return confirm_nlg.response_no("consult_food", state_tracker_obj.get_all_confident_slot_values()), "ask"
+            return confirm_nlg.response_no("consult_weather", state_tracker_obj.get_all_confident_slot_values()), "ask"
         if confirm_state == "stop":
             state_tracker_obj.update_last_slot_state("stop")
             return confirm_nlg.response_give_up(), "stop"
