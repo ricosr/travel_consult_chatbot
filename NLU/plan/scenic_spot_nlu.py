@@ -4,7 +4,7 @@ import re
 
 from slots.plan_slot import plan_scenic_spot_slot
 from NLU.common import confirm_nlu
-from plan_nlu_key_terms import plan_scenic_spot_key_terms
+from NLU.plan.plan_nlu_key_terms import plan_scenic_spot_key_terms
 
 
 city_term_tag = ["LOC", "ORG", "ns", "nr", "nz", "f", "s", "nt", "nw"]  # n
@@ -113,7 +113,7 @@ def ie_scheme_no(customer_utterance, scheme_no_list, lac):
             try:
                 if 0 <= int(lac_result_dict["word"][tag_index]) < 100:
                     exist_num = True
-                if int(lac_result_dict["word"][tag_index]) in scheme_no_list:
+                if int(lac_result_dict["word"][tag_index])-1 in scheme_no_list:
                     return int(lac_result_dict["word"][tag_index])
             except Exception as e:
                 continue

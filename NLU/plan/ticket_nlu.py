@@ -288,6 +288,7 @@ def ie_name_ID(customer_utterance, lac):
 #     return False
 
 def ie_solution_no(customer_utterance, solution_no_list, lac):
+    print("ie_solution_no:", customer_utterance, solution_no_list)
     exist_num = False
     lac_result_dict = paddle_lac(customer_utterance, lac)
     for tag_index in range(len(lac_result_dict["tag"])):
