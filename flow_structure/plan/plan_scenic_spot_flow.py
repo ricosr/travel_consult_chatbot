@@ -38,12 +38,20 @@ def plan_scenic_spot_handle(customer_utterance, state_tracker_obj, entities, lac
                 state_tracker_obj.update_last_slot_state("ask")
                 return scenic_spot_nlg.ask_days(), "ask"
             else:
+                if state_tracker_obj.get_confidence("schemes") == 1:
+                    state_tracker_obj.update_confidence("schemes", 0)
                 search_scheme_dict_results = db_obj.search_db(collection_name, state_tracker_obj.get_all_confident_slot_values())
-                state_tracker_obj.add_one_state("schemes", dict(enumerate(search_scheme_dict_results[0]["schemes"])), 1)
-                print("start to select schemes")
-                state_tracker_obj.update_last_slot_state("confirm_select")
-                print("common last state", state_tracker_obj.get_last_slot_state())
-                return scenic_spot_nlg.response_scheme_list(dict(enumerate(search_scheme_dict_results[0]["schemes"])), state_tracker_obj.get_all_confident_slot_values()), "confirm_select"
+                if search_scheme_dict_results:
+                    print("search_scheme_dict_results:", search_scheme_dict_results[0]['schemes'])
+                    state_tracker_obj.add_one_state("schemes", dict(enumerate(search_scheme_dict_results[0]["schemes"])), 1)
+                    print("start to select schemes")
+                    state_tracker_obj.update_last_slot_state("confirm_select")
+                    print("common last state", state_tracker_obj.get_last_slot_state())
+                    return scenic_spot_nlg.response_scheme_list(dict(enumerate(search_scheme_dict_results[0]["schemes"])), state_tracker_obj.get_all_confident_slot_values()), "confirm_select"
+                else:
+                    state_tracker_obj.update_last_slot_state("confirm_select")
+                    return scenic_spot_nlg.response_scheme_list('', state_tracker_obj.get_all_confident_slot_values()), "confirm_select"
+
 
     customer_utterance = customer_utterance.replace("个礼拜", "周").replace("礼拜", "周")
     last_slot_state = state_tracker_obj.get_last_slot_state()

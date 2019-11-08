@@ -35,6 +35,7 @@ def consult_food_handle(customer_utterance, state_tracker_obj, entities, lac, in
                 search_restaurants_results = search_consult_food(state_tracker_obj.get_all_confident_slot_values(), db_obj.get_db_conn()[collection_name])
                 # print(state_tracker_obj.get_all_confident_slot_values())
                 # search_restaurants_results = ''
+                print(search_restaurants_results)
                 state_tracker_obj.update_last_slot_state("confirm")
                 return food_nlg.response_restaurant_list(search_restaurants_results, state_tracker_obj.get_all_confident_slot_values()), "confirm"
 
