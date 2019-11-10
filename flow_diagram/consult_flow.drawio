@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-10T05:05:00.929Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="SsLJVUm6vMemUU6JZJfQ" version="12.2.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-10T05:45:17.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="nJygZd_hffnGFsQgMmuH" version="12.2.3" type="github" pages="1">
   <diagram id="WU-TL6IKNw6DOxx73Fz2" name="Page-1">
-    <mxGraphModel dx="640" dy="1553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="768" dy="1630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -16,8 +16,10 @@
         <mxCell id="SYcvyXfJz1ZWH5OVi8Zo-2" value="user: input demands" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="-1060" width="140" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="SYcvyXfJz1ZWH5OVi8Zo-10" value="consult traffic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SYcvyXfJz1ZWH5OVi8Zo-4" target="SYcvyXfJz1ZWH5OVi8Zo-8">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="SYcvyXfJz1ZWH5OVi8Zo-10" value="consult traffic route" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SYcvyXfJz1ZWH5OVi8Zo-4" target="SYcvyXfJz1ZWH5OVi8Zo-8">
+          <mxGeometry x="0.005" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="SYcvyXfJz1ZWH5OVi8Zo-11" value="consult food" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SYcvyXfJz1ZWH5OVi8Zo-4" target="SYcvyXfJz1ZWH5OVi8Zo-6">
           <mxGeometry x="-0.3565" relative="1" as="geometry">
