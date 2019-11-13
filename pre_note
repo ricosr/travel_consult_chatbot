@@ -4,15 +4,18 @@
                                                       https://github.com/PaddlePaddle/models/tree/develop/PaddleNLP/lexical_analysis
                                                       https://ai.baidu.com/tech/nlp/lexical
          hub install lac==1.1.1
+         支持中文，中文支持较好，可本地部署，加载快，模型小，支持实体类型多
 
 Stanford NER:  named (PERSON, LOCATION, ORGANIZATION, MISC), numerical (MONEY, NUMBER, ORDINAL, PERCENT), and temporal (DATE, TIME, DURATION, SET)
                名字包括：人名、地名、机构名、MISC；数字：钱、数字、序号、百分比；时间：日期，时间、持续序列、集合等实体
+               中文支持较差，可本地部署，加载时间长，模型较大，支持实体类型多
                https://stanfordnlp.github.io/CoreNLP/ner.html
                https://nlp.stanford.edu/software/CRF-NER.shtml
 玻森: 时间	time  地点	location  人名	person_name  组织名	org_name  公司名	company_name  产品名	product_name  职位	job_title
       https://bosonnlp-py.readthedocs.io/#bosonnlp.BosonNLP.ner
-Hanlp:地名识别，标注为ns 人名识别,标注为nr 机构名识别,标注为nt ,时间t https://github.com/hankcs/pyhanlp
-LTP提供最基本的三种实体类型人名、地名、机构名的识别
+      效果较好，支持实体类型多，但只能API HTTP访问，故放弃
+Hanlp:地名识别，标注为ns 人名识别,标注为nr 机构名识别,标注为nt ,时间t https://github.com/hankcs/pyhanlp，支持实体类型太少
+LTP提供最基本的三种实体类型人名、地名、机构名的识别，本地部署复杂，支持实体类型少
 
 
 
