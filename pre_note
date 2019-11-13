@@ -2,6 +2,7 @@
                                                       https://github.com/PaddlePaddle/PaddleHub/blob/release/v1.1.0/demo/lac/lac_demo.py
                                                       https://www.paddlepaddle.org.cn/hubdetail?name=lac&en_category=LexicalAnalysis
                                                       https://github.com/PaddlePaddle/models/tree/develop/PaddleNLP/lexical_analysis
+                                                      https://ai.baidu.com/tech/nlp/lexical
          hub install lac==1.1.1
 
 Stanford NER:  named (PERSON, LOCATION, ORGANIZATION, MISC), numerical (MONEY, NUMBER, ORDINAL, PERCENT), and temporal (DATE, TIME, DURATION, SET)
@@ -20,3 +21,5 @@ LTP提供最基本的三种实体类型人名、地名、机构名的识别
 酒店评论，餐馆评论，商品评论 https://github.com/SophonPlus/ChineseNlpCorpus
 
 汉语问路话语研究 http://www.ryedu.net/kjwy/gli/200809/9707.html
+
+http://www.crownpku.com/2017/07/27/%E7%94%A8Rasa_NLU%E6%9E%84%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AD%E6%96%87NLU%E7%B3%BB%E7%BB%9F.html
