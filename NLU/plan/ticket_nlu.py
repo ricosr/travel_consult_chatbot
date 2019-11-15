@@ -31,7 +31,7 @@ def paddle_lac(text, lac):
     return lac_result_dict
 
 
-def convert_to_num(date_text):
+def convert_zh_to_num(date_text):
     if "现" in date_text or "今" in date_text:
         return datetime.datetime.now().strftime("%Y-%m-%d")
     if "明" in date_text:
@@ -101,7 +101,7 @@ def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
                     departure_date += lac_result_dict["word"][tag_index+1]
             except Exception as e:
                 pass
-            ie_values_dict["departure_date"] = convert_to_num(departure_date)
+            ie_values_dict["departure_date"] = convert_zh_to_num(departure_date)
             break
     if entities:
         for entity in entities:
@@ -250,7 +250,7 @@ def ie_all_plan_ticket(customer_utterance, lac, entities, ask_type=None):
                         departure_date += lac_result_dict["word"][tag_index + 1]
                 except Exception as e:
                     pass
-                ie_values_dict["departure_date"] = convert_to_num(departure_date)
+                ie_values_dict["departure_date"] = convert_zh_to_num(departure_date)
                 continue_key = True
                 if continue_key is True:
                     continue
@@ -336,5 +336,5 @@ def confirm_plan_ticket(customer_utterance, lac, intent_model, senta_gru, confir
     return confirm_state, None
 
 
-# convert_to_num("十一点50")
+# convert_zh_to_num("十一点50")
 

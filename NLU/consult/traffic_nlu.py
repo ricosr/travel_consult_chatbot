@@ -28,7 +28,7 @@ def paddle_lac(text, lac):
     return lac_result_dict
 
 
-def convert_to_num(time_text):
+def convert_zh_to_num(time_text):
     if "现" in time_text:
         return time.strftime("%H-%M", time.localtime(time.time()))
     num_dict = {"一": "1", "二": "2", "两": "2", "三": "3", "四": "4", "五": "5", "六": "6", "七": "7", "八": "8", "九": "9", "零": "0", "十":''}
@@ -87,7 +87,7 @@ def ie_all_consult_traffic(customer_utterance, lac, entities, ask_type=None):
                     departure_time += lac_result_dict["word"][tag_index+1]
             except Exception as e:
                 pass
-            ie_values_dict["departure_time"] = convert_to_num(departure_time)
+            ie_values_dict["departure_time"] = convert_zh_to_num(departure_time)
             break
 
     if entities:
@@ -217,7 +217,7 @@ def ie_all_consult_traffic(customer_utterance, lac, entities, ask_type=None):
                         departure_time += lac_result_dict["word"][tag_index + 1]
                 except Exception as e:
                     pass
-                ie_values_dict["departure_time"] = convert_to_num(departure_time)
+                ie_values_dict["departure_time"] = convert_zh_to_num(departure_time)
                 continue_key = True
                 if continue_key is True:
                     continue
@@ -230,7 +230,7 @@ def ie_all_consult_traffic(customer_utterance, lac, entities, ask_type=None):
 #     lac_result_dict = paddle_lac(customer_tmp_utterance, lac)
 #     for tag_index in range(len(lac_result_dict["tag"])):
 #         if lac_result_dict["tag"][tag_index] in departure_time_term_tag:
-#             return convert_to_num(lac_result_dict["word"][tag_index])
+#             return convert_zh_to_num(lac_result_dict["word"][tag_index])
 #     return False
 
 
@@ -244,5 +244,5 @@ def confirm_consult_traffic(customer_utterance, lac, intent_model, senta_gru, co
     return confirm_state, None
 
 
-# convert_to_num("十一点50")
+# convert_zh_to_num("十一点50")
 
