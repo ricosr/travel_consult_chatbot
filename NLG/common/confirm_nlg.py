@@ -73,14 +73,14 @@ def response_no(intent, confident_slot_values):
     return show_current_msg + choice(no_response_dict[intent])
 
 
-def response_give_up():
+def response_termination():
     stop_sentences = [
         "谢谢！再见！"
     ]
     return choice(stop_sentences)
 
 
-def response_nothing(intent):
+def response_uncertain(intent):
     if intent == "consult_food":
         stop_sentences = [
             "请告诉我 可以 或 不可以，或者直接输入 新的需求，谢谢！"

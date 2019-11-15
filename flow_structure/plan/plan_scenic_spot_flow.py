@@ -69,10 +69,10 @@ def plan_scenic_spot_handle(customer_utterance, state_tracker_obj, entities, lac
             return confirm_nlg.response_no("plan_scenic_spot", state_tracker_obj.get_all_confident_slot_values()), "ask"
         if confirm_state == "stop":
             state_tracker_obj.update_last_slot_state("stop")
-            return confirm_nlg.response_give_up(), "stop"
+            return confirm_nlg.response_termination(), "stop"
         if confirm_state == "change":
             state_tracker_obj.update_last_slot_state("change")
             return ie_scenic_spot_state_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
         if confirm_state == "nothing":
             state_tracker_obj.update_last_slot_state("confirm_select")
-            return confirm_nlg.response_nothing("plan_scenic_spot"), "confirm_select"
+            return confirm_nlg.response_uncertain("plan_scenic_spot"), "confirm_select"

@@ -78,10 +78,10 @@ def consult_traffic_handle(customer_utterance, state_tracker_obj, entities, lac,
             return confirm_nlg.response_no("consult_traffic", state_tracker_obj.get_all_confident_slot_values()), "ask"
         if confirm_state == "stop":
             state_tracker_obj.update_last_slot_state("stop")
-            return confirm_nlg.response_give_up(), "stop"
+            return confirm_nlg.response_termination(), "stop"
         if confirm_state == "change":
             state_tracker_obj.update_last_slot_state("change")
             return ie_traffic_state_flow(customer_utterance, state_tracker_obj, temp_entities, lac, db_obj, collection_name)
         if confirm_state == "nothing":
             state_tracker_obj.update_last_slot_state("confirm")
-            return confirm_nlg.response_nothing("consult_traffic"), "confirm"
+            return confirm_nlg.response_uncertain("consult_traffic"), "confirm"
