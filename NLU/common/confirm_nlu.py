@@ -11,7 +11,7 @@ nothing_intent_threshold = 0.6
 
 yes_positive_threshold = 0.67
 no_negative_threshold = 0.79
-nothing_negative_threshold = 0.61
+nothing_negative_threshold = 0.61   # uncertain 
 
 
 def judge_confirm_classification(customer_utterance, senta_gru, confirm_interpreter):

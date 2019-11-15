@@ -29,6 +29,7 @@ def paddle_lac(text, lac):
 
 
 def ie_days(utterance):
+    utterance = utterance.replace("个礼拜", "周").replace("礼拜", "周")
     large_num = ['十', '百', '千', '万']
     for num in large_num:
         if num in utterance:
