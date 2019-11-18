@@ -10,7 +10,7 @@ from slots.plan_slot import plan_ticket_slot, plan_scenic_spot_slot
 
 time_out = 60
 
-database_address = "mongodb://xxx:xxxx@xxx.xxx.xxx.xxx:27017/admin"
+database_address = "mongodb://super:123456@54.167.49.72:27017/admin"    # "mongodb://xxx:xxxx@xxx.xxx.xxx.xxx:27017/admin"
 database_name = "travel_dialogue"
 
 intent_model_name = "models8"
@@ -44,4 +44,4 @@ db_collection_config = {   # TODO: database is not done
     "plan_scenic_spot": "scenic_spot_scheme"
 }
 
-plan_intent_ls = ["plan_scenic_spot"]    # TODO: "plan_ticket", "plan_hotel"
+plan_intent_ls = ["plan_ticket"]    # TODO: "plan_ticket", "plan_scenic_spot"

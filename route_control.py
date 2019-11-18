@@ -5,6 +5,7 @@ import time
 
 import paddlehub as hub
 from rasa.nlu.model import Interpreter
+# from rasa_nlu.model import Interpreter
 
 from intent import judge_intent
 from state_tracker import State
@@ -72,8 +73,8 @@ class Consult:
 
         return out_content + "@---@" + state
 
-# control_obj = Consult()
-# control_obj.start_cmd()
+control_obj = Consult()
+control_obj.start_cmd()
 
 
 class Plan:
