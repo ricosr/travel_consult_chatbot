@@ -1,6 +1,6 @@
-<mxfile modified="2019-11-18T12:21:57.191Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="jzxENYJDD09zEBcAHvjU" version="12.2.6" type="github" pages="1">
+<mxfile modified="2019-11-18T15:44:49.188Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="Ii-49ju9VxoNOiA33MC7" version="12.2.6" type="github" pages="1">
   <diagram id="6r8ebwQPKGLBiBFQONnZ" name="Page-1">
-    <mxGraphModel dx="904" dy="1369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="768" dy="1239" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -10,7 +10,7 @@
         <mxCell id="vndDen_A82_FgcWnEU_Y-1" value="&lt;span style=&quot;font-size: 14px&quot;&gt;start&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="588" y="-99.98147583007812" width="100" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="vndDen_A82_FgcWnEU_Y-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;aim: plan public traffic ticket&lt;/b&gt;&lt;br&gt;1. departure (mandatory)&lt;br&gt;2. destination (mandatory)&lt;br&gt;3. vehicle (mandatory)&lt;br&gt;4. departure date (mandatory)&lt;br&gt;5. name (mandatory)&lt;br&gt;6. ID (mandatory)&lt;br&gt;7. solution no&amp;nbsp;(mandatory)&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="vndDen_A82_FgcWnEU_Y-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;aim: plan public traffic ticket&lt;/b&gt;&lt;br&gt;1. departure (mandatory)&lt;br&gt;2. destination (mandatory)&lt;br&gt;3. vehicle (mandatory)&lt;br&gt;4. departure date (mandatory)&lt;br&gt;5. name (mandatory)&lt;br&gt;6. ID (mandatory)&lt;br&gt;7. solution index (mandatory)&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="164" y="-70" width="270" height="110" as="geometry"/>
         </mxCell>
         <mxCell id="vndDen_A82_FgcWnEU_Y-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vndDen_A82_FgcWnEU_Y-3" target="vndDen_A82_FgcWnEU_Y-5" edge="1">
