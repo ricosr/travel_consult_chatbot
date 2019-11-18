@@ -1,10 +1,10 @@
-<mxfile modified="2019-11-18T12:30:21.093Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="bIqRDZArT8vVjCBfbHcI" version="12.2.6" type="github" pages="1">
+<mxfile modified="2019-11-18T15:42:48.715Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="sPKNNY2xpw57fUYvae0C" version="12.2.6" type="github" pages="1">
   <diagram id="Uv_IUAGfh6rt7eSbK6z7" name="Page-1">
-    <mxGraphModel dx="2073" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1937" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="ZdLvu9rMF-e9NeADQEDv-1" value="&lt;h1&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;aim: plan scenic spots&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;1. city name (mandatory)&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;2. days (mandatory)&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;3. scenic scheme no (mandatory)&amp;nbsp;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ZdLvu9rMF-e9NeADQEDv-1" value="&lt;h1&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;aim: plan scenic spots&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;1. city name (mandatory)&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;2. days (mandatory)&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;3&quot;&gt;3. scenic scheme index(mandatory)&amp;nbsp;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="118" y="375.5" width="330" height="140" as="geometry"/>
         </mxCell>
         <mxCell id="ZdLvu9rMF-e9NeADQEDv-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZdLvu9rMF-e9NeADQEDv-2" edge="1">
@@ -32,7 +32,7 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="ZdLvu9rMF-e9NeADQEDv-10" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&amp;nbsp; robot: show scheme&lt;br&gt;&amp;nbsp;list and ask 3&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="446" y="1011.5" width="166" height="53" as="geometry"/>
+          <mxGeometry x="447" y="1011.5" width="166" height="53" as="geometry"/>
         </mxCell>
         <mxCell id="ZdLvu9rMF-e9NeADQEDv-14" value="all is ok" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZdLvu9rMF-e9NeADQEDv-12" target="pfhdU-tTY5kygRQVZPBf-18" edge="1">
           <mxGeometry x="-0.1249" relative="1" as="geometry">
@@ -88,7 +88,7 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="ZdLvu9rMF-e9NeADQEDv-17" value="&lt;span style=&quot;font-size: 14px&quot;&gt;user: select &lt;br&gt;scheme index&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="449" y="1100" width="160" height="50" as="geometry"/>
+          <mxGeometry x="450" y="1100" width="160" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="ZdLvu9rMF-e9NeADQEDv-25" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZdLvu9rMF-e9NeADQEDv-22" target="ZdLvu9rMF-e9NeADQEDv-24" edge="1">
           <mxGeometry relative="1" as="geometry"/>
