@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-18T12:15:59.766Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="jDMHNAtWL0jUIzTGhlf7" version="12.2.6" type="github" pages="1">
+<mxfile modified="2019-11-18T12:21:32.754Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="KdjGN95vueqfBuK-NcQS" version="12.2.6" type="github" pages="1">
   <diagram id="6r8ebwQPKGLBiBFQONnZ" name="Page-1">
     <mxGraphModel dx="904" dy="1369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -127,7 +127,7 @@
         <mxCell id="vndDen_A82_FgcWnEU_Y-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vndDen_A82_FgcWnEU_Y-32" target="vndDen_A82_FgcWnEU_Y-37" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="vndDen_A82_FgcWnEU_Y-32" value="&lt;span style=&quot;font-size: 14px ; white-space: normal&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;robot:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;output&amp;nbsp;info list&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&amp;nbsp; &amp;nbsp; confirm to&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; white-space: normal&quot;&gt;&amp;nbsp;select one&lt;br&gt;to book&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="vndDen_A82_FgcWnEU_Y-32" value="&lt;span style=&quot;font-size: 14px ; white-space: normal&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;robot:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;output solution list&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&amp;nbsp; &amp;nbsp; and ask user to&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; white-space: normal&quot;&gt;&amp;nbsp;select &lt;br&gt;the index to book&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="531" y="800" width="210" height="58" as="geometry"/>
         </mxCell>
         <mxCell id="vndDen_A82_FgcWnEU_Y-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vndDen_A82_FgcWnEU_Y-37" target="vndDen_A82_FgcWnEU_Y-40" edge="1">
@@ -148,9 +148,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="f19TXx5zY4OCxn9IoFhB-21" value="no certain answer" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="f19TXx5zY4OCxn9IoFhB-20" vertex="1" connectable="0">
+        <mxCell id="f19TXx5zY4OCxn9IoFhB-21" value="uncertain" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="f19TXx5zY4OCxn9IoFhB-20" vertex="1" connectable="0">
           <mxGeometry x="-0.3377" relative="1" as="geometry">
-            <mxPoint x="15" y="-92.5" as="offset"/>
+            <mxPoint y="-94.5" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="vndDen_A82_FgcWnEU_Y-40" value="&lt;font style=&quot;font-size: 14px&quot;&gt;select?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -291,7 +291,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vndDen_A82_FgcWnEU_Y-71" value="changing values" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="vndDen_A82_FgcWnEU_Y-70" vertex="1" connectable="0">
+        <mxCell id="vndDen_A82_FgcWnEU_Y-71" value="change demands" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="vndDen_A82_FgcWnEU_Y-70" vertex="1" connectable="0">
           <mxGeometry x="-0.9513" relative="1" as="geometry">
             <mxPoint x="232.5" as="offset"/>
           </mxGeometry>
@@ -309,18 +309,18 @@
             <mxPoint x="-15.5" y="896.2857142857142" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vndDen_A82_FgcWnEU_Y-73" value="no without new values" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="vndDen_A82_FgcWnEU_Y-72" vertex="1" connectable="0">
+        <mxCell id="vndDen_A82_FgcWnEU_Y-73" value="just no" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="vndDen_A82_FgcWnEU_Y-72" vertex="1" connectable="0">
           <mxGeometry x="-0.8664" y="1" relative="1" as="geometry">
-            <mxPoint x="-35" y="-39" as="offset"/>
+            <mxPoint x="4" y="-26.5" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="f19TXx5zY4OCxn9IoFhB-25" value="give up" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vndDen_A82_FgcWnEU_Y-40" target="f19TXx5zY4OCxn9IoFhB-24" edge="1">
-          <mxGeometry x="0.3787" relative="1" as="geometry">
+        <mxCell id="f19TXx5zY4OCxn9IoFhB-25" value="terminate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vndDen_A82_FgcWnEU_Y-40" target="f19TXx5zY4OCxn9IoFhB-24" edge="1">
+          <mxGeometry x="0.28" y="-20" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="430" y="1107"/>
               <mxPoint x="430" y="1107"/>
             </Array>
-            <mxPoint as="offset"/>
+            <mxPoint x="20" y="19" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="vndDen_A82_FgcWnEU_Y-84" value="&lt;font style=&quot;font-size: 14px&quot;&gt;extract values and fill slots&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
