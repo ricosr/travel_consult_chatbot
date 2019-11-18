@@ -9,37 +9,42 @@
 
 ### consult food:
 
-![consult traffic](./flow_diagram/flow_jpg/consult/food_consult.jpg)
+![consult food](./flow_diagram/flow_jpg/consult/food_consult.jpg)
+
+
+### consult weather:
+
+![consult weather](./flow_diagram/flow_jpg/consult/consult_weather.jpg)
 
 
 ### consult hotel:
 
-![consult traffic](./flow_diagram/flow_jpg/consult/hotel_consult.jpg)
+![consult hotel](./flow_diagram/flow_jpg/consult/hotel_consult.jpg)
 
 
 ### consult shopping:
 
-![consult traffic](./flow_diagram/flow_jpg/consult/shopping_consult.jpg)
+![consult shopping](./flow_diagram/flow_jpg/consult/shopping_consult.jpg)
 
 
 ## Plan flow diagram
 
 ### plan ticket:
 
-![consult traffic](./flow_diagram/flow_jpg/plan/ticket_plan.jpg)
+![plan ticket](./flow_diagram/flow_jpg/plan/ticket_plan.jpg)
 
 
-### plan scenic:
+### plan scenic spot:
 
-![consult traffic](./flow_diagram/flow_jpg/plan/scenic_plan.jpg)
+![plan scenic spot](./flow_diagram/flow_jpg/plan/scenic_plan.jpg)
 
 
 ### plan hotel:
 
-![consult traffic](./flow_diagram/flow_jpg/plan/hotel_plan.jpg)
+![plan hotel](./flow_diagram/flow_jpg/plan/hotel_plan.jpg)
 
 
 ### plan shopping:
 
-![consult traffic](./flow_diagram/flow_jpg/plan/shopping_plan.jpg)
+![plan shopping](./flow_diagram/flow_jpg/plan/shopping_plan.jpg)
 
