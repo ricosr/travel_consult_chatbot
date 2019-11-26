@@ -39,6 +39,7 @@ def ask_departure_date():
 
 
 def response_solution_list(search_solution_results, slot_dict):
+    print("response list:", search_solution_results)
     if search_solution_results:
         response_text = ''
         for solution_no, solution in search_solution_results.items():

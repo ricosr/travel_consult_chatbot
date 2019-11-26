@@ -268,16 +268,16 @@ def make_air_ticket(departure, destination, departure_date, solution_count):
         if departure in airports:
             tmp_depart_airport = random.choice(airports[departure])
         else:
-            for city in airports.items():
+            for city, airport_ls in airports.items():
                 if city in departure:
-                    tmp_depart_airport = random.choice(airports[city])
+                    tmp_depart_airport = random.choice(airport_ls)
                     break
         if destination in airports:
             tmp_dest_airport = random.choice(airports[destination])
         else:
-            for city in airports.items():
+            for city, airport_ls in airports.items():
                 if city in destination:
-                    tmp_dest_airport = random.choice(airports[city])
+                    tmp_dest_airport = random.choice(airport_ls)
                     break
         if not tmp_depart_airport or not tmp_dest_airport:
             return False

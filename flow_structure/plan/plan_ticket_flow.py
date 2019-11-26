@@ -58,6 +58,7 @@ def plan_ticket_handle(customer_utterance, state_tracker_obj, entities, lac, int
                 #  }    # TODO
                 from make_data.ticket.make_ticket_data import search_ticket_interface
                 search_ticket_dict_results = search_ticket_interface(state_tracker_obj.get_all_confident_slot_values(), 5)
+                print(search_ticket_dict_results)
                 state_tracker_obj.add_one_state("solutions", search_ticket_dict_results, 1)
                 print("start to select solution")
             state_tracker_obj.update_last_slot_state("confirm_select")

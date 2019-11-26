@@ -73,8 +73,8 @@ class Consult:
 
         return out_content + "@---@" + state
 
-control_obj = Consult()
-control_obj.start_cmd()
+# control_obj = Consult()
+# control_obj.start_cmd()
 
 
 class Plan:
