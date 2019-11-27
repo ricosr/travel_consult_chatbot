@@ -128,7 +128,7 @@ def ie_scheme_no(customer_utterance, scheme_no_list, lac):
 
 def confirm_plan_scenic_spot(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter, schemes):
     if schemes:
-        scheme_no = ie_scheme_no(customer_utterance, schemes.keys(), lac)
+        scheme_no = ie_scheme_no(customer_utterance, [i for i in range(len(schemes))], lac)
         if scheme_no:
             if scheme_no == "overflow":
                 return "nothing", None

@@ -9,7 +9,7 @@ from rasa.nlu.model import Interpreter
 
 from intent import judge_intent
 from state_tracker import State
-from config.config import handle_config, plan_intent_ls, database_address, database_name, db_collection_config, intent_model_name, confirm_model_name, time_out
+from config.config import handle_config, plan_intent_ls, database_address, database_name, db_collection_config, intent_model_name, confirm_model_name, time_out, db_record_collection_config
 from db_operation.oprate_database import Database
 from NLG.plan.plan_start_nlg import ask_start_plan
 from NLU.consult.weather_nlu import load_city
@@ -136,7 +136,14 @@ class Plan:
                                              self.user_dict[user_id]["intent_state_tracker_dict"][current_intent],
                                              entities, self.lac, self.intent_model, self.senta_gru,
                                              self.confirm_interpreter, self.db_obj, collection_name)
-
+        if state == "yes":
+            user_collection_name = db_record_collection_config[current_intent]
+            if user_collection_name:
+                print({user_id: self.user_dict[user_id]["intent_state_tracker_dict"][current_intent].get_all_confident_slot_values()})
+                self.db_obj.write_db({user_id: self.user_dict[user_id]["intent_state_tracker_dict"][current_intent].get_all_confident_slot_values()}, user_collection_name)
+                self.user_dict.pop(user_id)
+            else:
+                self.user_dict.pop(user_id)
         if state == "stop":
             print("ffffffffffffffffff", state)
             self.user_dict.pop(user_id)

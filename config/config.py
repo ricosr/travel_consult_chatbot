@@ -36,12 +36,20 @@ slot_config = {
 #     '1b': dinning_slot_state
 # }
 
-db_collection_config = {   # TODO: database is not done
+db_collection_config = {
     'consult_food': "food",
     'consult_traffic': "",
     'consult_weather': "",
     'plan_ticket': "ticket",
     "plan_scenic_spot": "scenic_spot_scheme"
+}
+
+db_record_collection_config = {
+    'consult_food': "",
+    'consult_traffic': "",
+    'consult_weather': "",
+    'plan_ticket': "user_ticket",
+    "plan_scenic_spot": "user_scenic_spot_scheme"
 }
 
 plan_intent_ls = ["plan_ticket"]    # TODO: "plan_ticket", "plan_scenic_spot"

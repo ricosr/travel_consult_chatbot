@@ -288,7 +288,7 @@ def make_air_ticket(departure, destination, departure_date, solution_count):
         dest_min = random.randint(0, 59)
         dest_time = "{}:{}".format(dest_hour, dest_min)
         tmp_fee = random.randint(500, 1800)
-        solution_dict[i+1] = ticket_template.format(departure_date=departure_date,airline=tmp_airline, air_no=tmp_airline_no,
+        solution_dict[str(i+1)] = ticket_template.format(departure_date=departure_date,airline=tmp_airline, air_no=tmp_airline_no,
                                                   depart=tmp_depart_airport, depart_time=depart_time,
                                                   dest=tmp_dest_airport, dest_time = dest_time, fee=tmp_fee)
     return solution_dict
@@ -311,7 +311,7 @@ def make_train_ticket(departure, destination, departure_date, solution_count):
         time_cost = random.randint(3, 30)
         tmp_sit_fee = random.randint(100, 1000)
         tmp_lay_fee = tmp_sit_fee + 300
-        solution_dict[i+1] = ticket_template.format(departure_date=departure_date, depart_time=depart_time, train_no=train_no, depart=departure_station,
+        solution_dict[str(i+1)] = ticket_template.format(departure_date=departure_date, depart_time=depart_time, train_no=train_no, depart=departure_station,
                                                   dest=destination_station, time_cost=time_cost, sit_fee=tmp_sit_fee, lay_fee=tmp_lay_fee)
     return solution_dict
 # print(make_train_ticket("深圳", "北京", "12-12", 10))

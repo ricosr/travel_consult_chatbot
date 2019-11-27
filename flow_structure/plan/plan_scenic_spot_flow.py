@@ -43,15 +43,14 @@ def plan_scenic_spot_handle(customer_utterance, state_tracker_obj, entities, lac
                 search_scheme_dict_results = db_obj.search_db(collection_name, state_tracker_obj.get_all_confident_slot_values())
                 if search_scheme_dict_results:
                     print("search_scheme_dict_results:", search_scheme_dict_results[0]['schemes'])
-                    state_tracker_obj.add_one_state("schemes", dict(enumerate(search_scheme_dict_results[0]["schemes"])), 1)
+                    state_tracker_obj.add_one_state("schemes", search_scheme_dict_results[0]["schemes"], 1)
                     print("start to select schemes")
                     state_tracker_obj.update_last_slot_state("confirm_select")
                     print("common last state", state_tracker_obj.get_last_slot_state())
-                    return scenic_spot_nlg.response_scheme_list(dict(enumerate(search_scheme_dict_results[0]["schemes"])), state_tracker_obj.get_all_confident_slot_values()), "confirm_select"
+                    return scenic_spot_nlg.response_scheme_list(search_scheme_dict_results[0]["schemes"], state_tracker_obj.get_all_confident_slot_values()), "confirm_select"
                 else:
                     state_tracker_obj.update_last_slot_state("confirm_select")
                     return scenic_spot_nlg.response_scheme_list('', state_tracker_obj.get_all_confident_slot_values()), "confirm_select"
-
 
     customer_utterance = customer_utterance.replace("个礼拜", "周").replace("礼拜", "周")
     last_slot_state = state_tracker_obj.get_last_slot_state()
@@ -62,8 +61,9 @@ def plan_scenic_spot_handle(customer_utterance, state_tracker_obj, entities, lac
         confirm_state, temp_entities = scenic_spot_nlu.confirm_plan_scenic_spot(customer_utterance, lac, intent_model, senta_gru, confirm_interpreter, state_tracker_obj.get_confident_slot_value("schemes"))
         print(5, confirm_state, temp_entities)
         if confirm_state == "yes":
-            state_tracker_obj.update_last_slot_state("stop")
-            return confirm_nlg.response_yes(), "stop"
+            state_tracker_obj.add_one_state("index", temp_entities, 1)
+            state_tracker_obj.update_last_slot_state("yes")
+            return confirm_nlg.response_yes(), "yes"
         if confirm_state == "no":
             state_tracker_obj.update_last_slot_state("ask")
             return confirm_nlg.response_no("plan_scenic_spot", state_tracker_obj.get_all_confident_slot_values()), "ask"

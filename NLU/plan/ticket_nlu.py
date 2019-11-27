@@ -298,7 +298,7 @@ def ie_solution_no(customer_utterance, solution_no_list, lac):
             try:
                 if 0 <= int(lac_result_dict["word"][tag_index]) < 100:
                     exist_num = True
-                if int(lac_result_dict["word"][tag_index]) in solution_no_list:
+                if lac_result_dict["word"][tag_index] in solution_no_list:
                     return int(lac_result_dict["word"][tag_index])
             except Exception as e:
                 continue

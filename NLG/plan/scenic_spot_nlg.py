@@ -24,11 +24,11 @@ def ask_days():
     return choice(response_sentences)
 
 
-def response_scheme_list(search_sheme_results, slot_dict):
-    if search_sheme_results:
+def response_scheme_list(search_scheme_results, slot_dict):
+    if search_scheme_results:
         response_text = ''
-        for scheme_no, scheme in search_sheme_results.items():
-            response_text += "{}:\n{}\n\n".format(scheme_no+1, scheme)
+        for scheme_no in range(len(search_scheme_results)):
+            response_text += "{}:\n{}\n\n".format(scheme_no+1, search_scheme_results[scheme_no])
         return '\n' + response_text + '\n请您在以上方案中选择一个方案的编号（输入 0,1,2,3...）'
     else:
         current_slot_values = ''
