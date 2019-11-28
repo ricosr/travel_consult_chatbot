@@ -137,6 +137,7 @@ class Plan:
                                              entities, self.lac, self.intent_model, self.senta_gru,
                                              self.confirm_interpreter, self.db_obj, collection_name)
         if state == "yes":
+            state = "stop"
             user_collection_name = db_record_collection_config[current_intent]
             if user_collection_name:
                 print({user_id: self.user_dict[user_id]["intent_state_tracker_dict"][current_intent].get_all_confident_slot_values()})
