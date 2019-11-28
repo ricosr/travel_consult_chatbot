@@ -134,17 +134,17 @@ class Connect:
             if input_language_zh is False and self.judge_language(response_msg) == "zh":
                 response_msg = translate(response_msg, 'zh')
             if response_msg:
-                if state == "stop":
+                if state == "stop" or state == "yes":
                     self.user_state.pop(from_user_name)
                 return response_msg, "norm"
             else:
                 logging.info(response_msg + "none")
-                if state == "stop":
+                if state == "stop" or state == "yes":
                     self.user_state.pop(from_user_name)
                 return choice(default_reply), "none"
         except Exception as e:
             logging.error(traceback.format_exc())
-            if state == "stop":
+            if state == "stop" or state == "yes":
                 self.user_state.pop(from_user_name)
             return choice(default_reply), "err"
 
